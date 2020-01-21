@@ -1,0 +1,1350 @@
+' Define help topics with the following format:
+'
+' HelpTopic: <Topic Name>
+'
+' All text between "HelpTopic" identifiers is considered part of that help topic.
+'
+' Help text can include a small variety of special codes to handle formatting. These
+' codes are limited to a single word. You can force multiple words to share a single
+' code by separating the words with underscores (_) instead of spaces ( ). Underscores 
+' in special codes are replaced by spaces when displayed.
+' 
+' Special codes are surrounded by curly braces "{}" and always begin the word they
+' apply to. There are no closing tags, which is why they can only apply to a single
+' word.
+' 
+' Basic formatting special codes are b for bold, i for italics and u for underline.
+' You can use any one, two, or all three in a single code. Order doesn't matter. eg:
+' {ub}This_text_is_bold_and_underlined
+'
+' You can also specify a link, of which there are several types:
+'
+' Open {url=https://www.google.com/}Google in default browser
+' Open {run=\Settings.txt}Settings.txt in Notepad
+' Run the {run=\GearPlanner.exe}Gear_Planner
+' Open the {frm=frmOptions}Options form
+' See {hlp=Spinners}Spinners for tips on using spinner controls.
+'
+' - Internally, opening a document {run=\Settings.txt} is handled the same way as
+'   running a program {run=\GearPlanner.exe}
+' - Add a backslash (\) character to the start of the file or program to run to 
+'   specify the application folder. eg: {run=\Settings.txt}
+' - URLs are opened in the default browser. 
+' - Opening a form requires that you know the internal form name. Generally speaking,
+'   form names are "frm" plus the form's title. eg: frmEnhancements. This is not always
+'   the case, though. (Output Format is frmFormat, for example.)
+'
+' All codes and identifiers are case-sensitive. Special codes must be lower case.
+
+HelpTopic: What's New?
+
+{b}Version_3.1.5 (Click {url=https://www.ddo.com/forums/showthread.php/455712-Character-Builder-Lite?p=6215114&viewfull=1#post6215114}here for full release notes.)
+
+- Tiefling
+- Tiefling Scoundrel
+- Inquisitive global tree
+
+
+{b}Version_3.1.4 (Click {url=https://www.ddo.com/forums/showthread.php/455712-Character-Builder-Lite?p=6178003&viewfull=1#post6178003}here for full release notes.)
+
+- New feat: Knight's Training
+- Skill tome schedule updated
+
+
+{b}Version_3.1.3 (Click {url=https://www.ddo.com/forums/showthread.php/455712-Character-Builder-Lite?p=6162657&viewfull=1#post6162657}here for full release notes.)
+
+- Arcane Pass, including new spells and Eldritch Knight revamp
+- Can now set left margin of output preview in {frm=frmOptions}Options
+
+
+{b}Version_3.1.2 (Click {url=https://www.ddo.com/forums/showthread.php/455712-Character-Builder-Lite?p=6143510&viewfull=1#post6143510}here for full release notes.)
+
+- New race: Wood Elf
+
+
+{b}Version_3.1 (Click {url=https://www.ddo.com/forums/showthread.php/455712-Character-Builder-Lite?p=6121356&viewfull=1#post6121356}here for full release notes.)
+
+- New trees: Falconry (global), Beacon of Hope (Favored Soul)
+- Angel of Vengeance (Favored Soul tree) revamped
+- Warpriest and War Soul trees revamped
+- Tomes are now user-configurable
+- Stats screen has new tab: Schedule
+- New Output format: Reddit
+- Spell output now includes character level
+
+
+{b}Version_3.0.2 (Click {url=https://www.ddo.com/forums/showthread.php/455712-Character-Builder-Lite?p=6090023&viewfull=1#post6090023}here for full release notes.)
+
+- Artificer Pass
+- Druid Pass
+- Stat Templates now customizable
+
+
+{b}Version_3.0.1 (Click {url=https://www.ddo.com/forums/showthread.php/455712-Character-Builder-Lite?p=6052847&viewfull=1#post6052847}here for full release notes.)
+
+- Updated tome schedule
+
+
+{b}Version_3.0 (Click {url=https://www.ddo.com/forums/showthread.php/455712-Character-Builder-Lite?p=6035569&viewfull=1#post6035569}here for full release notes.)
+
+General
+- Aasimar, Aasimar Scourge, and Vistani Knife Fighter tree
+- Build file format changed to text
+- Import and Export builds to other planners
+- Spinners and checkboxes can receive focus and use the keyboard
+Screens
+- Overview: Notes tab
+- Stats: Templates to auto-fill stats and levelups
+- Feats: Feat Channels help to unclutter feats list
+- Spell: Rare scrolls idented in list
+
+
+{b}Version_2.4 (Click {url=https://www.ddo.com/forums/showthread.php/455712-Character-Builder-Lite?p=6017130&viewfull=1#post6017130}here for full release notes.)
+
+- Cleric Domains
+- Favored Soul bonus feats added at levels 2 and 7
+- Several bugfixes
+
+
+{b}Version_2.3 (Click {url=https://www.ddo.com/forums/showthread.php/455712-Character-Builder-Lite?p=6002783&viewfull=1#post6002783}here for full release notes.)
+
+- Skills screen shows native skills in brighter color
+- Artificer Pass
+- Minor data corrections
+
+
+{b}Version_2.2.1 (Click {url=https://www.ddo.com/forums/showthread.php/455712-Character-Builder-Lite?p=5984273&viewfull=1#post5984273}here for full release notes.)
+
+- Now accepts build file name as command line parameter
+- Minor data corrections
+
+
+{b}Version_2.2 (Click {url=https://www.ddo.com/forums/showthread.php/455712-Character-Builder-Lite?p=5954416&viewfull=1#post5954416}here for full release notes.)
+
+Races
+ - New race: Dragonborn!
+ - Enhanced the Race dropdown on the Overview screen
+ - New Racial Past Life AP spinner on the enhancements screen
+Iconic Races
+ - Iconic races now auto-select their class
+ - Leveling Guide for Iconics now starts at level 14
+Data
+ - Spring Attack is now a monk bonus feat
+
+
+{b}Version_2.1 (Click {url=https://www.ddo.com/forums/showthread.php/455712-Character-Builder-Lite?p=5921006&viewfull=1#post5921006}here for full release notes.)
+
+- Added Mouse Wheel scrolling
+- Various minor bugfixes
+
+
+{b}Version_2.0.1 (Click {url=https://www.ddo.com/forums/showthread.php/455712-Character-Builder-Lite?p=5791916&viewfull=1#post5791916}here for full release notes.)
+
+New Features
+ - Two new races: Gnome and Deep Gnome (Iconic)
+ - Arcanotechnician tree has been updated
+ - Arcane Archer has a new tier 5 ability: Final Strike
+
+
+{b}Version_2.0 (Click {url=https://www.ddo.com/forums/showthread.php/455712-Character-Builder-Lite?p=5750846&viewfull=1#post5750846}here for full release notes.)
+
+New Features
+ - Level cap raised to 30!
+ - Screens:
+   - Overview: New graphical interface
+   - Skills: Added Skill Tomes
+   - Feats: Added Alternate Feats and Feat Exchanges
+   - Enhancements: Added Leveling Guide
+   - Destinies: Twists now check for feat prereqs
+ - General:
+   - Working with multiple screens open at once is now fully supported
+   - Help system revamped and greatly expanded
+   - Details windows on all screens now describe errors if there are any
+   - Added context menus to drop slots; right-click to see the new choices
+   - Resolved exceptions; all relevant game rules and mechanics are now implemented
+   - Revamped colors
+Bugfixes
+ - Fixed several issues with Warlock Pact spells
+ - Fixed the level matrix for level 8 Cleric spells
+ - Fixed multiple issues with Import
+
+
+{b}Version_1.2
+
+New Features
+ - A backup of the current build is auto-saved as you work
+ - You can now customize all BBCodes used for output
+
+Bugfixes
+ - Clicking the initial blank slot on enhancements and destiny screens no longer crashes program.
+
+
+{b}Version_1.1
+
+New Features
+ - Feats, Spells, Enhancement and Destinies now have descriptions!
+ - Feats can now be re-ordered by dragging
+ - Updated mouse behavior to be more user friendly
+ - Added Warlock Pact spells
+ - Fate Point cap increased from 31 to 32 to support +3 fate tomes
+
+Bugfixes
+ - Fixed issue with skill points when int is either 9 or 7
+
+
+{b}Version_1.03
+
+New Features
+ - Added Warlocks
+
+Bugfixes
+ - Making any build changes with the main form minimized no longer crashes the program.
+
+
+{b}Version_1.02
+
+New Features
+ - Added new color scheme: Tan.clr
+
+Bugfixes
+ - Redesigned how deity feats are stored and applied
+ - Fixed issue with Divine Disciple core prereqs for SLAs
+ - Fixed insidious bug in feats screen related to selector prereqs
+
+
+{b}Version_1.01
+
+Bugfixes
+ - Destiny screen no longer crashes if you set your twists before choosing a destiny.
+ - Changing your primary/splash classes from a class with bonus feats to a class without no longer crashes the program when you try to open the feats screen.
+
+
+{b}Version_1.0
+
+First official release
+
+
+HelpTopic: Screen Colors
+
+You changed the screen colors when no screens were open. 
+
+As a courtesy, the colors screen and this help screen have been opened for you to see what the colors look like.
+
+
+HelpTopic: Output Format
+
+Most forums strip out multiple spaces, so to force spacing there are two options: Either wrap the entire build in [code] tags, or replace spaces with dots and hide the dots by matching their color to the forum background.
+
+There are several predefined formats included, but you can also create your own. Set up the BBCodes to match your forums then save your settings to a file. Any new format file created this way will appear in the format dropdown on the {frm=frmExport}Export screen.
+
+The Text Colors checkbox allows you to turn off text colors while still using color codes to hide dots.
+
+A typical color code will appear something like [color=#FFFFFF]. The "FFFFFF" part is the html color value. Use the dollar ($) sign as a placeholder for the html color value in your code.
+
+Not all forums support lists, and those that do may not support numbered lists. You can set numbered list codes to the same as list codes, or disable lists altogether.
+
+Using wrapper codes usually means you don't need to use dots.
+
+{b}Reddit
+
+Reddit output uses different logic than standard output; it's not a matter of just changing the code tags. This checkbox signals to the output routine to switch over to the hardcoded reddit logic.
+
+Reddit output logic overrides all other settings on this screen, so they are disabled when reddit is checked.
+
+
+HelpTopic: Overview
+
+{b}Race
+
+Iconic races normally require starting with at least one level of their associated classes:
+
+Aasimar Scourge: Ranger
+Bladeforged: Paladin
+Deep Gnome: Wizard
+Morninglord: Cleric
+Purple Dragon Knight: Fighter
+Shadar-kai: Rogue
+
+You are free to choose any class you like starting at level 2, so long as it obeys alignment restrictions. The game then allows you to remove that initial class level by using an LR+1 heart.
+
+If you select an iconic race on a new build, the builder automatically chooses its associated class. You can change it if you like, which assumes doing an LR to remove the required first level.
+
+{b}Sub-Races
+
+Racial variants like Wood Elf count as their parent race for racial reincarnation. If you choose a racial variant, a "Sub-Race" link will appear next to the race dropdown. Click it for verification of what the parent race is.
+
+{b}Alignment
+
+The Alignment field is optional. It's recommended to leave it blank unless there's a specific build reason for choosing one, such as True Neutral to allow Superior Stability.
+
+Choosing an alignment filters your class choices, and making class choices filters the available alignments. If there ends up being only a single valid alignment, that one is chosen for you automatically.
+
+{b}Max_Levels
+
+Change this if your build has a self-imposed level cap, like for example a heroic challenge farmer who stays level 16 forever.
+
+See {hlp=Spinners}Spinners for tips on using spinner controls.
+
+{b}Classes
+
+You can switch the class interface between graphical icons and dropdown lists in {frm=frmOptions}Options.
+
+After choosing classes for a multi-class build, use the grid on the right to set up your level split.
+
+The smaller "level" columns let you add and remove splash levels. Clicking a cell in one of those three columns assigns that class to the level.
+
+The full class name column lets you re-order your splash classes. Grab a class name and drag it to a new level. Dragging classes this way swaps the two levels.
+
+{b}Notes
+
+In Notes mode, pressing the Tab key inserts a tab character into your notes. In Overview mode use Ctrl+Tab to insert a tab.
+
+Notes aren't displayed in output.
+
+
+HelpTopic: Colors
+
+There are 90 different customizable colors used by the program: 72 screen colors and 18 output colors. Output colors are saved separately from screen colors to simplify changing your working colors without messing up your forum output.
+
+In order to keep things manageable, there are a variety of ways to customize these colors.
+
+The {b}Saved tab offers two simple lists of all your saved screen and output colors. Click any list item to apply those colors.
+
+The {b}Palette tab provides a simple interface to apply any of the Google Material Design {url=https://www.google.com/design/spec/style/color.html}color_palettes. Choosing or adjusting Material Palettes updates all 72 screen colors, applying a "best guess" algorithm to try and make all the various colors work together. This makes a passable interface, but you'll probably want to fine tune your palette in the Customize tab. Any further changes on the Palette tab will overwrite your customized colors.
+
+
+{b}Custom_Colors
+
+Click any color box to edit a color. You can edit colors with html codes, RGB values, choose a Material color, or even select a Windows system color.
+
+Text and Background colors are not paired with each other, but instead can be matched in any combination. You could see Error Text on Normal background, Dim Text on Highlight Background, etc... 
+
+For all possible combinations, all four text colors should be clearly legible when paired with all four background colors. Click the background color links to preview them.
+
+Literal colors apply to text for output, but everywhere else they are only used for drawing icons. That means literal color text only needs to be legible for output.
+
+
+{b}Output_Background
+
+Match the color scheme of the forums where you post your builds. 
+
+There are three distinct background colors to consider for the Official DDO Forums:
+RGB: 51, 51, 51 -- Default post background.
+RGB: 102,102,102 -- Default code tags background.
+RGB: 17, 17, 17 -- {url=https://www.ddo.com/forums/showthread.php/415713-Forums-Stylebot-Changes}JJ's_Stylish background for both posts and code tags.
+
+{b}Default background color (RGB:34,34,34) is the average of JJ's Stylish (RGB:17,17,17) and the official DDO forums (RGB:51,51,51).
+
+{b}Code_Tags background color is only for previewing literal colors for text. Dots aren't needed inside code tags, but colored text is so be sure that the text for all literal colors is clearly legible with the code tags background color.
+
+For forums that alternate colors every other post, it's recommended to use the average of the two colors by averaging the individual red, green and blue (RGB) values of both colors. The easiest way to identify RGB values is to use a freeware utility like {url=http://colorcop.net/download/}ColorCop.
+
+
+{b}Files
+
+Importing and exporting is set up to allow easy copy & pasting to and from forums. You can manually trim out codes you don't want included.
+
+When you Import/Export/Save/Load colors, either screen or output colors are included depending on which area you have selected. 
+
+
+{b}Literal_Colors
+
+Literal colors are the seven augment colors found on gear. In the character builder, these seven colors are used in output to differentiate classes, stats and enhancement trees.
+
+Orange is the color of Strength, Barbarian and Fighter
+Red is the color of Dexterity, Rogue and Sorcerer
+Green is the color of Constitution, Ranger and Druid
+Blue is the color of Intelligence, Wizard and Artificer
+Yellow is the color of Wisdom, Monk, Cleric and Favored Soul
+Purple is the color of Charisma, Paladin, Bard and Warlock
+
+Enhancement tree colors are only used if you set up a Leveling Guide. For most classes, all of their trees will default to one of the following four colors:
+
+Red: Melee (basic), Evil, Fire 
+Blue: Magic, Defense, Water
+Green: Melee (flavor), Nature, Earth
+Yellow: Health, Electricity
+Grey: All racial trees
+
+Using Bards as an example, Warchanter is red, Swashbuckler is green, Spellsinger is blue. For multiclass builds, the trees with more points spent get their preferred colors, with lower priority trees settling for complementary colors. Purple and Orange are generally only used as a last resort.
+
+
+HelpTopic: Options
+
+{b}GENERAL
+
+{b}Recent_Files_Menu
+Set the size of the list, or disable by choosing 0. Changes take effect immediately. Clear the list by scrolling to 0 then back up to the desired number. See 
+=Spinners}Spinners for tips on using spinner controls.
+
+{b}Show_Error_Log_on_startup
+Any data errors are logged in a file named {run=\Error.log}Error.log in the same folder as the exe. This log file is always created if any errors are found. Check this option True to have the builder open the log file in notepad on startup.
+
+{b}Child_Windows
+By default, all dialogs will be opened as child forms of the main form. Child forms can be moved outside of the main form, but if the main form is minimized, all child forms will also be minimized. Uncheck this option if you want dialogs to be independent of the main form. Note: Unchecking this option will make forms "disappear" behind the main form whenever you go to the main form's menu system.
+
+{b}Confirmation_Prompts
+The program will ask for confirmation in a number of places. Any time you choose to delete multiple items at once, and also when closing the BBCodes form if you haven't applied your changes yet. Uncheck this box to skip many (but not all) confirmation popups.
+
+
+{b}APPEARANCE
+
+Turn off class icons to switch the Overview and Skills screens back to how they were in Version 1.x. You can selectively turn off icons for the Overview and Skills screens separately.
+
+Indenting output can help make it more readable so that it's not flush against the left border of the screen.
+
+
+{b}BUILD
+
+{b}Default_Build_Points
+Choose the default value when creating new builds.
+
+{b}Skill_Order
+Applies to the skills screen only, not output. Native skills first is most useful for pure class builds. For multi-class builds, the primary class's native skills are listed first, followed by native skills for all splash classes together in a single group, then cross-class skills last.
+
+{b}Feat_Order
+Applies to the feats screen only, not output. Grouping related feats will be alphabetized based on the first feat in the group. For example, THF / ITHF / GTHF will be listed under "T", even if you've already selected THF. Grouped feats are indented in the feats list.
+
+
+{b}OUTPUT
+
+{b}Skill_Order
+Ranks Spent order additionally groups related skills. For example, trapping skills are grouped together provided they have the same total ranks.
+
+{b}Feat_Order
+Grouping feats by channel improves readability of the output. The general channel includes any feat slot that can hold a regular feat: heroic, epic, human bonus, fighter bonus, etc... Special feats that can never be taken in a regular slot, like Half-Elf Dilettante or Ranger Favored Enemy, get their own channels. Legendary feats are the exception, included with general feats.
+
+{b}BBCodes
+Customize all BBCodes used for output to match your forums.
+
+
+HelpTopic: Stats
+
+{b}Templates
+
+See {hlp=Templates}Templates for help on Templates.
+
+
+{b}Preferred_Build_Points 
+
+Choose which distribution is used for skill points and feat prereqs. Changes made to your preferred distribution automatically propagate to the other distributions where possible.
+
+
+{b}Output
+
+Only valid distributions are displayed in output. You can also use the checkboxes to hide distributions that don't apply to your build.
+
+
+{b}Spinners
+
+For stat point spinners, typing and mouse wheel scrolling is disabled, but you can increment using large steps (5 at a time) or jump directly to min/max values. Because any given spinner's effective min/max values are dependent on other spinners, jumping the value progressively adds or subtracts points one at a time.
+
+See {hlp=Spinners}Spinners for tips on using spinner controls.
+
+
+{b}Tomes
+
+Stat Tomes can go up to +8, and are applied as if used at level 1. Specifically:
+
+You gain +2 at level 1
+You gain +3 at level 3
+You gain +4 at level 7
+You gain +5 at level 11
+You gain +6 at level 15
+You gain +7 at level 19
+You gain +8 at level 22
+
+{b}NOTE: Tomes don't apply during character creation, but Fred sees them as applying at level 1. Meaning you can create a character with 11 strength, take a dummy feat at level 1, log into the world and buy and use a +2 strength tome, then exchange the level 1 dummy feat for Power Attack with Fred.
+
+{b}Supreme is a courtesy feature to let you increase all tomes at the same time. It acts as a minimum value for individual tomes. Lowering the supreme value won't lower the individual tomes, only their minimum values. Use the middle mouse button to quickly clear individual tomes.
+
+
+HelpTopic: Templates
+
+Templates let you auto-apply stats and levelups for a basic build type based on your build's primary class. These are just guidelines, to be tweaked as appropriate for any given build.
+
+Many templates by themselves won't qualify for necessary feats. For example, most TWF templates won't have enough dexterity for the TWF feats without tomes or levelups, especially for the 28pt version. Applying a template will notify you of obvious shortcomings like this.
+
+If your primary class doesn't have trapping capability and your build has any rogue or artificer levels, you get Trapping versions of the templates. These are the same as the basic templates but with extra int for trapping.
+
+Click the Templates header link to switch to templates of other classes.
+
+Click the Customize header link to manage your custom templates.
+
+
+{b}Custom_Templates
+
+Edit Custom Templates copies Templates.txt from the Data\Builder folder to your Save folder if it doesn't already exist, then opens it in Notepad for editing.
+
+On startup, if custom templates exist in your Save folder, those are read instead of the system templates in Data\Builder.
+
+You can also edit system templates directly, but any changes to system templates will be overwritten by subsequent updates.
+
+{b}Reload
+
+After editing templates in Notepad, choose Reload Templates to reload and process your new templates. You will be notified of any errors in your templates file.
+
+
+Custom templates are saved in your Save folder, which changes when you open a build from a different path. That could mean that your custom templates won't be found the next time you run the planner. With that in mind:
+
+{u}Standard_Installation
+
+If you have one copy of the programs and just use the default Save path under it, editing custom templates works normally.
+
+{u}Multiple_Programs
+
+If you run multiple versions of the programs, for example from different computers, and they all point to a shared save path, for example a Dropbox location, editing custom templates works normally.
+
+{u}Multiple_Save_Locations
+
+If you have multiple save locations, for example if you save builds to different folders depending on class, custom templates won't work properly. Each individual save path would have its own custom templates. In that case, you're probably better off customizing the system templates directly.
+
+If you edit system templates, your changes will be overwritten each time the programs are updated. Prior to an update, make a copy of Data\Builder\Templates.txt and then restore it after the update.
+
+Unfortunately, you won't know if any of the system templates have been changed by the update.
+
+{u}Multiple_Everything
+
+If you run multiple copies of the programs AND you have multiple save locations, there is no easy solution for maintaining a unified set of custom templates.
+
+
+{b}Updates
+
+If you maintain custom templates, and an update includes new or changed system templates, you'll get a message on startup detailing what templates have been changed. You can then manually copy those changed templates into your custom templates as desired.
+
+
+HelpTopic: Spinners
+
+{b}Spinners
+
+Type a value into the spinner control, or navigate values with the keyboard or mouse.
+
+{b}Typing
+
+For spinners whose maximum value is greater than 9, type the full number you want. After a pause of a little under a second, the spinner assumes you're starting over. For example, when entering a three-digit number, if you type 2, 3, (pause), 4, the spinner will show 2, 23, then 4. 
+
+Typing mode doesn't engage until the first non-zero digit.
+
+Typing a number that's higher than the maximum value will default to the maximum, lower than the minimum results in the minimum. For example, typing the number 44 in a spinner whose max value is 30 results in 30.
+
+{b}Hotkeys
+
+The following keyboard hotkeys are recognized:
+
+Small step higher: +, RightArrow
+Large step higher: Up, PageUp
+Maximum value: Home, Insert
+
+Small step lower: -, LeftArrow
+Large step lower: Down, PageDown
+Minimum value: End, Delete
+
+Toggle mouse step: Spacebar
+
+{b}Mouse
+
+Use the mouse wheel to scroll values. Toggle the step size by clicking the Middle button (click the mouse wheel) in the center of the spinner on the number itself.
+
+Hold down a mouse button on the left and right arrows to quickly scroll values, or click to change the value one step at a time.
+
+For the left and right arrows, all three mouse buttons have different effects:
+
+Left Button: Small change
+Right Button: Large change
+Click Mousewheel: Set to minimum or maximum
+
+
+HelpTopic: Export
+
+You can export your builds to forums using a variety of BBCodes. 
+
+The {frm=frmFormat}Format: text immediately left of the dropdown is a clickable link that opens the BBCodes screen for customizing output to match your forums. Or choose one of the pre-defined formats from the dropdown. Any formats you save to a file will appear in the dropdown.
+
+The Plain Text format is useful for printing with {run=Notepad.exe}Notepad. Landscape printing may be preferable to Portrait depending on how wide your enhancement and destiny sections are.
+
+
+HelpTopic: Skills
+
+Native skills are shown with a lighter background than cross-class skills. Adjust the contrast level by clicking Contrast in the form header.
+
+{b}Mouse
+
+Hold down a mouse button to rapidly change values.
+
+For a standard mouse, clicking the scroll wheel acts as the middle mouse button.
+
+{b}SKILL_RANKS
+
+{b}Cells
+
+Left Click: Add ranks
+Right Click: Remove ranks
+Middle Click: Clear ranks
+
+You can't add more ranks than you have skill points to spend on that level.
+
+{b}Skill_Rows
+
+Right Click a skill name to open a context menu, or Left Click to cycle through all four options:
+
+Max Ranks (Half Ranks)
+Applies all skill points possible each level. For cross class skills, apply half ranks.
+
+Max Ranks (Full Ranks)
+Applies all skill points possible each level, but never apply half ranks. For cross class skills, this results in a full rank every odd level.
+
+Max Rank (Even Levels)
+This is the complement pattern to Full Ranks, applying max possible full ranks (never half ranks) at even levels only.
+
+Clear Ranks
+Clear all ranks from all levels for the selected skill.
+
+{b}Level_Columns
+
+Clear all skill ranks from a level by right-clicking the level header.
+
+
+{b}SKILL_TOMES
+
+Skill Tomes can go up to +5, and are applied as if used at level 1. Specifically:
+
+You gain +1 at level 1
+You gain +2 at level 5
+You gain +3 at level 9
+You gain +4 at level 13
+You gain +5 at level 17
+
+Skill tomes have limited relevance in terms of build planning. Only a handful of feats have skill prereqs, and skill tomes only help qualify for some of them. Currently, skill tomes help qualify for the Single Weapon Fighting feat line and Epic Skill Focus destiny feats. They don't help qualify for Inspire Excellence.
+
+Due to their limited relevance, skill tomes aren't included in output. Make note of any required skill tomes in your write-up for the build.
+
+See {hlp=Spinners}Spinners for tips on using spinner controls.
+
+
+HelpTopic: Feats
+
+{b}Feat_Channels
+
+Feats are separated into channels to simplify the slotting process. Each set of class-specific and race-specific feats have their own channel. Examples include Ranger Favored Enemies and Half-Elf Dilettante. Another channel handles deity feats.
+
+The General channel includes heroic, epic, and destiny feats. Any feat slot that can hold a general feat is included in the general channel. Most bonus feats are in the general channel, including Fighter, Artificer, Wizard, Monk, and Human bonus feats. Legendary feats are also included in the general channel.
+
+Switch channels using the links at the top of the window. If your build has no channels other than General, the only two options will be Selected and Granted.
+
+{b}Finding_Feats
+
+You can filter feats by purpose, by slot, or by a combination of both:
+
+Use the filters list to filter feats by purpose: Melee, Spellcasting, etc... You can choose multiple options by holding down the Ctrl key when clicking. Choosing multiple filters this way shows feats that meet all selected filters. eg: Show all epic feats that are good for melee.
+
+Click a feat slot to filter feats by slot. This is particularly useful for class bonus feats. When a slot filter is active, the feat list header will display the filter name. Click the slot again to remove the filter.
+
+You can also change the order of the feats list from the {frm=frmOptions}Options screen. See the {hlp=Options}Help entry for Options for more information.
+
+{b}Choosing_Feats
+
+Once you find the feat you want, either drag it to the desired slot or double-click to auto-select it. Auto-selecting will apply the feat to either the first legal empty slot or the currently active slot filter.
+
+If a feat has selectors, drag or double-click the desired selector instead of the feat.
+
+{b}Changing_Feats
+
+Re-order feats by dragging one slot to another. The feat dragged and the feat it's dropped onto will swap positions. 
+
+The feat you drag can only be placed on a legal slot for that feat, but the feat you drop it onto will get swapped even if it's into an illegal slot. In that case, it will show as an error condition.
+
+{b}Clearing_Feats
+
+Double-click a slot to clear it.
+
+Drag a feat back to the feats list to clear it.
+
+Right-clicking will bring up a context menu that includes options to clear that slot, or all slots. Clearing all slots will ask for confirmation.
+
+{b}Alternate_Feats
+
+For some builds, there will be a "player's choice" where there isn't a clear recommendation to make. One example might be a Swashbuckler, where you likely would give a choice between Improved Critical: Piercing, Slashing or Bludgeoning.
+
+Set up alternate feats by right-clicking the main slot and choosing Alternate Feat from the context menu. A new slot will appear immediately below the main slot.
+
+Alternate feats are exempt from stat, skill, past life and feat prereqs. This lets you set up conditional builds that might say "take x, or y if you have a stat tome / past life / etc..." 
+
+The builder considers alternate feats as not actually taken. They are ignored when checking feat prereqs for other feats in your build. Be mindful of game rules when defining alternate feats.
+
+{b}Exchange_Feats
+
+Some builds will start off with a feat to help with leveling, then switch it out for something better in higher levels. One example might be a mechanic taking heavy repeater proficiency at level 3, then swapping it out for something else at level 12 when they get proficiency from the ML12 core.
+
+Set up feat swaps by right-clicking the slot that will be exchanged at a later level. You will be prompted to choose what level the exchange will happen, then a new feat slot will appear at that level. 
+
+All prereqs are fully enforced for exchanged feats, both before and after the exchange. Fred's rules are also enforced, showing an error if you exchange a feat that Fred wouldn't allow.
+
+{b}NOTE: Tomes don't apply during character creation, but Fred sees them as applying at level 1. Meaning you can create a character with 11 strength, take a dummy feat at level 1, log into the world and buy and use a +2 strength tome, then exchange the level 1 dummy feat for Power Attack with Fred.
+
+{b}Granted_Feats
+
+Click the Granted Feats tab to view all your granted feats, from both race and class. Click a granted feat to view details.
+
+
+HelpTopic: Import Colors
+
+Importing colors is designed to allow easy sharing of color values via forums. It also allows you to pick and choose which colors you want to import.
+
+Fill the text area with color data by pasting from clipboard, or by loading from a file.
+
+You can manually delete any color data from the text area you don't want to import. For example, after setting up a new color scheme, you could import the default output colors for consistency.
+
+Once you have the desired color data, click {b}Apply_Colors to commit these colors.
+
+
+HelpTopic: Export Colors
+
+Exporting colors is designed to allow easy sharing of color values via forums. It also allows you to pick and choose which colors you want to export.
+
+The text area starts off with all your current color data. You can manually delete any color data from the text area you don't want to export. 
+
+Once you have the desired color data, you can copy it to clipboard for sharing on forums, or save it to a file.
+
+
+HelpTopic: Spells
+
+There are two different spell choices to make while leveling: Inscribing spells into your spell book during levelup, and actually slotting the spells you can cast while questing.
+
+The builder is only concerned with which spells to slot for questing, ignoring the spells you choose at levelup.
+
+For any given class and spell level, you will have a list of all slots and what character level (not class level) they become available.
+
+Multiclass builds may have up to three different spell books, one for each class. Change the active spell book with the dropdown.
+
+See {hlp=Spinners}Spinners for tips on using spinner controls.
+
+
+{b}Choosing_Spells
+
+Drag spells to the desired slot or double-click to auto-select. Auto-selecting will place the spell in the first legal empty slot.
+
+Remove spells with double-click, or by dragging them back to the list.
+
+Right-click a slot to bring up a context menu that lets you clear the current spell, all spells for the current class, or all spells for the entire build.
+
+
+{b}Mandatory_Spells
+
+Clerics receive cure spells for free, and these cure spells cannot be unlearned.
+
+Warlocks receive Pact spells for free, which also cannot be unlearned. Pact spells are dependent on the Pact feat you choose in the {frm=frmFeats}Feats screen. Changing your pact feat will update your pact spells.
+
+
+{b}Free_Spells
+
+Artificers may select Repair and Inflict spells for free. These do no cost a spell slot. Note: Only the standard versions are free; the mass versions cost a slot.
+
+Druids may select any Summon Nature's Ally spell for free. These also do not cost a spell slot.
+
+Free spells can technically be taken at any level, but since they are free, any free spells you choose will be auto-slotted into the first level they become available.
+
+
+{b}Rare_Scrolls
+
+Even though the builder ignores spell inscription, you should be mindful of the rare scrolls list while leveling. As a general rule, choose any rare spells you can at levelup.
+
+{url=http://ddowiki.com/page/The_Rare_Arcane_Scroll_List}The_Rare_Arcane_Scroll_List
+
+{url=http://ddowiki.com/page/The_Rare_Artificer_Scroll_List}The_Rare_Artificer_Scroll_List
+
+
+HelpTopic: Destiny
+
+Your character can only have one active destiny, so your build plan can only include a single destiny. Changing your destiny will ask for confirmation before resetting all your destiny abilities.
+
+
+{b}Twists_of_Fate
+
+Twists of Fate allow you to use abilities from other destinies that you have unlocked. You can twist abilities up to tier 4, but not tier 5 or 6. For a detailed explanation of Twists of Fate, see {url=http://ddowiki.com/page/Twist_of_Fate}this_wiki_article.
+
+If you have selected an active destiny, the Twists list won't include any abilities from that destiny.
+
+You can have up to 5 twists of fate:
+
+3 standard
+1 epic levels
+1 epic completionist
+
+Each slot must be upgraded to the same tier as the ability you want put in it. For example, slotting a tier 3 ability requires upgrading a twist slot to tier 3.
+
+Upgrading twist slots costs fate points, which are earned from epic levels, epic destinies, epic past lives, and tomes of fate. 
+
+Epic levels grant a flat +5 fate points for free. You gain an additional +1 fate point for every 3 destiny levels (from any destiny) you achieve, up to a maximum of 5 levels per destiny. You also gain +1 fate point for every 4 Epic Past Lives you have.
+
+There is currently a maximum of 37 fate points available in the game:
+
+20 from epic destinies (12 destinies * 5 levels = 60 / 3 = 20)
+9 from epic past lives (12 past lives * 3 max stack = 36 / 4 = 9)
+5 from epic levels
+3 from a +3 fate tome
+--
+37 fate points
+
+Twist upgrades start at 1 fate point, costing one additional point for each tier and twist. All costs are cumulative. The net costs  break down to:
+
+Slot 1 costs 1 / 3 / 6 / 10 fate points for tier 1/2/3/4
+Slot 2 costs 2 / 5 / 9 / 13 fate points
+Slot 3 costs 3 / 7 / 12 / 18 fate points
+Slot 4 costs 4 / 9 / 15 / 22 fate points
+Slot 5 costs 5 / 11 / 18 / 26 fate points
+
+It's cheapest to keep your highest tier twists in the earliest slots. Re-order your selected twists by dragging.
+
+
+HelpTopic: Enhancements
+
+{b}Trees
+
+Every build gets a racial tree, plus you may choose up to six additional trees.
+
+Double-click or drag to select trees.
+
+Remove trees with double-click.
+
+Right-clicking a selected tree opens a context menu that lets you reset or delete trees.
+
+
+Racial Past Life AP is earned by racial reincarnating for the same race three times. The first life grants a skill bonus, the second a stat, and the third grants +1 AP to use in any racial tree. You can earn +1 racial AP for every non-iconic race, excluding sub-races.
+
+Racial past life AP can be spent at any time. You can spend it all at level 1, or wait and spend it later.
+
+
+{b}Enhancements
+
+Each character level grants 4 AP to spend on enhancements, up to a maximum of 80 AP at level 20.
+
+You can only take Tier 5 enhancements from one tree. Selecting Tier 5s from a second tree will prompt you about cleaning out the other tree's Tier 5s.
+
+Double-click or drag to select enhancements. 
+
+Remove enhancements with double-click or by dragging them back to the list.
+
+Enhancements can't be re-ordered; they lock into their natural position in the tree.
+
+Right-click a selected enhancement to open a context menu that lets you remove an enhancement or reset the entire tree.
+
+{b}Leveling_Guide
+
+See the {hlp=Leveling_Guide}Leveling_Guide topic for more information.
+
+
+HelpTopic: Leveling_Guide
+
+The Leveling Guide allows you to plan out the exact order of enhancements taken at each level. This isn't typically needed; a simple list of all enhancements taken is generally sufficient for posting a build.
+
+In its simplest form, the Leveling Guide only displays trees and enhancements you chose on the Enhancements tab. These are referred to as "selected." By default, you only see enhancements that are both selected and available. Use the dropdown to change the current filter.
+
+There are also a small selection of special commands: Bank AP, and Reset Tree(s).
+
+Add enhancements by double-clicking. If an enhancement has multiple ranks, you don't have to add each one individually. Adding a higher rank automatically adds all previous ranks. 
+
+When working with the Leveling Guide, there is always a current level. This is displayed at the bottom of the list. There may be times when you think an enhancement should be available, but it may not be due to the current level. For example, an 18/2 wizard/rogue build that starts with rogue at level 1. No wizard enhancements will be available until the current level is at least 2.
+
+Enhancements are always added to the end of this list, and if the minimum level for an enhancement you add is higher than the current level, the current level is raised to match.
+
+To manually force the guide to step to the next level, choose Bank AP from the (Commands) group. This will save all remaining AP for this level to spend on the next level.
+
+There are several ways to select multiple enhancements at once:
+ - Hold the left button while dragging the mouse. You can drag the mouse above or below the screen to scroll the list.
+ - Hold the Ctrl key while individually clicking rows on or off.
+ - Select an anchor row, hold the Shift key and click a different row to select everything in between.
+
+Right-click any selected row to open a context menu that lets you move or delete rows. To move row(s), first mark them to be moved, then right-click a new row and choose Insert. Moved rows are inserted before the row you choose. Moving multiple rows at once retains their relative order.
+
+{b}Export
+
+The Export link provides a simple way to print out the Leveling Guide for reference while playing.
+
+When you Export the Leveling Guide you will be asked to save a CSV file, and then the file will immediately be opened for you with whatever program normally opens them. CSV stands for Comma Separated Values, and is a standard format readable by any spreadsheet program, like Excel. 
+
+
+HelpTopic: Frequently Asked Questions
+
+{b}What_happened_to_the_old_"More"_button_on_the_Export_screen?
+
+It's still there, just hidden. The "Format:" text to the left of the dropdown list is a clickable link that opens the BBCodes screen.
+
+
+{b}Where_is_Heavy_Armor_Proficiency?
+
+The Light, Medium and Heavy Armor Proficiency feats have been consolidated into a single feat named Armor Proficiency. It has three selectors (Light, Medium, Heavy) which have the same prereqs as the feats do in game. It can be found quickly using the filter group Defense.
+
+
+{b}Why_is_there_an_output_format_called_Something_Awful?
+
+The {url=http://forums.somethingawful.com/index.php}Something_Awful_forums have their own set of {url=http://forums.somethingawful.com/misc.php?action=bbcode}supported_BBCodes.
+
+
+{b}Why_are_some_classes_missing_in_Overview?
+
+When using text mode, the class dropdowns are filtered based on your chosen alignment. If you haven't chosen one yet, your alignment choices are still filtered based on class choices. Picking Bard, for example, will filter out Lawful Good and Lawful Neutral alignments, which in turn filters Paladin and Monk out of the class dropdowns.
+
+This is less confusing if you use the icon interface, as the filtered classes are still shown, grayed out.
+
+
+HelpTopic: Import
+
+To import a build from the forums, copy & paste it into the import area then click Translate Build.
+
+When copying builds to the clipboard, copy them while in the standard forum view. Don't copy from inside a reply box. (In other words, don't copy bbcodes; just the pure display text.)
+
+For builds inside code tags, best results are from selecting only the contents inside the code tags. Selecting from above to below the code box works in many cases, but not all.
+
+Only builds that are posted with the Character Builder Lite export format can be imported.
+
+
+HelpTopic: Convert_Builds
+
+Up through version 2.4, build files were saved in a binary format with a {b}bld extension. Starting with version 3.0, builds are saved as text files with a {b}build extension.
+
+You can still open old binary files normally, but saving defaults to the new text format. The key advantage to the text format is the ability to fix bugged builds manually using notepad.
+
+{b}Folder
+
+Click the "..." button to choose a folder containing binary bld files. It's the standard OpenFile dialog; choose any bld file to select the folder it's in. (The OpenFolder dialog is a terrible interface.)
+
+You can manually type or paste a path into the folder field. To then choose that folder, press Enter.
+
+{b}Storage
+
+Your old binary bld files aren't deleted after conversion. Instead, they are moved into the {b}\Save\Binary folder. 
+
+You can leave those old files there for safekeeping, or delete them at your convenience.
+
+{b}Messages
+
+Any errors converting a build are displayed in the messages window. If there are no errors, the message window will be blank. Any builds that can't be converted for whatever reason will still be moved to the {b}\Save\Binary folder.
+
+{b}Specs
+
+Specs for the new text file structure can be found in the {hlp=Save_File_Specifications}Save_File_Specifications help topic, which has been added to the Help menu.
+
+
+HelpTopic: Convert
+
+Starting with version 3.0, builds are saved as text files instead of binary files. It is strongly recommended that you convert all your old binary files to the new text format.
+
+Your binary files won't be deleted by the conversion, but instead moved to a new {b}\Save\Binary folder for safekeeping. You can delete them (and that folder) as desired.
+
+You can still open binary files normally, but binary files won't be added to the MRU list in the File menu.
+
+Specs for the new text file structure can be found in the {hlp=Save_File_Specifications}Save_File_Specifications help topic, which has been added to the Help menu.
+
+The {frm=frmConvert}Convert_Builds screen has been added to the Tools menu.
+
+Click {hlp=Convert_Builds}here for help with the Convert Builds screen.
+
+
+HelpTopic: Save_File_Specifications
+
+{b}General     {hlp=Save_File_Specification:_Overview}[Overview]     {hlp=Save_File_Specification:_Stats}[Stats]     {hlp=Save_File_Specification:_Skills}[Skills]     {hlp=Save_File_Specification:_Feats}[Feats]     {hlp=Save_File_Specification:_Spells}[Spells]
+
+{hlp=Save_File_Specification:_Enhancements}[Enhancements]     {hlp=Save_File_Specification:_Leveling_Guide}[LevelingGuide]     {hlp=Save_File_Specification:_Destiny}[Destiny]     {hlp=Save_File_Specification:_Twists}[Twists]
+
+
+Builds are saved in text files with {b}build as the extension. For example: 
+Kensei Warpriest.build
+
+Build files use a structure similar to ini files. Section headers are surrounded by [brackets], and data lines use the following format:
+
+Field: Value
+
+Fields are not case sensitive, but values are.
+
+Field names can be duplicates, either adding to a single value (as with Notes) or specifying elements in a list.
+
+There must be a space following the colon (:) character, and that space is not part of the Value. Values may be single values, or a tab-delimited array of values. Values can contain colons; only the first colon is used to signify field names.
+
+All sections and fields are optional, but section order is required to be the same as the screens in the program. You can't assign skills to a character who has no classes defined, etc...
+
+In some instances, field order is required.
+
+A line that begins with a semicolon (;) is considered a comment and ignored.
+
+
+HelpTopic: Save_File_Specification:_Overview
+
+{hlp=Save_File_Specifications}General     {b}[Overview]     {hlp=Save_File_Specification:_Stats}[Stats]     {hlp=Save_File_Specification:_Skills}[Skills]     {hlp=Save_File_Specification:_Feats}[Feats]     {hlp=Save_File_Specification:_Spells}[Spells]
+
+{hlp=Save_File_Specification:_Enhancements}[Enhancements]     {hlp=Save_File_Specification:_Leveling_Guide}[LevelingGuide]     {hlp=Save_File_Specification:_Destiny}[Destiny]     {hlp=Save_File_Specification:_Twists}[Twists]
+
+
+[Overview]
+
+The overview section has the following fields:
+
+{b}Name
+Your build name
+
+{b}Race
+Race name
+
+{b}Alignment
+Alignment name
+
+{b}MaxLevels
+Max Levels as defined in the Overview screen
+
+{b}Notes
+Each Notes line is a single line. Notes with a blank line will include a blank Notes field. For example:
+
+Notes: This is the 1st line.
+Notes: This is the 2nd line, which is very long but since it is a single paragraph there is no newline character. The entire paragraph is considered one Notes line.
+Notes: 
+Notes: This is the 4th line. When viewing these notes in the program, there is a blank line between lines 2 and 4.
+
+{b}Class
+Class name. There can be up to three different Class fields. Each corresponds to the classes chosen on the Overview screen, in the same order as they are chosen in the build. Any additional Class fields beyond three are ignored. For example:
+
+Class: Fighter
+Class: Monk
+
+The first class field encountered is applied to all 20 heroic levels. These can be changed in the following section.
+
+Class fields must appear before Level fields.
+
+{b}Level
+Not included for pure builds. For multiclass builds, there will be exactly 20 level fields, one for each possible heroic level. Even if MaxLevels is less than 20, there must still be 20 Level fields for all multiclass builds.
+
+Each level value contains two elements separated by a tab character: Level Number (numeric) and Class Name (text). For example:
+
+Level: 1   {i}(tab)   Fighter
+Level: 2   {i}(tab)   Fighter
+Level: 3   {i}(tab)   Monk
+etc...
+
+
+HelpTopic: Save_File_Specification:_Stats
+
+{hlp=Save_File_Specifications}General     {hlp=Save_File_Specification:_Overview}[Overview]     {b}[Stats]     {hlp=Save_File_Specification:_Skills}[Skills]     {hlp=Save_File_Specification:_Feats}[Feats]     {hlp=Save_File_Specification:_Spells}[Spells]
+
+{hlp=Save_File_Specification:_Enhancements}[Enhancements]     {hlp=Save_File_Specification:_Leveling_Guide}[LevelingGuide]     {hlp=Save_File_Specification:_Destiny}[Destiny]     {hlp=Save_File_Specification:_Twists}[Twists]
+
+
+[Stats]
+
+The stats section has a couple fields, plus a table:
+
+{b}Preferred
+Name of the preferred build points, which can be one of the following values:
+  Adventurer
+  Champion
+  Hero
+  Legend
+
+Names are used instead of point values because Drow don't have the same points to spend as the other races.
+
+{b}(Include_Build_Points)
+Up to four different fields signifying their "Include?" checkboxes. Assumed to be Yes, these fields only appear if they {i}aren't included, where the values will be "No". For example, a first life build might show:
+Hero: No
+Legend: No
+
+{b}Stats_Table
+A table of six fields, each named as the first three letters of the stat name in all caps:
+STR: (value)
+DEX: (value)
+etc...
+
+Tables don't use tabs, only spaces. Zeros are saved as spaces for readability. Stat values are stored as points spent, not the ending stat value, meaning the valid range is 1 to 6, 8, 10, 13 and 16. No other stat values are allowed. Tomes can be in a range of 1 to 8.
+
+The character positions for each stat line are as follows:
+
+1-4: Adventurer
+7-10: Champion
+13-16: Hero
+19-22: Legend
+25-28: Tome
+
+Remember that the first space after the colon is not counted as part of the value line.
+
+{b}Levelup
+Two values delimited by a tab character. The first value is a numeric level with a valid range of 0,4,8,12,16,20,24,28. The second is the stat name for that levelup. For example:
+
+Levelup: 4   {i}(tab)   Strength
+
+Levelup 0 is the "All Levels" value in the Stats screen.
+
+
+HelpTopic: Save_File_Specification:_Skills
+
+{hlp=Save_File_Specifications}General     {hlp=Save_File_Specification:_Overview}[Overview]     {hlp=Save_File_Specification:_Stats}[Stats]     {b}[Skills]     {hlp=Save_File_Specification:_Feats}[Feats]     {hlp=Save_File_Specification:_Spells}[Spells]
+
+{hlp=Save_File_Specification:_Enhancements}[Enhancements]     {hlp=Save_File_Specification:_Leveling_Guide}[LevelingGuide]     {hlp=Save_File_Specification:_Destiny}[Destiny]     {hlp=Save_File_Specification:_Twists}[Twists]
+
+
+[Skills]
+
+The entire skills section is one single table, with no other fields. Each field name is an abbreviated skill name, up to a maximum of 7 characters, padded with spaces so the rows align.
+
+Tables don't use tabs, only spaces. Zeros are saved as spaces for readability. Skill values are stored as points spent, not ranks received, meaning that all values will be integers. (No half ranks.) Tomes have a valid range of 1 to 5.
+
+The character positions for each level column are as follows:
+
+1-3: Level 1
+5-7: Level 2
+etc...
+82-84: Skill Tome
+
+All values are three characters wide, typically a single digit surrounded by spaces. The formula for where it starts based on level:
+
+(Level - 1) * 4 + 1
+
+Note that the Skill Tome column (effectively level 21) does not follow this formula; it starts at character 82 instead of 81 for readability.
+
+The skill abbreviations are:
+
+Balance
+Bluff
+Concent
+Diplo
+Disable
+Haggle
+Heal
+Hide
+Intim
+Jump
+Listen
+Move Si
+Open Lo
+Perform
+Repair
+Search
+Spellcr
+Spot
+Swim
+Tumble
+UMD
+
+
+HelpTopic: Save_File_Specification:_Feats
+
+{hlp=Save_File_Specifications}General     {hlp=Save_File_Specification:_Overview}[Overview]     {hlp=Save_File_Specification:_Stats}[Stats]     {hlp=Save_File_Specification:_Skills}[Skills]     {b}[Feats]     {hlp=Save_File_Specification:_Spells}[Spells]
+
+{hlp=Save_File_Specification:_Enhancements}[Enhancements]     {hlp=Save_File_Specification:_Leveling_Guide}[LevelingGuide]     {hlp=Save_File_Specification:_Destiny}[Destiny]     {hlp=Save_File_Specification:_Twists}[Twists]
+
+
+[Feats]
+
+Build feats are stored internally in separate channels, one array for each channel. Most channels will have multiple feat lines in the build file.
+
+Unless otherwise specified, each feat line's field is the channel name, and each value is a two-element array separated by a tab:
+
+Channel: Slot Identifier   {i}(tab)   Feat Name: Selector Name
+
+The slot identifier is a text name followed by a space then a number specifying the character level it's taken. Even when it seems redundant, like for Legend and Race feats, the identifier is a required ID field used by Alternate and Exchange feats.
+
+{b}Granted
+Granted feats aren't stored in the build file, but instead are calculated after the [Overview] section is read.
+
+{b}Standard
+Standard feats are heroic, epic and destiny feats, but not legend feats. Valid identifier names are "Heroic", "Epic" and "Destiny". Level is character level.
+
+{b}Legend
+Only a single feat entry is allowed. Identifier is always "Legend 30".
+
+{b}Race
+The identifer is race name and character level.
+
+{b}Class1
+{b}Class2
+{b}Class3
+All class feats for all three channels use the generic "Class" as their field name. The identifier is a class name followed by class level, not character level. On load, the program internally searches the build classes to figure out which Class# channel this feat belongs to. For example, a monk might show:
+
+Class: Monk 1   {i}(tab)   Two Weapon Fighting
+Class: Monk 2   {i}(tab)   Stunning Fist
+Class: Monk 3   {i}(tab)   Path of Harmonious Balance
+Class: Monk 6   {i}(tab)   Dodge
+
+{b}Deity
+Deity feat allocation is unusually complex, and handled internally. The saved identifier only needs the name "Deity" and the character level that feat is taken.
+
+{b}Alternate
+Alternate feat identifiers point to the parent slot. For example, an alternate human bonus feat offering Precision as an option would be listed as:
+
+Alternate: Human 1   {i}(tab)   Precision
+
+{b}Exchange
+Exchange feats are an exception to the above parsing rule in that there are three columns instead of two. The first column is the identifier, which works the same as for Alternate feats. The second column is the character level when the exchange happens, and the third column is the feat. 
+
+For example, imagine a stick build using falchions until 23 when it switches to sireth. Changing out Improved Critical: Slashing feat -- which would typically be taken at level 9 -- might appear as:
+
+Exchange: Heroic 9   {i}(tab)   23   {i}(tab)   Improved Critical: Bludgeoning
+
+
+HelpTopic: Save_File_Specification:_Spells
+
+{hlp=Save_File_Specifications}General     {hlp=Save_File_Specification:_Overview}[Overview]     {hlp=Save_File_Specification:_Stats}[Stats]     {hlp=Save_File_Specification:_Skills}[Skills]     {hlp=Save_File_Specification:_Feats}[Feats]     {b}[Spells]
+
+{hlp=Save_File_Specification:_Enhancements}[Enhancements]     {hlp=Save_File_Specification:_Leveling_Guide}[LevelingGuide]     {hlp=Save_File_Specification:_Destiny}[Destiny]     {hlp=Save_File_Specification:_Twists}[Twists]
+
+
+[Spells]
+
+Spell lines have "Spell" as their field name, and each value is a two-element array separated by a tab:
+
+Spell: Slot Identifier   {i}(tab)   Spell Name
+
+The slot identifier is a class name followed by a space then a number specifying the spell level.
+
+For example:
+
+Spell: Paladin 4   {i}(tab)   Holy Sword
+
+
+HelpTopic: Save_File_Specification:_Enhancements
+
+{hlp=Save_File_Specifications}General     {hlp=Save_File_Specification:_Overview}[Overview]     {hlp=Save_File_Specification:_Stats}[Stats]     {hlp=Save_File_Specification:_Skills}[Skills]     {hlp=Save_File_Specification:_Feats}[Feats]     {hlp=Save_File_Specification:_Spells}[Spells]
+
+{b}[Enhancements]     {hlp=Save_File_Specification:_Leveling_Guide}[LevelingGuide]     {hlp=Save_File_Specification:_Destiny}[Destiny]     {hlp=Save_File_Specification:_Twists}[Twists]
+
+
+[Enhancements]
+
+The enhancements section starts with two optional fields:
+
+{b}Tier5 
+Tree Name for the Tier 5 tree. Not included if there is no Tier 5 tree.
+
+{b}RacialAP
+Number of Racial APs this build has. Not included if zero.
+
+The rest of the enhancements section defines the trees and the enhancements taken from each:
+
+{b}Tree
+The tree name.
+
+{b}Type
+What type of tree this is. Valid choices are:
+  Class
+  Race
+  Global
+  RaceClass
+Global is for trees like Harper Agent, and RaceClass is for trees like Elf Arcane Archer.
+
+{b}Source
+Name of the class that provides this tree. Not included for non-class trees. Source determines how many class levels the tree has. Enhancement trees always point to the class with more levels. For example, an 18/2 Fighter/Paladin using the Vanguard tree will list Fighter as the source instead of Paladin.
+
+{b}ClassLevels
+Number of class levels this tree has. Race, Global and RaceClass trees will list the build's MaxLevels.
+
+{b}Ability
+List of abilities taken from this tree in the following format:
+
+Ability: Tier #: Ability Name: Selector Name (Rank #)
+
+Both Selector Name and Rank are optional. Abilities without ranks are assigned Rank 1.
+
+Use Tier 0 for core abilities.
+
+Some abilities have a colon in their name, like Warpriest Tier 3: Inflame: Energy Absorption. The builder will parse that into an ability and selector, but will still be able to find it correctly.
+
+
+HelpTopic: Save_File_Specification:_Leveling_Guide
+
+{hlp=Save_File_Specifications}General     {hlp=Save_File_Specification:_Overview}[Overview]     {hlp=Save_File_Specification:_Stats}[Stats]     {hlp=Save_File_Specification:_Skills}[Skills]     {hlp=Save_File_Specification:_Feats}[Feats]     {hlp=Save_File_Specification:_Spells}[Spells]
+
+{hlp=Save_File_Specification:_Enhancements}[Enhancements]     {b}[LevelingGuide]     {hlp=Save_File_Specification:_Destiny}[Destiny]     {hlp=Save_File_Specification:_Twists}[Twists]
+
+
+[LevelingGuide]
+
+The leveling guide is a simple list of abilities in the order they are taken:
+
+Guide: TreeID Tier #: Ability Name: Selector Name (Rank #)
+
+Selector Name and Rank are both optional. Ranks defaults to Rank 1 if not specified.
+
+TreeID is the Abbreviation for the tree, which can be found in the {run=\Data\Builder\Enhancements.txt}Enhancements.txt data file. (Search for "Abbreviaton: ") Any tree without an abbreviation line uses its full name instead.
+
+Some trees can be chosen from multiple classes in the same build. For example, an 18/2 Paladin/Fighter can choose the Vanguard tree from either Paladin or Fighter. In this situation, a three-letter abbreviation from the source class is included at the end of the TreeID. For example:
+
+Guide: Vanguard (Pal) Tier 0: To the Fore!
+
+Class suffixes are defined in {run=\Data\Builder\Classes.txt}Classes.txt as the fourth (final) entry in the "Initial: " field. 
+
+Don't include a class suffix unless the build can actually choose the tree from two different classes.
+
+Note: Some trees already have a class suffix as part of their abbreviation, like the two Eldritch Knight trees. Those always need to be included since they are part of the actual TreeID.
+
+There are also a few special codes:
+
+Guide: Bank AP
+Guide: Reset All Trees
+Guide: Reset Tree: TreeID
+
+
+HelpTopic: Save_File_Specification:_Destiny
+
+{hlp=Save_File_Specifications}General     {hlp=Save_File_Specification:_Overview}[Overview]     {hlp=Save_File_Specification:_Stats}[Stats]     {hlp=Save_File_Specification:_Skills}[Skills]     {hlp=Save_File_Specification:_Feats}[Feats]     {hlp=Save_File_Specification:_Spells}[Spells]
+
+{hlp=Save_File_Specification:_Enhancements}[Enhancements]     {hlp=Save_File_Specification:_Leveling_Guide}[LevelingGuide]     {b}[Destiny]     {hlp=Save_File_Specification:_Twists}[Twists]
+
+
+[Destiny]
+
+The destiny section works the same way as the enhancement section, minus the general fields and tree details. All destiny trees are the same in terms of game mechanics.
+
+{b}Destiny
+The destiny name.
+
+{b}Ability
+List of abilities taken from this destiny using the format:
+
+Ability: Tier #: Ability Name: Selector Name (Rank #)
+
+Selector Name and Rank are both optional. Ranks defaults to Rank 1 if not specified.
+
+
+HelpTopic: Save_File_Specification:_Twists
+
+{hlp=Save_File_Specifications}General     {hlp=Save_File_Specification:_Overview}[Overview]     {hlp=Save_File_Specification:_Stats}[Stats]     {hlp=Save_File_Specification:_Skills}[Skills]     {hlp=Save_File_Specification:_Feats}[Feats]     {hlp=Save_File_Specification:_Spells}[Spells]
+
+{hlp=Save_File_Specification:_Enhancements}[Enhancements]     {hlp=Save_File_Specification:_Leveling_Guide}[LevelingGuide]     {hlp=Save_File_Specification:_Destiny}[Destiny]     {b}[Twists]
+
+
+[Twists]
+
+The twist section has one ability line per twist, listed in the order they are taken.
+
+Twist: Tree Name Tier #: Ability Name: Selector Name
+
+Tree Name is the full tree name, not the abbreviation like the Leveling Guide uses.
+
+Selector Name is optional.
+
+There is no rank data for twists.
+
+
+HelpTopic: Messages
+
+The messages screen details game rule changes that impact a build since the last time it was saved.
+
+Messages will display on build load if any exist, and will also appear in the Tools menu.
+
+Some messages are just informational, like known name changes. Others are errors that should be resolved where possible. Double-click each issue to resolve it.
+
+When enhancement trees get a complete pass, your best bet is to simply clear it in your enhancements, reset the leveling guide, and start over.
+
+If you close the messages screen before resolving all issues, you can resume from where you left off by going to Tools => Messages.
+
+
+HelpTopic: Stat Template Change
+
+Your custom Templates.txt is not being used because the system Templates.txt file has been updated.
+
+The most recent template changes were to:
+
+Druid => Caster
+
+Druid => Wolf
+
+Druid => Bear
+
+You can copy those changes into your custom Templates.txt as desired. If not, open your custom Templates.txt and save it so that it reflects a more recent file date than the system version.
+
+NOTE: Changes to a template usually include changes to the trapping version of the same template.

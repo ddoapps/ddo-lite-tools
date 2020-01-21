@@ -1,0 +1,603 @@
+Collectable: Academic Treatise
+School: Lore
+Tier: 4
+Frequency: Uncommon
+
+Collectable: Adventuring Oratorio
+School: Lore
+Tier: 6
+Frequency: Rare
+
+Collectable: Amber Vial
+School: Arcane
+Tier: 1
+Frequency: Common
+
+Collectable: Amulet of the Archbishop
+School: Cultural
+Tier: 3
+Frequency: Rare
+
+Collectable: Amulet of the Lost Empire
+School: Cultural
+Tier: 3
+Frequency: Common
+Value: 10
+
+Collectable: Amulet of the Six
+School: Cultural
+Tier: 3
+Frequency: Uncommon
+Value: 20
+
+Collectable: Ancient Text
+School: Lore
+Tier: 6
+Frequency: Common
+
+Collectable: Archaic Logbook
+School: Lore
+Tier: 6
+Frequency: Uncommon
+
+Collectable: Blade of the Dark Six
+School: Cultural
+Tier: 2
+Frequency: Common
+Value: 5
+
+Collectable: Blessed Candle
+School: Arcane
+Tier: 4
+Frequency: Common
+
+Collectable: Blister Beetle
+School: Natural
+Tier: 5
+Frequency: Uncommon
+
+Collectable: Bloodfeast Fungus
+Plural: Bloodfeast Fungi
+School: Natural
+Tier: 4
+Frequency: Uncommon
+
+Collectable: Brass Censer
+School: Arcane
+Tier: 6
+Frequency: Common
+
+Collectable: Bruised Spore Pod
+School: Natural
+Tier: 3
+Frequency: Common
+
+Collectable: Caravan Logbook
+School: Lore
+Tier: 2
+Frequency: Common
+
+Collectable: Ceramic Bowl
+School: Arcane
+Tier: 3
+Frequency: Common
+
+Collectable: Charred Soarwood
+Plural: Charred Soarwood
+School: Arcane
+Tier: 3
+Frequency: Uncommon
+Flags: Eberron
+
+Collectable: Chipped Bone Talisman
+School: Cultural
+Tier: 4
+Frequency: Common
+
+Collectable: Crypt Moth
+School: Natural
+Tier: 6
+Frequency: Common
+
+Collectable: Cryptic Message
+School: Lore
+Tier: 4
+Frequency: Common
+
+Collectable: Cryptmoss
+Plural: Cryptmoss
+School: Natural
+Tier: 2
+Frequency: Uncommon
+
+Collectable: Cryptmoss Queen
+School: Natural
+Tier: 2
+Frequency: Rare
+
+Collectable: Cryptmoss Worm
+School: Natural
+Tier: 2
+Frequency: Uncommon
+
+Collectable: Cryptmoss Worm Larva
+Plural: Cryptmoss Worm Larvae
+School: Natural
+Tier: 2
+Frequency: Common
+
+Collectable: Crystal Decanter
+School: Arcane
+Tier: 3
+Frequency: Rare
+
+Collectable: Deadly Feverblanch
+Plural: Deadly Feverblanches
+School: Natural
+Tier: 1
+Frequency: Uncommon
+
+Collectable: Duskbrood Trumpeter
+School: Natural
+Tier: 3
+Frequency: Common
+
+Collectable: Elemental Ingot
+School: Cultural
+Tier: 4
+Frequency: Rare
+
+Collectable: Encoded Communique
+School: Lore
+Tier: 5
+Frequency: Rare
+
+Collectable: Executioner Beetle
+School: Natural
+Tier: 3
+Frequency: Rare
+
+Collectable: Flint Knife
+Plural: Flint Knives
+School: Cultural
+Tier: 6
+Frequency: Common
+
+Collectable: Flowering Hellscap
+School: Natural
+Tier: 3
+Frequency: Rare
+
+Collectable: Flowering Spore Pod
+School: Natural
+Tier: 3
+Frequency: Rare
+
+Collectable: Fractured Femur
+School: Arcane
+Tier: 5
+Frequency: Uncommon
+
+Collectable: Fragrant Drowshood
+School: Natural
+Tier: 3
+Frequency: Uncommon
+
+Collectable: Funerary Token
+School: Cultural
+Tier: 2
+Frequency: Common
+Value: 5
+
+Collectable: Glass Phial
+School: Arcane
+Tier: 3
+Frequency: Uncommon
+
+Collectable: Glittering Dust
+Plural: Glittering Dust
+School: Arcane
+Tier: 2
+Frequency: Common
+
+Collectable: Glowmoss Clump
+School: Natural
+Tier: 4
+Frequency: Rare
+
+Collectable: Glowmoss Spore
+School: Natural
+Tier: 5
+Frequency: Uncommon
+
+Collectable: Hairy Trumpet Mushroom
+School: Natural
+Tier: 6
+Frequency: Uncommon
+
+Collectable: Headsman Beetle
+School: Natural
+Tier: 3
+Frequency: Uncommon
+
+Collectable: House-Sealed Letter
+School: Lore
+Tier: 3
+Frequency: Uncommon
+
+Collectable: Icon of Khyber
+School: Cultural
+Tier: 1
+Frequency: Rare
+
+Collectable: Intact Fingerbone
+School: Arcane
+Tier: 2
+Frequency: Rare
+
+Collectable: Intact Spore Pod
+School: Natural
+Tier: 3
+Frequency: Uncommon
+
+Collectable: Ivory Scorpion Icon
+School: Cultural
+Tier: 4
+Frequency: Uncommon
+
+Collectable: Khyber Prayer Pamphlet
+School: Lore
+Tier: 1
+Frequency: Uncommon
+
+Collectable: Lightning-Split Soarwood
+Plural: Lightning-Split Soarwood
+School: Arcane
+Tier: 3
+Frequency: Rare
+Flags: Eberron
+
+Collectable: Lodestone
+School: Arcane
+Tier: 3
+Frequency: Common
+
+Collectable: Luminescent Dust
+Plural: Luminescent Dust
+School: Arcane
+Tier: 2
+Frequency: Rare
+
+Collectable: Lush Cryptmoss
+Plural: Lush Cryptmoss
+School: Natural
+Tier: 2
+Frequency: Rare
+
+Collectable: Mark of the Keeper
+School: Cultural
+Tier: 2
+Frequency: Uncommon
+Value: 15
+
+Collectable: Moonstone
+School: Arcane
+Tier: 3
+Frequency: Uncommon
+
+Collectable: Mortar and Pestle
+School: Arcane
+Tier: 5
+Frequency: Common
+
+Collectable: Mystical Formula
+School: Lore
+Tier: 5
+Frequency: Common
+
+Collectable: Necromantic Gem
+School: Cultural
+Tier: 2
+Frequency: Rare
+
+Collectable: Oceanic Sphere
+School: Arcane
+Tier: 4
+Frequency: Rare
+
+Collectable: Ornate Charm
+School: Cultural
+Tier: 6
+Frequency: Uncommon
+
+Collectable: Page Torn from a Research Notebook
+Plural: Pages Torn from a Research Notebook
+School: Lore
+Tier: 1
+Frequency: Common
+
+Collectable: Pale Creeper
+School: Natural
+Tier: 1
+Frequency: Rare
+
+Collectable: Phoenix Tavern Purchase Order
+School: Lore
+Tier: 2
+Frequency: Common
+
+Collectable: Planar Spoor
+Plural: Planar Spoor
+School: Cultural
+Tier: 3
+Frequency: Uncommon
+Value: 65
+
+Collectable: Planar Talisman
+School: Cultural
+Tier: 5
+Frequency: Rare
+
+Collectable: Polished Ore
+School: Cultural
+Tier: 4
+Frequency: Uncommon
+
+Collectable: Pouch of Bone Fragments
+Plural: Pouches of Bone Fragments
+School: Arcane
+Tier: 6
+Frequency: Uncommon
+
+Collectable: Powdered Blood
+Plural: Powdered Blood
+School: Arcane
+Tier: 2
+Frequency: Uncommon
+
+Collectable: Prismatic Dust
+Plural: Prismatic Dust
+School: Arcane
+Tier: 5
+Frequency: Rare
+
+Collectable: Research Diary
+Plural: Research Diaries
+School: Lore
+Tier: 2
+Frequency: Uncommon
+
+Collectable: Ritual Athame
+School: Arcane
+Tier: 4
+Frequency: Rare
+
+Collectable: Ritual Candle
+School: Arcane
+Tier: 4
+Frequency: Common
+
+Collectable: Romantic Sonnet
+School: Lore
+Tier: 3
+Frequency: Common
+
+Collectable: Ruddy Fungus
+Plural: Ruddy Fungi
+School: Natural
+Tier: 4
+Frequency: Common
+
+Collectable: Runic Parchment
+School: Lore
+Tier: 3
+Frequency: Common
+
+Collectable: Sanguine Moth
+School: Natural
+Tier: 4
+Frequency: Rare
+
+Collectable: Scarlet Cryptmoss
+Plural: Scarlet Cryptmoss
+School: Natural
+Tier: 5
+Frequency: Rare
+
+Collectable: Scholarly Notes
+Plural: Scholarly Notes
+School: Lore
+Tier: 3
+Frequency: Uncommon
+
+Collectable: Shamanic Totem
+School: Cultural
+Tier: 2
+Frequency: Rare
+
+Collectable: Shimmering Spore Pod
+School: Natural
+Tier: 6
+Frequency: Rare
+
+Collectable: Signet of the Devourer
+School: Cultural
+Tier: 2
+Frequency: Uncommon
+Value: 15
+
+Collectable: Silver Bowl
+School: Arcane
+Tier: 4
+Frequency: Uncommon
+
+Collectable: Silver Flame Hymnal
+School: Lore
+Tier: 3
+Frequency: Uncommon
+
+Collectable: Singed Soarwood
+Plural: Singed Soarwood
+School: Arcane
+Tier: 3
+Frequency: Common
+Flags: Eberron
+
+Collectable: Skull Fragment
+School: Arcane
+Tier: 2
+Frequency: Common
+
+Collectable: Slime Mold
+Plural: Slime Mold
+School: Natural
+Tier: 5
+Frequency: Common
+
+Collectable: Small Planar Crystal
+School: Cultural
+Tier: 3
+Frequency: Common
+Value: 20
+
+Collectable: Small Wooden Idol
+School: Cultural
+Tier: 1
+Frequency: Uncommon
+Value: 20
+
+Collectable: Smoldering Ember
+School: Cultural
+Tier: 5
+Frequency: Common
+
+Collectable: Sour Darkcap
+School: Natural
+Tier: 3
+Frequency: Common
+
+Collectable: Sparkling Dust
+Plural: Sparkling Dust
+School: Arcane
+Tier: 2
+Frequency: Uncommon
+
+Collectable: Stellar Orb
+School: Arcane
+Tier: 3
+Frequency: Rare
+
+Collectable: Stone Fetish
+Plural: Stone Fetishes
+School: Cultural
+Tier: 5
+Frequency: Uncommon
+
+Collectable: String of Prayer Beads
+School: Cultural
+Tier: 1
+Frequency: Common
+Value: 5
+
+Collectable: Swaying Mushroom Cluster
+School: Natural
+Tier: 4
+Frequency: Common
+
+Collectable: Swaying Mushroom Spore Pod
+School: Natural
+Tier: 4
+Frequency: Uncommon
+
+Collectable: Sweet Whitecap
+School: Natural
+Tier: 1
+Frequency: Common
+
+Collectable: Tear of Vulkoor
+School: Cultural
+Tier: 4
+Frequency: Rare
+
+Collectable: Token of the Spider
+School: Cultural
+Tier: 6
+Frequency: Rare
+
+Collectable: Tome: Alchemist's Chapbook
+School: Lore
+Tier: 4
+Frequency: Rare
+
+Collectable: Tome: History of the Houses
+School: Lore
+Tier: 3
+Frequency: Rare
+
+Collectable: Tome: Myths of Old Xen'drik
+School: Lore
+Tier: 2
+Frequency: Rare
+
+Collectable: Tome: Prophecies of Khyber
+School: Lore
+Tier: 1
+Frequency: Rare
+
+Collectable: Tome: Stormreach Imports and Exports, 857 YK
+School: Lore
+Tier: 2
+Frequency: Rare
+
+Collectable: Tome: Codes of the Aurum
+School: Lore
+Tier: 3
+Frequency: Rare
+
+Collectable: Tome: Lost Songs of Cyre
+School: Lore
+Tier: 3
+Frequency: Rare
+
+Collectable: Vial of Contagion
+School: Arcane
+Tier: 1
+Frequency: Rare
+
+Collectable: Vial of Dragon's Blood Ink
+Plural: Vials of Dragon's Blood Ink
+School: Arcane
+Tier: 6
+Frequency: Rare
+
+Collectable: Vial of Heavy Water
+School: Arcane
+Tier: 4
+Frequency: Uncommon
+
+Collectable: Vial of Pure Water
+School: Arcane
+Tier: 1
+Frequency: Uncommon
+
+Collectable: Warehouse Ledger
+School: Lore
+Tier: 5
+Frequency: Uncommon
+
+Collectable: 'Wavecrasher' Cargo Manifest
+School: Lore
+Tier: 2
+Frequency: Uncommon
+
+Collectable: Withered Cryptmoss
+Plural: Withered Cryptmoss
+School: Natural
+Tier: 2
+Frequency: Common
+
+Collectable: Zygomycota Fungus
+Plural: Zygomycota Fungi
+School: Natural
+Tier: 5
+Frequency: Common

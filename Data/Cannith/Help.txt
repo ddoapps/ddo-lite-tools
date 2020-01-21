@@ -1,0 +1,522 @@
+' Define help topics with the following format:
+'
+' HelpTopic: <Topic Name>
+'
+' All text between "HelpTopic" identifiers is considered part of that help topic.
+'
+' Help text can include a small variety of special codes to handle formatting. These
+' codes are limited to a single word. You can force multiple words to share a single
+' code by separating the words with underscores (_) instead of spaces ( ). Underscores 
+' in special codes are replaced by spaces when displayed.
+' 
+' Special codes are surrounded by curly braces "{}" and always begin the word they
+' apply to. There are no closing tags, which is why they can only apply to a single
+' word.
+' 
+' Basic formatting special codes are b for bold, i for italics and u for underline.
+' You can use any one, two, or all three in a single code. Order doesn't matter. eg:
+' {ub}This_text_is_bold_and_underlined
+'
+' You can also specify a link, of which there are several types:
+'
+' Open {url=https://www.google.com/}Google in default browser
+' Open {run=\Settings.txt}Settings.txt in Notepad
+' Run the {run=\GearPlanner.exe}Gear_Planner
+' Open the {frm=frmOptions}Options form
+' See {hlp=Spinners}Spinners for tips on using spinner controls.
+'
+' - Internally, opening a document {run=\Settings.txt} is handled the same way as
+'   running a program {run=\GearPlanner.exe}
+' - Add a backslash (\) character to the start of the file or program to run to 
+'   specify the application folder. eg: {run=\Settings.txt}
+' - URLs are opened in the default browser. 
+' - Opening a form requires that you know the internal form name. Generally speaking,
+'   form names are "frm" plus the form's title. eg: frmEnhancements. This is not always
+'   the case, though. (Output Format is frmFormat, for example.)
+'
+' All codes and identifiers are case-sensitive. Special codes must be lower case.
+
+HelpTopic: Scaling
+
+{u}Selecting_Rows_and_Columns
+
+Click a row or column header to highlight. Use the middle mouse button or hold down the Ctrl key to multi-select. 
+
+Click any cell to clear all selections.
+
+(Click the scroll wheel to simulate the middle mouse button on a standard mouse.)
+
+
+{u}Shards
+
+Right click a scale name to view which shards use that scaling. Choose a shard to view details.
+
+
+{u}Keyboard_Commands
+
+Up: Scroll Up
+Down: Scroll Down
+Left: Scroll Left
+Right: Scroll Right
+
+PgUp: Page Up
+PgDn: Page Down
+Home: Snap Left
+End: Snap Right
+
+
+{u}Gamma
+
+Check the Gamma box to display the grid in deeper colors, making them more visible when the game is running with gamma correction.
+
+
+HelpTopic: Items
+
+Click a Gear Slot icon along the top, or choose from the list.
+
+Click the selected Gear Slot icon again to deselect, quickly clearing all choices in a single click.
+
+See {hlp=Spinners}Spinners for tips on using spinner controls.
+
+{u}Item_Types
+
+You can change the style of the weapon, armor and shield icons by right clicking them. This has no bearing on cannith crafting, but is available for fun.
+
+
+
+Other Help Topics:
+
+{hlp=External}Useful_Links to other tools, forum threads and ddowiki.
+
+See {hlp=Command_Line}Command_Line_Parameters to change which form loads on startup.
+
+{frm=frmAbout}About Cannith Crafting Builder Lite
+
+
+HelpTopic: Spinners
+
+{b}Spinners
+
+Type a value into the spinner control, or navigate values with the keyboard or mouse.
+
+{b}Typing
+
+For spinners whose maximum value is greater than 9, type the full number you want. After a pause of a little under a second, the spinner assumes you're starting over. For example, when entering a three-digit number, if you type 2, 3, (pause), 4, the spinner will show 2, 23, then 4. 
+
+Typing mode doesn't engage until the first non-zero digit.
+
+Typing a number that's higher than the maximum value will default to the maximum, lower than the minimum results in the minimum. For example, typing the number 44 in a spinner whose max value is 30 results in 30.
+
+{b}Hotkeys
+
+The following keyboard hotkeys are recognized:
+
+Small step higher: +, RightArrow
+Large step higher: Up, PageUp
+Maximum value: Home, Insert
+
+Small step lower: -, LeftArrow
+Large step lower: Down, PageDown
+Minimum value: End, Delete
+
+Toggle mouse step: Spacebar
+
+{b}Mouse
+
+Use the mouse wheel to scroll values. Toggle the step size by clicking the Middle button (click the mouse wheel) in the center of the spinner on the number itself.
+
+Hold down a mouse button on the left and right arrows to quickly scroll values, or click to change the value one step at a time.
+
+For the left and right arrows, all three mouse buttons have different effects:
+
+Left Button: Small change
+Right Button: Large change
+Click Mousewheel: Set to minimum or maximum
+
+
+HelpTopic: External
+
+Crafting Planners:
+
+{url=http://ccplanner.byethost14.com/}Cannith_Crafting_Planner by ramzes7asit4. {url=https://www.ddo.com/forums/showthread.php/478016-CC-Planer}(Forum_thread)
+
+{url=https://www.ddo.com/forums/showthread.php/479433-Gear-Set-Planner-Application}Gear_Set_Planner_Application by TPICKRELL
+
+
+DDO Forums:
+
+{url=https://www.ddo.com/forums/showthread.php/478811-This-is-How-To-Farm-the-New-Collectables-System-Efficiently}This_is_How_To_Farm_the_New_Collectables_System_Efficiently
+
+
+ddowiki:
+
+{url=http://ddowiki.com/page/Cannith_crafting}Cannith_Crafting
+
+{url=http://ddowiki.com/page/Talk:Cannith_Crafting}Talk:Cannith_Crafting
+
+{url=http://ddowiki.com/page/Cannith_Crafting/table_1b}Effects_by_Slot
+
+{url=http://ddowiki.com/page/Cannith_Crafting/table_2a}Minimum_Level_Shards
+
+{url=http://ddowiki.com/page/Cannith_Crafting/table_2c}Scaling_Shards
+
+{url=http://ddowiki.com/page/Cannith_Crafting/table_2b}Non-Scaling_Shards
+
+{url=http://ddowiki.com/page/Soul_Gems}Soul_Gems
+
+
+HelpTopic: Command_Line
+
+{u}Command_Line_Parameters
+
+The Items screen is opened at startup by default. You can change which screen opens at startup by including a command line argument in your shortcut:
+
+Scaling
+Open the Scaling screen
+
+Shards
+Open the Shards screen
+
+Collectables
+Open the Materials screen to collectables
+
+Soul Gems
+Open the Materials screen to soul gems
+
+Schools
+Open the Collectable Schools screen (defaults to Arcane)
+
+Gearset
+Open the Gearset screen
+
+Augments
+Open the Augments screen
+
+Command line parameters are not case sensitive, and several similar versions are accepted. For example, the following arguments will open soul gems:
+"soul", "soul gem", "soul gems", "soulgem", "soulgems"
+
+To set a command line parameter, create a shortcut to the exe file and edit the shortcut's properties. Change the target line by adding one of the above commands after the exe name. For example, to open directly to the Scaling screen, it might look something like this:
+
+"C:\Users\Ellis\Documents\My Games\DDO\CharacterBuilderLite\CannithCrafting.exe" scaling
+
+You can even change the icon on the shortcut to match the screen's icon. (The exe file contains almost 200 different icons.)
+
+You might set up several different shortcuts to allow easy access to the various screens.
+
+
+HelpTopic: Collectables
+
+{u}Schools
+
+Collectables are divided up into four different schools: Arcane, Cultural, Lore and Natural.
+
+Collectable dispensers generally give only one type of school:
+
+ - Arcane: Alchemy Table, Crude Altar, Scroll Rack
+ - Cultural: Mob Treasure Bags (see Cultural below)
+ - Lore: Bookshelf, Cabinet
+ - Natural: Fungus, Moss, Mushroom
+ - Any: Adventurer's Pack, Rubble (see Cultural below)
+
+{u}Tiers
+
+Within each school are six tiers. Except for cultural, the modified quest level determines what tier you get from dispensers. Consider The Last Stand, a level 9 quest on heroic. You'll get Tier 2s on Casual, Normal or Hard, and Tier 3s on Elite. (Effective quest level 11.)
+
+{u}Frequencies
+
+Within each tier there are three frequencies: Common, Uncommon, and Rare. Developer NoWorries {url=https://www.ddo.com/forums/showthread.php/478105-Collectables?p=5875257&viewfull=1#post5875257}confirmed that their drop rates are 75/20/5. This makes it easy to calculate how hard any given collectable is to farm.
+
+For example, Fragrant Drowshood is a Natural Tier 3 Uncommon. There are two other Natural Tier 3 Uncommons: Headsman Beetle and Intact Spore Pod. That means you have on average a 6.7% chance to pull a Drowshood: 1/3rd of 20%.
+
+{u}Cultural
+
+Cultural don't drop from dedicated dispenser types like the other three schools. Instead, they primarily drop from mob treasure bags. Unfortunately treasure bags aren't effected by quest level; you get the same Prayer Beads from any kobold, regardless if you're in a level 2 harbor quest on casual or running slave lords legendary elite.
+
+Generally speaking, treasure bags mostly go up to tier 3. Beyond tier 3 you'll want to focus on "Any" dispensers: Adventurer's Packs and Rubble. While they have a chance to drop any school, they're greatly weighted toward cultural drops. {url=https://www.ddo.com/forums/showthread.php/484819-Collectable-quot-Any-quot-dispensers}Here is a thread compiling data on percentages. As of 500 pulls:
+
+108 Arcane (21.6%)
+242 Cultural (48.4%)
+102 Lore (20.4%)
+  48 Natural (9.6%)
+
+These percentages seem purposely optimized to help cover shortcomings in dispenser distribution. Natural dispensers are by far the most plentiful and easily farmed, while high level cultural are almost wholly reliant on "any" dispensers.
+
+Here's a partial list of some mobs associated with the various cultural tiers. Quest level is irrelevant:
+
+{u}Cultural_Tier_1
+Kobolds
+Troglodytes
+Wolves
+
+{u}Cultural_Tier_2
+Animated Armor
+Bugbears
+Gnolls
+Hobgoblins
+Orcs
+Undead (Skeletons, Zombies, Wights)
+
+{u}Cultural_Tier_3
+Giants
+Trolls
+
+{u}Cultural_Tier_4
+<none>
+
+{u}Cultural_Tier_5
+Elementals
+
+{u}Cultural_Tier_6
+<none>
+
+
+HelpTopic: Shards
+
+The Group and Scaling dropdowns let you quickly filter the list based on type of shard (Stat, Skill, etc...) or by the scaling that shard uses. There is overlap between those two, but they offer different perspectives.
+
+For example, filtering by Group => Skill includes both skill and insightful skill shards, while filtering by Scaling => Skill only includes regular skills. Insightful skills use a different scaling.
+
+To view only non-scaling shards, select either Group => Static or Scaling => None.
+
+{u}Non-Scaling_ML
+
+Non-scaling shards say they increase item ML by x amount, but they do not. Crafted ML is determined by the ML shard you apply, so all non-scaling shards can be applied to any ML item, even ML1. This has been confirmed as Working As Intended by developers.
+
+
+HelpTopic: Soul Gems
+
+Arcane spellcasters can use the {url=http://ddowiki.com/page/Trap_the_Soul}Trap_the_Soul spell to create soul gems. There are three versions of the spell: 
+
+10 Hit Dice creates Weak Soul Gems
+20 Hit Dice creates Soul Gems
+30 Hit Dice creates Strong Soul Gems
+
+Weak gems aren't used in crafting. Bound crafting uses regular gems, unbound uses strong gems. Generally speaking, mobs with CR of 11-20 generate regular gems and 21+ strong, but this isn't a hard and fast rule.
+
+Non-spellcasters can create their own gems with exotic {url=http://ddowiki.com/page/Trap_the_Soul_(enchantment)}Trap_the_Soul_gear. This is less effective, though, especially if farming a location with only one or two mobs of the desired type. (Pseudodragons, for example.)
+
+
+HelpTopic: Augments
+
+{u}Scaling_Grid
+
+Click augments in the grid to view detail, or navigate to augments in the list on the left.
+
+Named augments of secondary colors are automatically added to the three primary color columns: Yellow (and Green), Blue (and Purple), Red (and Orange.) As of the introduction of this screen, the only secondary color augment available is the Meridian Fragment, which is orange.
+
+{u}Augment_Details
+
+For low level augments, collectable vendors are listed in order of easiest to get to first, assuming you have all three methods of fast travel available to you: Teleport Spell, Guild Airship, and House Teleporters.
+
+When viewing augment detail, click anywhere on the screen background (or augment detail background) to return to grid view.
+
+
+HelpTopic: Augment_Picker
+
+{u}Overview
+
+Click the augments along the bottom of the picker to toggle those augment slots on and off.
+
+Once activated, click the link next to the augment slot to choose (or edit) the augment slotted into it. Augments in the gearset planner are automatically scaled to the ML of the item they're slotted into, so you only select variants here, not specific scalings like on the augment screen.
+
+Clear a slotted augment by right clicking its link and choosing Clear Augment from the context menu. You can also view augment detail from that context menu.
+
+If you open the augment list and decide you want to cancel it, click the Close link at the top of the Augment Picker.
+
+{u}Valid_Slots
+
+Most crafted items can have a single augment slot, as defined by the item slot:
+
+Crafted Weapons can have a Red slot
+Crafted Armor can have a Blue slot
+Crafted Shields can have a Blue slot
+Crafted Orbs can have a Red slot
+Crafted Accessories can have either a Green, Yellow, or Colorless slot
+
+Notable exceptions:
+
+"Dual slot" accessories (clothing and jewelry), which have both Yellow and Colorless slots. These used to drop when the augment system first went live in 2013, but they stopped dropping sometime not long after that. This means there are still many on the servers, but they are quite valuable and most people won't want to sell any they have.
+
+Some bugged items have reportedly dropped with the wrong color augment slot. Examples include scepters with caster stats dropping with Blue slots instead of Red, armor dropping with Colorless slots instead of Blue, etc...
+
+Additionally, named items have no rules at all; they can have any combination of up to three augment slots.
+
+Switching the "Crafted?" checkbox from a named item (unchecked) to crafted (checked) could cause confusion if it automatically removed your no-longer-compatible augment slots, so no validation is run on crafted slots.
+
+Because of all these factors, the augment picker will let you select up to 3 slots of any color on any given item. It is up to the user to only choose augment slots they can actually acquire.
+
+
+HelpTopic: Gearset_-_Items
+
+{b}ITEMS
+
+{u}Basic_Usage
+
+Choose the items you want to craft. Optionally enter the name of any named items you want to include in your gearset. Named items will be included in output.
+
+If you don't want an item included -- typically weapons -- uncheck it and don't specify a name. Clicking the gear icons is the same as clicking the crafting checkboxes.
+
+{u}Item_Types
+
+For weapons, armor and shields, right click the gear icons to specify the item type. This lets you match the gearset to your actual weapons and armor, and is also used to filter out crafting effects that don't apply. (Twohand vs Onehand weapons, metal vs non-metal armor, etc...) Weapon lists can be customized via the {run=\Data\Cannith\ItemChoices.txt}ItemChoices.txt and {run=\Data\Cannith\ItemCombo.txt}ItemCombo.txt data files.
+
+{u}Augments
+
+Click the augments area of any item to open the Augment Picker, which lets you choose augment slots and the augments slotted into them.
+
+You don't need to close the Augment Picker to choose a different item slot. Click any other item's augment area to switch to that item.
+
+With the Augment Picker open, keyboard shortcuts (up, down, +, -) let you scroll through the items, letting you quickly scan all the augment slots in your gearset.
+
+See {hlp=Augment_Picker}this_help_topic for details on using the Augment Picker.
+
+{u}Item_Lists
+
+Item Lists can be saved independently of your gearset. This lets you set up a generic Item List as a base template for creating new gearsets.
+
+Item Lists include augment slots, slotted augments, and Eldritch Rituals from the Stone of Change.
+
+Setting the current gearset's item list as the default saves Default.itemlist in your save folder, and that item list will be used for any new gearset you create.
+
+{u}Minimum_Level
+
+Set the minimum level spinner to the highest level of any item in your gearset. This value determines whether extra slots and insightful effects are available to the gearset. This same "global" ML value can be adjusted on other screens, and you can adjust individual item MLs on the Review screen.
+
+{u}Advanced_Tips_and_Tricks
+
+When saving an Item List, or setting a default Item List, the named item names are saved even if that slot is marked as crafted, so you can pre-stuff named items many gearsets may include. For example, Mysterious Cloak.
+
+Item List files are saved with an extension ".itemlist", and Gearset files are saved with an extension ".gearset". Both file types are human-readable text files, which make it easy to view or share. Manually editing them in notepad can be done but is discouraged.
+
+See {hlp=Spinners}Spinners for advanced techniques when using spinner controls.
+
+Related topics:
+
+{hlp=Gearset_-_Effects}Gearset_-_Effects
+{hlp=Gearset_-_Slotting}Gearset_-_Slotting
+{hlp=Gearset_-_Review}Gearset_-_Review
+
+
+HelpTopic: Gearset_-_Effects
+
+{b}EFFECTS
+
+{u}Basic_Usage
+
+Select all the effects you want to slot anywhere in your gearset. Double click to add/remove effects, or use the keyboard. See below for keyboard commands.
+
+Once you've selected all the effects you want, click the Check button to see if they can all fit on your gearset's items. If Check can't slot something, try it again a couple times. (It's slightly randomized, and may produce different results.) If an effect still can't be slotted, you'll probably have to remove it. However, if you really want it, try running Analysis to see for sure.
+
+Once you've picked all your effects and checked to make sure everything fits, run Analysis to identify {i}where everything fits. Analysis may take a minute or two, or possibly longer, depending on how many effects are selected. Analysis looks at every possible combination and remembers where everything goes for all valid combinations. This can greatly simplify the slotting process on the next screen.
+
+Analysis results are saved in your gearset file, so it's a good idea to save your gearset after running Analysis. (Assuming everything fits, of course.)
+
+{u}Advanced_Tips_and_Tricks
+
+The Effects screen is designed with keyboard use in mind:
+
+ - Left/Right arrow keys switch between the three listboxes
+ - Up/Down arrow keys can move between the search box and available effects
+ - Enter or Ins will add an available effect 
+ - Enter or Del will remove a selected effect
+ - Ctrl+Up/Down will adjust a selected effect's order in the priority list
+ - Alt+Up/Down will move the selected effect to the top or bottom of the priority list
+
+The effects list is stored in priority order. This priority is used by QuickMatch to try and slot the higher priority effects first, and it also speeds up Analysis. As soon as Analysis finds an effect that can't fit, everything below that effect is ignored and it moves on to the next set of combinations. This substantially speeds up processing time.
+
+In general usage, you don't need to worry about priority order. For any valid set of effects, the results will be the same regardless of priority. However, if you choose an effect that simply won't fit, changing its position in the priority order may fit it in at the expense of some other effect that now can't fit.
+
+See {hlp=Spinners}Spinners for advanced techniques when using spinner controls.
+
+Related topics:
+
+{hlp=Gearset_-_Items}Gearset_-_Items
+{hlp=Gearset_-_Slotting}Gearset_-_Slotting
+{hlp=Gearset_-_Review}Gearset_-_Review
+
+
+HelpTopic: Gearset_-_Slotting
+
+{b}SLOTTING
+
+{u}Basic_Usage
+
+If your grid is filled with the letters P, S, and X, those stand for Prefix, Suffix and Extra. Any cell that isn't blank can be selected by clicking on it, which slots that effect into that slot. Clicking it again unslots it.
+
+Completing Analysis on the previous screen will default the slotting grid to Filtered, which means you only see slotting data for valid combinations. This can greatly simplify the slotting process. You can switch off the Filter by clicking the checkbox.
+
+QuickMatch will quickly choose slots for all your effects. The results are slightly randomized, so clicking it again may produce different results. Special thanks to Morten Michael Lindahl for contributing this clever algorithm.
+
+{u}Advanced_Tips_and_Tricks
+
+If your gearset has more slots than effects, you'll end up needing to choose which gear items have "holes." Click a gear icon along the top of the grid to open the New Item screen for that item (with your chosen effects filled in.) This lets you quickly see what else can go there.
+
+Related topics:
+
+{hlp=Gearset_-_Items}Gearset_-_Items
+{hlp=Gearset_-_Effects}Gearset_-_Effects
+{hlp=Gearset_-_Review}Gearset_-_Review
+
+
+HelpTopic: Gearset_-_Review
+
+{b}REVIEW
+
+Gearset files are saved with an extension ".gearset" but they are human-readable text files, which makes it easy to view or share. Manually editing them in notepad can be done but is discouraged.
+
+See {hlp=Spinners}Spinners for advanced techniques when using spinner controls.
+
+{u}Item_List
+
+The Review screen defaults to the Item List, where you can review all your choices and adjust the ML of individual items.
+
+Changing the base ML spinner in the top left will set all items to that ML, including named items. Named Item ML is used for scaling any slotted augments.
+
+Click a gear icon for a crafted item to open the New Item screen for that item with your chosen effects filled in. Clicking a gear icon for a named item searches ddowiki for that item.
+
+Complete gearsets are expensive, and are often crafted over time. You can put a checkmark next to any ML shards, effect shards, augments and eldritch rituals you've already finished to track your progress. This information is saved when you save your gearset.
+
+{u}Ingredients
+
+View all the materials you'll need to make your complete gearset. Anything marked as complete in the Item List section is excluded, so you can keep up to date on what exactly you need to finish a partially completed gearset.
+
+Ingredients are listed by frequency: All common ingredients first, then all uncommon, then all rare, and finally miscellaneous. Each group is in alphabetical order, though Purifieds are always last.
+
+Choosing "Everything" (the default) includes collectables for Eldritch Rituals in the list, as well as ending with a list of augments that haven't been marked finished yet.
+
+{u}Output
+
+Output is designed with a minimalist philosophy. The only difference between Plain Text and Forums is that Forums uses color. If the program is in the same folder as Character Builder Lite, it will read and use those color and output settings.
+
+Related topics:
+
+{hlp=Gearset_-_Items}Gearset_-_Items
+{hlp=Gearset_-_Effects}Gearset_-_Effects
+{hlp=Gearset_-_Slotting}Gearset_-_Slotting
+
+
+HelpTopic: Value_Chart
+
+Common and Uncommon collectables have been assessed for relative value using essences as the default currency. Unbound crafting is not included in the formula, so rare collectables have not been assessed.
+
+Click a value to see how that value is calculated.
+
+Click a collectable name for more information about that collectable.
+
+Right-click empty space to export the value chart to a CSV file.
+
+See {hlp=Collectable_Value}Collectable_Value_Help for context on what these values mean.
+
+
+HelpTopic: Collectable_Value
+
+Think of essence values as a suggested retail price, not a hardline exact valuation. Any given player will undoubtedly value some collectables more than the listed value, and some less, depending on what content they typically run.
+
+The goal is to establish a relative value among collectables to aid in trading, and doing that requires some kind of scale. Essences seems like the most logical choice.
+
+Imagine there were a collectable vendor who would sell you any collectable for essences, and the prices were as listed here. If your first reaction to that vendor were something like 'That's a little high, but okay, anything to avoid more collectable farming' then these values are working as intended.
+
+Also picture it in reverse. If you could sell off your collectables to a vendor for essences, do these values seem like a reasonably fair rate?
+
+You can change the formula by editing {run=\Data\Cannith\General.txt}General.txt in the Data\Cannith folder. Restart the program for changes to take effect.
+

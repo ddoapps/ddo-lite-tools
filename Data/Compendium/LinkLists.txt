@@ -1,0 +1,73 @@
+LinkList: Forums
+Menu: Link	All Forums	https://www.ddo.com/forums/	
+Menu: Link	New Posts	https://www.ddo.com/forums/search.php?do=getnew&contenttype=vBForum_Post	
+Menu: Link	Dev Tracker	https://www.ddo.com/en/forums/post_tracker.php?tracker=devtracker	
+Menu: Separator	-		
+Menu: Link	General Discussion	https://www.ddo.com/forums/forumdisplay.php/37	
+Menu: Link	New Players	https://www.ddo.com/forums/forumdisplay.php/81	
+Menu: Link	Classes	https://www.ddo.com/forums/forumdisplay.php/21	
+Menu: Link	Guides & Strategies	https://www.ddo.com/forums/forumdisplay.php/104	
+Menu: Separator	-		
+Menu: Link	Lammania	https://www.ddo.com/forums/forumdisplay.php/9	
+Menu: Link	Lammania Dev Tracker	https://www.ddo.com/en/forums/post_tracker.php?tracker=lamanniatracker	
+Menu: Separator	-		
+Menu: Link	DDO Chronicle	https://www.ddo.com/en/news/ddo-chronicle	
+Menu: Separator	-		
+Menu: Link	DDO Market	http://store.turbine.com/store/turbine/en_US/list/categoryID.58516100/ThemeID.29252200	
+Menu: Link	DDO on Twitter	https://twitter.com/DDOUnlimited	
+Menu: Link	DDO on Facebook	https://www.facebook.com/DDOUnlimited	
+
+LinkList: Wiki
+Menu: Link	Dashboard	http://ddowiki.com/page/User:EllisDee37/Dashboard	
+Menu: Separator	-		
+Menu: Link	Wilderness Areas	http://ddowiki.com/page/Wilderness_adventure_area#Wilderness_Adventure_Areas	
+Menu: Link	Adventure Packs	http://ddowiki.com/page/Adventure_Packs	
+Menu: Link	XP Tables	http://ddowiki.com/page/Experience_point#Experience_Points_to_Level	
+Menu: Link	Sagas	http://ddowiki.com/page/Saga#Sagas_by_Quest_Name	
+
+LinkList: Utilities
+Menu: Shortcut	DDO-ML	DDO-ML.exe	
+Menu: Link	- Forum Thread	https://www.ddo.com/forums/showthread.php/436296-DDO-ML-an-ultrafast-lightweight-DDO-launcher	
+Menu: Separator	-		
+Menu: Link	Shroud Loot Planner	http://www.iro.umontreal.ca/~delallea/ddo/shroud/index.php	
+Menu: Shortcut	Shroud Puzzle Solver	Utils\LightsOut.exe	
+Menu: Separator	-		
+Menu: Shortcut	ADQ Riddle Solver	Utils\ADQ.exe	
+Menu: Separator	-		
+Menu: Shortcut	Stopwatch	Utils\Stopwatch.exe	
+Menu: Separator	-		
+Menu: Link	DDO Wrapper	https://www.ddo.com/forums/showthread.php/465091-DDO-Wrapper-(custom-installer)	
+Menu: Separator	-		
+Menu: Link	Cubicle Ninja	http://solver.cubicleninja.com/	
+Menu: Link	- Greensteel Planner	http://crafting.cubicleninja.com/	
+Menu: Link	- Puzzle Solver	http://solver.cubicleninja.com/	
+
+LinkList: Character Building
+Menu: Shortcut	Character Builder Lite	CharacterBuilderLite.exe	
+Menu: Link	- Forum Thread	https://www.ddo.com/forums/showthread.php/455712	
+Menu: Separator	-		
+Menu: Shortcut	DDO Character Planner	DDOCharGen.exe	
+Menu: Link	- Forum Thread	https://www.ddo.com/forums/showthread.php/427100	
+Menu: Link	- Download	https://github.com/DDOCharPlanner/DDOCharPlannerV4/releases	
+Menu: Separator	-		
+Menu: Link	Build Repository	https://www.ddo.com/forums/showthread.php/470423-Build-Repository	
+
+LinkList: Cannith Crafting
+Menu: Shortcut	Cannith Crafting Builder Lite	CannithCrafting.exe	
+Menu: Shortcut	- Scaling	CannithCrafting.exe	Scaling
+Menu: Shortcut	- Gearset	CannithCrafting.exe	Gearset
+Menu: Shortcut	- Collectables	CannithCrafting.exe	Collectables
+Menu: Shortcut	- Effects	CannithCrafting.exe	Effects
+Menu: Separator	-		
+Menu: Link	Cannith Crafting Planner	http://ccplanner.byethost14.com/?i=1	
+Menu: Link	- Forum Thread	https://www.ddo.com/forums/showthread.php/478016	
+Menu: Separator	-		
+Menu: Link	Collectable Farms	https://www.ddo.com/forums/showthread.php/486116	
+Menu: Link	Collectable Values	https://www.ddo.com/forums/showthread.php/485318	
+Menu: Link	How to farm efficiently	https://www.ddo.com/forums/showthread.php/478811	
+Menu: Separator	-		
+Menu: Link	Leveling Plan	https://www.ddo.com/forums/showthread.php/478548	
+
+LinkList: Colors
+Menu: Shortcut	Black	Utils\Colors.exe	Black
+Menu: Shortcut	Blackgamma	Utils\Colors.exe	Blackgamma

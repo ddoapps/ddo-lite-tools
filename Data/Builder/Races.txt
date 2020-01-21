@@ -1,0 +1,122 @@
+RaceName: Aasimar
+Type: Premium
+Stats: 8, 8, 8, 8, 10, 8
+Flags: BonusFeat
+GrantedFeats1: Healing Hands
+
+RaceName: Aasimar Scourge
+Abbreviation: Scourge
+Type: Iconic
+IconicClass: Ranger
+Stats: 8, 8, 8, 8, 10, 8
+GrantedFeats1: Favored Enemy: Undead
+GrantedFeats1: Healing Hands
+
+RaceName: Bladeforged
+Abbreviation: Blade
+Type: Iconic
+IconicClass: Paladin
+Stats: 8, 6, 10, 8, 6, 8
+GrantedFeats1: Warforged Traits
+
+RaceName: Deep Gnome
+Abbreviation: DpGnome
+Type: Iconic
+IconicClass: Wizard
+Stats: 6, 8, 8, 10, 10, 6
+GrantedFeats1: Martial Weapon: Light Hammer, Martial Weapon: Warhammer, Martial Weapon: Throwing Hammer
+
+RaceName: Dragonborn
+Abbreviation: Dragon
+Type: Premium
+Stats: 10, 6, 8, 8, 8, 10
+Flags: BonusFeat
+
+RaceName: Drow
+Type: Premium
+Stats: 8, 10, 6, 10, 8, 10
+GrantedFeats1: Martial Weapon: Rapier, Martial Weapon: Shortsword
+GrantedFeats1: Exotic Weapon: Shuriken, Shuriken Expertise
+
+RaceName: Dwarf
+Type: Free
+Stats: 8, 8, 10, 8, 8, 6
+
+RaceName: Elf
+Type: Free
+Stats: 8, 10, 6, 8, 8, 8
+GrantedFeats1: Martial Weapon: Longsword, Martial Weapon: Rapier, Martial Weapon: Longbow, Martial Weapon: Shortbow
+Trees: Elf-Arcane Archer
+
+RaceName: Gnome
+Type: Premium
+Stats: 6, 8, 8, 10, 8, 8
+GrantedFeats1: Martial Weapon: Light Hammer, Martial Weapon: Warhammer, Martial Weapon: Throwing Hammer
+
+RaceName: Half-Elf
+Abbreviation: HalfElf
+Type: Premium
+Stats: 8, 8, 8, 8, 8, 8
+Flags: BonusFeat
+Trees: Elf-Arcane Archer
+
+RaceName: Half-Orc
+Abbreviation: HalfOrc
+Type: Premium
+Stats: 10, 8, 8, 6, 8, 6
+
+RaceName: Halfling
+Abbreviation: Halflng
+Type: Free
+Stats: 6, 10, 8, 8, 8, 8
+
+RaceName: Human
+Type: Free
+Stats: 8, 8, 8, 8, 8, 8
+Flags: BonusFeat, BonusSkill, ListFirst
+
+RaceName: Morninglord
+Abbreviation: SunElf
+Type: Iconic
+IconicClass: Cleric
+Stats: 8, 8, 6, 10, 8, 8
+GrantedFeats1: Martial Weapon: Longsword, Martial Weapon: Rapier, Martial Weapon: Longbow, Martial Weapon: Shortbow
+Trees: Elf-Arcane Archer
+
+RaceName: Purple Dragon Knight
+Abbreviation: PDK
+Type: Iconic
+IconicClass: Fighter
+Stats: 8, 8, 8, 8, 8, 8
+Flags: BonusFeat, BonusSkill
+
+RaceName: Shadar-kai
+Abbreviation: Shadar
+Type: Iconic
+IconicClass: Rogue
+Stats: 8, 10, 8, 8, 8, 6
+
+RaceName: Tiefling
+Abbreviation: Tief
+Type: Premium
+Stats: 8, 8, 8, 8, 8, 10
+
+RaceName: Tiefling Scoundrel
+Abbreviation: Scoundr
+Type: Iconic
+IconicClass: Bard
+Stats: 8, 8, 8, 8, 8, 10
+
+RaceName: Warforged
+Abbreviation: Warforg
+Type: Premium
+Stats: 8, 8, 10, 8, 6, 6
+GrantedFeats1: Warforged Traits
+
+RaceName: Wood Elf
+Abbreviation: WoodElf
+SubRace: Elf
+Type: Premium
+Stats: 8, 10, 8, 6, 8, 8
+GrantedFeats1: Martial Weapon: Longsword, Martial Weapon: Rapier, Martial Weapon: Longbow, Martial Weapon: Shortbow
+Trees: Elf-Arcane Archer

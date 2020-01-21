@@ -1,0 +1,395 @@
+SoulGem: Aberration
+{url=https://ddowiki.com/page/Sinister_Storage}Sinister_Storage
+- CR 13-18 Taken 
+
+{url=https://ddowiki.com/page/Reign_of_madness}Reign_of_Madness
+- CR 15? Eye Horror
+
+{url=https://ddowiki.com/page/Ataraxia%27s_Haven}Ataraxia's_Haven_wilderness
+- CR 14-16 Rust Monster
+
+{url=https://ddowiki.com/page/Ruins_of_Gianthold_(heroic)}Ruins_of_Gianthold_wilderness_(heroic)
+- CR 15 Ancient Flayer on Crystal Spin Peak
+
+{url=https://ddowiki.com/page/Tempest%27s_Spine}Tempest's_Spine (elite)
+- CR 14-16 Rust Monster
+
+{url=https://ddowiki.com/page/Temple_of_Elemental_Evil_Part_One}Temple_of_Elemental_Evil_Part_One (heroic elite)
+- CR 15? Temple Umberhulk
+
+{url=https://ddowiki.com/page/Orchard_of_the_Macabre_(heroic)}Orchard_of_the_Macabre_wilderness_(heroic)
+- CR 17 Tahareh, Wandering Beholder
+
+
+SoulGem: Animal
+{url=https://ddowiki.com/page/The_Vale_of_Twilight}The_Vale_of_Twilight_wilderness
+- CR 12 Rat
+- CR 12 Wild Dog
+- CR 12 Fiend Hound
+- CR 15 Spotted Twilight Hyena
+- CR 15-16 Twilight Wolf
+
+{url=https://ddowiki.com/page/High_Road}High_Road_wilderness_(heroic)
+- CR ? Wolves
+- CR ? Bears
+
+
+SoulGem: Dwarf
+{url=https://ddowiki.com/page/Ruins_of_Gianthold_(heroic)}Ruins_of_Gianthold_wilderness_(heroic)
+- CR 12-? Dwarf
+
+{url=https://ddowiki.com/page/A_Relic_of_a_Sovereign_Past}A_Relic_of_a_Sovereign_Past (normal)
+- CR 11 Duergar Guard
+
+{url=https://ddowiki.com/page/The_Lord_of_Stone}The_Lord_of_Stone
+- Duergar
+
+
+SoulGem: Elf
+{url=https://ddowiki.com/page/Sinister_Storage}Sinister_Storage (hard)
+- CR 18 Warehouse Worker
+
+{url=https://ddowiki.com/page/An_Offering_of_Blood}An_Offering_of_Blood (hard)
+- CR 12 Drow elves
+
+{url=https://ddowiki.com/page/Orchard_of_the_Macabre_(heroic)}Orchard_of_the_Macabre_wilderness_(heroic)
+- CR 11 Cultist Sentry
+
+
+SoulGem: Essence of Earth
+{url=https://ddowiki.com/page/The_Lord_of_Eyes}Lord_of_Eyes (casual)
+- CR 16 Prodigal Earth Elemental (infinite respawns)
+
+{url=https://ddowiki.com/page/Taming_the_Flames}Taming_the_Flames (hard)
+- CR 7 Large Earth Elemental (20 or so per run)
+
+{url=https://ddowiki.com/page/A_Small_Problem}A_Small_Problem (elite)
+- CR 12 Spirit of the Rocks (12 per run)
+
+{url=https://ddowiki.com/page/Temple_of_Elemental_Evil_Part_Two}Temple_of_Elemental_Evil_Part_Two (elite)
+- Use the 30HD version to get the correct (regular) soul gems, which makes this farm much more expensive than the alternatives.
+
+SoulGem: Essence of the Crusader
+{url=https://ddowiki.com/page/The_Archons%27_Trial}The_Archons'_Trial (heroic normal)
+- Trumpet Archon
+
+Progress all the way to the puzzle room. After solving the second puzzle, a Trumpet Archon attacks you. When I tested this, casting Trap the Soul on her created the soul gems but didn't kill her, so I spammed a dozen soul gems from her just for the heck of it.
+
+
+SoulGem: Essence of the Destroyer
+{url=https://ddowiki.com/page/Purge_the_Fallen_Shrine}Purge_the_Fallen_Shrine (hard)
+- Cacodemon
+- Pyrodemon
+
+{url=https://ddowiki.com/page/Invaders!}Invaders!
+- Flesh Renders
+- Ice Flensers
+
+
+SoulGem: Essence of the Dominator
+{url=https://ddowiki.com/page/Grim_and_Barett}Grim_and_Barett (heroic)
+- Abishai (right at start, very quick farm)
+
+{url=https://ddowiki.com/page/The_Vale_of_Twilight}The_Vale_of_Twilight_wilderness
+- CR 15 Orthon
+- CR 15 Bearded Devil
+- CR 16 Bezekira
+
+
+SoulGem: Giant
+{url=https://ddowiki.com/page/Ruins_of_Gianthold_(heroic)}Ruins_of_Gianthold_wilderness_(heroic)
+- CR 12-? Giant
+- CR 12-? Troll
+- CR 12-? Ogre
+
+{url=https://ddowiki.com/page/The_Vale_of_Twilight}The_Vale_of_Twilight_wilderness
+- CR 15 Fiend-Blood Troll
+
+
+SoulGem: Gnoll
+{url=https://ddowiki.com/page/Ruins_of_Gianthold_(heroic)}Ruins_of_Gianthold_wilderness_(heroic)
+- CR 12-? Gnoll
+
+
+SoulGem: Goblinoid
+{url=https://ddowiki.com/page/Ruins_of_Gianthold_(heroic)}Ruins_of_Gianthold_wilderness_(heroic)
+- CR 12-15 Hobgoblin
+
+Jump off west heading toward Prison of the Planes, they're north before large dragon statue. (There are CR10s, 12s and 15s there; the 10s give Weak gems.)
+
+
+SoulGem: Halfling
+{url=https://ddowiki.com/page/Hiding_in_Plain_Sight}Hiding_in_Plain_Sight (elite)
+- CR 12 Cartel Smuggler
+
+{url=https://ddowiki.com/page/Foundation_of_Discord}Foundation_of_Discord (hard)
+- CR 12 Copper Concord Rogue
+
+
+SoulGem: Human
+{url=https://ddowiki.com/page/Ruins_of_Gianthold_(heroic)}Ruins_of_Gianthold_wilderness_(heroic)
+- CR 12-? Zakya Cultist
+
+{url=https://ddowiki.com/page/Harbinger_of_Madness}Harbinger_of_Madness
+- CR 12-? Crazed Follower
+
+
+SoulGem: Living Construct
+{url=https://ddowiki.com/page/Haywire_Foundry}Haywire_Foundry (heroic hard)
+- Warforged
+
+
+SoulGem: Monstrous Humanoid
+{url=https://ddowiki.com/page/Frame_Work}Frame_Work
+- CR 12 Matador Warriors and Shamans
+  (The CR 10 Matador Runts give Weak gems.)
+
+{url=https://ddowiki.com/page/Ruins_of_Gianthold_(heroic)}Ruins_of_Gianthold_wilderness_(heroic)
+- CR 12-? Minotaur
+
+
+SoulGem: Ooze
+{url=https://ddowiki.com/page/The_Pit}The_Pit (elite)
+- CR 12 Huge Grey Ooze 
+(bottom of The Pit; no need for completion, simply drop straight down first shaft)
+
+{url=https://ddowiki.com/page/Tomb_of_the_Blighted}Tomb_of_the_Blighted (hard?)
+- CR 12-? Blight Ooze
+
+{url=https://ddowiki.com/page/Subterrane}The_Subterrane_-_Central
+- CR 20 Living Spells
+
+
+SoulGem: Orc
+{url=https://ddowiki.com/page/Ruins_of_Gianthold_(heroic)}Ruins_of_Gianthold_wilderness_(heroic)
+- CR 12-? Orc (Ruins of Gianthold)
+
+{url=https://ddowiki.com/page/Feast_or_Famine}Feast_or_Famine (heroic elite)
+- CR ? Orc
+
+{url=https://ddowiki.com/page/Blockade_Buster}Blockade_Buster (elite)
+- CR ? Orc
+
+
+SoulGem: Plant
+{url=https://ddowiki.com/page/Overgrowth}Overgrowth (heroic normal)
+- CR 17 Vine Horror
+- CR 14 Red Musk Zombie
+- CR 19 Wood Woad
+
+{url=https://ddowiki.com/page/The_Riddle}The_Riddle (normal)
+- CR 19 Vine Horror
+
+
+SoulGem: Reptilian Humanoid
+{url=https://ddowiki.com/page/The_Vale_of_Twilight}The_Vale_of_Twilight_wilderness
+- CR 15-16 Fiend-Blood Troglodyte
+
+{url=https://ddowiki.com/page/The_Pit}The_Pit (elite)
+- CR 11 Juibless Devotee Troglodyte
+
+
+SoulGem: Strong Aberration
+{url=https://ddowiki.com/page/Finding_the_Path}Finding_the_Path (hard)
+- CR 22 Dream Reaver
+
+{url=https://ddowiki.com/page/Sinister_Storage}Sinister_Storage (elite)
+- CR 21 Mind Flayer
+
+
+SoulGem: Strong Animal
+{url=https://ddowiki.com/page/High_Road}High_Road_wilderness_(epic)
+- Wolves
+- Bears
+
+{url=https://ddowiki.com/page/Fathom_the_Depths}Fathom_the_Depths (epic)
+- Rat
+
+{url=https://ddowiki.com/page/Dream_Conspiracy}Dream_Conspiracy (elite)
+- CR 22 Rat
+
+
+SoulGem: Strong Dragon
+{url=https://ddowiki.com/page/The_Storm_Horns}The_Storm_Horns (heroic)
+- Pseudodragon
+
+These have a chance to spawn inside camps. Easiest is to teleport to Northern camp and head directly south to the camp right there. If no pseudodragons spawned, recall and reset.
+
+Note that unlike dragons, pseudodragons are small, the size of regular mobs. Just look for wings flapping in the sea of trash mobs.
+
+
+SoulGem: Strong Dwarf
+{url=https://ddowiki.com/page/Ruins_of_Gianthold_(epic)}Ruins_of_Gianthold_wilderness_(epic)
+- CR 25 Gold Concord
+
+{url=https://ddowiki.com/page/The_Sane_Asylum}The_Sane_Asylum (elite)
+- CR 25 Shady Character
+
+
+SoulGem: Strong Elf
+{url=https://ddowiki.com/page/Sinister_Storage}Sinister_Storage (elite)
+- CR 21 Warehouse Worker
+
+{url=https://ddowiki.com/page/Monastery_of_the_Scorpion}Monastery_of_the_Scorpion (elite)
+- CR 25 Drow Cleric
+
+{url=https://ddowiki.com/page/Prey_on_the_Hunter}Prey_on_the_Hunter (elite)
+- CR 25 Drow Slave
+
+
+SoulGem: Strong Essence of the Crusader
+{url=https://ddowiki.com/page/The_Archons%27_Trial}The_Archons'_Trial (epic normal)
+- Trumpet Archon
+
+Progress all the way to the puzzle room. After solving the second puzzle, a Trumpet Archon attacks you. When I tested this, casting Trap the Soul on her created the soul gems but didn't kill her, so I spammed a dozen soul gems from her just for the heck of it.
+
+Note: I tested this on heroic, not epic.
+
+
+SoulGem: Strong Essence of the Destroyer
+{url=https://ddowiki.com/page/The_Demonweb}The_Demonweb
+- Dretch
+- Hezrou
+
+Unconfirmed. You need CR21+ demons to get strong destroyer gems. The Demonweb seems like a logical choice.
+
+
+SoulGem: Strong Essence of the Dominator
+{url=https://ddowiki.com/page/Grim_and_Barett}Grim_and_Barett (epic)
+- Abishai (right at start, very quick farm)
+
+
+SoulGem: Strong Giant
+{url=https://ddowiki.com/page/Ruins_of_Gianthold_(epic)}Ruins_of_Gianthold_wilderness_(epic)
+- Giants
+- Trolls
+- Ogres
+
+{url=https://ddowiki.com/page/The_Coalescence_Chamber}The_Coalescence_Chamber (elite)
+- CR 25 Fiend-Blood Troll
+
+{url=https://ddowiki.com/page/Prey_on_the_Hunter}Prey_on_the_Hunter (elite)
+- CR 29 Frost Giant Cleric
+
+
+SoulGem: Strong Gnoll
+{url=https://ddowiki.com/page/Ritual_Sacrifice}Ritual_Sacrifice (elite)
+- CR 23 Windlasher Harbinger
+- CR 23 Windlasher Conjurer
+- CR 23 Windlasher Austere
+
+
+SoulGem: Strong Goblinoid
+{url=https://ddowiki.com/page/Ruins_of_Gianthold_(epic)}Ruins_of_Gianthold_wilderness_(epic)
+- CR 25 Cloven-Jaw
+
+
+SoulGem: Strong Halfling
+{url=https://ddowiki.com/page/I_Dream_of_Jeets}I_Dream_of_Jeets (hard)
+- CR 22 Bellisandra/Jessandra/Lilandra Tidy, Spa
+- CR 22 Ego 
+- CR 23 Jeets
+
+
+SoulGem: Strong Human
+{url=https://ddowiki.com/page/Sinister_Storage}Sinister_Storage (elite)
+- CR 21 Warehouse Worker
+
+{url=https://ddowiki.com/page/The_Mindsunder}The_Mindsunder (hard)
+- CR 22-24 Dar Qat Archers and Soldiers
+
+
+SoulGem: Strong Living Construct
+{url=https://ddowiki.com/page/Haywire_Foundry}Haywire_Foundry (epic)
+- Warforged
+
+
+SoulGem: Strong Monstrous Humanoid
+{url=https://ddowiki.com/page/The_Red_Fens}The_Red_Fens (any quest on epic...hard?)
+- Sahuagin
+
+{url=https://ddowiki.com/page/The_Lord_of_Stone}The_Lord_of_Stone (elite)
+- CR 21 Gargoyle Minion
+- CR 23 Medusa Attendant
+
+{url=https://ddowiki.com/page/Genesis_Point}Genesis_Point (hard)
+- CR 23 Diseased Wildman
+
+
+SoulGem: Strong Ooze
+{url=https://ddowiki.com/page/Tomb_of_the_Blighted}Tomb_of_the_Blighted (elite)
+- CR 17 Blight Ooze
+
+{url=https://ddowiki.com/page/The_Snitch}The_Snitch (epic normal)
+- CR 22 Ochre Jelly
+
+{url=https://ddowiki.com/page/Bastion_of_Power}Bastion_of_Power (elite)
+- CR 21? Gelatinous Cube
+
+{url=https://ddowiki.com/page/Rainbow_in_the_Dark}Rainbow_in_the_Dark (elite)
+- CR 22 Gelatinous Cube
+(There are also CR 19 Cubes in elite that give regular gems)
+
+
+SoulGem: Strong Orc
+{url=https://ddowiki.com/page/Feast_or_Famine}Feast_or_Famine (epic)
+- CR 23-25 Wyrm Cult
+
+{url=https://ddowiki.com/page/The_Sane_Asylum}The_Sane_Asylum (elite)
+- CR 26 Receptionist
+
+
+SoulGem: Strong Plant
+{url=https://ddowiki.com/page/Overgrowth}Overgrowth (epic)
+- Vine Horror
+- Red Musk Zombie
+- Wood Woad
+
+
+SoulGem: Strong Reptilian Humanoid
+{url=https://ddowiki.com/page/The_Coalescence_Chamber}The_Coalescence_Chamber (elite)
+- CR 22 Fiend-Blood Troglodye Stalker
+- CR 22 Fiend-Blood Troglodye Ranger
+- CR 23 Fiend-Blood Troglodye Warmaster
+- CR 23 Fiend-Blood Troglodye Theurge
+
+{url=https://ddowiki.com/page/Enter_the_Kobold}Enter_the_Kobold (elite)
+- CR ?? Paragon Kobold Warrior
+
+{url=https://ddowiki.com/page/Genesis_Point}Genesis_Point (hard)
+- CR 21 Fiendish Troglodyte Shaman
+
+
+SoulGem: Strong Undead
+{url=https://ddowiki.com/page/The_Black_Loch}The_Black_Loch (epic normal)
+- CR 21+ Zombies
+
+{url=https://ddowiki.com/page/Fathom_the_Depths}Fathom_the_Depths (epic)
+- Drowned (zombies)
+
+
+SoulGem: Strong Vermin
+{url=https://ddowiki.com/page/High_Road}High_Road_wilderness_(epic)
+- Spiders
+
+{url=https://ddowiki.com/page/An_Offering_of_Blood}An_Offering_of_Blood (epic)
+- CR 26 Desert Scorpion
+
+{url=https://ddowiki.com/page/Monastery_of_the_Scorpion}Monastery_of_the_Scorpion (elite)
+- CR 25 Claw of Vulkoor
+
+
+SoulGem: Undead
+{url=https://ddowiki.com/page/Orchard_of_the_Macabre_(heroic)}Orchard_of_the_Macabre_wilderness_(heroic)
+- CR 12 Greater Shadow
+- CR 13 Undying Goetic
+- CR 13 Undying Legionnaire
+- CR 13 Harbinger Corpse
+
+{url=https://ddowiki.com/page/The_Chamber_of_Insanity}The_Chamber_of_Insanity (hard)
+- CR 11 Shade
+
+
+SoulGem: Vermin
+{url=https://ddowiki.com/page/High_Road}High_Road_wilderness_(heroic)
+- Spiders

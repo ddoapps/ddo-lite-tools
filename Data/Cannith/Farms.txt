@@ -1,0 +1,327 @@
+Farm: A Small Problem
+Time: 2:30
+Video: https://youtu.be/_JY6HSShIq4
+Natural: 10
+Need: Invisibility, DDoor for fast recall
+Fight: Nothing
+Notes: All naturals all the time. Straight ahead very far for 1st, east from there for 2nd, now just past brothers' tent for 3rd, then 4th as you leave brothers' area. 5th is behind bushes most of the way to waterfall, jump down to waterfall and work along northeastern edge of map for five more, ending on a hill. DDoor and reset.
+Notes: NOTE: Don't collect any Flowering Plants, as they don't give collectables used in crafting.
+
+Farm: Assault on Summerfield
+Time: 1:15
+Video: https://youtu.be/hqaX82ZbI2A
+Natural: 9
+Need: Invisibility, DDoor for fast recall
+Fight: Nothing
+Notes: All natural all the time. Go up top and jump off. Get mushroom and moss, head East through smoke for another mushroom, come back West for mushroom and moss. Now go south into enemy camp for moss, mushroom, moss and mushroom. DDoor and reset.
+
+Farm: Breaking the Ranks
+Time: 0:40
+Video: https://youtu.be/x1gcazuW4P4
+Natural: 5
+Flags: Realms
+Need: Jump (40?)
+Fight: Nothing
+Notes: Run past shrine to get bonepile (Natural), use log in front of gnolls gate to jump inside and get four more (Naturalx4), run back to exit to reset.
+
+Farm: Caged Trolls
+Time: 0:30
+Video: https://youtu.be/TE_ZwtuvkI8
+Arcane: 1
+Need: DDoor for fast recall
+Fight: Humans
+Notes: Alchemy table (Arcane) in first room, run back to entrance to reset. Use DDoor for fast recall every other run.
+
+Farm: Demons
+Wiki: Demon
+Flags: Treasure Bag
+Notes: Servants of the Overlord||...endless respawns in the "extreme challenge" optional
+Notes: Invaders!
+Notes: Purge the Fallen Shrine
+
+Farm: Desecrated Temple of Vol
+Time: 0:50
+Video: https://youtu.be/pi7vgXUdJ_A
+Any: 2
+Arcane: 1
+Need: Invisibility, DDoor for fast recall
+Fight: Usually nothing
+Notes: Drop down and turn right-side lever, run down the trapped hall grabbing a backpack (Any) on left side as you go. Get crude altar (Arcane) and another backpack (Any) just left of it tucked away under the stairs. Recall and reset. Use DDoor every other run to speed up recall.
+
+Farm: Elementals
+Wiki: Elemental type
+Flags: Treasure Bag
+Notes: Taming the Flames
+Notes: The Lord of Eyes
+Notes: A Relic of a Sovereign Past
+Notes: Tempest's Spine
+
+Farm: Eyes of Stone
+Time: 1:30
+Video: https://youtu.be/Bkj8j0NiJPU
+Arcane: 1
+Lore: 3
+Natural: 1
+Need: Invisibility, Jump 29
+Fight: Nothing
+Notes: Talk to Tollis, enter palace, talk to Ona, head west to Archive. Working counter-clockwise get bookshelf (Lore), moss (Natural), bookshelf (Lore), cabinet (Arcane), bookshelf (Lore). Recall and reset.
+
+Farm: Giants
+Wiki: Giant race
+Flags: Treasure Bag
+Notes: Gianthold Tor
+Notes: Ruins of Gianthold (wilderness)|Ruins of Gianthold (heroic)
+
+Farm: Gnolls
+Wiki: Gnoll race
+Flags: Treasure Bag
+Notes: Sands of Menechtarun
+Notes: Chains of Flame
+Notes: The Chamber of Rahmat
+Notes: Ritual Sacrifice
+
+Farm: Goblinoids
+Wiki: Goblinoid type
+Flags: Treasure Bag
+Notes: The Tear of Dhakaan||...endless respawns in city
+Notes: Gladewatch Outpost Defense
+Notes: Ruins of Gianthold|Ruins of Gianthold (heroic)
+Notes: Three-Barrel Cove wilderness|Three-Barrel Cove (heroic)
+Notes: The Seal of Shan-To-Kor
+Notes: Tangleroot Gorge
+
+Farm: Kobolds
+Wiki: Kobold
+Flags: Treasure Bag
+Notes: Kobold Assault
+Notes: Walk the Butcher's Path
+Notes: The Kobolds' New Ringleader
+Notes: The Waterworks
+Notes: The Cloven-jaw Scourge: Blockade
+
+Farm: Precious Cargo
+Time: 0:50
+Video: https://youtu.be/L0vlghah07I
+Any: 2
+Flags: Realms
+Need: Nothing
+Fight: Nothing
+Notes: Talk to Captain Cage to get to airship. Collect backpack (Any) on right, rubble (Any) on left, recall and reset.
+
+Farm: Protect Baudry's Interests
+Time: 0:20
+Video: https://youtu.be/DWwbHoH23HU
+Lore: 1
+Need: Nothing
+Fight: Nothing
+Notes: Get cabinet (Lore) on left, exit, reset. There's also a mushroom (Natural) on the right side but that would just slow you down.
+
+Farm: Repossession
+Time: 0:35
+Video: https://youtu.be/8pHgwIMGVrg
+Lore: 2
+Arcane: 1
+Need: Nothing
+Fight: Nothing
+Notes: Upstairs room on right get bookshelf (Lore), room on left has bookshelf (Lore) and alchemy table (Arcane), return to entrance and reset.
+
+Farm: Schemes of the Enemy
+Time: 2:05
+Video: https://youtu.be/IsHLgrlSBCg
+Any: 1
+Lore: 4
+Natural: 1
+Need: Open Lock 60+, Jump 40, DDoor for fast recall
+Fight: Nothing
+Notes: Run to junk room, get bookshelf (Lore) and backpack (Any), jump back up, climb grate then jump up to ventilation shaft and get moss (Natural). Go down shaft, break floor and fall north to security door lock, pick lock, use lock, now drop down and go through door. Get bookshelf on left (Lore) then run to crystals, climb ladder and get two bookshelves (Lorex2), one at each crystal. DDoor and reset.
+
+Farm: Shadow Crypt
+Time: 0:25
+Arcane: 1
+Need: Nothing
+Fight: Nothing
+Notes: Get crude altar (Arcane) where you port in, recall reset.
+
+Farm: Sinister Storage
+Time: 0:30
+Video: https://youtu.be/nvmq_Eb1Iig
+Natural: 3
+Need: Nothing
+Fight: Nothing
+Notes: Three moss (Naturalx3) randomly placed in six possible spots in room, run back to entrance to reset. Very fast once you get the hang of the six possible spots. (Video shows three consecutive runs to demonstrate.)
+
+Farm: Skeletons
+Wiki: Skeleton
+Flags: Treasure Bag
+Notes: Delera's Tomb story arc|Delera's Tomb
+Notes: Rest for the Restless
+
+Farm: Tavern Brawl
+Wiki: Tavern Brawl (quest)
+Time: 0:30
+Video: https://youtu.be/BQUO8ufZWic
+Any: 1
+Need: Invisibility
+Fight: Nothing
+Notes: Talk to wizard, cast invisibility, drop down and get backpack (Any) then immediately recall and reset. Fastest if you take off feather fall.
+
+Farm: Terminal Delirium
+Time: 2:40
+Video: https://youtu.be/NoS8h8vYf1E
+Any: 1
+Arcane: 5
+Lore: 3
+Natural: 1
+Need: Open Lock (Miss out on 3x Arcane without it.)
+Fight: Beholders, medusas, mind flayers, gargoyles, eye terrors
+Notes: Run up stairs, kill all the mobs and get Servant's Key. Use key downstairs, kill mobs, get bookcase (Lore) from room on left and moss (Natural) in pool, talk to Belashyrra.
+Notes: Return upstairs to bar to talk to Belashyrra again, head into back rooms. Get cabinet (Arcane) and backpack (Any) from first room on left, bookcase (Lore) from third room on left, open locked door to medusa room on way out for two cabinets (Arcanex2) and alchemy table (Arcane).
+Notes: Go downstairs to kitchen get bookcase (Lore) and cabinet (Arcane), run to exit leave reset.
+
+Farm: Terminal Delirium (Lore)
+Wiki: Terminal Delirium
+Time: 2:20
+Any: 1
+Arcane: 2
+Lore: 3
+Natural: 1
+Need: Nothing
+Fight: Beholders, medusas, mind flayers, gargoyles, eye terrors
+Notes: Same as regular farm, but skip the three arcanes in the medusa room to shave off 20 seconds.
+
+Farm: The Depths of Discord
+Time: 1:00
+Video: https://youtu.be/18kIC1Icf78
+Natural: 3
+Need: DDoor for fast recall
+Fight: Troglodytes, wolves, minotaurs
+Notes: Get mushroom (Natural) in western alcove, turn valve in east to open door, get mushroom (Natural) along left wall in water, end at mushroom (Natural) by wolves. DDoor and reset.
+Notes: Note: By the time you finish killing everything to recall, DDoor will be off cooldown. So you can't really go faster than the 1:00 DDoor cooldown unless you're on a sorcerer.
+
+Farm: The Enemy Within
+Time: 3:05
+Video: https://youtu.be/hGeM2d3Vazw
+Any: 1
+Arcane: 10
+Need: AoE damage to kill large groups, DDoor for fast recall
+Fight: Frostmarrow skeletons
+Notes: Get backpack (Any) at blue wall by golems. Break door for crude altar (Arcane), kill skeletons to proceed.
+Notes: Up stairs kill skeleton archers to open doors, go right for 4 alchemy tables (Arcanex4), left for five more (Arcanex5), DDoor, reset.
+Notes: Optionally pick up treasure bags from skeletons if you need undead-themed tier 2 culture (Funerary Tokens, etc...)
+
+Farm: The House of Rusted Blades
+Time: 1:10
+Video: https://youtu.be/BqfDH0aCndc
+Arcane: 2
+Need: Nothing
+Fight: Nothing
+Notes: Go right while still upstairs, wrap around and drop down for cabinet (Arcane) then head straight out to dining hall, get cabinet (Arcane) on right. Recall reset.
+
+Farm: The Last Stand
+Time: 0:45
+Video: https://youtu.be/0db45UE8p8w
+Natural: 3
+Need: DDoor for fast recall
+Fight: Nothing
+Notes: Move around edges of map clockwise to collect three moss (Naturalx3). Recall and reset. Use DDoor every other run for faster recall.
+
+Farm: The Lords of Dust
+Time: 4:00
+Natural: 8
+Lore: 1
+Any: 3
+Need: Normal quest stuff
+Fight: Everything
+Notes: Not so much a collectable farm as a quest you run normally, picking up collectables as you go. 
+Notes: Upstairs in left room get fungus (Natural), then after door in hall get fungus (Natural), first room on right get bookshelf (Lore) and backpack (Any), in hall get fungus (Natural), second room on right get two backpacks (Anyx2), next hall get moss (Natural), trap hall get mold (Natural), in conversation room get fungus (Natural), next room get fungus (Natural), shrine room get moss (Natural). Recall and reset if farming, otherwise finish quest for xp.
+
+Farm: The Mask of Deception
+Time: 1:00
+Video: https://youtu.be/krq7k_tJCZM
+Arcane: 1
+Lore: 1
+Flags: Realms
+Need: DDoor for fast recall
+Fight: Two cultists
+Notes: Kill the two cultists at start, equip mask, enter complex. Open door straight ahead for bookshelf (Arcane), then go north to the tavern for cabinet (Lore). DDoor and reset.
+Notes: Note: Heroic Casual drops Tier 3 Arcane but Tier 4 Lore.
+
+Farm: The Unquiet Graves
+Time: 1:00
+Video: https://youtu.be/6qmO7oinZOk
+Any: 2
+Natural: 1
+Need: DDoor for fast recall
+Fight: Nothing
+Notes: Head East then North for backpack (Any) behind a building, continue West for bonepile (Natural) behind a building, keep going West for backpack (Any), wait for DDoor to come off cooldown, DDoor and reset.
+
+Farm: Through a Mirror Darkly
+Time: 4:05
+Video: https://youtu.be/MkKRR9sEMNM
+Arcane: 10
+Flags: Realms
+Need: DDoor for fast recall
+Fight: Shadar-kai, shadows
+Notes: Ten cabinets (Arcane), six of which are in the four corners of both floors on either side. Also two more in the Eastern hall of the first floor, one in the Howler Master room, and one just inside the Arcane Assassin room.
+Notes: The path in the video uses DDoor, but isn't required. Just run back to the southern stairs instead. (Might be just as fast.)
+
+Farm: Tomb of the Crimson Heart
+Time: 1:15
+Video: https://youtu.be/R-PdV2_NNGI
+Arcane: 4
+Any: 1
+Natural: 1
+Need: True Seeing, DDoor for fast recall
+Fight: Wights, humans
+Notes: From first rune go east to get crude altar (Arcane), back to first rune then north for another (Arcane), back to first rune then finally west => north => west. Get crude altar (Arcane) then open secret door to get another (Arcane). On the way west there will be 0-2 moss (Natural), and in the final room there will be 0-2 backpacks (Any).
+
+Farm: Tomb of the Immortal Heart
+Time: 1:10
+Video: https://youtu.be/TJirI2bLIjU
+Arcane: 1
+Lore: 3
+Need: Open Lock, True Seeing, DDoor for fast recall
+Fight: Wights, Humans
+Notes: Get bookshelf (Lore) and alchemy table (Arcane) from locked room in bottom right, head north along right wall to open two secret doors for another two bookshelves (Lorex2), DDoor reset.
+Notes: There's actually 10 arcane and 4 lore in the dungeon, but it takes 4:00 to collect them all. It may be worth it if you need both arcane and lore.
+
+Farm: Tomb of the Unhallowed
+Time: 0:35
+Video: https://youtu.be/tbhtFlOsggc
+Lore: 1
+Need: Nothing
+Fight: Usually nothing
+Notes: Run straight north, get bookshelf (Lore) on right, run back to start, exit, reset. Sometimes mobs block you in and have to be killed to get past.
+
+Farm: Troglodytes
+Wiki: Troglodyte
+Flags: Treasure Bag
+Notes: The Pit
+Notes: The Troglodytes' Get
+
+Farm: Trolls
+Wiki: Troll
+Flags: Treasure Bag
+Notes: Gateway to Khyber
+Notes: Trial by Fire
+
+Farm: Wights
+Wiki: Wight
+Flags: Treasure Bag
+Notes: The Bloody Crypt
+Notes: The Crypt of Gerard Dryden
+
+Farm: Wheloon Prison
+Time: 4:00
+Video: https://youtu.be/rwy4041SVsw
+Any: 16
+Flags: Realms
+Need: Invisibility
+Fight: Nothing
+Notes: 20 backpacks (Anyx20) and 3 cabinets (Arcanex3) all over the map. 17 of the backpacks line up in an efficient farming path, and skipping the one in the bookstore is more efficient still. See {url=https://www.ddo.com/forums/showthread.php/485586-Wheloon-Prison-backpack-farming}this_forum_thread for map.
+
+Farm: Zombies
+Wiki: Zombie
+Flags: Treasure Bag
+Notes: The Graverobber
+Notes: The Black Loch

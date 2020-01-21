@@ -1,0 +1,3539 @@
+ShardName: Aberration Bane
+ShortName: Aberr Bane
+Group: Bane
+Scaling: Bane
+Suffix: 2H Melee; Handwraps; 1H Melee; Range
+BoundLevel: 50
+BoundEssences: 50
+BoundIngredients: 15 Cryptmoss Worm Larva; 1 Soul Gem: Aberration
+UnboundLevel: 200
+UnboundEssences: 400
+UnboundIngredients: 30 Cryptmoss Worm Larva; 1 Soul Gem: Strong Aberration; 2 Tome: Myths of Old Xen'drik; 2 Purified Eberron Dragonshard
+Demand: Rarely Used
+
+ShardName: Abjuration Focus
+ShortName: Abjure Focus
+Group: Spell DC
+Scaling: Spell Focus
+Prefix: Goggles; Necklace; Trinket; Orb; Runearm
+BoundLevel: 50
+BoundEssences: 50
+BoundIngredients: 15 Blade of the Dark Six; 5 Powdered Blood
+UnboundLevel: 200
+UnboundEssences: 400
+UnboundIngredients: 30 Blade of the Dark Six; 10 Powdered Blood; 2 Shamanic Totem; 2 Purified Eberron Dragonshard
+Demand: Rarely Used
+
+ShardName: Accuracy
+Group: DPS
+Suffix: Helmet; Goggles; Trinket
+BoundLevel: 50
+BoundEssences: 50
+BoundIngredients: 15 Caravan Logbook; 5 Signet of the Devourer
+UnboundLevel: 200
+UnboundEssences: 400
+UnboundIngredients: 30 Caravan Logbook; 10 Signet of the Devourer; 5 Luminescent Dust; 2 Purified Eberron Dragonshard
+Demand: Common
+
+ShardName: Acid Absorption
+Group: Absorb
+Scaling: Energy Absorption
+Prefix: Ring; Trinket; Shield; Orb; Runearm; Metal Armor; Leather Armor; Cloth Armor; Docent
+Suffix: Cloak; Trinket
+BoundLevel: 50
+BoundEssences: 50
+BoundIngredients: 15 Skull Fragment; 5 Signet of the Devourer
+UnboundLevel: 200
+UnboundEssences: 400
+UnboundIngredients: 30 Skull Fragment; 10 Signet of the Devourer; 2 Lush Cryptmoss; 2 Purified Eberron Dragonshard
+Demand: Rarely Used
+
+ShardName: Acid Effect
+Group: Proc
+Scaling: Damage Effect
+Prefix: 2H Melee; Handwraps; 1H Melee; Range
+BoundLevel: 50
+BoundEssences: 50
+BoundIngredients: 15 Phoenix Tavern Purchase Order; 5 Powdered Blood
+UnboundLevel: 200
+UnboundEssences: 400
+UnboundIngredients: 30 Phoenix Tavern Purchase Order; 10 Powdered Blood; 2 Shamanic Totem; 2 Purified Eberron Dragonshard
+Demand: Rarely Used
+
+ShardName: Acid Guard
+Group: Guard
+Scaling: Guard
+Suffix: Boots; Trinket; Shield; Orb; Metal Armor; Leather Armor; Cloth Armor; Docent
+BoundLevel: 1
+BoundEssences: 10
+BoundIngredients: 15 Amber Vial; 5 Vial of Pure Water
+UnboundLevel: 150
+UnboundEssences: 300
+UnboundIngredients: 30 Amber Vial; 10 Vial of Pure Water; 5 Vial of Contagion; 2 Purified Eberron Dragonshard
+Demand: Rarely Used
+
+ShardName: Acid Lore
+Group: Spell Lore
+Scaling: Spell Lore (one type)
+Prefix: Ring; Trinket; Runearm
+Suffix: 2H Melee; Handwraps; 1H Melee; Range; Orb
+BoundLevel: 100
+BoundEssences: 100
+BoundIngredients: 15 Duskbrood Trumpeter; 5 Polished Ore
+UnboundLevel: 250
+UnboundEssences: 500
+UnboundIngredients: 30 Duskbrood Trumpeter; 10 Polished Ore; 2 Tome: History of the Houses; 2 Purified Eberron Dragonshard
+Demand: Niche
+
+ShardName: Acid Resistance
+Group: Resist
+Scaling: Energy Resistance
+Prefix: Cloak; Trinket
+Suffix: Ring; Trinket; Shield; Orb; Metal Armor; Leather Armor; Cloth Armor; Docent
+Extra: Helmet
+BoundLevel: 1
+BoundEssences: 10
+BoundIngredients: 15 String of Prayer Beads; 5 Small Wooden Idol
+UnboundLevel: 150
+UnboundEssences: 300
+UnboundIngredients: 30 String of Prayer Beads; 10 Small Wooden Idol; 5 Tome: Prophecies of Khyber; 2 Purified Eberron Dragonshard
+Demand: Rarely Used
+
+ShardName: Aligned
+Group: Static
+Scaling: None
+ML: -6
+Suffix: 2H Melee; Handwraps; 1H Melee; Range
+BoundLevel: 250
+BoundEssences: 250
+BoundIngredients: 15 Mystical Formula; 5 Glowmoss Spore
+UnboundLevel: 400
+UnboundEssences: 800
+UnboundIngredients: 30 Mystical Formula; 10 Glowmoss Spore; 5 Encoded Communique; 10 Purified Eberron Dragonshard
+Descrip: This weapon transmutes into a form that is able to bypass any alignment based Damage Reduction (Chaotic, Good, Evil, Lawful). {url=http://ddowiki.com/page/Aligned}ddowiki
+Demand: Niche
+
+ShardName: Animal Bane
+Group: Bane
+Scaling: Bane
+Suffix: 2H Melee; Handwraps; 1H Melee; Range
+BoundLevel: 50
+BoundEssences: 50
+BoundIngredients: 15 Withered Cryptmoss; 1 Soul Gem: Animal
+UnboundLevel: 200
+UnboundEssences: 400
+UnboundIngredients: 30 Withered Cryptmoss; 1 Soul Gem: Strong Animal; 2 Tome: Stormreach Imports and Exports, 857 YK; 2 Purified Eberron Dragonshard
+Demand: Rarely Used
+
+ShardName: Armor Piercing
+Group: DPS
+Prefix: 2H Melee; Handwraps; 1H Melee; Range
+Suffix: Gloves; Trinket
+BoundLevel: 50
+BoundEssences: 50
+BoundIngredients: 15 Skull Fragment; 5 Cryptmoss Worm
+UnboundLevel: 200
+UnboundEssences: 400
+UnboundIngredients: 30 Skull Fragment; 10 Cryptmoss Worm; 5 Lush Cryptmoss; 2 Purified Eberron Dragonshard
+Notes: Bug: The shard says it goes shield prefix but it does not.
+Demand: Common
+
+ShardName: Assassinate
+Group: Tactic
+Prefix: Gloves; Trinket
+Suffix: Ring; Trinket; 2H Melee; Handwraps; 1H Melee; Range
+Extra: Goggles; Belt
+BoundLevel: 100
+BoundEssences: 100
+BoundIngredients: 15 Small Planar Crystal; 5 Planar Spoor
+UnboundLevel: 250
+UnboundEssences: 500
+UnboundIngredients: 30 Small Planar Crystal; 10 Planar Spoor; 2 Crystal Decanter; 2 Purified Eberron Dragonshard
+Demand: Niche
+
+ShardName: Balance
+Group: Skill
+Scaling: Skill
+Prefix: Cloak; Boots; Ring; Trinket; Runearm
+Suffix: Belt; Trinket
+BoundLevel: 1
+BoundEssences: 10
+BoundIngredients: 15 Sweet Whitecap; 5 Small Wooden Idol
+UnboundLevel: 150
+UnboundEssences: 300
+UnboundIngredients: 30 Sweet Whitecap; 10 Small Wooden Idol; 2 Vial of Contagion; 2 Purified Eberron Dragonshard
+Demand: Rarely Used
+
+ShardName: Bashing
+Group: Proc
+Suffix: Shield; Orb
+BoundLevel: 50
+BoundEssences: 50
+BoundIngredients: 15 Withered Cryptmoss; 5 Sparkling Dust
+UnboundLevel: 200
+UnboundEssences: 400
+UnboundIngredients: 30 Withered Cryptmoss; 10 Sparkling Dust; 2 Luminescent Dust; 2 Purified Eberron Dragonshard
+Descrip: Damage proc, similar to Shield Spikes
+Demand: Niche
+
+ShardName: Blindness Immunity
+ShortName: Blindness Ward
+Group: Static
+Scaling: None
+ML: -4
+Prefix: Goggles; Ring; Trinket; Runearm
+BoundLevel: 250
+BoundEssences: 250
+BoundIngredients: 15 Smoldering Ember; 5 Warehouse Ledger
+UnboundLevel: 400
+UnboundEssences: 800
+UnboundIngredients: 30 Smoldering Ember; 10 Warehouse Ledger; 5 Encoded Communique; 10 Purified Eberron Dragonshard
+Demand: Obsolete
+
+ShardName: Bludgeon Effect
+Group: Proc
+Scaling: Damage Effect
+Suffix: 2H Melee; Handwraps; 1H Melee; Range
+BoundLevel: 50
+BoundEssences: 50
+BoundIngredients: 15 Skull Fragment; 5 Cryptmoss Worm
+UnboundLevel: 200
+UnboundEssences: 400
+UnboundIngredients: 30 Skull Fragment; 10 Cryptmoss Worm; 2 Luminescent Dust; 2 Purified Eberron Dragonshard
+Demand: Uncommon
+
+ShardName: Blueshine
+Group: Static
+Scaling: None
+ML: -2
+Prefix: Metal Armor; Docent
+BoundLevel: 250
+BoundEssences: 250
+BoundIngredients: 15 Mortar and Pestle; 5 Warehouse Ledger
+UnboundLevel: 400
+UnboundEssences: 800
+UnboundIngredients: 30 Ritual Candle; 10 Warehouse Ledger; 5 Scarlet Cryptmoss; 10 Purified Eberron Dragonshard
+Descrip: Blueshine armor is immune to ooze and rust monsters. It can only be crafted on metal armor. {url=http://ddowiki.com/page/Blueshine}ddowiki
+Warning: Blueshine only goes on metal armor and docents.
+Demand: Rarely Used
+
+ShardName: Bluff
+Group: Skill
+Scaling: Skill
+Prefix: Gloves; Trinket; Runearm
+Suffix: Necklace; Ring; Trinket
+BoundLevel: 1
+BoundEssences: 10
+BoundIngredients: 15 String of Prayer Beads; 5 Deadly Feverblanch
+UnboundLevel: 150
+UnboundEssences: 300
+UnboundIngredients: 30 String of Prayer Beads; 10 Deadly Feverblanch; 2 Icon of Khyber; 2 Purified Eberron Dragonshard
+Demand: Niche
+
+ShardName: Chaos Effect
+Group: Proc
+Scaling: Damage Effect
+Prefix: 2H Melee; Handwraps; 1H Melee; Range
+BoundLevel: 100
+BoundEssences: 100
+BoundIngredients: 15 Small Planar Crystal; 5 Silver Flame Hymnal
+UnboundLevel: 250
+UnboundEssences: 500
+UnboundIngredients: 30 Small Planar Crystal; 10 Silver Flame Hymnal; 2 Elemental Ingot; 2 Purified Eberron Dragonshard
+Demand: Niche
+
+ShardName: Chaotic Outsider Bane
+ShortName: Chaos Out Bane
+Group: Bane
+Scaling: Bane
+Suffix: 2H Melee; Handwraps; 1H Melee; Range
+BoundLevel: 50
+BoundEssences: 50
+BoundIngredients: 15 Funerary Token; 1 Soul Gem: Essence of the Destroyer
+UnboundLevel: 200
+UnboundEssences: 400
+UnboundIngredients: 30 Funerary Token; 1 Soul Gem: Strong Essence of the Destroyer; 2 Lush Cryptmoss; 2 Purified Eberron Dragonshard
+Demand: Niche
+
+ShardName: Charisma
+Group: Ability
+Scaling: Stat
+Prefix: Cloak; Ring; Trinket
+Suffix: Necklace; Trinket
+BoundLevel: 100
+BoundEssences: 100
+BoundIngredients: 15 Romantic Sonnet; 5 Charred Soarwood
+UnboundLevel: 250
+UnboundEssences: 500
+UnboundIngredients: 30 Romantic Sonnet; 10 Charred Soarwood; 2 Elemental Ingot; 2 Purified Eberron Dragonshard
+Demand: Common
+
+ShardName: Charisma Damaging Effect
+GridName: Cha Damage
+Group: Drain
+Scaling: Stat Damage
+Extra: 2H Melee; Handwraps; 1H Melee
+BoundLevel: 100
+BoundEssences: 100
+BoundIngredients: 15 Bruised Spore Pod; 5 Polished Ore
+UnboundLevel: 250
+UnboundEssences: 500
+UnboundIngredients: 30 Bruised Spore Pod; 10 Polished Ore; 2 Elemental Ingot; 2 Purified Eberron Dragonshard
+Demand: Rarely Used
+
+ShardName: Cold Absorption
+Group: Absorb
+Scaling: Energy Absorption
+Prefix: Ring; Trinket; Shield; Orb; Runearm; Metal Armor; Leather Armor; Cloth Armor; Docent
+Suffix: Cloak; Trinket
+BoundLevel: 50
+BoundEssences: 50
+BoundIngredients: 15 Glittering Dust; 5 Mark of the Keeper
+UnboundLevel: 200
+UnboundEssences: 400
+UnboundIngredients: 30 Glittering Dust; 10 Mark of the Keeper; 2 Cryptmoss Queen; 2 Purified Eberron Dragonshard
+Demand: Rarely Used
+
+ShardName: Cold Effect
+Group: Proc
+Scaling: Damage Effect
+Prefix: 2H Melee; Handwraps; 1H Melee; Range
+BoundLevel: 50
+BoundEssences: 50
+BoundIngredients: 15 Blade of the Dark Six; 5 'Wavecrasher' Cargo Manifest
+UnboundLevel: 200
+UnboundEssences: 400
+UnboundIngredients: 30 Blade of the Dark Six; 10 'Wavecrasher' Cargo Manifest; 2 Cryptmoss Queen; 2 Purified Eberron Dragonshard
+Demand: Rarely Used
+
+ShardName: Cold Lore
+Group: Spell Lore
+Scaling: Spell Lore (one type)
+Prefix: Ring; Trinket; Runearm
+Suffix: 2H Melee; Handwraps; 1H Melee; Range; Orb
+BoundLevel: 100
+BoundEssences: 100
+BoundIngredients: 15 Lodestone; 5 Charred Soarwood
+UnboundLevel: 250
+UnboundEssences: 500
+UnboundIngredients: 30 Lodestone; 10 Charred Soarwood; 2 Tome: Lost Songs of Cyre; 2 Purified Eberron Dragonshard
+Demand: Niche
+
+ShardName: Cold Resistance
+Group: Resist
+Scaling: Energy Resistance
+Prefix: Cloak; Trinket
+Suffix: Ring; Trinket; Shield; Orb; Metal Armor; Leather Armor; Cloth Armor; Docent
+Extra: Helmet
+BoundLevel: 1
+BoundEssences: 10
+BoundIngredients: 15 String of Prayer Beads; 5 Small Wooden Idol
+UnboundLevel: 150
+UnboundEssences: 300
+UnboundIngredients: 30 String of Prayer Beads; 10 Small Wooden Idol; 5 Icon of Khyber; 2 Purified Eberron Dragonshard
+Demand: Rarely Used
+
+ShardName: Combat Mastery
+ShortName: Combat Mast
+Group: Tactic
+Prefix: Boots; Trinket; Shield; Orb; Metal Armor; Leather Armor; Cloth Armor; Docent
+Suffix: Trinket
+BoundLevel: 100
+BoundEssences: 100
+BoundIngredients: 15 Singed Soarwood; 5 Moonstone
+UnboundLevel: 250
+UnboundEssences: 500
+UnboundIngredients: 30 Singed Soarwood; 10 Moonstone; 2 Elemental Ingot; 2 Purified Eberron Dragonshard
+Demand: Uncommon
+
+ShardName: Combustion
+Group: Spellpower
+Scaling: Spellpower
+Prefix: Gloves; Trinket; 2H Melee; Handwraps; 1H Melee; Shield; Orb; Range; Metal Armor; Leather Armor; Cloth Armor; Docent
+Suffix: Necklace; Ring; Trinket; Runearm
+BoundLevel: 50
+BoundEssences: 50
+BoundIngredients: 15 Phoenix Tavern Purchase Order; 5 Powdered Blood
+UnboundLevel: 200
+UnboundEssences: 400
+UnboundIngredients: 30 Phoenix Tavern Purchase Order; 10 Powdered Blood; 2 Shamanic Totem; 2 Purified Eberron Dragonshard
+Demand: Niche
+
+ShardName: Concentration
+Group: Skill
+Scaling: Skill
+Prefix: Helmet; Goggles; Trinket; Runearm
+BoundLevel: 1
+BoundEssences: 10
+BoundIngredients: 15 Page Torn from a Research Notebook; 5 Vial of Pure Water
+UnboundLevel: 150
+UnboundEssences: 300
+UnboundIngredients: 30 Page Torn from a Research Notebook; 10 Vial of Pure Water; 2 Pale Creeper; 2 Purified Eberron Dragonshard
+Demand: Niche
+
+ShardName: Conjuration Focus
+ShortName: Conj Focus
+Group: Spell DC
+Scaling: Spell Focus
+Prefix: Goggles; Necklace; Trinket; Orb; Runearm
+BoundLevel: 50
+BoundEssences: 50
+BoundIngredients: 15 Glittering Dust; 5 Mark of the Keeper
+UnboundLevel: 200
+UnboundEssences: 400
+UnboundIngredients: 30 Glittering Dust; 10 Mark of the Keeper; 2 Luminescent Dust; 2 Purified Eberron Dragonshard
+Demand: Niche
+
+ShardName: Constitution
+Group: Ability
+Scaling: Stat
+Prefix: Necklace; Belt; Ring; Trinket; Metal Armor; Leather Armor; Cloth Armor; Docent
+Suffix: Bracers; Trinket
+BoundLevel: 100
+BoundEssences: 100
+BoundIngredients: 15 Runic Parchment; 5 Glass Phial
+UnboundLevel: 250
+UnboundEssences: 500
+UnboundIngredients: 30 Runic Parchment; 10 Glass Phial; 2 Executioner Beetle; 2 Purified Eberron Dragonshard
+Demand: Universal
+
+ShardName: Constitution Damaging Effect
+GridName: Con Damage
+Group: Drain
+Scaling: Stat Damage
+Extra: 2H Melee; Handwraps; 1H Melee
+BoundLevel: 100
+BoundEssences: 100
+BoundIngredients: 15 Amulet of the Lost Empire; 5 Fragrant Drowshood
+UnboundLevel: 250
+UnboundEssences: 500
+UnboundIngredients: 30 Amulet of the Lost Empire; 10 Fragrant Drowshood; 2 Flowering Hellscap; 2 Purified Eberron Dragonshard
+Demand: Rarely Used
+
+ShardName: Construct Bane
+Group: Bane
+Scaling: Bane
+Suffix: 2H Melee; Handwraps; 1H Melee; Range
+BoundLevel: 50
+BoundEssences: 50
+BoundIngredients: 15 Funerary Token; 1 Soul Gem: Living Construct
+UnboundLevel: 200
+UnboundEssences: 400
+UnboundIngredients: 30 Funerary Token; 1 Soul Gem: Strong Living Construct; 2 Lush Cryptmoss; 2 Purified Eberron Dragonshard
+Demand: Niche
+
+ShardName: Corrosion
+Group: Spellpower
+Scaling: Spellpower
+Prefix: Gloves; Trinket; 2H Melee; Handwraps; 1H Melee; Shield; Orb; Range; Metal Armor; Leather Armor; Cloth Armor; Docent
+Suffix: Necklace; Ring; Trinket; Runearm
+BoundLevel: 50
+BoundEssences: 50
+BoundIngredients: 15 Skull Fragment; 5 Mark of the Keeper
+UnboundLevel: 200
+UnboundEssences: 400
+UnboundIngredients: 30 Skull Fragment; 10 Mark of the Keeper; 2 Luminescent Dust; 2 Purified Eberron Dragonshard
+Demand: Niche
+
+ShardName: Deadly
+Group: DPS
+Suffix: Goggles; Gloves; Trinket; 2H Melee; Handwraps; 1H Melee; Range
+BoundLevel: 50
+BoundEssences: 50
+BoundIngredients: 15 Blade of the Dark Six; 5 Mark of the Keeper
+UnboundLevel: 200
+UnboundEssences: 400
+UnboundIngredients: 30 Blade of the Dark Six; 10 Mark of the Keeper; 5 Intact Fingerbone; 2 Purified Eberron Dragonshard
+Demand: Common
+
+ShardName: Deathblock
+Group: Static
+Scaling: None
+ML: -6
+Suffix: Belt; Shield; Orb; Metal Armor; Leather Armor; Cloth Armor; Docent
+BoundLevel: 1
+BoundEssences: 10
+BoundIngredients: 15 Amber Vial; 5 Vial of Pure Water
+UnboundLevel: 150
+UnboundEssences: 300
+UnboundIngredients: 2 Amber Vial; 10 Vial of Pure Water; 2 Pale Creeper; 2 Purified Eberron Dragonshard
+Demand: Obsolete
+
+ShardName: Devotion
+Group: Spellpower
+Scaling: Spellpower
+Prefix: Gloves; Trinket; 2H Melee; Handwraps; 1H Melee; Shield; Orb; Range; Metal Armor; Leather Armor; Cloth Armor; Docent
+Suffix: Necklace; Ring; Trinket; Runearm
+BoundLevel: 50
+BoundEssences: 50
+BoundIngredients: 15 Cryptmoss Worm Larva; 5 Signet of the Devourer
+UnboundLevel: 200
+UnboundEssences: 400
+UnboundIngredients: 30 Cryptmoss Worm Larva; 10 Signet of the Devourer; 2 Tome: Myths of Old Xen'drik; 2 Purified Eberron Dragonshard
+Demand: Common
+
+ShardName: Dexterity
+Group: Ability
+Scaling: Stat
+Prefix: Gloves; Boots; Trinket
+Suffix: Ring; Trinket
+BoundLevel: 100
+BoundEssences: 100
+BoundIngredients: 15 Sour Darkcap; 5 Polished Ore
+UnboundLevel: 250
+UnboundEssences: 500
+UnboundIngredients: 30 Sour Darkcap; 10 Polished Ore; 2 Flowering Hellscap; 2 Purified Eberron Dragonshard
+Demand: Common
+
+ShardName: Dexterity Damaging Effect
+GridName: Dex Damage
+Group: Drain
+Scaling: Stat Damage
+Extra: 2H Melee; Handwraps; 1H Melee
+BoundLevel: 100
+BoundEssences: 100
+BoundIngredients: 15 Lodestone; 5 Intact Spore Pod
+UnboundLevel: 250
+UnboundEssences: 500
+UnboundIngredients: 30 Lodestone; 10 Intact Spore Pod; 2 Flowering Spore Pod; 2 Purified Eberron Dragonshard
+Demand: Rarely Used
+
+ShardName: Diplomacy
+Group: Skill
+Scaling: Skill
+Prefix: Belt; Ring; Trinket; Runearm
+Suffix: Helmet; Cloak; Trinket
+BoundLevel: 1
+BoundEssences: 10
+BoundIngredients: 15 String of Prayer Beads; 5 Deadly Feverblanch
+UnboundLevel: 150
+UnboundEssences: 300
+UnboundIngredients: 30 String of Prayer Beads; 10 Deadly Feverblanch; 2 Tome: Prophecies of Khyber; 2 Purified Eberron Dragonshard
+Demand: Niche
+
+ShardName: Disable Device
+ShortName: Disable
+Group: Skill
+Scaling: Skill
+Prefix: Goggles; Gloves; Trinket; Runearm
+BoundLevel: 1
+BoundEssences: 10
+BoundIngredients: 15 Page Torn from a Research Notebook; 5 Vial of Pure Water
+UnboundLevel: 150
+UnboundEssences: 300
+UnboundIngredients: 30 Page Torn from a Research Notebook; 10 Vial of Pure Water; 2 Vial of Contagion; 2 Purified Eberron Dragonshard
+Demand: Uncommon
+
+ShardName: Disease Ward
+Group: Save
+Scaling: Saves (all kinds)
+Prefix: Necklace; Cloak; Bracers; Trinket; Runearm
+BoundLevel: 1
+BoundEssences: 10
+BoundIngredients: 15 Sweet Whitecap; 5 Khyber Prayer Pamphlet
+UnboundLevel: 150
+UnboundEssences: 300
+UnboundIngredients: 30 Sweet Whitecap; 10 Khyber Prayer Pamphlet; 2 Icon of Khyber; 2 Purified Eberron Dragonshard
+Demand: Rarely Used
+
+ShardName: Diversion
+Group: Misc
+Prefix: Cloak; Trinket
+Suffix: Boots; Trinket; 2H Melee; Handwraps; 1H Melee; Range
+BoundLevel: 1
+BoundEssences: 10
+BoundIngredients: 15 Sweet Whitecap; 5 Deadly Feverblanch
+UnboundLevel: 150
+UnboundEssences: 300
+UnboundIngredients: 30 Sweet Whitecap; 10 Deadly Feverblanch; 2 Vial of Contagion; 2 Purified Eberron Dragonshard
+Demand: Niche
+
+ShardName: Dodge Bonus
+ShortName: Dodge
+Group: Defense
+Scaling: Dodge
+Prefix: Belt; Boots; Trinket
+Suffix: Cloak; Bracers; Trinket
+BoundLevel: 50
+BoundEssences: 50
+BoundIngredients: 15 Glittering Dust; 5 Cryptmoss Worm
+UnboundLevel: 200
+UnboundEssences: 400
+UnboundIngredients: 30 Glittering Dust; 10 Cryptmoss Worm; 5 Intact Fingerbone; 2 Purified Eberron Dragonshard
+Demand: Common
+
+ShardName: Doubleshot
+Group: DPS
+Prefix: Gloves; Belt; Trinket
+Suffix: Range
+BoundLevel: 100
+BoundEssences: 100
+BoundIngredients: 15 Lodestone; 5 Headsman Beetle
+UnboundLevel: 250
+UnboundEssences: 500
+UnboundIngredients: 30 Lodestone; 10 Headsman Beetle; 5 Flowering Hellscap; 2 Purified Eberron Dragonshard
+Demand: Common
+
+ShardName: Doublestrike
+Group: DPS
+Prefix: Gloves; Belt; Trinket
+Suffix: 2H Melee; Handwraps; 1H Melee
+BoundLevel: 100
+BoundEssences: 100
+BoundIngredients: 15 Small Planar Crystal; 5 Scholarly Notes
+UnboundLevel: 250
+UnboundEssences: 500
+UnboundIngredients: 30 Small Planar Crystal; 10 Scholarly Notes; 5 Elemental Ingot; 2 Purified Eberron Dragonshard
+Demand: Common
+
+ShardName: Dragon Bane
+Group: Bane
+Scaling: Bane
+Suffix: 2H Melee; Handwraps; 1H Melee; Range
+BoundLevel: 50
+BoundEssences: 50
+BoundIngredients: 15 Blade of the Dark Six; 5 Cryptmoss
+UnboundLevel: 200
+UnboundEssences: 400
+UnboundIngredients: 30 Blade of the Dark Six; 1 Soul Gem: Strong Dragon; 2 Cryptmoss Queen; 2 Purified Eberron Dragonshard
+Demand: Rarely Used
+
+ShardName: Dwarf Bane
+Group: Bane
+Scaling: Bane
+Suffix: 2H Melee; Handwraps; 1H Melee; Range
+BoundLevel: 50
+BoundEssences: 50
+BoundIngredients: 15 Skull Fragment; 1 Soul Gem: Dwarf
+UnboundLevel: 200
+UnboundEssences: 400
+UnboundIngredients: 30 Skull Fragment; 1 Soul Gem: Strong Dwarf; 2 Luminescent Dust; 2 Purified Eberron Dragonshard
+Demand: Rarely Used
+
+ShardName: Efficient Empower
+Group: Static
+Scaling: None
+ML: -2
+Extra: Trinket; Runearm
+BoundLevel: 250
+BoundEssences: 250
+BoundIngredients: 15 Slime Mold; 1 Mark of the Yugoloth
+UnboundLevel: 400
+UnboundEssences: 800
+UnboundIngredients: 30 Swaying Mushroom Cluster; 10 Blister Beetle; 5 Scarlet Cryptmoss; 10 Purified Eberron Dragonshard
+Demand: Rarely Used
+Descrip: -2 SP cost when using Empower Spell. {url=http://ddowiki.com/page/Efficient_Metamagic}ddowiki
+
+ShardName: Efficient Empower Healing
+Abbreviation: Efficient Emp. Healing
+Group: Static
+Scaling: None
+ML: -2
+Extra: Trinket; Runearm
+BoundLevel: 250
+BoundEssences: 250
+BoundIngredients: 15 Zygomycota Fungus; 1 Mark of the Yugoloth
+UnboundLevel: 400
+UnboundEssences: 800
+UnboundIngredients: 30 Slime Mold; 10 Warehouse Ledger; 5 Planar Talisman; 10 Purified Eberron Dragonshard
+Demand: Rarely Used
+Descrip: -1 SP cost when using Empower Healing Spell. {url=http://ddowiki.com/page/Efficient_Metamagic}ddowiki
+
+ShardName: Efficient Enlarge
+Group: Static
+Scaling: None
+ML: -2
+Extra: Trinket; Runearm
+BoundLevel: 250
+BoundEssences: 250
+BoundIngredients: 15 Smoldering Ember; 1 Mark of the Yugoloth
+UnboundLevel: 400
+UnboundEssences: 800
+UnboundIngredients: 30 Smoldering Ember; 10 Blister Beetle; 5 Scarlet Cryptmoss; 10 Purified Eberron Dragonshard
+Demand: Rarely Used
+Descrip: -1 SP cost when using Enlarge Spell. {url=http://ddowiki.com/page/Efficient_Metamagic}ddowiki
+
+ShardName: Efficient Extend
+Group: Static
+Scaling: None
+ML: -2
+Extra: Trinket; Runearm
+BoundLevel: 250
+BoundEssences: 250
+BoundIngredients: 15 Mystical Formula; 1 Mark of the Yugoloth
+UnboundLevel: 400
+UnboundEssences: 800
+UnboundIngredients: 30 Mystical Formula; 10 Fractured Femur; 5 Encoded Communique; 10 Purified Eberron Dragonshard
+Demand: Rarely Used
+Descrip: -1 SP cost when using Extend Spell. {url=http://ddowiki.com/page/Efficient_Metamagic}ddowiki
+
+ShardName: Efficient Maximize
+Group: Static
+Scaling: None
+ML: -2
+Extra: Trinket; Runearm
+BoundLevel: 250
+BoundEssences: 250
+BoundIngredients: 15 Slime Mold; 1 Mark of the Yugoloth
+UnboundLevel: 400
+UnboundEssences: 800
+UnboundIngredients: 30 Swaying Mushroom Cluster; 10 Blister Beetle; 5 Planar Talisman; 10 Purified Eberron Dragonshard
+Demand: Niche
+Descrip: -2 SP cost when using Maximize Spell. {url=http://ddowiki.com/page/Efficient_Metamagic}ddowiki
+
+ShardName: Electric Effect
+Group: Proc
+Scaling: Damage Effect
+Prefix: 2H Melee; Handwraps; 1H Melee; Range
+BoundLevel: 50
+BoundEssences: 50
+BoundIngredients: 15 Funerary Token; 5 Research Diary
+UnboundLevel: 200
+UnboundEssences: 400
+UnboundIngredients: 30 Funerary Token; 10 Research Diary; 2 Lush Cryptmoss; 2 Purified Eberron Dragonshard
+Demand: Rarely Used
+
+ShardName: Electric Resistance
+Group: Resist
+Scaling: Energy Resistance
+Prefix: Cloak; Trinket
+Suffix: Ring; Trinket; Shield; Orb; Metal Armor; Leather Armor; Cloth Armor; Docent
+Extra: Helmet
+BoundLevel: 1
+BoundEssences: 10
+BoundIngredients: 15 String of Prayer Beads; 5 Small Wooden Idol
+UnboundLevel: 150
+UnboundEssences: 300
+UnboundIngredients: 30 String of Prayer Beads; 10 Small Wooden Idol; 5 Pale Creeper; 2 Purified Eberron Dragonshard
+Demand: Rarely Used
+
+ShardName: Electricity Absorption
+Abbreviation: Elec. Absorption
+Group: Absorb
+Scaling: Energy Absorption
+Prefix: Ring; Trinket; Shield; Orb; Runearm; Metal Armor; Leather Armor; Cloth Armor; Docent
+Suffix: Cloak; Trinket
+BoundLevel: 50
+BoundEssences: 50
+BoundIngredients: 15 Caravan Logbook; 5 Research Diary
+UnboundLevel: 200
+UnboundEssences: 400
+UnboundIngredients: 30 Caravan Logbook; 10 Research Diary; 2 Shamanic Totem; 2 Purified Eberron Dragonshard
+Demand: Rarely Used
+
+ShardName: Electricity Lore
+Group: Spell Lore
+Scaling: Spell Lore (one type)
+Prefix: Ring; Trinket; Runearm
+Suffix: 2H Melee; Handwraps; 1H Melee; Range; Orb
+BoundLevel: 100
+BoundEssences: 100
+BoundIngredients: 15 Small Planar Crystal; 5 Silver Flame Hymnal
+UnboundLevel: 250
+UnboundEssences: 500
+UnboundIngredients: 30 Small Planar Crystal; 10 Silver Flame Hymnal; 2 Tome: Codes of the Aurum; 2 Purified Eberron Dragonshard
+Demand: Niche
+
+ShardName: Elemental Bane
+Group: Bane
+Scaling: Bane
+Suffix: 2H Melee; Handwraps; 1H Melee; Range
+BoundLevel: 50
+BoundEssences: 50
+BoundIngredients: 15 Phoenix Tavern Purchase Order; 5 'Wavecrasher' Cargo Manifest
+UnboundLevel: 200
+UnboundEssences: 400
+UnboundIngredients: 30 Phoenix Tavern Purchase Order; 2 Shamanic Totem; 2 Purified Eberron Dragonshard
+Demand: Rarely Used
+
+ShardName: Elf Bane
+Group: Bane
+Scaling: Bane
+Suffix: 2H Melee; Handwraps; 1H Melee; Range
+BoundLevel: 50
+BoundEssences: 50
+BoundIngredients: 15 Cryptmoss Worm Larva; 1 Soul Gem: Elf
+UnboundLevel: 200
+UnboundEssences: 400
+UnboundIngredients: 30 Cryptmoss Worm Larva; 1 Soul Gem: Strong Elf; 2 Tome: Myths of Old Xen'drik; 2 Purified Eberron Dragonshard
+Demand: Rarely Used
+
+ShardName: Enchantment Focus
+ShortName: Enchant Focus
+Group: Spell DC
+Scaling: Spell Focus
+Prefix: Goggles; Necklace; Trinket; Orb; Runearm
+BoundLevel: 50
+BoundEssences: 50
+BoundIngredients: 15 Phoenix Tavern Purchase Order; 5 'Wavecrasher' Cargo Manifest
+UnboundLevel: 200
+UnboundEssences: 400
+UnboundIngredients: 30 Phoenix Tavern Purchase Order; 10 'Wavecrasher' Cargo Manifest; 2 Necromantic Gem; 2 Purified Eberron Dragonshard
+Demand: Niche
+
+ShardName: Enchantment Resistance
+Abbreviation: Enchant Resistance
+GridName: Enchant Resist
+Group: Save
+Scaling: Saves (all kinds)
+Prefix: Necklace; Cloak; Bracers; Trinket; Runearm
+BoundLevel: 50
+BoundEssences: 50
+BoundIngredients: 15 Phoenix Tavern Purchase Order; 5 'Wavecrasher' Cargo Manifest
+UnboundLevel: 200
+UnboundEssences: 400
+UnboundIngredients: 30 Phoenix Tavern Purchase Order; 10 'Wavecrasher' Cargo Manifest; 2 Cryptmoss Queen; 2 Purified Eberron Dragonshard
+Demand: Niche
+
+ShardName: Eternal Faith
+Group: Static
+Scaling: None
+ML: -8
+Suffix: Helmet; Necklace; Ring; Trinket; 2H Melee; Handwraps; 1H Melee; Shield; Orb; Range; Runearm; Metal Armor; Leather Armor; Cloth Armor; Docent
+BoundLevel: 250
+BoundEssences: 250
+BoundIngredients: 15 Mortar and Pestle; 1 Mark of the Silver Flame
+UnboundLevel: 400
+UnboundEssences: 800
+UnboundIngredients: 30 Ritual Candle; 10 Glowmoss Spore; 5 Prismatic Dust; 10 Purified Eberron Dragonshard
+Descrip: Your effective level while Turning Undead is increased by 2, the maximum hit dice you can affect is increased by 2 and the total hit dice you can affect is increased by 4. {url=http://ddowiki.com/page/Eternal_Faith}ddowiki
+Demand: Niche
+
+ShardName: Everbright
+Group: Static
+Scaling: None
+ML: -4
+Suffix: 2H Melee; Handwraps; 1H Melee
+BoundLevel: 250
+BoundEssences: 250
+BoundIngredients: 15 Mortar and Pestle; 5 Blister Beetle
+UnboundLevel: 400
+UnboundEssences: 800
+UnboundIngredients: 30 Ritual Candle; 10 Blister Beetle; 5 Prismatic Dust; 10 Purified Eberron Dragonshard
+Descrip: Everbright weapons are immune to ooze and rust monsters. {url=http://ddowiki.com/page/Everbright}ddowiki
+Demand: Niche
+
+ShardName: Evil Effect
+Group: Proc
+Scaling: Damage Effect
+Prefix: 2H Melee; Handwraps; 1H Melee; Range
+BoundLevel: 100
+BoundEssences: 100
+BoundIngredients: 15 Amulet of the Lost Empire; 5 Charred Soarwood
+UnboundLevel: 250
+UnboundEssences: 500
+UnboundIngredients: 30 Amulet of the Lost Empire; 10 Charred Soarwood; 2 Lightning-Split Soarwood; 2 Purified Eberron Dragonshard
+Demand: Niche
+
+ShardName: Evil Guard
+Group: Guard
+Scaling: Guard
+Suffix: Boots; Trinket; Shield; Orb; Metal Armor; Leather Armor; Cloth Armor; Docent
+BoundLevel: 1
+BoundEssences: 10
+BoundIngredients: 15 Page Torn from a Research Notebook; 5 Small Wooden Idol
+UnboundLevel: 150
+UnboundEssences: 300
+UnboundIngredients: 30 Page Torn from a Research Notebook; 10 Small Wooden Idol; 5 Pale Creeper; 2 Purified Eberron Dragonshard
+Demand: Rarely Used
+
+ShardName: Evil Outsider Bane
+ShortName: Evil Out Bane
+Group: Bane
+Scaling: Bane
+Suffix: 2H Melee; Handwraps; 1H Melee; Range
+BoundLevel: 50
+BoundEssences: 50
+BoundIngredients: 15 Blade of the Dark Six; 1 Soul Gem: Essence of the Dominator
+UnboundLevel: 200
+UnboundEssences: 400
+UnboundIngredients: 30 Blade of the Dark Six; 1 Soul Gem: Strong Essence of the Dominator; 2 Cryptmoss Queen; 2 Purified Eberron Dragonshard
+Demand: Niche
+
+ShardName: Evocation Focus
+ShortName: Evo Focus
+Group: Spell DC
+Scaling: Spell Focus
+Prefix: Goggles; Necklace; Trinket; Orb; Runearm
+BoundLevel: 50
+BoundEssences: 50
+BoundIngredients: 15 Cryptmoss Worm Larva; 5 Cryptmoss Worm
+UnboundLevel: 200
+UnboundEssences: 400
+UnboundIngredients: 30 Cryptmoss Worm Larva; 10 Cryptmoss Worm; 2 Tome: Stormreach Imports and Exports, 857 YK; 2 Purified Eberron Dragonshard
+Demand: Uncommon
+
+ShardName: False Life
+Group: Misc
+Suffix: Necklace; Belt; Ring; Trinket; Shield; Orb; Runearm; Metal Armor; Leather Armor; Cloth Armor; Docent
+BoundLevel: 1
+BoundEssences: 10
+BoundIngredients: 15 Page Torn from a Research Notebook; 5 Vial of Pure Water
+UnboundLevel: 150
+UnboundEssences: 300
+UnboundIngredients: 30 Page Torn from a Research Notebook; 10 Vial of Pure Water; 2 Pale Creeper; 2 Purified Eberron Dragonshard
+Demand: Universal
+
+ShardName: Fearsome
+Group: Static
+Scaling: None
+ML: -6
+Prefix: Metal Armor; Leather Armor; Cloth Armor; Docent
+BoundLevel: 250
+BoundEssences: 250
+BoundIngredients: 15 Slime Mold; 5 Warehouse Ledger
+UnboundLevel: 400
+UnboundEssences: 800
+UnboundIngredients: 30 Swaying Mushroom Cluster; 10 Warehouse Ledger; 5 Scarlet Cryptmoss; 10 Purified Eberron Dragonshard
+Demand: Rarely Used
+Descrip: Guard proc {url=http://ddowiki.com/page/Fear_(spell)}Fear_spell, DC 17. {url=http://ddowiki.com/page/Fearsome}ddowiki
+
+ShardName: Feather Fall
+Group: Static
+Scaling: None
+ML: -2
+Prefix: Cloak; Boots; Ring; Trinket
+BoundLevel: 1
+BoundEssences: 10
+BoundIngredients: 15 String of Prayer Beads; 5 Khyber Prayer Pamphlet
+UnboundLevel: 150
+UnboundEssences: 300
+UnboundIngredients: 3 String of Prayer Beads; 10 Khyber Prayer Pamphlet; 2 Icon of Khyber; 2 Purified Eberron Dragonshard
+Demand: Obsolete
+
+ShardName: Fire Absorption
+Group: Absorb
+Scaling: Energy Absorption
+Prefix: Ring; Trinket; Shield; Orb; Runearm; Metal Armor; Leather Armor; Cloth Armor; Docent
+Suffix: Cloak; Trinket
+BoundLevel: 50
+BoundEssences: 50
+BoundIngredients: 15 Blade of the Dark Six; 5 Powdered Blood
+UnboundLevel: 200
+UnboundEssences: 400
+UnboundIngredients: 30 Blade of the Dark Six; 10 Powdered Blood; 2 Necromantic Gem; 2 Purified Eberron Dragonshard
+Demand: Rarely Used
+
+ShardName: Fire Effect
+Group: Proc
+Scaling: Damage Effect
+Prefix: 2H Melee; Handwraps; 1H Melee; Range
+BoundLevel: 50
+BoundEssences: 50
+BoundIngredients: 15 Withered Cryptmoss; 5 Mark of the Keeper
+UnboundLevel: 200
+UnboundEssences: 400
+UnboundIngredients: 30 Withered Cryptmoss; 10 Mark of the Keeper; 2 Tome: Stormreach Imports and Exports, 857 YK; 2 Purified Eberron Dragonshard
+Demand: Rarely Used
+
+ShardName: Fire Guard
+Group: Guard
+Scaling: Guard
+Suffix: Boots; Trinket; Shield; Orb; Metal Armor; Leather Armor; Cloth Armor; Docent
+BoundLevel: 1
+BoundEssences: 10
+BoundIngredients: 15 Amber Vial; 5 Deadly Feverblanch
+UnboundLevel: 150
+UnboundEssences: 300
+UnboundIngredients: 30 Amber Vial; 10 Deadly Feverblanch; 5 Icon of Khyber; 2 Purified Eberron Dragonshard
+Demand: Rarely Used
+
+ShardName: Fire Lore
+Group: Spell Lore
+Scaling: Spell Lore (one type)
+Prefix: Ring; Trinket; Runearm
+Suffix: 2H Melee; Handwraps; 1H Melee; Range; Orb
+BoundLevel: 100
+BoundEssences: 100
+BoundIngredients: 15 Sour Darkcap; 5 Fragrant Drowshood
+UnboundLevel: 250
+UnboundEssences: 500
+UnboundIngredients: 30 Sour Darkcap; 10 Fragrant Drowshood; 2 Flowering Spore Pod; 2 Purified Eberron Dragonshard
+Demand: Niche
+
+ShardName: Fire Resistance
+Group: Resist
+Scaling: Energy Resistance
+Prefix: Cloak; Trinket
+Suffix: Ring; Trinket; Shield; Orb; Metal Armor; Leather Armor; Cloth Armor; Docent
+Extra: Helmet
+BoundLevel: 1
+BoundEssences: 10
+BoundIngredients: 15 String of Prayer Beads; 5 Small Wooden Idol
+UnboundLevel: 150
+UnboundEssences: 300
+UnboundIngredients: 30 String of Prayer Beads; 10 Small Wooden Idol; 5 Vial of Contagion; 2 Purified Eberron Dragonshard
+Demand: Rarely Used
+
+ShardName: Force Lore
+Group: Spell Lore
+Scaling: Spell Lore (one type)
+Prefix: Ring; Trinket; Runearm
+Suffix: 2H Melee; Handwraps; 1H Melee; Range; Orb
+BoundLevel: 100
+BoundEssences: 100
+BoundIngredients: 15 Romantic Sonnet; 5 Planar Spoor
+UnboundLevel: 250
+UnboundEssences: 500
+UnboundIngredients: 30 Romantic Sonnet; 10 Planar Spoor; 2 Flowering Hellscap; 2 Purified Eberron Dragonshard
+Demand: Niche
+
+ShardName: Force effect
+Group: Proc
+Scaling: Damage Effect
+Prefix: 2H Melee; Handwraps; 1H Melee; Range
+BoundLevel: 50
+BoundEssences: 50
+BoundIngredients: 15 Funerary Token; 5 Research Diary
+UnboundLevel: 200
+UnboundEssences: 400
+UnboundIngredients: 30 Funerary Token; 10 Research Diary; 2 Lush Cryptmoss; 2 Purified Eberron Dragonshard
+Demand: Niche
+
+ShardName: Fortification
+Group: Defense
+Prefix: Helmet; Trinket; Shield; Orb; Metal Armor; Leather Armor; Cloth Armor; Docent
+Suffix: Bracers; Trinket
+BoundLevel: 1
+BoundEssences: 10
+BoundIngredients: 15 Page Torn from a Research Notebook; 5 Small Wooden Idol
+UnboundLevel: 150
+UnboundEssences: 300
+UnboundIngredients: 30 Page Torn from a Research Notebook; 10 Small Wooden Idol; 2 Pale Creeper; 2 Purified Eberron Dragonshard
+Demand: Obsolete
+
+ShardName: Fortitude Save
+ShortName: Fort Save
+Group: Save
+Scaling: Saves (all kinds)
+Prefix: Cloak; Bracers; Trinket; Runearm
+BoundLevel: 1
+BoundEssences: 10
+BoundIngredients: 15 String of Prayer Beads; 5 Deadly Feverblanch
+UnboundLevel: 150
+UnboundEssences: 300
+UnboundIngredients: 30 String of Prayer Beads; 10 Deadly Feverblanch; 2 Tome: Prophecies of Khyber; 2 Purified Eberron Dragonshard
+Demand: Rarely Used
+
+ShardName: Ghost Touch
+Group: Static
+Scaling: None
+ML: -2
+Prefix: 2H Melee; Handwraps; 1H Melee; Range
+BoundLevel: 250
+BoundEssences: 250
+BoundIngredients: 15 Slime Mold; 5 Stone Fetish
+UnboundLevel: 400
+UnboundEssences: 800
+UnboundIngredients: 30 Swaying Mushroom Cluster; 10 Stone Fetish; 5 Planar Talisman; 10 Purified Eberron Dragonshard
+Descrip: An incorporeal creature's 50% chance to avoid damage does not apply to attacks with ghost touch weapons or ammunition. {url=http://ddowiki.com/page/Ghost_Touch}ddowiki
+Demand: Niche
+
+ShardName: Giant Bane
+Group: Bane
+Scaling: Bane
+Suffix: 2H Melee; Handwraps; 1H Melee; Range
+BoundLevel: 50
+BoundEssences: 50
+BoundIngredients: 15 Caravan Logbook; 1 Soul Gem: Giant
+UnboundLevel: 200
+UnboundEssences: 400
+UnboundIngredients: 30 Caravan Logbook; 1 Soul Gem: Strong Giant; 2 Necromantic Gem; 2 Purified Eberron Dragonshard
+Demand: Rarely Used
+
+ShardName: Glaciation
+Group: Spellpower
+Scaling: Spellpower
+Prefix: Gloves; Trinket; 2H Melee; Handwraps; 1H Melee; Shield; Orb; Range; Metal Armor; Leather Armor; Cloth Armor; Docent
+Suffix: Necklace; Ring; Trinket; Runearm
+BoundLevel: 50
+BoundEssences: 50
+BoundIngredients: 15 Glittering Dust; 5 Research Diary
+UnboundLevel: 200
+UnboundEssences: 400
+UnboundIngredients: 30 Glittering Dust; 10 Research Diary; 2 Intact Fingerbone; 2 Purified Eberron Dragonshard
+Demand: Niche
+
+ShardName: Gnoll Bane
+Group: Bane
+Scaling: Bane
+Suffix: 2H Melee; Handwraps; 1H Melee; Range
+BoundLevel: 50
+BoundEssences: 50
+BoundIngredients: 15 Funerary Token; 1 Soul Gem: Gnoll
+UnboundLevel: 200
+UnboundEssences: 400
+UnboundIngredients: 30 Funerary Token; 1 Soul Gem: Strong Gnoll; 2 Lush Cryptmoss; 2 Purified Eberron Dragonshard
+Demand: Rarely Used
+
+ShardName: Goblinoid Bane
+Group: Bane
+Scaling: Bane
+Suffix: 2H Melee; Handwraps; 1H Melee; Range
+BoundLevel: 50
+BoundEssences: 50
+BoundIngredients: 15 Withered Cryptmoss; 1 Soul Gem: Goblinoid
+UnboundLevel: 200
+UnboundEssences: 400
+UnboundIngredients: 30 Withered Cryptmoss; 1 Soul Gem: Strong Goblinoid; 2 Tome: Stormreach Imports and Exports, 857 YK; 2 Purified Eberron Dragonshard
+Demand: Rarely Used
+
+ShardName: Good Effect
+Group: Proc
+Scaling: Damage Effect
+Prefix: 2H Melee; Handwraps; 1H Melee; Range
+BoundLevel: 100
+BoundEssences: 100
+BoundIngredients: 15 Lodestone; 5 Glass Phial
+UnboundLevel: 250
+UnboundEssences: 500
+UnboundIngredients: 30 Lodestone; 10 Glass Phial; 2 Stellar Orb; 2 Purified Eberron Dragonshard
+Demand: Uncommon
+
+ShardName: Good Guard
+Group: Guard
+Scaling: Guard
+Suffix: Boots; Trinket; Shield; Orb; Metal Armor; Leather Armor; Cloth Armor; Docent
+BoundLevel: 1
+BoundEssences: 10
+BoundIngredients: 15 Page Torn from a Research Notebook; 5 Khyber Prayer Pamphlet
+UnboundLevel: 150
+UnboundEssences: 300
+UnboundIngredients: 30 Page Torn from a Research Notebook; 10 Khyber Prayer Pamphlet; 5 Icon of Khyber; 2 Purified Eberron Dragonshard
+Demand: Rarely Used
+
+ShardName: Haggle
+Group: Skill
+Scaling: Skill
+Prefix: Helmet; Trinket; Runearm
+BoundLevel: 1
+BoundEssences: 10
+BoundIngredients: 15 String of Prayer Beads; 5 Deadly Feverblanch
+UnboundLevel: 150
+UnboundEssences: 300
+UnboundIngredients: 30 String of Prayer Beads; 10 Deadly Feverblanch; 2 Icon of Khyber; 2 Purified Eberron Dragonshard
+Demand: Niche
+
+ShardName: Halfling Bane
+Group: Bane
+Scaling: Bane
+Suffix: 2H Melee; Handwraps; 1H Melee; Range
+BoundLevel: 50
+BoundEssences: 50
+BoundIngredients: 15 Blade of the Dark Six; 1 Soul Gem: Halfling
+UnboundLevel: 200
+UnboundEssences: 400
+UnboundIngredients: 30 Blade of the Dark Six; 1 Soul Gem: Strong Halfling; 2 Cryptmoss Queen; 2 Purified Eberron Dragonshard
+Demand: Rarely Used
+
+ShardName: Heal
+Group: Skill
+Scaling: Skill
+Prefix: Necklace; Trinket; Runearm
+Suffix: Gloves; Trinket
+BoundLevel: 1
+BoundEssences: 10
+BoundIngredients: 15 Amber Vial; 5 Khyber Prayer Pamphlet
+UnboundLevel: 150
+UnboundEssences: 300
+UnboundIngredients: 30 Amber Vial; 10 Khyber Prayer Pamphlet; 2 Pale Creeper; 2 Purified Eberron Dragonshard
+Demand: Niche
+
+ShardName: Healing Amplification
+GridName: Healing Amp
+ShortName: Heal Amp
+Group: Defense
+Suffix: Gloves; Trinket; Metal Armor; Leather Armor; Cloth Armor; Docent
+BoundLevel: 50
+BoundEssences: 50
+BoundIngredients: 15 Funerary Token; 5 'Wavecrasher' Cargo Manifest
+UnboundLevel: 200
+UnboundEssences: 400
+UnboundIngredients: 30 Funerary Token; 10 'Wavecrasher' Cargo Manifest; 2 Cryptmoss Queen; 2 Purified Eberron Dragonshard
+Demand: Common
+
+ShardName: Hide
+Group: Skill
+Scaling: Skill
+Prefix: Cloak; Ring; Trinket; Runearm
+BoundLevel: 1
+BoundEssences: 10
+BoundIngredients: 15 String of Prayer Beads; 5 Deadly Feverblanch
+UnboundLevel: 150
+UnboundEssences: 300
+UnboundIngredients: 30 String of Prayer Beads; 10 Deadly Feverblanch; 2 Tome: Prophecies of Khyber; 2 Purified Eberron Dragonshard
+Demand: Niche
+
+ShardName: Human Bane
+Group: Bane
+Scaling: Bane
+Suffix: 2H Melee; Handwraps; 1H Melee; Range
+BoundLevel: 50
+BoundEssences: 50
+BoundIngredients: 15 Phoenix Tavern Purchase Order; 1 Soul Gem: Human
+UnboundLevel: 200
+UnboundEssences: 400
+UnboundIngredients: 30 Phoenix Tavern Purchase Order; 1 Soul Gem: Strong Human; 2 Shamanic Totem; 2 Purified Eberron Dragonshard
+Demand: Rarely Used
+
+ShardName: Ice Guard
+Group: Guard
+Scaling: Guard
+Suffix: Boots; Trinket; Shield; Orb; Metal Armor; Leather Armor; Cloth Armor; Docent
+BoundLevel: 1
+BoundEssences: 10
+BoundIngredients: 15 Amber Vial; 5 Khyber Prayer Pamphlet
+UnboundLevel: 150
+UnboundEssences: 300
+UnboundIngredients: 30 Amber Vial; 10 Khyber Prayer Pamphlet; 5 Pale Creeper; 2 Purified Eberron Dragonshard
+Demand: Rarely Used
+
+ShardName: Illusion Focus
+Group: Spell DC
+Scaling: Spell Focus
+Prefix: Goggles; Necklace; Trinket; Orb; Runearm
+BoundLevel: 50
+BoundEssences: 50
+BoundIngredients: 15 Withered Cryptmoss; 5 Cryptmoss
+UnboundLevel: 200
+UnboundEssences: 400
+UnboundIngredients: 30 Withered Cryptmoss; 10 Cryptmoss; 2 Lush Cryptmoss; 2 Purified Eberron Dragonshard
+Demand: Rarely Used
+
+ShardName: Illusion Resistance
+Group: Save
+Scaling: Saves (all kinds)
+Prefix: Necklace; Cloak; Bracers; Trinket; Runearm
+BoundLevel: 50
+BoundEssences: 50
+BoundIngredients: 15 Cryptmoss Worm Larva; 5 Cryptmoss Worm
+UnboundLevel: 200
+UnboundEssences: 400
+UnboundIngredients: 30 Cryptmoss Worm Larva; 10 Cryptmoss Worm; 2 Shamanic Totem; 2 Purified Eberron Dragonshard
+Demand: Rarely Used
+
+ShardName: Impulse
+Group: Spellpower
+Scaling: Spellpower
+Prefix: Gloves; Trinket; 2H Melee; Handwraps; 1H Melee; Shield; Orb; Range; Metal Armor; Leather Armor; Cloth Armor; Docent
+Suffix: Necklace; Ring; Trinket; Runearm
+BoundLevel: 50
+BoundEssences: 50
+BoundIngredients: 15 Funerary Token; 5 Cryptmoss
+UnboundLevel: 200
+UnboundEssences: 400
+UnboundIngredients: 30 Funerary Token; 10 Cryptmoss; 2 Lush Cryptmoss; 2 Purified Eberron Dragonshard
+Demand: Niche
+
+ShardName: Incite
+Group: Misc
+Prefix: Helmet; Trinket
+Suffix: 2H Melee; Handwraps; 1H Melee; Range
+BoundLevel: 1
+BoundEssences: 10
+BoundIngredients: 15 Amber Vial; 5 Khyber Prayer Pamphlet
+UnboundLevel: 150
+UnboundEssences: 300
+UnboundIngredients: 30 Amber Vial; 10 Khyber Prayer Pamphlet; 2 Icon of Khyber; 2 Purified Eberron Dragonshard
+Demand: Niche
+
+ShardName: Incorporeal Bane
+ShortName: Incorp Bane
+Group: Bane
+Scaling: Bane
+Suffix: 2H Melee; Handwraps; 1H Melee; Range
+BoundLevel: 50
+BoundEssences: 50
+BoundIngredients: 15 Skull Fragment; 5 Mark of the Keeper
+UnboundLevel: 200
+UnboundEssences: 400
+UnboundIngredients: 30 Skull Fragment; 2 Shamanic Totem; 2 Purified Eberron Dragonshard
+Demand: Rarely Used
+
+ShardName: Insightful Abjuration Focus
+ShortName: iAbjure Focus
+Group: Spell DC
+Scaling: Ins. Spell Focus
+ML: 10
+Suffix: Goggles; Orb; Runearm
+BoundLevel: 225
+BoundEssences: 225
+BoundIngredients: 15 Mortar and Pestle; 5 Warehouse Ledger; 5 Purified Eberron Dragonshard
+UnboundLevel: 375
+UnboundEssences: 750
+UnboundIngredients: 30 Ritual Candle; 10 Warehouse Ledger; 5 Planar Talisman; 10 Purified Eberron Dragonshard
+Demand: Rarely Used
+
+ShardName: Insightful Accuracy
+Group: DPS
+Scaling: Ins. Accuracy
+ML: 10
+Extra: Gloves; Trinket
+BoundLevel: 225
+BoundEssences: 225
+BoundIngredients: 15 Mortar and Pestle; 5 Fractured Femur
+UnboundLevel: 375
+UnboundEssences: 750
+UnboundIngredients: 30 Ritual Candle; 10 Fractured Femur; 5 Planar Talisman; 10 Purified Eberron Dragonshard
+Demand: Common
+
+ShardName: Insightful Acid Resistance
+Group: Resist
+Scaling: Ins. Energy Resistance
+ML: 10
+Prefix: Bracers
+Suffix: Cloak
+Extra: Trinket; Shield; Orb; Metal Armor; Leather Armor; Cloth Armor; Docent
+BoundLevel: 175
+BoundEssences: 175
+BoundIngredients: 15 Blessed Candle; 5 Academic Treatise; 5 Purified Eberron Dragonshard
+UnboundLevel: 325
+UnboundEssences: 650
+UnboundIngredients: 30 Blessed Candle; 10 Academic Treatise; 5 Ritual Athame; 10 Purified Eberron Dragonshard
+Demand: Rarely Used
+
+ShardName: Insightful Assassinate
+Group: Tactic
+Scaling: Ins. Assassinate
+ML: 10
+Suffix: Gloves
+Extra: Trinket; 2H Melee; Handwraps; 1H Melee; Range
+BoundLevel: 275
+BoundEssences: 275
+BoundIngredients: 15 Brass Censer; 5 Pouch of Bone Fragments; 5 Purified Eberron Dragonshard
+UnboundLevel: 425
+UnboundEssences: 850
+UnboundIngredients: 30 Brass Censer; 10 Pouch of Bone Fragments; 2 Vial of Dragon's Blood Ink; 2 Purified Eberron Dragonshard
+Demand: Niche
+
+ShardName: Insightful Balance
+Group: Skill
+Scaling: Ins. Skill
+ML: 10
+Suffix: Boots; Ring
+Extra: Cloak; Belt; Trinket; 1H Melee; Shield; Orb; Runearm; Metal Armor; Leather Armor; Cloth Armor; Docent
+BoundLevel: 175
+BoundEssences: 175
+BoundIngredients: 15 Cryptic Message; 5 Silver Bowl; 5 Purified Eberron Dragonshard
+UnboundLevel: 325
+UnboundEssences: 650
+UnboundIngredients: 30 Cryptic Message; 10 Silver Bowl; 5 Glowmoss Clump; 10 Purified Eberron Dragonshard
+Demand: Rarely Used
+
+ShardName: Insightful Bluff
+Group: Skill
+Scaling: Ins. Skill
+ML: 10
+Extra: Gloves; Trinket; Runearm
+BoundLevel: 175
+BoundEssences: 175
+BoundIngredients: 15 Ruddy Fungus; 5 Ivory Scorpion Icon; 5 Purified Eberron Dragonshard
+UnboundLevel: 325
+UnboundEssences: 650
+UnboundIngredients: 30 Ruddy Fungus; 10 Ivory Scorpion Icon; 5 Oceanic Sphere; 10 Purified Eberron Dragonshard
+Demand: Niche
+
+ShardName: Insightful Charisma
+Group: Ability
+Scaling: Ins. Stat
+ML: 10
+Extra: Necklace; Cloak; Ring; Trinket
+BoundLevel: 275
+BoundEssences: 275
+BoundIngredients: 15 Ancient Text; 5 Ornate Charm; 5 Purified Eberron Dragonshard
+UnboundLevel: 425
+UnboundEssences: 850
+UnboundIngredients: 30 Ancient Text; 10 Ornate Charm; 5 Adventuring Oratorio; 10 Purified Eberron Dragonshard
+Demand: Common
+
+ShardName: Insightful Cold Resistance
+Group: Resist
+Scaling: Ins. Energy Resistance
+ML: 10
+Prefix: Bracers
+Suffix: Cloak
+Extra: Trinket; Shield; Orb; Metal Armor; Leather Armor; Cloth Armor; Docent
+BoundLevel: 175
+BoundEssences: 175
+BoundIngredients: 15 Ruddy Fungus; 5 Ivory Scorpion Icon; 5 Purified Eberron Dragonshard
+UnboundLevel: 325
+UnboundEssences: 650
+UnboundIngredients: 30 Ruddy Fungus; 10 Ivory Scorpion Icon; 5 Oceanic Sphere; 10 Purified Eberron Dragonshard
+Demand: Rarely Used
+
+ShardName: Insightful Combat Mastery
+ShortName: iCombat Mast
+Group: Tactic
+Scaling: Ins. Combat Mastery
+ML: 10
+Suffix: Gloves; 1H Melee; Shield; Orb; Metal Armor; Leather Armor; Cloth Armor; Docent
+Extra: Boots; Trinket
+BoundLevel: 275
+BoundEssences: 275
+BoundIngredients: 15 Flint Knife; 5 Ornate Charm; 5 Purified Eberron Dragonshard
+UnboundLevel: 425
+UnboundEssences: 850
+UnboundIngredients: 30 Flint Knife; 10 Ornate Charm; 5 Adventuring Oratorio; 10 Purified Eberron Dragonshard
+Demand: Uncommon
+
+ShardName: Insightful Combustion
+Group: Spellpower
+Scaling: Ins. Spellpower
+ML: 10
+Suffix: 2H Melee; Handwraps; 1H Melee; Range; Orb
+Extra: Gloves; Trinket; Runearm
+BoundLevel: 225
+BoundEssences: 225
+BoundIngredients: 15 Mortar and Pestle; 5 Warehouse Ledger; 5 Purified Eberron Dragonshard
+UnboundLevel: 375
+UnboundEssences: 750
+UnboundIngredients: 30 Ritual Candle; 10 Warehouse Ledger; 5 Scarlet Cryptmoss; 10 Purified Eberron Dragonshard
+Demand: Niche
+
+ShardName: Insightful Concentration
+Group: Skill
+Scaling: Ins. Skill
+ML: 10
+Suffix: Goggles
+Extra: Helmet; Trinket; Runearm
+BoundLevel: 175
+BoundEssences: 175
+BoundIngredients: 15 Blessed Candle; 5 Academic Treatise; 5 Purified Eberron Dragonshard
+UnboundLevel: 325
+UnboundEssences: 650
+UnboundIngredients: 30 Blessed Candle; 10 Academic Treatise; 5 Ritual Athame; 10 Purified Eberron Dragonshard
+Demand: Niche
+
+ShardName: Insightful Conjuration Focus
+GridName: Ins. Conjure Focus
+ShortName: iConj Focus
+Group: Spell DC
+Scaling: Ins. Spell Focus
+ML: 10
+Suffix: Goggles; Orb; Runearm
+BoundLevel: 225
+BoundEssences: 225
+BoundIngredients: 15 Mortar and Pestle; 5 Fractured Femur; 5 Purified Eberron Dragonshard
+UnboundLevel: 375
+UnboundEssences: 750
+UnboundIngredients: 30 Slime Mold; 10 Fractured Femur; 5 Scarlet Cryptmoss; 10 Purified Eberron Dragonshard
+Demand: Niche
+
+ShardName: Insightful Constitution
+Group: Ability
+Scaling: Ins. Stat
+ML: 10
+Extra: Necklace; Belt; Ring; Trinket
+BoundLevel: 275
+BoundEssences: 275
+BoundIngredients: 15 Ancient Text; 5 Hairy Trumpet Mushroom; 5 Purified Eberron Dragonshard
+UnboundLevel: 425
+UnboundEssences: 850
+UnboundIngredients: 30 Ancient Text; 10 Hairy Trumpet Mushroom; 5 Vial of Dragon's Blood Ink; 10 Purified Eberron Dragonshard
+Demand: Universal
+
+ShardName: Insightful Corrosion
+Group: Spellpower
+Scaling: Ins. Spellpower
+ML: 10
+Suffix: 2H Melee; Handwraps; 1H Melee; Range; Orb
+Extra: Gloves; Trinket; Runearm
+BoundLevel: 225
+BoundEssences: 225
+BoundIngredients: 15 Smoldering Ember; 5 Fractured Femur; 5 Purified Eberron Dragonshard
+UnboundLevel: 375
+UnboundEssences: 750
+UnboundIngredients: 30 Smoldering Ember; 10 Fractured Femur; 5 Planar Talisman; 10 Purified Eberron Dragonshard
+Demand: Niche
+
+ShardName: Insightful Deadly
+Group: DPS
+Scaling: Ins. Deadly
+ML: 10
+Extra: Trinket; 2H Melee; Handwraps; 1H Melee; Shield; Orb; Range
+BoundLevel: 225
+BoundEssences: 225
+BoundIngredients: 15 Mortar and Pestle; 5 Stone Fetish
+UnboundLevel: 375
+UnboundEssences: 750
+UnboundIngredients: 30 Ritual Candle; 10 Stone Fetish; 5 Scarlet Cryptmoss; 10 Purified Eberron Dragonshard
+
+Demand: Niche
+
+ShardName: Insightful Devotion
+Group: Spellpower
+Scaling: Ins. Spellpower
+ML: 10
+Suffix: 2H Melee; Handwraps; 1H Melee; Range; Orb
+Extra: Gloves; Trinket; Runearm
+BoundLevel: 225
+BoundEssences: 225
+BoundIngredients: 15 Mortar and Pestle; 5 Blister Beetle; 5 Purified Eberron Dragonshard
+UnboundLevel: 375
+UnboundEssences: 750
+UnboundIngredients: 30 Ritual Candle; 10 Blister Beetle; 5 Scarlet Cryptmoss; 10 Purified Eberron Dragonshard
+Demand: Common
+
+ShardName: Insightful Dexterity
+Group: Ability
+Scaling: Ins. Stat
+ML: 10
+Extra: Gloves; Boots; Ring; Trinket
+BoundLevel: 275
+BoundEssences: 275
+BoundIngredients: 15 Crypt Moth; 5 Pouch of Bone Fragments; 5 Purified Eberron Dragonshard
+UnboundLevel: 425
+UnboundEssences: 850
+UnboundIngredients: 30 Crypt Moth; 10 Pouch of Bone Fragments; 5 Shimmering Spore Pod; 10 Purified Eberron Dragonshard
+Demand: Common
+
+ShardName: Insightful Diplomacy
+Group: Skill
+Scaling: Ins. Skill
+ML: 10
+Extra: Ring; Trinket; Runearm
+BoundLevel: 175
+BoundEssences: 175
+BoundIngredients: 15 Chipped Bone Talisman; 5 Bloodfeast Fungus; 5 Purified Eberron Dragonshard
+UnboundLevel: 325
+UnboundEssences: 650
+UnboundIngredients: 30 Chipped Bone Talisman; 10 Swaying Mushroom Spore Pod; 5 Tear of Vulkoor; 10 Purified Eberron Dragonshard
+Demand: Niche
+
+ShardName: Insightful Disable Device
+ShortName: iDisable
+Group: Skill
+Scaling: Ins. Skill
+ML: 10
+Suffix: Gloves
+Extra: Goggles; Trinket; Runearm
+BoundLevel: 175
+BoundEssences: 175
+BoundIngredients: 15 Cryptic Message; 5 Ivory Scorpion Icon; 5 Purified Eberron Dragonshard
+UnboundLevel: 325
+UnboundEssences: 650
+UnboundIngredients: 30 Cryptic Message; 10 Ivory Scorpion Icon; 5 Sanguine Moth; 10 Purified Eberron Dragonshard
+Demand: Uncommon
+
+ShardName: Insightful Disease Ward
+Group: Save
+Scaling: Ins. Saves
+ML: 10
+Extra: Necklace; Ring; Trinket
+BoundLevel: 175
+BoundEssences: 175
+BoundIngredients: 15 Chipped Bone Talisman; 5 Bloodfeast Fungus; 5 Purified Eberron Dragonshard
+UnboundLevel: 325
+UnboundEssences: 650
+UnboundIngredients: 30 Chipped Bone Talisman; 10 Bloodfeast Fungus; 5 Sanguine Moth; 10 Purified Eberron Dragonshard
+Demand: Rarely Used
+
+ShardName: Insightful Diversion
+Group: Misc
+Scaling: Ins. Diversion
+ML: 10
+Prefix: Belt
+Suffix: Boots
+Extra: Cloak; Trinket
+BoundLevel: 175
+BoundEssences: 175
+BoundIngredients: 15 Chipped Bone Talisman; 5 Ivory Scorpion Icon; 5 Purified Eberron Dragonshard
+UnboundLevel: 325
+UnboundEssences: 650
+UnboundIngredients: 30 Chipped Bone Talisman; 10 Ivory Scorpion Icon; 5 Sanguine Moth; 10 Purified Eberron Dragonshard
+Demand: Niche
+
+ShardName: Insightful Dodge Bonus
+ShortName: iDodge
+Group: Defense
+Scaling: Ins. Dodge
+ML: 10
+Extra: Belt; Boots; Trinket
+BoundLevel: 225
+BoundEssences: 225
+BoundIngredients: 15 Zygomycota Fungus; 5 Stone Fetish; 5 Purified Eberron Dragonshard
+UnboundLevel: 375
+UnboundEssences: 750
+UnboundIngredients: 30 Slime Mold; 10 Stone Fetish; 5 Prismatic Dust; 10 Purified Eberron Dragonshard
+Demand: Common
+
+ShardName: Insightful Electric Resistance
+Group: Resist
+Scaling: Ins. Energy Resistance
+ML: 10
+Prefix: Bracers
+Suffix: Cloak
+Extra: Trinket; Shield; Orb; Metal Armor; Leather Armor; Cloth Armor; Docent
+BoundLevel: 175
+BoundEssences: 175
+BoundIngredients: 15 Chipped Bone Talisman; 5 Bloodfeast Fungus; 5 Purified Eberron Dragonshard
+UnboundLevel: 325
+UnboundEssences: 650
+UnboundIngredients: 30 Chipped Bone Talisman; 10 Bloodfeast Fungus; 5 Tear of Vulkoor; 10 Purified Eberron Dragonshard
+Demand: Rarely Used
+
+ShardName: Insightful Enchantment Focus
+GridName: Ins. Enchant Focus
+Group: Spell DC
+Scaling: Ins. Spell Focus
+ML: 10
+Suffix: Goggles; Orb; Runearm
+BoundLevel: 225
+BoundEssences: 225
+BoundIngredients: 15 Slime Mold; 5 Stone Fetish; 5 Purified Eberron Dragonshard
+UnboundLevel: 375
+UnboundEssences: 750
+UnboundIngredients: 30 Swaying Mushroom Cluster; 10 Stone Fetish; 5 Encoded Communique; 10 Purified Eberron Dragonshard
+Demand: Niche
+
+ShardName: Insightful Enchantment Resistance
+GridName: Ins. Enchant Resist
+Group: Save
+Scaling: Ins. Saves
+ML: 10
+Extra: Necklace; Ring; Trinket
+BoundLevel: 225
+BoundEssences: 225
+BoundIngredients: 15 Smoldering Ember; 5 Fractured Femur; 5 Purified Eberron Dragonshard
+UnboundLevel: 375
+UnboundEssences: 750
+UnboundIngredients: 30 Smoldering Ember; 10 Fractured Femur; 5 Encoded Communique; 10 Purified Eberron Dragonshard
+Demand: Niche
+
+ShardName: Insightful Evocation Focus
+ShortName: iEvo Focus
+Group: Spell DC
+Scaling: Ins. Spell Focus
+ML: 10
+Suffix: Goggles; Orb; Runearm
+BoundLevel: 225
+BoundEssences: 225
+BoundIngredients: 15 Smoldering Ember; 5 Fractured Femur; 5 Purified Eberron Dragonshard
+UnboundLevel: 375
+UnboundEssences: 750
+UnboundIngredients: 30 Smoldering Ember; 10 Fractured Femur; 5 Encoded Communique; 10 Purified Eberron Dragonshard
+Demand: Uncommon
+
+ShardName: Insightful Fire Resistance
+Group: Resist
+Scaling: Ins. Energy Resistance
+ML: 10
+Prefix: Bracers
+Suffix: Cloak
+Extra: Trinket; Shield; Orb; Metal Armor; Leather Armor; Cloth Armor; Docent
+BoundLevel: 175
+BoundEssences: 175
+BoundIngredients: 15 Cryptic Message; 5 Silver Bowl; 5 Purified Eberron Dragonshard
+UnboundLevel: 325
+UnboundEssences: 650
+UnboundIngredients: 30 Cryptic Message; 10 Silver Bowl; 5 Glowmoss Clump; 10 Purified Eberron Dragonshard
+Demand: Rarely Used
+
+ShardName: Insightful Fortification
+Group: Defense
+Scaling: Ins. Fortification
+ML: 10
+Extra: Helmet; Bracers; Boots; Trinket
+BoundLevel: 175
+BoundEssences: 175
+BoundIngredients: 15 Ruddy Fungus; 5 Silver Bowl; 5 Purified Eberron Dragonshard
+UnboundLevel: 325
+UnboundEssences: 650
+UnboundIngredients: 30 Ruddy Fungus; 10 Silver Bowl; 5 Tear of Vulkoor; 10 Purified Eberron Dragonshard
+Demand: Universal
+
+ShardName: Insightful Glaciation
+Group: Spellpower
+Scaling: Ins. Spellpower
+ML: 10
+Suffix: 2H Melee; Handwraps; 1H Melee; Range; Orb
+Extra: Gloves; Trinket; Runearm
+BoundLevel: 225
+BoundEssences: 225
+BoundIngredients: 15 Mystical Formula; 5 Glowmoss Spore; 5 Purified Eberron Dragonshard
+UnboundLevel: 375
+UnboundEssences: 750
+UnboundIngredients: 30 Mystical Formula; 10 Glowmoss Spore; 5 Encoded Communique; 10 Purified Eberron Dragonshard
+Demand: Niche
+
+ShardName: Insightful Haggle
+Group: Skill
+Scaling: Ins. Skill
+ML: 10
+Extra: Helmet; Trinket; Runearm
+BoundLevel: 175
+BoundEssences: 175
+BoundIngredients: 15 Ruddy Fungus; 5 Academic Treatise; 5 Purified Eberron Dragonshard
+UnboundLevel: 325
+UnboundEssences: 650
+UnboundIngredients: 30 Ruddy Fungus; 10 Academic Treatise; 5 Tome: Alchemist's Chapbook; 10 Purified Eberron Dragonshard
+Demand: Niche
+
+ShardName: Insightful Heal
+Group: Skill
+Scaling: Ins. Skill
+ML: 10
+Extra: Necklace; Ring; Trinket; Runearm
+BoundLevel: 175
+BoundEssences: 175
+BoundIngredients: 15 Blessed Candle; 5 Bloodfeast Fungus; 5 Purified Eberron Dragonshard
+UnboundLevel: 325
+UnboundEssences: 650
+UnboundIngredients: 30 Blessed Candle; 10 Bloodfeast Fungus; 5 Glowmoss Clump; 10 Purified Eberron Dragonshard
+Demand: Niche
+
+ShardName: Insightful Hide
+Group: Skill
+Scaling: Ins. Skill
+ML: 10
+Extra: Cloak; Trinket; Runearm
+BoundLevel: 175
+BoundEssences: 175
+BoundIngredients: 15 Chipped Bone Talisman; 5 Silver Bowl; 5 Purified Eberron Dragonshard
+UnboundLevel: 325
+UnboundEssences: 650
+UnboundIngredients: 30 Chipped Bone Talisman; 10 Silver Bowl; 5 Oceanic Sphere; 10 Purified Eberron Dragonshard
+Demand: Niche
+
+ShardName: Insightful Illusion Focus
+Group: Spell DC
+Scaling: Ins. Spell Focus
+ML: 10
+Suffix: Goggles; Orb; Runearm
+BoundLevel: 225
+BoundEssences: 225
+BoundIngredients: 15 Mystical Formula; 5 Glowmoss Spore; 5 Purified Eberron Dragonshard
+UnboundLevel: 375
+UnboundEssences: 750
+UnboundIngredients: 30 Mystical Formula; 10 Glowmoss Spore; 5 Prismatic Dust; 10 Purified Eberron Dragonshard
+Demand: Rarely Used
+
+ShardName: Insightful Illusion Resistance
+Group: Save
+Scaling: Ins. Saves
+ML: 10
+Extra: Necklace; Ring; Trinket
+BoundLevel: 225
+BoundEssences: 225
+BoundIngredients: 15 Mystical Formula; 5 Glowmoss Spore; 5 Purified Eberron Dragonshard
+UnboundLevel: 375
+UnboundEssences: 750
+UnboundIngredients: 30 Mystical Formula; 10 Glowmoss Spore; 5 Prismatic Dust; 10 Purified Eberron Dragonshard
+Demand: Rarely Used
+
+ShardName: Insightful Impulse
+Group: Spellpower
+Scaling: Ins. Spellpower
+ML: 10
+Suffix: 2H Melee; Handwraps; 1H Melee; Range; Orb
+Extra: Gloves; Trinket; Runearm
+BoundLevel: 225
+BoundEssences: 225
+BoundIngredients: 15 Zygomycota Fungus; 5 Fractured Femur; 5 Purified Eberron Dragonshard
+UnboundLevel: 375
+UnboundEssences: 750
+UnboundIngredients: 30 Slime Mold; 10 Fractured Femur; 5 Encoded Communique; 10 Purified Eberron Dragonshard
+Demand: Niche
+
+ShardName: Insightful Incite
+Group: Misc
+Scaling: Ins. Incite
+ML: 10
+Extra: Helmet; Gloves; Trinket
+BoundLevel: 175
+BoundEssences: 175
+BoundIngredients: 15 Blessed Candle; 5 Silver Bowl; 5 Purified Eberron Dragonshard
+UnboundLevel: 325
+UnboundEssences: 650
+UnboundIngredients: 30 Blessed Candle; 10 Silver Bowl; 5 Tome: Alchemist's Chapbook; 10 Purified Eberron Dragonshard
+Demand: Niche
+
+ShardName: Insightful Intelligence
+Group: Ability
+Scaling: Ins. Stat
+ML: 10
+Extra: Helmet; Goggles; Cloak; Trinket
+BoundLevel: 275
+BoundEssences: 275
+BoundIngredients: 15 Brass Censer; 5 Archaic Logbook; 5 Purified Eberron Dragonshard
+UnboundLevel: 425
+UnboundEssences: 850
+UnboundIngredients: 30 Brass Censer; 10 Archaic Logbook; 5 Shimmering Spore Pod; 10 Purified Eberron Dragonshard
+Demand: Common
+
+ShardName: Insightful Intimidate
+Group: Skill
+Scaling: Ins. Skill
+ML: 10
+Suffix: Helmet; Necklace
+Extra: Bracers; Trinket; Shield; Orb; Runearm; Metal Armor; Leather Armor; Cloth Armor; Docent
+BoundLevel: 175
+BoundEssences: 175
+BoundIngredients: 15 Cryptic Message; 5 Academic Treatise; 5 Purified Eberron Dragonshard
+UnboundLevel: 325
+UnboundEssences: 650
+UnboundIngredients: 30 Cryptic Message; 10 Academic Treatise; 5 Ritual Athame; 10 Purified Eberron Dragonshard
+Demand: Niche
+
+ShardName: Insightful Jump
+Group: Skill
+Scaling: Ins. Skill
+ML: 10
+Extra: Boots; Trinket; Runearm
+BoundLevel: 175
+BoundEssences: 175
+BoundIngredients: 15 Ruddy Fungus; 5 Bloodfeast Fungus; 5 Purified Eberron Dragonshard
+UnboundLevel: 325
+UnboundEssences: 650
+UnboundIngredients: 30 Ruddy Fungus; 10 Swaying Mushroom Spore Pod; 5 Tear of Vulkoor; 10 Purified Eberron Dragonshard
+Demand: Niche
+
+ShardName: Insightful Light Resistance
+Group: Resist
+Scaling: Ins. Energy Resistance
+ML: 10
+Prefix: Bracers
+Suffix: Cloak
+Extra: Trinket; Shield; Orb; Metal Armor; Leather Armor; Cloth Armor; Docent
+BoundLevel: 175
+BoundEssences: 175
+BoundIngredients: 15 Ruddy Fungus; 5 Silver Bowl; 5 Purified Eberron Dragonshard
+UnboundLevel: 325
+UnboundEssences: 650
+UnboundIngredients: 30 Ruddy Fungus; 10 Silver Bowl; 5 Tome: Alchemist's Chapbook; 10 Purified Eberron Dragonshard
+Demand: Niche
+
+ShardName: Insightful Listen
+Group: Skill
+Scaling: Ins. Skill
+ML: 10
+Extra: Helmet; Trinket; Runearm
+BoundLevel: 175
+BoundEssences: 175
+BoundIngredients: 15 Blessed Candle; 5 Silver Bowl; 5 Purified Eberron Dragonshard
+UnboundLevel: 325
+UnboundEssences: 650
+UnboundIngredients: 30 Blessed Candle; 10 Silver Bowl; 5 Sanguine Moth; 10 Purified Eberron Dragonshard
+Demand: Rarely Used
+
+ShardName: Insightful Magical Sheltering
+GridName: Ins. MRR
+Group: Defense
+Scaling: Ins. Sheltering
+ML: 10
+Suffix: Bracers
+Extra: Helmet; Necklace; Cloak; Ring; Trinket
+BoundLevel: 275
+BoundEssences: 275
+BoundIngredients: 15 Brass Censer; 5 Archaic Logbook; 5 Purified Eberron Dragonshard
+UnboundLevel: 425
+UnboundEssences: 850
+UnboundIngredients: 30 Brass Censer; 10 Archaic Logbook; 5 Token of the Spider; 10 Purified Eberron Dragonshard
+Demand: Universal
+
+ShardName: Insightful Magnetism
+Group: Spellpower
+Scaling: Ins. Spellpower
+ML: 10
+Suffix: 2H Melee; Handwraps; 1H Melee; Range; Orb
+Extra: Gloves; Trinket; Runearm
+BoundLevel: 225
+BoundEssences: 225
+BoundIngredients: 15 Mortar and Pestle; 5 Blister Beetle; 5 Purified Eberron Dragonshard
+UnboundLevel: 375
+UnboundEssences: 750
+UnboundIngredients: 30 Ritual Candle; 10 Blister Beetle; 5 Prismatic Dust; 10 Purified Eberron Dragonshard
+Demand: Niche
+
+ShardName: Insightful Move Silently
+ShortName: iMove Silent
+Group: Skill
+Scaling: Ins. Skill
+ML: 10
+Extra: Belt; Boots; Trinket; Shield; Orb; Runearm; Metal Armor; Leather Armor; Cloth Armor; Docent
+BoundLevel: 175
+BoundEssences: 175
+BoundIngredients: 15 Chipped Bone Talisman; 5 Ivory Scorpion Icon; 5 Purified Eberron Dragonshard
+UnboundLevel: 325
+UnboundEssences: 650
+UnboundIngredients: 30 Chipped Bone Talisman; 10 Ivory Scorpion Icon; 5 Tome: Alchemist's Chapbook; 10 Purified Eberron Dragonshard
+Demand: Niche
+
+ShardName: Insightful Necromancy Focus
+GridName: Ins. Necro Focus
+Group: Spell DC
+Scaling: Ins. Spell Focus
+ML: 10
+Suffix: Goggles; Orb; Runearm
+BoundLevel: 225
+BoundEssences: 225
+BoundIngredients: 15 Mortar and Pestle; 5 Blister Beetle; 5 Purified Eberron Dragonshard
+UnboundLevel: 375
+UnboundEssences: 750
+UnboundIngredients: 30 Ritual Candle; 10 Blister Beetle; 5 Scarlet Cryptmoss; 10 Purified Eberron Dragonshard
+Demand: Niche
+
+ShardName: Insightful Negative Resistance
+ShortName: iNeg Resist
+Group: Resist
+Scaling: Ins. Energy Resistance
+ML: 10
+Prefix: Bracers
+Suffix: Cloak
+Extra: Trinket; Shield; Orb; Metal Armor; Leather Armor; Cloth Armor; Docent
+BoundLevel: 175
+BoundEssences: 175
+BoundIngredients: 15 Blessed Candle; 5 Ivory Scorpion Icon; 5 Purified Eberron Dragonshard
+UnboundLevel: 325
+UnboundEssences: 650
+UnboundIngredients: 30 Blessed Candle; 10 Ivory Scorpion Icon; 5 Sanguine Moth; 10 Purified Eberron Dragonshard
+Demand: Rarely Used
+
+ShardName: Insightful Nullification
+Group: Spellpower
+Scaling: Ins. Spellpower
+ML: 10
+Suffix: 2H Melee; Handwraps; 1H Melee; Range; Orb
+Extra: Gloves; Trinket; Runearm
+BoundLevel: 225
+BoundEssences: 225
+BoundIngredients: 15 Slime Mold; 5 Warehouse Ledger; 5 Purified Eberron Dragonshard
+UnboundLevel: 375
+UnboundEssences: 750
+UnboundIngredients: 30 Swaying Mushroom Cluster; 10 Warehouse Ledger; 5 Planar Talisman; 10 Purified Eberron Dragonshard
+Demand: Niche
+
+ShardName: Insightful Open Lock
+Group: Skill
+Scaling: Ins. Skill
+ML: 10
+Extra: Gloves; Trinket; Runearm
+BoundLevel: 175
+BoundEssences: 175
+BoundIngredients: 15 Cryptic Message; 5 Bloodfeast Fungus; 5 Purified Eberron Dragonshard
+UnboundLevel: 325
+UnboundEssences: 650
+UnboundIngredients: 30 Cryptic Message; 10 Bloodfeast Fungus; 5 Glowmoss Clump; 10 Purified Eberron Dragonshard
+Demand: Uncommon
+
+ShardName: Insightful Perform
+Group: Skill
+Scaling: Ins. Skill
+ML: 10
+Extra: Gloves; Trinket; Runearm
+BoundLevel: 175
+BoundEssences: 175
+BoundIngredients: 15 Ruddy Fungus; 5 Silver Bowl; 5 Purified Eberron Dragonshard
+UnboundLevel: 325
+UnboundEssences: 650
+UnboundIngredients: 30 Ruddy Fungus; 10 Silver Bowl; 5 Oceanic Sphere; 10 Purified Eberron Dragonshard
+Demand: Niche
+
+ShardName: Insightful Physical Sheltering
+GridName: Ins. PRR
+Group: Defense
+Scaling: Ins. Sheltering
+ML: 10
+Suffix: Bracers
+Extra: Helmet; Necklace; Cloak; Ring; Trinket
+BoundLevel: 275
+BoundEssences: 275
+BoundIngredients: 15 Crypt Moth; 5 Ornate Charm; 5 Purified Eberron Dragonshard
+UnboundLevel: 425
+UnboundEssences: 850
+UnboundIngredients: 30 Crypt Moth; 10 Ornate Charm; 5 Shimmering Spore Pod; 10 Purified Eberron Dragonshard
+Demand: Universal
+
+ShardName: Insightful Poison Resistance
+Group: Resist
+Scaling: Ins. Energy Resistance
+ML: 10
+Prefix: Bracers
+Suffix: Cloak
+Extra: Trinket; Shield; Orb; Metal Armor; Leather Armor; Cloth Armor; Docent
+BoundLevel: 175
+BoundEssences: 175
+BoundIngredients: 15 Chipped Bone Talisman; 5 Academic Treatise; 5 Purified Eberron Dragonshard
+UnboundLevel: 325
+UnboundEssences: 650
+UnboundIngredients: 30 Chipped Bone Talisman; 10 Academic Treatise; 5 Tome: Alchemist's Chapbook; 10 Purified Eberron Dragonshard
+Demand: Rarely Used
+
+ShardName: Insightful Poison Ward
+Group: Save
+Scaling: Ins. Saves
+ML: 10
+Extra: Necklace; Ring; Trinket
+BoundLevel: 175
+BoundEssences: 175
+BoundIngredients: 15 Blessed Candle; 5 Academic Treatise; 5 Purified Eberron Dragonshard
+UnboundLevel: 325
+UnboundEssences: 650
+UnboundIngredients: 30 Blessed Candle; 10 Academic Treatise; 5 Tome: Alchemist's Chapbook; 10 Purified Eberron Dragonshard
+Demand: Rarely Used
+
+ShardName: Insightful Radiance
+Group: Spellpower
+Scaling: Ins. Spellpower
+ML: 10
+Suffix: 2H Melee; Handwraps; 1H Melee; Range; Orb
+Extra: Gloves; Trinket; Runearm
+BoundLevel: 225
+BoundEssences: 225
+BoundIngredients: 15 Mystical Formula; 5 Glowmoss Spore; 5 Purified Eberron Dragonshard
+UnboundLevel: 375
+UnboundEssences: 750
+UnboundIngredients: 30 Mystical Formula; 10 Glowmoss Spore; 5 Prismatic Dust; 10 Purified Eberron Dragonshard
+Demand: Niche
+
+ShardName: Insightful Reconstruction
+Group: Spellpower
+Scaling: Ins. Spellpower
+ML: 10
+Suffix: 2H Melee; Handwraps; 1H Melee; Range; Orb
+Extra: Gloves; Trinket; Runearm
+BoundLevel: 225
+BoundEssences: 225
+BoundIngredients: 15 Smoldering Ember; 5 Stone Fetish; 5 Purified Eberron Dragonshard
+UnboundLevel: 375
+UnboundEssences: 750
+UnboundIngredients: 30 Smoldering Ember; 10 Stone Fetish; 5 Encoded Communique; 10 Purified Eberron Dragonshard
+Demand: Niche
+
+ShardName: Insightful Repair
+Group: Skill
+Scaling: Ins. Skill
+ML: 10
+Extra: Necklace; Gloves; Ring; Trinket; Runearm
+BoundLevel: 175
+BoundEssences: 175
+BoundIngredients: 15 Blessed Candle; 5 Ivory Scorpion Icon; 5 Purified Eberron Dragonshard
+UnboundLevel: 325
+UnboundEssences: 650
+UnboundIngredients: 30 Blessed Candle; 10 Ivory Scorpion Icon; 5 Ritual Athame; 10 Purified Eberron Dragonshard
+Demand: Rarely Used
+
+ShardName: Insightful Resonance
+Group: Spellpower
+Scaling: Ins. Spellpower
+ML: 10
+Suffix: 2H Melee; Handwraps; 1H Melee; Range; Orb
+Extra: Gloves; Trinket; Runearm
+BoundLevel: 225
+BoundEssences: 225
+BoundIngredients: 15 Slime Mold; 5 Stone Fetish; 5 Purified Eberron Dragonshard
+UnboundLevel: 375
+UnboundEssences: 750
+UnboundIngredients: 30 Swaying Mushroom Cluster; 10 Stone Fetish; 5 Planar Talisman; 10 Purified Eberron Dragonshard
+Demand: Niche
+
+ShardName: Insightful Search
+Group: Skill
+Scaling: Ins. Skill
+ML: 10
+Extra: Helmet; Goggles; Necklace; Trinket; Runearm
+BoundLevel: 175
+BoundEssences: 175
+BoundIngredients: 15 Chipped Bone Talisman; 5 Academic Treatise; 5 Purified Eberron Dragonshard
+UnboundLevel: 325
+UnboundEssences: 650
+UnboundIngredients: 30 Chipped Bone Talisman; 10 Academic Treatise; 5 Tear of Vulkoor; 10 Purified Eberron Dragonshard
+Demand: Uncommon
+
+ShardName: Insightful Seeker
+Group: DPS
+Scaling: Ins. Seeker
+ML: 10
+Extra: Goggles; Boots; Trinket; 2H Melee; Handwraps; 1H Melee; Range
+BoundLevel: 225
+BoundEssences: 225
+BoundIngredients: 15 Slime Mold; 5 Blister Beetle; 5 Purified Eberron Dragonshard
+UnboundLevel: 375
+UnboundEssences: 750
+UnboundIngredients: 30 Swaying Mushroom Cluster; 10 Blister Beetle; 5 Prismatic Dust; 10 Purified Eberron Dragonshard
+Demand: Common
+
+ShardName: Insightful Shatter
+Group: Tactic
+Scaling: Ins. Tactics
+ML: 10
+Extra: Gloves; Trinket; 2H Melee; Handwraps; 1H Melee
+BoundLevel: 225
+BoundEssences: 225
+BoundIngredients: 15 Slime Mold; 5 Blister Beetle; 5 Purified Eberron Dragonshard
+UnboundLevel: 375
+UnboundEssences: 750
+UnboundIngredients: 30 Swaying Mushroom Cluster; 10 Blister Beetle; 5 Prismatic Dust; 2 Purified Eberron Dragonshard
+Demand: Rarely Used
+
+ShardName: Insightful Sonic Resistance
+Group: Resist
+Scaling: Ins. Energy Resistance
+ML: 10
+Prefix: Bracers
+Suffix: Cloak
+Extra: Trinket; Shield; Orb; Metal Armor; Leather Armor; Cloth Armor; Docent
+BoundLevel: 175
+BoundEssences: 175
+BoundIngredients: 15 Cryptic Message; 5 Bloodfeast Fungus; 5 Purified Eberron Dragonshard
+UnboundLevel: 325
+UnboundEssences: 650
+UnboundIngredients: 30 Cryptic Message; 10 Bloodfeast Fungus; 5 Sanguine Moth; 10 Purified Eberron Dragonshard
+Demand: Rarely Used
+
+ShardName: Insightful Spell Penetration
+ShortName: iSpell Pen
+Group: Spell 
+Scaling: Ins. Spell Penetration
+ML: 10
+Extra: Goggles; Gloves; Trinket; Runearm
+BoundLevel: 225
+BoundEssences: 225
+BoundIngredients: 15 Mortar and Pestle; 5 Blister Beetle; 5 Purified Eberron Dragonshard
+UnboundLevel: 375
+UnboundEssences: 750
+UnboundIngredients: 30 Ritual Candle; 10 Blister Beetle; 5 Encoded Communique; 10 Purified Eberron Dragonshard
+Demand: Niche
+
+ShardName: Insightful Spell Resistance
+Group: Defense
+Scaling: Ins. Spell Resistance
+ML: 10
+Prefix: Necklace; Bracers
+Suffix: Belt
+Extra: Cloak; Trinket
+BoundLevel: 225
+BoundEssences: 225
+BoundIngredients: 15 Smoldering Ember; 5 Blister Beetle; 5 Purified Eberron Dragonshard
+UnboundLevel: 375
+UnboundEssences: 750
+UnboundIngredients: 30 Smoldering Ember; 10 Blister Beetle; 5 Encoded Communique; 10 Purified Eberron Dragonshard
+Demand: Niche
+
+ShardName: Insightful Spell Saves
+Group: Save
+Scaling: Ins. Saves
+ML: 10
+Extra: Necklace; Ring; Trinket
+BoundLevel: 275
+BoundEssences: 275
+BoundIngredients: 15 Flint Knife; 5 Pouch of Bone Fragments; 5 Purified Eberron Dragonshard
+UnboundLevel: 425
+UnboundEssences: 850
+UnboundIngredients: 30 Flint Knife; 10 Pouch of Bone Fragments; 5 Adventuring Oratorio; 10 Purified Eberron Dragonshard
+Demand: Uncommon
+
+ShardName: Insightful Spellsight
+Group: Skill
+Scaling: Ins. Skill
+ML: 10
+Extra: Helmet; Bracers; Boots; Trinket; Runearm
+BoundLevel: 175
+BoundEssences: 175
+BoundIngredients: 15 Cryptic Message; 5 Silver Bowl; 5 Purified Eberron Dragonshard
+UnboundLevel: 325
+UnboundEssences: 650
+UnboundIngredients: 30 Cryptic Message; 10 Vial of Heavy Water; 5 Ritual Athame; 10 Purified Eberron Dragonshard
+Demand: Uncommon
+
+ShardName: Insightful Spot
+Group: Skill
+Scaling: Ins. Skill
+ML: 10
+Extra: Helmet; Goggles; Necklace; Trinket; Runearm
+BoundLevel: 175
+BoundEssences: 175
+BoundIngredients: 15 Cryptic Message; 5 Silver Bowl; 5 Purified Eberron Dragonshard
+UnboundLevel: 325
+UnboundEssences: 650
+UnboundIngredients: 30 Cryptic Message; 10 Silver Bowl; 5 Sanguine Moth; 10 Purified Eberron Dragonshard
+Demand: Uncommon
+
+ShardName: Insightful Strength
+Group: Ability
+Scaling: Ins. Stat
+ML: 10
+Extra: Bracers; Gloves; Belt; Trinket
+BoundLevel: 275
+BoundEssences: 275
+BoundIngredients: 15 Crypt Moth; 5 Ornate Charm; 5 Purified Eberron Dragonshard
+UnboundLevel: 425
+UnboundEssences: 850
+UnboundIngredients: 30 Crypt Moth; 10 Ornate Charm; 5 Token of the Spider; 10 Purified Eberron Dragonshard
+Demand: Common
+
+ShardName: Insightful Stunning
+Group: Tactic
+Scaling: Ins. Tactics
+ML: 10
+Extra: Gloves; Trinket; 2H Melee; Handwraps; 1H Melee
+BoundLevel: 225
+BoundEssences: 225
+BoundIngredients: 15 Mortar and Pestle; 5 Warehouse Ledger; 5 Purified Eberron Dragonshard
+UnboundLevel: 375
+UnboundEssences: 750
+UnboundIngredients: 30 Ritual Candle; 10 Warehouse Ledger; 5 Scarlet Cryptmoss; 2 Purified Eberron Dragonshard
+Demand: Uncommon
+
+ShardName: Insightful Swim
+Group: Skill
+Scaling: Ins. Skill
+ML: 10
+Extra: Belt; Boots; Trinket; Runearm
+BoundLevel: 175
+BoundEssences: 175
+BoundIngredients: 15 Ruddy Fungus; 5 Ivory Scorpion Icon; 5 Purified Eberron Dragonshard
+UnboundLevel: 325
+UnboundEssences: 650
+UnboundIngredients: 30 Ruddy Fungus; 10 Ivory Scorpion Icon; 5 Tome: Alchemist's Chapbook; 10 Purified Eberron Dragonshard
+Demand: Niche
+
+ShardName: Insightful Tendon Slice
+Group: Tactic
+Scaling: Ins. Tendon Slice
+ML: 10
+Extra: Gloves; Trinket; 2H Melee; Handwraps; 1H Melee; Range
+BoundLevel: 225
+BoundEssences: 225
+BoundIngredients: 15 Zygomycota Fungus; 5 Stone Fetish; 5 Purified Eberron Dragonshard
+UnboundLevel: 375
+UnboundEssences: 750
+UnboundIngredients: 30 Slime Mold; 10 Stone Fetish; 5 Encoded Communique; 2 Purified Eberron Dragonshard
+Demand: Rarely Used
+
+ShardName: Insightful Transmutation Focus
+GridName: Ins. Transmute Focus
+ShortName: iTrans Focus
+Group: Spell DC
+Scaling: Ins. Spell Focus
+ML: 10
+Suffix: Goggles; Orb; Runearm
+BoundLevel: 225
+BoundEssences: 225
+BoundIngredients: 15 Zygomycota Fungus; 5 Glowmoss Spore; 5 Purified Eberron Dragonshard
+UnboundLevel: 375
+UnboundEssences: 750
+UnboundIngredients: 30 Slime Mold; 10 Glowmoss Spore; 5 Prismatic Dust; 10 Purified Eberron Dragonshard
+Demand: Rarely Used
+
+ShardName: Insightful Tumble
+Group: Skill
+Scaling: Ins. Skill
+ML: 10
+Extra: Necklace; Belt; Boots; Ring; Trinket; Runearm
+BoundLevel: 175
+BoundEssences: 175
+BoundIngredients: 15 Blessed Candle; 5 Academic Treatise; 5 Purified Eberron Dragonshard
+UnboundLevel: 325
+UnboundEssences: 650
+UnboundIngredients: 30 Blessed Candle; 10 Academic Treatise; 5 Glowmoss Clump; 10 Purified Eberron Dragonshard
+Demand: Rarely Used
+
+ShardName: Insightful Vertigo
+Group: Tactic
+Scaling: Ins. Tactics
+ML: 10
+Extra: Gloves; Trinket; 2H Melee; Handwraps; 1H Melee
+BoundLevel: 225
+BoundEssences: 225
+BoundIngredients: 15 Mortar and Pestle; 5 Glowmoss Spore; 5 Purified Eberron Dragonshard
+UnboundLevel: 375
+UnboundEssences: 750
+UnboundIngredients: 30 Ritual Candle; 10 Glowmoss Spore; 5 Planar Talisman; 2 Purified Eberron Dragonshard
+Demand: Rarely Used
+
+ShardName: Insightful Wisdom
+Group: Ability
+Scaling: Ins. Stat
+ML: 10
+Extra: Helmet; Goggles; Cloak; Trinket
+BoundLevel: 275
+BoundEssences: 275
+BoundIngredients: 15 Brass Censer; 5 Hairy Trumpet Mushroom; 5 Purified Eberron Dragonshard
+UnboundLevel: 425
+UnboundEssences: 850
+UnboundIngredients: 30 Brass Censer; 10 Hairy Trumpet Mushroom; 5 Vial of Dragon's Blood Ink; 10 Purified Eberron Dragonshard
+Demand: Common
+
+ShardName: Insightful Wizardry
+Group: Spell 
+Scaling: Ins. Wizardry
+ML: 10
+Suffix: Necklace
+BoundLevel: 175
+BoundEssences: 175
+BoundIngredients: 15 Ruddy Fungus; 5 Ivory Scorpion Icon; 5 Purified Eberron Dragonshard
+UnboundLevel: 325
+UnboundEssences: 650
+UnboundIngredients: 30 Ruddy Fungus; 10 Ivory Scorpion Icon; 5 Oceanic Sphere; 10 Purified Eberron Dragonshard
+Demand: Niche
+
+ShardName: Intelligence
+Group: Ability
+Scaling: Stat
+Prefix: Helmet; Goggles; Cloak; Trinket
+Suffix: Trinket
+BoundLevel: 100
+BoundEssences: 100
+BoundIngredients: 15 Ceramic Bowl; 5 House-Sealed Letter
+UnboundLevel: 250
+UnboundEssences: 500
+UnboundIngredients: 30 Ceramic Bowl; 10 House-Sealed Letter; 2 Stellar Orb; 2 Purified Eberron Dragonshard
+Demand: Common
+
+ShardName: Intelligence Damaging Effect
+GridName: Int Damage
+Group: Drain
+Scaling: Stat Damage
+Extra: 2H Melee; Handwraps; 1H Melee
+BoundLevel: 100
+BoundEssences: 100
+BoundIngredients: 15 Smoldering Ember; 5 Headsman Beetle
+UnboundLevel: 250
+UnboundEssences: 500
+UnboundIngredients: 30 Smoldering Ember; 10 Headsman Beetle; 2 Executioner Beetle; 2 Purified Eberron Dragonshard
+Demand: Rarely Used
+
+ShardName: Intimidate
+Group: Skill
+Scaling: Skill
+Prefix: Helmet; Trinket; Runearm
+Suffix: Cloak; Bracers; Gloves; Trinket; Shield; Orb; Metal Armor; Leather Armor; Cloth Armor; Docent
+BoundLevel: 1
+BoundEssences: 10
+BoundIngredients: 15 String of Prayer Beads; 5 Deadly Feverblanch
+UnboundLevel: 150
+UnboundEssences: 300
+UnboundIngredients: 30 String of Prayer Beads; 10 Deadly Feverblanch; 2 Vial of Contagion; 2 Purified Eberron Dragonshard
+Demand: Niche
+
+ShardName: Invulnerability
+Group: Static
+Scaling: None
+ML: -6
+Suffix: Metal Armor; Leather Armor; Cloth Armor; Docent
+BoundLevel: 250
+BoundEssences: 250
+BoundIngredients: 15 Zygomycota Fungus; 5 Fractured Femur
+UnboundLevel: 400
+UnboundEssences: 800
+UnboundIngredients: 30 Slime Mold; 10 Fractured Femur; 5 Encoded Communique; 10 Purified Eberron Dragonshard
+Descrip: DR 5/Magic. {url=http://ddowiki.com/page/Invulnerability}ddowiki
+Demand: Niche
+
+ShardName: Jump
+Group: Skill
+Scaling: Skill
+Suffix: Belt; Boots; Trinket
+BoundLevel: 1
+BoundEssences: 10
+BoundIngredients: 15 Sweet Whitecap; 5 Small Wooden Idol
+UnboundLevel: 150
+UnboundEssences: 300
+UnboundIngredients: 30 Sweet Whitecap; 10 Small Wooden Idol; 2 Icon of Khyber; 2 Purified Eberron Dragonshard
+Demand: Niche
+
+ShardName: Keen
+Group: Static
+Scaling: None
+Suffix: 2H Melee; Handwraps; 1H Melee; Range
+BoundLevel: 250
+BoundEssences: 100
+BoundIngredients: 15 Singed Soarwood; 5 Scholarly Notes
+UnboundLevel: 250
+UnboundEssences: 500
+UnboundIngredients: 30 Singed Soarwood; 10 Scholarly Notes; 2 Tome: Codes of the Aurum; 2 Purified Eberron Dragonshard
+Descrip: Adds 1, 2, or 3 to critical threat range based on the weapon type's unmodified threat range. Does not stack with Improved Critical. {url=http://ddowiki.com/page/Keen}ddowiki
+Demand: Niche
+
+ShardName: Law Effect
+Group: Proc
+Scaling: Damage Effect
+Prefix: 2H Melee; Handwraps; 1H Melee; Range
+BoundLevel: 100
+BoundEssences: 100
+BoundIngredients: 15 Smoldering Ember; 5 Moonstone
+UnboundLevel: 250
+UnboundEssences: 500
+UnboundIngredients: 30 Smoldering Ember; 10 Moonstone; 2 Crystal Decanter; 2 Purified Eberron Dragonshard
+Demand: Rarely Used
+
+ShardName: Lawful Outsider Bane
+ShortName: Law Out Bane
+Group: Bane
+Scaling: Bane
+Suffix: 2H Melee; Handwraps; 1H Melee; Range
+BoundLevel: 50
+BoundEssences: 50
+BoundIngredients: 15 Phoenix Tavern Purchase Order; 1 Soul Gem: Essence of the Crusader
+UnboundLevel: 200
+UnboundEssences: 400
+UnboundIngredients: 30 Phoenix Tavern Purchase Order; 1 Soul Gem: Strong Essence of the Crusader; 2 Shamanic Totem; 2 Purified Eberron Dragonshard
+Demand: Niche
+
+ShardName: Lesser Arcane Spell Dexterity
+Abbreviation: L. Arcane Spell Dex.
+ShortName: Casting Dex
+Group: Static
+Scaling: None
+ML: -3
+Prefix: Gloves; Trinket; Runearm; Metal Armor; Leather Armor; Cloth Armor; Docent
+BoundLevel: 250
+BoundEssences: 250
+BoundIngredients: 15 Smoldering Ember; 5 Stone Fetish
+UnboundLevel: 400
+UnboundEssences: 800
+UnboundIngredients: 30 Smoldering Ember; 10 Stone Fetish; 5 Encoded Communique; 10 Purified Eberron Dragonshard
+Descrip: -5% Arcane Spell Failure (ASF) {url=http://ddowiki.com/page/Arcane_Casting_Dexterity}ddowiki
+Demand: Niche
+
+ShardName: Light Effect
+Group: Proc
+Scaling: Damage Effect
+Prefix: 2H Melee; Handwraps; 1H Melee; Range
+BoundLevel: 50
+BoundEssences: 50
+BoundIngredients: 15 Withered Cryptmoss; 5 Mark of the Keeper
+UnboundLevel: 200
+UnboundEssences: 400
+UnboundIngredients: 30 Withered Cryptmoss; 10 Mark of the Keeper; 2 Cryptmoss Queen; 2 Purified Eberron Dragonshard
+Demand: Niche
+
+ShardName: Light Lore
+Group: Spell Lore
+Scaling: Spell Lore (one type)
+Prefix: Ring; Trinket; Runearm
+Suffix: 2H Melee; Handwraps; 1H Melee; Range; Orb
+BoundLevel: 100
+BoundEssences: 100
+BoundIngredients: 15 Singed Soarwood; 5 Moonstone
+UnboundLevel: 250
+UnboundEssences: 500
+UnboundIngredients: 30 Singed Soarwood; 10 Moonstone; 2 Executioner Beetle; 2 Purified Eberron Dragonshard
+Demand: Niche
+
+ShardName: Light Resistance
+Group: Resist
+Scaling: Energy Resistance
+Prefix: Cloak; Trinket
+Suffix: Ring; Trinket; Shield; Orb; Metal Armor; Leather Armor; Cloth Armor; Docent
+Extra: Helmet
+BoundLevel: 1
+BoundEssences: 10
+BoundIngredients: 15 String of Prayer Beads; 5 Small Wooden Idol
+UnboundLevel: 150
+UnboundEssences: 300
+UnboundIngredients: 30 String of Prayer Beads; 10 Small Wooden Idol; 5 Icon of Khyber; 2 Purified Eberron Dragonshard
+Demand: Niche
+
+ShardName: Lightning Guard
+Group: Guard
+Scaling: Guard
+Suffix: Boots; Trinket; Shield; Orb; Metal Armor; Leather Armor; Cloth Armor; Docent
+BoundLevel: 1
+BoundEssences: 10
+BoundIngredients: 15 Amber Vial; 5 Small Wooden Idol
+UnboundLevel: 150
+UnboundEssences: 300
+UnboundIngredients: 30 Amber Vial; 10 Small Wooden Idol; 5 Tome: Prophecies of Khyber; 2 Purified Eberron Dragonshard
+Demand: Rarely Used
+
+ShardName: Listen
+Group: Skill
+Scaling: Skill
+Prefix: Helmet; Trinket; Runearm
+BoundLevel: 1
+BoundEssences: 10
+BoundIngredients: 15 Amber Vial; 5 Khyber Prayer Pamphlet
+UnboundLevel: 150
+UnboundEssences: 300
+UnboundIngredients: 30 Amber Vial; 10 Khyber Prayer Pamphlet; 2 Pale Creeper; 2 Purified Eberron Dragonshard
+Demand: Rarely Used
+
+ShardName: Magnetism
+Group: Spellpower
+Scaling: Spellpower
+Prefix: Gloves; Trinket; 2H Melee; Handwraps; 1H Melee; Shield; Orb; Range; Metal Armor; Leather Armor; Cloth Armor; Docent
+Suffix: Necklace; Ring; Trinket; Runearm
+BoundLevel: 50
+BoundEssences: 50
+BoundIngredients: 15 Caravan Logbook; 5 'Wavecrasher' Cargo Manifest
+UnboundLevel: 200
+UnboundEssences: 400
+UnboundIngredients: 30 Caravan Logbook; 10 'Wavecrasher' Cargo Manifest; 2 Necromantic Gem; 2 Purified Eberron Dragonshard
+Demand: Niche
+
+ShardName: Melee Alacrity
+ShortName: Alacrity
+Group: DPS
+Scaling: Alacrity
+Prefix: Gloves; Trinket; 2H Melee; Handwraps; 1H Melee; Runearm
+Suffix: Goggles; Trinket
+BoundLevel: 100
+BoundEssences: 100
+BoundIngredients: 15 Sour Darkcap; 5 Fragrant Drowshood
+UnboundLevel: 250
+UnboundEssences: 500
+UnboundIngredients: 1 Sour Darkcap; 10 Fragrant Drowshood
+Demand: Common
+
+ShardName: Metalline
+Group: Static
+Scaling: None
+ML: -6
+Prefix: 2H Melee; Handwraps; 1H Melee; Range
+BoundLevel: 250
+BoundEssences: 250
+BoundIngredients: 15 Smoldering Ember; 5 Fractured Femur
+UnboundLevel: 400
+UnboundEssences: 800
+UnboundIngredients: 30 Smoldering Ember; 10 Fractured Femur; 5 Planar Talisman; 10 Purified Eberron Dragonshard
+Demand: Niche
+Descrip: This weapon transmutes into a form that is able to bypass any metal-based Damage Reduction that can be bypassed. (Adamantine, Silver, Byeshk, Cold Iron, Mithral) {url=http://ddowiki.com/page/Metalline}ddowiki
+
+ShardName: Monstrous Humanoid Bane
+GridName: Monstrous Hum. Bane
+ShortName: Monstrous Bane
+Group: Bane
+Scaling: Bane
+Suffix: 2H Melee; Handwraps; 1H Melee; Range
+BoundLevel: 50
+BoundEssences: 50
+BoundIngredients: 15 Cryptmoss Worm Larva; 1 Soul Gem: Monstrous Humanoid
+UnboundLevel: 200
+UnboundEssences: 400
+UnboundIngredients: 30 Cryptmoss Worm Larva; 1 Soul Gem: Strong Monstrous Humanoid; 2 Tome: Myths of Old Xen'drik; 2 Purified Eberron Dragonshard
+Demand: Rarely Used
+
+ShardName: Move Silently
+ShortName: Move Silent
+Group: Skill
+Scaling: Skill
+Prefix: Belt; Boots; Trinket; Runearm
+Suffix: Bracers; Trinket; Shield; Orb; Metal Armor; Leather Armor; Cloth Armor; Docent
+BoundLevel: 1
+BoundEssences: 10
+BoundIngredients: 15 Sweet Whitecap; 5 Small Wooden Idol
+UnboundLevel: 150
+UnboundEssences: 300
+UnboundIngredients: 30 Sweet Whitecap; 10 Small Wooden Idol; 2 Tome: Prophecies of Khyber; 2 Purified Eberron Dragonshard
+Demand: Niche
+
+ShardName: Natural Armor
+ShortName: Nat Armor
+Group: Defense
+Suffix: Necklace; Cloak; Belt; Trinket; Runearm
+BoundLevel: 175
+BoundEssences: 175
+BoundIngredients: 15 Cryptic Message; 5 Academic Treatise
+UnboundLevel: 325
+UnboundEssences: 650
+UnboundIngredients: 30 Cryptic Message; 10 Academic Treatise; 5 Oceanic Sphere; 2 Purified Eberron Dragonshard
+Demand: Niche
+
+ShardName: Necromancy Focus
+ShortName: Necro Focus
+Group: Spell DC
+Scaling: Spell Focus
+Prefix: Goggles; Necklace; Trinket; Orb; Runearm
+BoundLevel: 50
+BoundEssences: 50
+BoundIngredients: 15 Funerary Token; 5 Sparkling Dust
+UnboundLevel: 200
+UnboundEssences: 400
+UnboundIngredients: 30 Funerary Token; 10 Sparkling Dust; 2 Cryptmoss Queen; 2 Purified Eberron Dragonshard
+Demand: Niche
+
+ShardName: Negative Amplification
+GridName: Negative Amp
+ShortName: Neg Amp
+Group: Defense
+Scaling: Healing Amplification
+Suffix: Gloves; Trinket; Metal Armor; Leather Armor; Cloth Armor; Docent
+BoundLevel: 50
+BoundEssences: 50
+BoundIngredients: 15 Cryptmoss Worm Larva; 5 Cryptmoss
+UnboundLevel: 200
+UnboundEssences: 400
+UnboundIngredients: 30 Cryptmoss Worm Larva; 10 Cryptmoss; 2 Intact Fingerbone; 2 Purified Eberron Dragonshard
+Demand: Niche
+
+ShardName: Negative Effect
+Group: Proc
+Scaling: Damage Effect
+Prefix: 2H Melee; Handwraps; 1H Melee; Range
+BoundLevel: 50
+BoundEssences: 50
+BoundIngredients: 15 Blade of the Dark Six; 5 'Wavecrasher' Cargo Manifest
+UnboundLevel: 200
+UnboundEssences: 400
+UnboundIngredients: 30 Blade of the Dark Six; 10 'Wavecrasher' Cargo Manifest; 2 Tome: Stormreach Imports and Exports, 857 YK; 2 Purified Eberron Dragonshard
+Demand: Rarely Used
+
+ShardName: Negative Lore
+ShortName: Void Lore
+Group: Spell Lore
+Scaling: Spell Lore (one type)
+Prefix: Ring; Trinket; Runearm
+Suffix: 2H Melee; Handwraps; 1H Melee; Range; Orb
+BoundLevel: 100
+BoundEssences: 100
+BoundIngredients: 15 Smoldering Ember; 5 Scholarly Notes
+UnboundLevel: 250
+UnboundEssences: 500
+UnboundIngredients: 30 Smoldering Ember; 10 Scholarly Notes; 2 Amulet of the Archbishop; 2 Purified Eberron Dragonshard
+Demand: Niche
+
+ShardName: Negative Resistance
+ShortName: Neg Resist
+Group: Resist
+Scaling: Energy Resistance
+Prefix: Cloak; Trinket
+Suffix: Ring; Trinket; Shield; Orb; Metal Armor; Leather Armor; Cloth Armor; Docent
+Extra: Helmet
+BoundLevel: 1
+BoundEssences: 10
+BoundIngredients: 15 String of Prayer Beads; 5 Small Wooden Idol
+UnboundLevel: 150
+UnboundEssences: 300
+UnboundIngredients: 30 String of Prayer Beads; 10 Small Wooden Idol; 5 Tome: Prophecies of Khyber; 2 Purified Eberron Dragonshard
+Demand: Rarely Used
+
+ShardName: Nullification
+Group: Spellpower
+Scaling: Spellpower
+Prefix: Gloves; Trinket; 2H Melee; Handwraps; 1H Melee; Shield; Orb; Range; Metal Armor; Leather Armor; Cloth Armor; Docent
+Suffix: Necklace; Ring; Trinket; Runearm
+BoundLevel: 50
+BoundEssences: 50
+BoundIngredients: 15 Caravan Logbook; 5 Sparkling Dust
+UnboundLevel: 200
+UnboundEssences: 400
+UnboundIngredients: 30 Caravan Logbook; 10 Sparkling Dust; 2 Shamanic Totem; 2 Purified Eberron Dragonshard
+Demand: Niche
+
+ShardName: Ooze Bane
+Group: Bane
+Scaling: Bane
+Suffix: 2H Melee; Handwraps; 1H Melee; Range
+BoundLevel: 50
+BoundEssences: 50
+BoundIngredients: 15 Withered Cryptmoss; 1 Soul Gem: Ooze
+UnboundLevel: 200
+UnboundEssences: 400
+UnboundIngredients: 30 Withered Cryptmoss; 1 Soul Gem: Strong Ooze; 2 Tome: Stormreach Imports and Exports, 857 YK; 2 Purified Eberron Dragonshard
+Demand: Rarely Used
+
+ShardName: Open Lock
+Group: Skill
+Scaling: Skill
+Prefix: Gloves; Trinket; Runearm
+Suffix: Goggles; Ring; Trinket
+BoundLevel: 1
+BoundEssences: 10
+BoundIngredients: 15 Page Torn from a Research Notebook; 5 Vial of Pure Water
+UnboundLevel: 150
+UnboundEssences: 300
+UnboundIngredients: 30 Page Torn from a Research Notebook; 10 Vial of Pure Water; 2 Vial of Contagion; 2 Purified Eberron Dragonshard
+Demand: Uncommon
+
+ShardName: Orc Bane
+Group: Bane
+Scaling: Bane
+Suffix: 2H Melee; Handwraps; 1H Melee; Range
+BoundLevel: 50
+BoundEssences: 50
+BoundIngredients: 15 Caravan Logbook; 1 Soul Gem: Orc
+UnboundLevel: 200
+UnboundEssences: 400
+UnboundIngredients: 30 Caravan Logbook; 1 Soul Gem: Strong Orc; 2 Necromantic Gem; 2 Purified Eberron Dragonshard
+Demand: Rarely Used
+
+ShardName: Parrying
+Group: Save
+ML: 10
+Suffix: Helmet; Belt; Boots; Trinket
+Extra: Bracers; Shield; Orb; Metal Armor; Leather Armor; Cloth Armor; Docent
+BoundLevel: 50
+BoundEssences: 50
+BoundIngredients: 15 Funerary Token; 5 Sparkling Dust
+UnboundLevel: 200
+UnboundEssences: 400
+UnboundIngredients: 30 Funerary Token; 10 Sparkling Dust; 5 Necromantic Gem; 2 Purified Eberron Dragonshard
+Demand: Universal
+Descrip: Gives an insightful bonus to all saves. As an insightful bonus, parrying can only be applied to items ML10 or higher. (This is the only insightful shard without insightful in its name.)
+
+ShardName: Perform
+Group: Skill
+Scaling: Skill
+Prefix: Gloves; Ring; Trinket; Runearm
+Extra: Bracers; Trinket
+BoundLevel: 1
+BoundEssences: 10
+BoundIngredients: 15 Page Torn from a Research Notebook; 5 Vial of Pure Water
+UnboundLevel: 150
+UnboundEssences: 300
+UnboundIngredients: 30 Page Torn from a Research Notebook; 10 Vial of Pure Water; 2 Icon of Khyber; 2 Purified Eberron Dragonshard
+Demand: Niche
+
+ShardName: Persuasion
+Group: Static
+Scaling: None
+ML: -4
+Prefix: Helmet; Goggles; Ring; Trinket; Runearm
+BoundLevel: 250
+BoundEssences: 250
+BoundIngredients: 15 Mystical Formula; 1 Mark of the Yugoloth
+UnboundLevel: 400
+UnboundEssences: 800
+UnboundIngredients: 30 Mystical Formula; 10 Blister Beetle; 5 Prismatic Dust; 10 Purified Eberron Dragonshard
+Descrip: +3 competency bonus to all Charisma based skills. (ie: UMD +3) {url=http://ddowiki.com/page/Persuasion}ddowiki
+Demand: Niche
+
+ShardName: Piercing Effect
+Group: Proc
+Scaling: Damage Effect
+Suffix: 2H Melee; Handwraps; 1H Melee; Range
+BoundLevel: 50
+BoundEssences: 50
+BoundIngredients: 15 Glittering Dust; 5 Cryptmoss
+UnboundLevel: 200
+UnboundEssences: 400
+UnboundIngredients: 30 Glittering Dust; 10 Cryptmoss; 2 Intact Fingerbone; 2 Purified Eberron Dragonshard
+Demand: Uncommon
+
+ShardName: Piercing Guard
+Group: Guard
+Scaling: Guard
+Suffix: Boots; Trinket; Shield; Orb; Metal Armor; Leather Armor; Cloth Armor; Docent
+BoundLevel: 1
+BoundEssences: 10
+BoundIngredients: 15 Sweet Whitecap; 5 Khyber Prayer Pamphlet
+UnboundLevel: 150
+UnboundEssences: 300
+UnboundIngredients: 30 Sweet Whitecap; 10 Khyber Prayer Pamphlet; 5 Pale Creeper; 2 Purified Eberron Dragonshard
+Demand: Rarely Used
+
+ShardName: Plant Bane
+Group: Bane
+Scaling: Bane
+Suffix: 2H Melee; Handwraps; 1H Melee; Range
+BoundLevel: 50
+BoundEssences: 50
+BoundIngredients: 15 Caravan Logbook; 1 Soul Gem: Plant
+UnboundLevel: 200
+UnboundEssences: 400
+UnboundIngredients: 30 Caravan Logbook; 1 Soul Gem: Strong Plant; 2 Necromantic Gem; 2 Purified Eberron Dragonshard
+Demand: Rarely Used
+
+ShardName: Poison Effect
+Group: Proc
+Scaling: Damage Effect
+Prefix: 2H Melee; Handwraps; 1H Melee; Range
+BoundLevel: 50
+BoundEssences: 50
+BoundIngredients: 15 Caravan Logbook; 5 Powdered Blood
+UnboundLevel: 200
+UnboundEssences: 400
+UnboundIngredients: 30 Caravan Logbook; 10 Powdered Blood; 2 Tome: Myths of Old Xen'drik; 2 Purified Eberron Dragonshard
+Demand: Rarely Used
+
+ShardName: Poison Resistance
+Group: Resist
+Scaling: Energy Resistance
+Prefix: Cloak; Trinket
+Suffix: Ring; Trinket; Shield; Orb; Metal Armor; Leather Armor; Cloth Armor; Docent
+Extra: Helmet
+BoundLevel: 1
+BoundEssences: 10
+BoundIngredients: 15 String of Prayer Beads; 5 Small Wooden Idol
+UnboundLevel: 150
+UnboundEssences: 300
+UnboundIngredients: 30 String of Prayer Beads; 10 Small Wooden Idol; 5 Pale Creeper; 2 Purified Eberron Dragonshard
+Demand: Rarely Used
+
+ShardName: Poison Ward
+Group: Save
+Scaling: Saves (all kinds)
+Prefix: Necklace; Cloak; Bracers; Trinket; Runearm
+BoundLevel: 1
+BoundEssences: 10
+BoundIngredients: 15 Page Torn from a Research Notebook; 5 Small Wooden Idol
+UnboundLevel: 150
+UnboundEssences: 300
+UnboundIngredients: 30 Page Torn from a Research Notebook; 10 Small Wooden Idol; 2 Vial of Contagion; 2 Purified Eberron Dragonshard
+Demand: Rarely Used
+
+ShardName: Positive Lore
+Group: Spell Lore
+Scaling: Spell Lore (one type)
+Prefix: Ring; Trinket; Runearm
+Suffix: 2H Melee; Handwraps; 1H Melee; Range; Orb
+BoundLevel: 100
+BoundEssences: 100
+BoundIngredients: 15 Runic Parchment; 5 Headsman Beetle
+UnboundLevel: 250
+UnboundEssences: 500
+UnboundIngredients: 30 Runic Parchment; 10 Headsman Beetle; 2 Elemental Ingot; 2 Purified Eberron Dragonshard
+Demand: Niche
+
+ShardName: Potency
+Group: Spellpower
+Suffix: Gloves; Trinket
+BoundLevel: 100
+BoundEssences: 100
+BoundIngredients: 15 Sour Darkcap; 5 Planar Spoor
+UnboundLevel: 250
+UnboundEssences: 500
+UnboundIngredients: 30 Sour Darkcap; 10 Planar Spoor; 2 Tome: Lost Songs of Cyre; 2 Purified Eberron Dragonshard
+Demand: Rarely Used
+
+ShardName: Protection
+Group: Defense
+Prefix: Bracers; Trinket
+Suffix: Ring; Trinket
+BoundLevel: 225
+BoundEssences: 225
+BoundIngredients: 15 Mortar and Pestle; 5 Glowmoss Spore
+UnboundLevel: 375
+UnboundEssences: 750
+UnboundIngredients: 30 Mortar and Pestle; 10 Glowmoss Spore; 5 Scarlet Cryptmoss; 2 Purified Eberron Dragonshard
+Demand: Niche
+
+ShardName: Radiance
+Group: Spellpower
+Scaling: Spellpower
+Prefix: Gloves; Trinket; 2H Melee; Handwraps; 1H Melee; Shield; Orb; Range; Metal Armor; Leather Armor; Cloth Armor; Docent
+Suffix: Necklace; Ring; Trinket; Runearm
+BoundLevel: 50
+BoundEssences: 50
+BoundIngredients: 15 Withered Cryptmoss; 5 Cryptmoss Worm
+UnboundLevel: 200
+UnboundEssences: 400
+UnboundIngredients: 30 Withered Cryptmoss; 10 Cryptmoss Worm; 2 Tome: Stormreach Imports and Exports, 857 YK; 2 Purified Eberron Dragonshard
+Demand: Niche
+
+ShardName: Ranged Alacrity
+ShortName: Alacrity
+Group: DPS
+Scaling: Alacrity
+Prefix: Gloves; Trinket; Range; Runearm
+Suffix: Goggles; Trinket
+BoundLevel: 100
+BoundEssences: 100
+BoundIngredients: 15 Bruised Spore Pod; 5 Amulet of the Six
+UnboundLevel: 250
+UnboundEssences: 500
+UnboundIngredients: 2 Bruised Spore Pod; 10 Amulet of the Six
+Demand: Common
+
+ShardName: Reconstruction
+Group: Spellpower
+Scaling: Spellpower
+Prefix: Gloves; Trinket; 2H Melee; Handwraps; 1H Melee; Shield; Orb; Range; Metal Armor; Leather Armor; Cloth Armor; Docent
+Suffix: Necklace; Ring; Trinket; Runearm
+BoundLevel: 50
+BoundEssences: 50
+BoundIngredients: 15 Skull Fragment; 5 'Wavecrasher' Cargo Manifest
+UnboundLevel: 200
+UnboundEssences: 400
+UnboundIngredients: 30 Skull Fragment; 10 'Wavecrasher' Cargo Manifest; 2 Luminescent Dust; 2 Purified Eberron Dragonshard
+Demand: Niche
+
+ShardName: Reflex Save
+Group: Save
+Scaling: Saves (all kinds)
+Prefix: Cloak; Bracers; Trinket; Runearm
+BoundLevel: 1
+BoundEssences: 10
+BoundIngredients: 15 Sweet Whitecap; 5 Small Wooden Idol
+UnboundLevel: 150
+UnboundEssences: 300
+UnboundIngredients: 30 Sweet Whitecap; 10 Small Wooden Idol; 2 Tome: Prophecies of Khyber; 2 Purified Eberron Dragonshard
+Demand: Rarely Used
+
+ShardName: Regeneration
+Group: Static
+Scaling: None
+ML: -6
+Suffix: Ring; Trinket
+BoundLevel: 250
+BoundEssences: 250
+BoundIngredients: 15 Slime Mold; 5 Glowmoss Spore
+UnboundLevel: 400
+UnboundEssences: 800
+UnboundIngredients: 30 Swaying Mushroom Cluster; 10 Glowmoss Spore; 5 Encoded Communique; 10 Purified Eberron Dragonshard
+Demand: Rarely Used
+Descrip: Recover 1 HP per minute. {url=http://ddowiki.com/page/Regeneration}ddowiki
+
+ShardName: Repair
+Group: Skill
+Scaling: Skill
+Prefix: Necklace; Trinket; Runearm
+Suffix: Gloves; Trinket
+BoundLevel: 1
+BoundEssences: 10
+BoundIngredients: 15 Page Torn from a Research Notebook; 5 Vial of Pure Water
+UnboundLevel: 150
+UnboundEssences: 300
+UnboundIngredients: 30 Page Torn from a Research Notebook; 10 Vial of Pure Water; 2 Pale Creeper; 2 Purified Eberron Dragonshard
+Demand: Rarely Used
+
+ShardName: Repair Amplification
+GridName: Repair Amp
+Group: Defense
+Scaling: Healing Amplification
+Suffix: Gloves; Trinket; Metal Armor; Leather Armor; Cloth Armor; Docent
+BoundLevel: 50
+BoundEssences: 50
+BoundIngredients: 15 Glittering Dust; 5 Signet of the Devourer
+UnboundLevel: 200
+UnboundEssences: 400
+UnboundIngredients: 30 Glittering Dust; 10 Signet of the Devourer; 2 Shamanic Totem; 2 Purified Eberron Dragonshard
+Demand: Niche
+
+ShardName: Repair Lore
+Group: Spell Lore
+Scaling: Spell Lore (one type)
+Prefix: Ring; Trinket; Runearm
+Suffix: 2H Melee; Handwraps; 1H Melee; Range; Orb
+BoundLevel: 100
+BoundEssences: 100
+BoundIngredients: 15 Bruised Spore Pod; 5 Amulet of the Six
+UnboundLevel: 250
+UnboundEssences: 500
+UnboundIngredients: 30 Bruised Spore Pod; 10 Amulet of the Six; 2 Amulet of the Archbishop; 2 Purified Eberron Dragonshard
+Demand: Niche
+
+ShardName: Reptilian Bane
+ShortName: Reptile Bane
+Group: Bane
+Scaling: Bane
+Suffix: 2H Melee; Handwraps; 1H Melee; Range
+BoundLevel: 50
+BoundEssences: 50
+BoundIngredients: 15 Glittering Dust; 1 Soul Gem: Reptilian Humanoid
+UnboundLevel: 200
+UnboundEssences: 400
+UnboundIngredients: 30 Glittering Dust; 1 Soul Gem: Strong Reptilian Humanoid; 2 Intact Fingerbone; 2 Purified Eberron Dragonshard
+Demand: Rarely Used
+
+ShardName: Resistance
+Group: Save
+Scaling: Saves (all kinds)
+Prefix: Bracers; Trinket
+Suffix: Helmet; Gloves; Trinket
+BoundLevel: 100
+BoundEssences: 100
+BoundIngredients: 15 Romantic Sonnet; 5 Fragrant Drowshood
+UnboundLevel: 250
+UnboundEssences: 500
+UnboundIngredients: 30 Romantic Sonnet; 10 Fragrant Drowshood; 2 Lightning-Split Soarwood; 2 Purified Eberron Dragonshard
+Demand: Universal
+
+ShardName: Resonance
+Group: Spellpower
+Scaling: Spellpower
+Prefix: Gloves; Trinket; 2H Melee; Handwraps; 1H Melee; Shield; Orb; Range; Metal Armor; Leather Armor; Cloth Armor; Docent
+Suffix: Necklace; Ring; Trinket; Runearm
+BoundLevel: 50
+BoundEssences: 50
+BoundIngredients: 15 Blade of the Dark Six; 5 Sparkling Dust
+UnboundLevel: 200
+UnboundEssences: 400
+UnboundIngredients: 30 Blade of the Dark Six; 10 Sparkling Dust; 2 Cryptmoss Queen; 2 Purified Eberron Dragonshard
+Demand: Niche
+
+ShardName: Sacred
+Group: Static
+Scaling: None
+ML: -2
+Prefix: Helmet; Necklace; Ring; Trinket; 2H Melee; Handwraps; 1H Melee; Shield; Orb; Range; Metal Armor; Leather Armor; Cloth Armor; Docent
+BoundLevel: 250
+BoundEssences: 250
+BoundIngredients: 15 Zygomycota Fungus; 1 Mark of the Silver Flame
+UnboundLevel: 400
+UnboundEssences: 800
+UnboundIngredients: 30 Slime Mold; 10 Fractured Femur; 5 Encoded Communique; 10 Purified Eberron Dragonshard
+Descrip: Your effective level while Turning Undead is increased by 2. {url=http://ddowiki.com/page/Sacred}ddowiki
+Demand: Rarely Used
+
+ShardName: Search
+Group: Skill
+Scaling: Skill
+Prefix: Goggles; Trinket; Runearm
+Suffix: Helmet; Necklace; Trinket
+BoundLevel: 1
+BoundEssences: 10
+BoundIngredients: 15 Amber Vial; 5 Khyber Prayer Pamphlet
+UnboundLevel: 150
+UnboundEssences: 300
+UnboundIngredients: 30 Amber Vial; 10 Khyber Prayer Pamphlet; 2 Tome: Prophecies of Khyber; 2 Purified Eberron Dragonshard
+Demand: Uncommon
+
+ShardName: Seeker
+Group: DPS
+Prefix: Goggles; Boots; Trinket; 2H Melee; Handwraps; 1H Melee; Range
+BoundLevel: 50
+BoundEssences: 50
+BoundIngredients: 15 Cryptmoss Worm Larva; 5 'Wavecrasher' Cargo Manifest
+UnboundLevel: 200
+UnboundEssences: 400
+UnboundIngredients: 30 Cryptmoss Worm Larva; 10 'Wavecrasher' Cargo Manifest; 5 Shamanic Totem; 2 Purified Eberron Dragonshard
+Demand: Common
+
+ShardName: Shatter
+Group: Tactic
+Scaling: Tactics
+Prefix: Gloves; Trinket
+Suffix: Belt; Trinket; 2H Melee; Handwraps; 1H Melee
+BoundLevel: 50
+BoundEssences: 50
+BoundIngredients: 15 Skull Fragment; 5 Powdered Blood
+UnboundLevel: 200
+UnboundEssences: 400
+UnboundIngredients: 30 Skull Fragment; 10 Powdered Blood; 2 Necromantic Gem; 2 Purified Eberron Dragonshard
+Demand: Rarely Used
+
+ShardName: Sheltering
+Group: Defense
+Prefix: Helmet; Trinket
+Suffix: Necklace; Boots; Ring; Trinket; Shield; Orb
+Extra: Bracers
+BoundLevel: 50
+BoundEssences: 50
+BoundIngredients: 15 Skull Fragment; 5 Cryptmoss
+UnboundLevel: 200
+UnboundEssences: 400
+UnboundIngredients: 30 Skull Fragment; 10 Cryptmoss; 2 Tome: Myths of Old Xen'drik; 2 Purified Eberron Dragonshard
+Demand: Universal
+
+ShardName: Shield Bashing
+ShortName: Shield Bash
+Group: DPS
+Suffix: Gloves; Trinket; Shield; Orb
+BoundLevel: 50
+BoundEssences: 50
+BoundIngredients: 15 Phoenix Tavern Purchase Order; 5 Cryptmoss
+UnboundLevel: 200
+UnboundEssences: 400
+UnboundIngredients: 30 Phoenix Tavern Purchase Order; 10 Cryptmoss; 5 Cryptmoss Queen; 2 Purified Eberron Dragonshard
+Descrip: % chance to do an automatic shield bash attack during normal attack sequence
+Demand: Niche
+
+ShardName: Shield Spikes
+Group: Proc
+Suffix: Shield; Orb
+BoundLevel: 50
+BoundEssences: 50
+BoundIngredients: 15 Caravan Logbook; 5 'Wavecrasher' Cargo Manifest
+UnboundLevel: 200
+UnboundEssences: 400
+UnboundIngredients: 30 Caravan Logbook; 10 'Wavecrasher' Cargo Manifest; 2 Shamanic Totem; 2 Purified Eberron Dragonshard
+Demand: Niche
+
+ShardName: Silver Flame
+Group: Static
+Scaling: None
+ML: -6
+Prefix: Gloves; Trinket; 2H Melee; Handwraps; 1H Melee; Shield; Orb; Range; Runearm
+BoundLevel: 250
+BoundEssences: 250
+BoundIngredients: 15 Smoldering Ember; 1 Mark of the Silver Flame
+UnboundLevel: 400
+UnboundEssences: 800
+UnboundIngredients: 30 Smoldering Ember; 10 Stone Fetish; 5 Planar Talisman; 10 Purified Eberron Dragonshard
+Descrip: The total hit dice you can affect while Turning Undead is increased by 6. {url=http://ddowiki.com/page/Silver_Flame}ddowiki
+Demand: Niche
+
+ShardName: Slashing Effect
+Group: Proc
+Scaling: Damage Effect
+Suffix: 2H Melee; Handwraps; 1H Melee; Range
+BoundLevel: 50
+BoundEssences: 50
+BoundIngredients: 15 Caravan Logbook; 5 Sparkling Dust
+UnboundLevel: 200
+UnboundEssences: 400
+UnboundIngredients: 30 Caravan Logbook; 10 Sparkling Dust; 2 Necromantic Gem; 2 Purified Eberron Dragonshard
+Demand: Uncommon
+
+ShardName: Solar Guard
+Group: Guard
+Scaling: Guard
+Suffix: Boots; Trinket; Shield; Orb; Metal Armor; Leather Armor; Cloth Armor; Docent
+BoundLevel: 1
+BoundEssences: 10
+BoundIngredients: 15 Sweet Whitecap; 5 Deadly Feverblanch
+UnboundLevel: 150
+UnboundEssences: 300
+UnboundIngredients: 30 Sweet Whitecap; 10 Deadly Feverblanch; 5 Vial of Contagion; 2 Purified Eberron Dragonshard
+Demand: Rarely Used
+
+ShardName: Songblade
+Group: Static
+Scaling: None
+ML: -2
+Prefix: 2H Melee; Handwraps; 1H Melee; Shield; Orb; Range
+BoundLevel: 250
+BoundEssences: 250
+BoundIngredients: 15 Mortar and Pestle; 5 Fractured Femur
+UnboundLevel: 400
+UnboundEssences: 800
+UnboundIngredients: 30 Ritual Candle; 10 Fractured Femur; 5 Planar Talisman; 10 Purified Eberron Dragonshard
+Descrip: +2 enhancement bonus to the Perform skill. (Stacks with Perform items.) {url=http://ddowiki.com/page/Songblade}ddowiki
+Demand: Rarely Used
+
+ShardName: Sonic Absorption
+Group: Absorb
+Scaling: Energy Absorption
+Prefix: Ring; Trinket; Shield; Orb; Runearm; Metal Armor; Leather Armor; Cloth Armor; Docent
+Suffix: Cloak; Trinket
+BoundLevel: 50
+BoundEssences: 50
+BoundIngredients: 15 Funerary Token; 5 Sparkling Dust
+UnboundLevel: 200
+UnboundEssences: 400
+UnboundIngredients: 30 Funerary Token; 10 Sparkling Dust; 2 Intact Fingerbone; 2 Purified Eberron Dragonshard
+Demand: Rarely Used
+
+ShardName: Sonic Effect
+Group: Proc
+Scaling: Damage Effect
+Prefix: 2H Melee; Handwraps; 1H Melee; Range
+BoundLevel: 50
+BoundEssences: 50
+BoundIngredients: 15 Cryptmoss Worm Larva; 5 Signet of the Devourer
+UnboundLevel: 200
+UnboundEssences: 400
+UnboundIngredients: 30 Cryptmoss Worm Larva; 10 Signet of the Devourer; 2 Tome: Myths of Old Xen'drik; 2 Purified Eberron Dragonshard
+Demand: Rarely Used
+
+ShardName: Sonic Guard
+Group: Guard
+Scaling: Guard
+Suffix: Boots; Trinket; Shield; Orb; Metal Armor; Leather Armor; Cloth Armor; Docent
+BoundLevel: 1
+BoundEssences: 10
+BoundIngredients: 15 Sweet Whitecap; 5 Vial of Pure Water
+UnboundLevel: 150
+UnboundEssences: 300
+UnboundIngredients: 30 Sweet Whitecap; 10 Vial of Pure Water; 5 Icon of Khyber; 2 Purified Eberron Dragonshard
+Demand: Rarely Used
+
+ShardName: Sonic Lore
+Group: Spell Lore
+Scaling: Spell Lore (one type)
+Prefix: Ring; Trinket; Runearm
+Suffix: 2H Melee; Handwraps; 1H Melee; Range; Orb
+BoundLevel: 100
+BoundEssences: 100
+BoundIngredients: 15 Amulet of the Lost Empire; 5 House-Sealed Letter
+UnboundLevel: 250
+UnboundEssences: 500
+UnboundIngredients: 30 Amulet of the Lost Empire; 10 House-Sealed Letter; 2 Crystal Decanter; 2 Purified Eberron Dragonshard
+Demand: Niche
+
+ShardName: Sonic Resistance
+Group: Resist
+Scaling: Energy Resistance
+Prefix: Cloak; Trinket
+Suffix: Ring; Trinket; Shield; Orb; Metal Armor; Leather Armor; Cloth Armor; Docent
+Extra: Helmet
+BoundLevel: 1
+BoundEssences: 10
+BoundIngredients: 15 String of Prayer Beads; 5 Small Wooden Idol
+UnboundLevel: 150
+UnboundEssences: 300
+UnboundIngredients: 30 String of Prayer Beads; 10 Small Wooden Idol; 5 Vial of Contagion; 2 Purified Eberron Dragonshard
+Demand: Rarely Used
+
+ShardName: Spell Focus Mastery
+ShortName: Focus Mastery
+Group: Spell DC
+Suffix: Helmet; Trinket
+BoundLevel: 100
+BoundEssences: 100
+BoundIngredients: 15 Bruised Spore Pod; 5 Amulet of the Six
+UnboundLevel: 275
+UnboundEssences: 550
+UnboundIngredients: 30 Bruised Spore Pod; 10 Amulet of the Six; 2 Planar Talisman; 2 Purified Eberron Dragonshard
+Demand: Niche
+
+ShardName: Spell Lore
+Group: Spell Lore
+Scaling: Universal Lore
+Suffix: Gloves; Trinket
+BoundLevel: 150
+BoundEssences: 150
+BoundIngredients: 15 Cryptic Message; 5 Academic Treatise
+UnboundLevel: 300
+UnboundEssences: 600
+UnboundIngredients: 30 Cryptic Message; 10 Academic Treatise; 5 Scarlet Cryptmoss; 2 Purified Eberron Dragonshard
+Demand: Rarely Used
+
+ShardName: Spell Penetration
+ShortName: Spell Pen
+Group: Spell 
+Prefix: Gloves; Trinket; Runearm
+Suffix: Goggles; Trinket
+BoundLevel: 50
+BoundEssences: 50
+BoundIngredients: 15 Withered Cryptmoss; 5 Signet of the Devourer
+UnboundLevel: 200
+UnboundEssences: 400
+UnboundIngredients: 30 Withered Cryptmoss; 10 Signet of the Devourer; 2 Tome: Myths of Old Xen'drik; 2 Purified Eberron Dragonshard
+Demand: Niche
+
+ShardName: Spell Resistance
+Group: Defense
+Prefix: Cloak; Belt; Ring; Trinket; Orb; Metal Armor; Leather Armor; Cloth Armor; Docent
+BoundLevel: 50
+BoundEssences: 50
+BoundIngredients: 15 Page Torn from a Research Notebook; 5 Deadly Feverblanch
+UnboundLevel: 200
+UnboundEssences: 400
+UnboundIngredients: 30 Page Torn from a Research Notebook; 10 Deadly Feverblanch; 5 Tome: Prophecies of Khyber; 2 Purified Eberron Dragonshard
+Notes: Bug: The shard says it goes on shield but it actually goes on ring instead.
+Demand: Niche
+
+ShardName: Spell Saves
+Group: Save
+Scaling: Saves (all kinds)
+Prefix: Necklace; Cloak; Bracers; Trinket; Runearm
+BoundLevel: 100
+BoundEssences: 100
+BoundIngredients: 15 Amulet of the Lost Empire; 5 Intact Spore Pod
+UnboundLevel: 250
+UnboundEssences: 500
+UnboundIngredients: 30 Amulet of the Lost Empire; 10 Intact Spore Pod; 2 Stellar Orb; 2 Purified Eberron Dragonshard
+Demand: Uncommon
+
+ShardName: Spellsight
+Group: Skill
+Scaling: Skill
+Prefix: Boots; Trinket; Runearm
+Suffix: Helmet; Necklace; Cloak; Bracers; Trinket
+BoundLevel: 1
+BoundEssences: 10
+BoundIngredients: 15 Amber Vial; 5 Khyber Prayer Pamphlet
+UnboundLevel: 150
+UnboundEssences: 300
+UnboundIngredients: 30 Amber Vial; 10 Khyber Prayer Pamphlet; 2 Icon of Khyber; 2 Purified Eberron Dragonshard
+Demand: Uncommon
+
+ShardName: Spot
+Group: Skill
+Scaling: Skill
+Suffix: Helmet; Goggles; Necklace; Trinket
+BoundLevel: 1
+BoundEssences: 10
+BoundIngredients: 15 Amber Vial; 5 Khyber Prayer Pamphlet
+UnboundLevel: 150
+UnboundEssences: 300
+UnboundIngredients: 30 Amber Vial; 10 Khyber Prayer Pamphlet; 2 Vial of Contagion; 2 Purified Eberron Dragonshard
+Demand: Uncommon
+
+ShardName: Strength
+Group: Ability
+Scaling: Stat
+Prefix: Bracers; Gloves; Trinket
+Suffix: Belt; Boots; Trinket
+BoundLevel: 100
+BoundEssences: 100
+BoundIngredients: 15 Bruised Spore Pod; 5 Amulet of the Six
+UnboundLevel: 250
+UnboundEssences: 500
+UnboundIngredients: 30 Bruised Spore Pod; 10 Amulet of the Six; 2 Tome: Codes of the Aurum; 2 Purified Eberron Dragonshard
+Demand: Common
+
+ShardName: Strength Damaging Effect
+GridName: Str Damage
+Group: Drain
+Scaling: Stat Damage
+Extra: 2H Melee; Handwraps; 1H Melee
+BoundLevel: 100
+BoundEssences: 100
+BoundIngredients: 15 Singed Soarwood; 5 Scholarly Notes
+UnboundLevel: 250
+UnboundEssences: 500
+UnboundIngredients: 30 Singed Soarwood; 10 Scholarly Notes; 2 Tome: Codes of the Aurum; 2 Purified Eberron Dragonshard
+Demand: Rarely Used
+
+ShardName: Striding
+Group: Misc
+Prefix: Boots; Ring; Trinket
+BoundLevel: 100
+BoundEssences: 100
+BoundIngredients: 15 Lodestone; 5 Silver Flame Hymnal
+UnboundLevel: 250
+UnboundEssences: 500
+UnboundIngredients: 2 Lodestone; 10 Silver Flame Hymnal
+Demand: Obsolete
+
+ShardName: Stunning
+Group: Tactic
+Scaling: Tactics
+Prefix: Gloves; Trinket
+Suffix: Helmet; Belt; Trinket; 2H Melee; Handwraps; 1H Melee
+BoundLevel: 50
+BoundEssences: 50
+BoundIngredients: 15 Cryptmoss Worm Larva; 5 Cryptmoss Worm
+UnboundLevel: 200
+UnboundEssences: 400
+UnboundIngredients: 30 Cryptmoss Worm Larva; 10 Cryptmoss Worm; 2 Intact Fingerbone; 2 Purified Eberron Dragonshard
+Demand: Uncommon
+
+ShardName: Swim
+Group: Skill
+Scaling: Skill
+Suffix: Belt; Boots; Ring; Trinket
+BoundLevel: 1
+BoundEssences: 10
+BoundIngredients: 15 Sweet Whitecap; 5 Small Wooden Idol
+UnboundLevel: 150
+UnboundEssences: 300
+UnboundIngredients: 30 Sweet Whitecap; 10 Small Wooden Idol; 2 Icon of Khyber; 2 Purified Eberron Dragonshard
+Demand: Niche
+
+ShardName: Tendon Slice
+Group: Tactic
+Suffix: Gloves; Trinket; 2H Melee; Handwraps; 1H Melee; Range
+Extra: Goggles
+BoundLevel: 50
+BoundEssences: 50
+BoundIngredients: 15 Glittering Dust; 5 Sparkling Dust
+UnboundLevel: 200
+UnboundEssences: 400
+UnboundIngredients: 30 Glittering Dust; 10 Sparkling Dust; 2 Shamanic Totem; 2 Purified Eberron Dragonshard
+Demand: Rarely Used
+
+ShardName: Transmutation Focus
+ShortName: Trans Focus
+Group: Spell DC
+Scaling: Spell Focus
+Prefix: Goggles; Necklace; Trinket; Runearm; Orb
+BoundLevel: 50
+BoundEssences: 50
+BoundIngredients: 15 Caravan Logbook; 5 Research Diary
+UnboundLevel: 200
+UnboundEssences: 400
+UnboundIngredients: 30 Caravan Logbook; 10 Research Diary; 2 Intact Fingerbone; 2 Purified Eberron Dragonshard
+Demand: Rarely Used
+
+ShardName: True Seeing
+Group: Static
+Scaling: None
+ML: -14
+Suffix: Goggles; Trinket
+BoundLevel: 250
+BoundEssences: 250
+BoundIngredients: 15 Mystical Formula; 5 Warehouse Ledger
+UnboundLevel: 400
+UnboundEssences: 800
+UnboundIngredients: 30 Mystical Formula; 10 Stone Fetish; 5 Planar Talisman; 10 Purified Eberron Dragonshard
+Descrip: This allows the target to find secret doors that have a DC of 30 or less, see the exact location of creatures hidden by Blur or Displacement effects, and see Invisible creatures or objects normally. {url=http://ddowiki.com/page/True_Seeing_(enchantment)}ddowiki
+Demand: Niche
+
+ShardName: Tumble
+Group: Skill
+Scaling: Skill
+Prefix: Necklace; Boots; Trinket; Runearm
+Suffix: Bracers; Belt; Ring; Trinket
+BoundLevel: 1
+BoundEssences: 10
+BoundIngredients: 15 Sweet Whitecap; 5 Small Wooden Idol
+UnboundLevel: 150
+UnboundEssences: 300
+UnboundIngredients: 30 Sweet Whitecap; 10 Small Wooden Idol; 2 Pale Creeper; 2 Purified Eberron Dragonshard
+Demand: Rarely Used
+
+ShardName: Twilight
+Group: Static
+Scaling: None
+ML: -6
+Prefix: Metal Armor; Leather Armor; Docent
+BoundLevel: 250
+BoundEssences: 250
+BoundIngredients: 15 Slime Mold; 5 Warehouse Ledger
+UnboundLevel: 400
+UnboundEssences: 800
+UnboundIngredients: 30 Swaying Mushroom Cluster; 10 Warehouse Ledger; 5 Planar Talisman; 10 Purified Eberron Dragonshard
+Descrip: Twilight armor reduces the chance of arcane spell failure by -10%. {url=http://ddowiki.com/page/Twilight_(enchantment)}ddowiki
+Warning: Twilight can't go on cloth armor.
+Demand: Rarely Used
+
+ShardName: Unbalancing
+Group: Static
+Scaling: None
+ML: -2
+Prefix: 2H Melee; Handwraps; 1H Melee; Range
+BoundLevel: 250
+BoundEssences: 250
+BoundIngredients: 15 Mortar and Pestle; 5 Blister Beetle
+UnboundLevel: 400
+UnboundEssences: 800
+UnboundIngredients: 30 Ritual Candle; 10 Blister Beetle; 5 Scarlet Cryptmoss; 10 Purified Eberron Dragonshard
+Descrip: Anything that melee attacks a character with an Unbalancing item has a chance (10%) to be pulled off balance giving them a -2 penalty to their AC. {url=http://ddowiki.com/page/Unbalancing}ddowiki
+Demand: Rarely Used
+
+ShardName: Undead Bane
+Group: Bane
+Scaling: Bane
+Suffix: 2H Melee; Handwraps; 1H Melee; Range
+BoundLevel: 50
+BoundEssences: 50
+BoundIngredients: 15 Glittering Dust; 1 Soul Gem: Undead
+UnboundLevel: 200
+UnboundEssences: 400
+UnboundIngredients: 30 Glittering Dust; 1 Soul Gem: Strong Undead; 2 Intact Fingerbone; 2 Purified Eberron Dragonshard
+Demand: Niche
+
+ShardName: Undead Guard
+Group: Guard
+Scaling: Guard
+Suffix: Boots; Trinket; Shield; Orb; Metal Armor; Leather Armor; Cloth Armor; Docent
+BoundLevel: 1
+BoundEssences: 10
+BoundIngredients: 15 Sweet Whitecap; 5 Small Wooden Idol
+UnboundLevel: 150
+UnboundEssences: 300
+UnboundIngredients: 30 Sweet Whitecap; 10 Small Wooden Idol; 5 Tome: Prophecies of Khyber; 2 Purified Eberron Dragonshard
+Demand: Rarely Used
+
+ShardName: Underwater Action
+ShortName: Waterbreathing
+Group: Static
+Scaling: None
+ML: -6
+Prefix: Helmet; Goggles; Ring; Trinket
+BoundLevel: 1
+BoundEssences: 10
+BoundIngredients: 15 Sweet Whitecap; 5 Small Wooden Idol
+UnboundLevel: 150
+UnboundEssences: 300
+UnboundIngredients: 3 Sweet Whitecap; 10 Small Wooden Idol; 2 Vial of Contagion; 2 Purified Eberron Dragonshard
+Demand: Obsolete
+
+ShardName: Unnatural Bane
+Group: Bane
+Scaling: Bane
+Suffix: 2H Melee; Handwraps; 1H Melee; Range
+BoundLevel: 50
+BoundEssences: 50
+BoundIngredients: 15 Caravan Logbook; 5 Mark of the Keeper
+UnboundLevel: 200
+UnboundEssences: 400
+UnboundIngredients: 30 Caravan Logbook; 2 Cryptmoss Queen; 2 Purified Eberron Dragonshard
+Demand: Niche
+
+ShardName: Vampirism
+Group: Misc
+Extra: 2H Melee; Handwraps; 1H Melee; Range
+BoundLevel: 250
+BoundEssences: 100
+BoundIngredients: 15 Lodestone; 5 Intact Spore Pod
+UnboundLevel: 250
+UnboundEssences: 500
+UnboundIngredients: 30 Lodestone; 10 Intact Spore Pod; 2 Flowering Spore Pod; 2 Purified Eberron Dragonshard
+Demand: Niche
+
+ShardName: Vengeful
+Group: Static
+Scaling: None
+ML: -2
+Prefix: 2H Melee; Handwraps; 1H Melee; Range
+BoundLevel: 250
+BoundEssences: 250
+BoundIngredients: 15 Mystical Formula; 5 Glowmoss Spore
+UnboundLevel: 400
+UnboundEssences: 800
+UnboundIngredients: 30 Mystical Formula; 10 Glowmoss Spore; 5 Prismatic Dust; 10 Purified Eberron Dragonshard
+Descrip: When its wielder is hit in battle, this weapon has a 10% chance to cause him or her to become full of anger and go into a Rage for 30 seconds. {url=http://ddowiki.com/page/Vengeful}ddowiki
+Demand: Rarely Used
+
+ShardName: Vermin Bane
+Group: Bane
+Scaling: Bane
+Suffix: 2H Melee; Handwraps; 1H Melee; Range
+BoundLevel: 50
+BoundEssences: 50
+BoundIngredients: 15 Skull Fragment; 1 Soul Gem: Vermin
+UnboundLevel: 200
+UnboundEssences: 400
+UnboundIngredients: 30 Skull Fragment; 1 Soul Gem: Strong Vermin; 2 Luminescent Dust; 2 Purified Eberron Dragonshard
+Demand: Rarely Used
+
+ShardName: Vertigo
+Group: Tactic
+Scaling: Tactics
+Prefix: Gloves; Trinket
+Suffix: Belt; Trinket; 2H Melee; Handwraps; 1H Melee
+BoundLevel: 50
+BoundEssences: 50
+BoundIngredients: 15 Withered Cryptmoss; 5 Cryptmoss
+UnboundLevel: 200
+UnboundEssences: 400
+UnboundIngredients: 30 Withered Cryptmoss; 10 Cryptmoss; 2 Luminescent Dust; 2 Purified Eberron Dragonshard
+Demand: Rarely Used
+
+ShardName: Vitality
+Group: Misc
+Prefix: Metal Armor; Leather Armor; Cloth Armor; Docent
+BoundLevel: 250
+BoundEssences: 100
+BoundIngredients: 15 Amulet of the Lost Empire; 5 Fragrant Drowshood
+UnboundLevel: 250
+UnboundEssences: 500
+UnboundIngredients: 30 Amulet of the Lost Empire; 10 Fragrant Drowshood; 2 Flowering Hellscap; 2 Purified Eberron Dragonshard
+Demand: Niche
+
+ShardName: Will Save
+Group: Save
+Scaling: Saves (all kinds)
+Prefix: Cloak; Bracers; Trinket; Runearm
+BoundLevel: 1
+BoundEssences: 10
+BoundIngredients: 15 String of Prayer Beads; 5 Vial of Pure Water
+UnboundLevel: 150
+UnboundEssences: 300
+UnboundIngredients: 30 String of Prayer Beads; 10 Vial of Pure Water; 2 Pale Creeper; 2 Purified Eberron Dragonshard
+Demand: Rarely Used
+
+ShardName: Wisdom
+Group: Ability
+Scaling: Stat
+Prefix: Helmet; Goggles; Cloak; Trinket
+Suffix: Trinket
+BoundLevel: 100
+BoundEssences: 100
+BoundIngredients: 15 Singed Soarwood; 5 Silver Flame Hymnal
+UnboundLevel: 250
+UnboundEssences: 500
+UnboundIngredients: 30 Singed Soarwood; 10 Silver Flame Hymnal; 2 Lightning-Split Soarwood; 2 Purified Eberron Dragonshard
+Demand: Common
+
+ShardName: Wisdom Damaging Effect
+GridName: Wis Damage
+Group: Drain
+Scaling: Stat Damage
+Extra: 2H Melee; Handwraps; 1H Melee
+BoundLevel: 100
+BoundEssences: 100
+BoundIngredients: 15 Small Planar Crystal; 5 Amulet of the Six
+UnboundLevel: 250
+UnboundEssences: 500
+UnboundIngredients: 30 Small Planar Crystal; 10 Amulet of the Six; 2 Amulet of the Archbishop; 2 Purified Eberron Dragonshard
+Demand: Rarely Used
+
+ShardName: Wizardry
+Group: Spell 
+Prefix: Helmet; Gloves; Ring; Trinket
+Suffix: Trinket; Shield; Orb
+BoundLevel: 1
+BoundEssences: 10
+BoundIngredients: 15 Sweet Whitecap; 5 Small Wooden Idol
+UnboundLevel: 150
+UnboundEssences: 300
+UnboundIngredients: 30 Sweet Whitecap; 10 Small Wooden Idol; 2 Icon of Khyber; 2 Purified Eberron Dragonshard
+Demand: Common

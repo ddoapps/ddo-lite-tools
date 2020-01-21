@@ -1,0 +1,824 @@
+Augment: Stat
+Color: Clear
+Variants: Strength; Dexterity; Constitution; Intelligence; Wisdom; Charisma
+ML: 1
+Value: +1
+Store: 50
+Remnants: 300
+Vendors: Collector
+ML: 4
+Value: +2
+Store: 50
+Remnants: 400
+Vendors: Collector
+ML: 8
+Value: +3
+Store: 75
+Remnants: 500
+Vendors: Collector
+ML: 12
+Value: +4
+Store: 95
+Remnants: 700
+Vendors: Gianthold
+ML: 16
+Value: +5
+Store: 150
+Remnants: 1000
+Vendors: Gianthold
+ML: 20
+Value: +6
+Store: 175
+Remnants: 2000
+Vendors: Gianthold; Lahar
+ML: 24
+Value: +7
+Store: 195
+Vendors: Gianthold
+ML: 28
+Value: +8
+Store: 195
+
+Augment: Exceptional Stat
+Color: Clear
+Notes: Individual Exceptional Stat augments are somewhat obsolete since the introduction of the {url=https://ddowiki.com/page/Item:Globe_of_True_Imperial_Blood}Globe_of_True_Imperial_Blood which grants +1 Exceptional for all stats.
+Variants: Exceptional Strength; Exceptional Dexterity; Exceptional Constitution; Exceptional Intelligence; Exceptional Wisdom; Exceptional Charisma
+ML: 20
+Value: +1
+Store: 175
+Remnants: 3000
+Vendors: Lahar5Greater
+Flags: RemnantsBonusDays
+
+Augment: Insightful Stat
+Color: Clear
+Variants: Insightful Strength; Insightful Dexterity; Insightful Constitution; Insightful Intelligence; Insightful Wisdom; Insightful Charisma
+ML: 24
+Value: +2
+Store: 195
+Remnants: 3000
+Flags: RemnantsBonusDays
+
+Augment: Skill
+Color: Clear
+Variants: Balance; Bluff; Concentration; Diplomacy; Disable Device; Haggle; Heal; Hide; Intimidate; Jump; Listen; Move Silently; Open Lock; Perform; Repair; Search; Spellcraft; Spot; Swim; Tumble
+StoreMissing: True; True; True; True; False; True; True; True; True; True; True; True; True; True; True; False; False; True; True; True
+Notes: The only skill augments available in the DDO Store are Search, Disable Device and Spellcraft, and not below ML12.
+ML: 4
+Value: +3
+ML: 8
+Value: +5
+ML: 12
+Value: +7
+Store: 195
+ML: 16
+Value: +9
+Store: 195
+ML: 20
+Value: +11
+Store: 195
+ML: 24
+Value: +13
+Store: 195
+ML: 28
+Value: +15
+Store: 195
+
+Augment: Energy Resistance
+Color: Yellow
+Variants: Acid Resistance; Cold Resistance; Electric Resistance; Fire Resistance; Sonic Resistance
+ML: 1
+Value: 5
+Store: 50
+Remnants: 100
+Vendors: Collector
+ML: 4
+Value: 10
+Store: 50
+Remnants: 200
+Vendors: Collector
+ML: 8
+Value: 15
+Store: 75
+Remnants: 400
+Vendors: Collector
+ML: 12
+Value: 20
+Store: 95
+Remnants: 600
+Vendors: Gianthold
+ML: 16
+Value: 25
+Store: 150
+Remnants: 800
+Vendors: Gianthold
+ML: 20
+Value: 30
+Store: 175
+Remnants: 1000
+Vendors: Gianthold; Lahar
+ML: 24
+Value: 35
+Store: 195
+Vendors: Gianthold
+ML: 28
+Value: 40
+Store: 195
+
+Augment: Spell Points
+Color: Yellow
+Variants: Power
+ML: 1
+Value: 10
+Store: 50
+Remnants: 100
+Vendors: Collector
+ML: 4
+Value: 25
+Store: 50
+Remnants: 200
+Vendors: Collector
+ML: 8
+Value: 50
+Store: 75
+Remnants: 400
+Vendors: Collector
+ML: 12
+Value: 75
+Store: 95
+Remnants: 600
+Vendors: Gianthold
+ML: 16
+Value: 100
+Store: 150
+Remnants: 800
+Vendors: Gianthold
+ML: 20
+Value: 150
+Store: 175
+Remnants: 1000
+Vendors: Gianthold; Lahar
+ML: 24
+Value: 200
+Store: 195
+Vendors: Gianthold
+ML: 28
+Value: 250
+Store: 195
+
+Augment: Spell Focus
+Color: Yellow
+Descrip: Unlike most augments, Spell Focus grants an augment bonus to DCs, which stacks with all other sources except each other. (Only the highest applies.)
+Variants: Abjuration Focus; Conjuration Focus; Enchantment Focus; Evocation Focus; Illusion Focus; Necromancy Focus; Transmutation Focus
+ML: 16
+Value: +1
+Store: 150
+Vendors: Gianthold; Lahar
+ML: 24
+Value: +2
+Store: 195
+Vendors: Gianthold
+
+Augment: Striding
+Color: Yellow
+ML: 1
+Value: 5%
+Store: 50
+Vendors: Collector
+ML: 4
+Value: 10%
+Store: 50
+Vendors: Collector
+ML: 8
+Value: 15%
+Store: 75
+Vendors: Collector
+ML: 12
+Value: 20%
+Store: 95
+ML: 16
+Value: 25%
+Store: 150
+ML: 20
+Value: 30%
+Store: 175
+
+Augment: Poison Ward
+Color: Yellow
+Variants: Proof Against Poison
+ML: 4
+Value: +2
+Store: 50
+Vendors: Collector
+ML: 8
+Value: +4
+Store: 75
+Vendors: Collector
+ML: 12
+Value: +6
+Store: 95
+Vendors: Collector
+ML: 16
+Value: +8
+Store: 150
+Vendors: Gianthold
+ML: 20
+Value: +10
+Store: 175
+Vendors: Gianthold; Lahar
+
+Augment: Disease Ward
+Color: Yellow
+Variants: Proof Against Disease
+ML: 4
+Value: +2
+Store: 50
+Vendors: Collector
+ML: 8
+Value: +4
+Store: 75
+Vendors: Collector
+ML: 12
+Value: +6
+Store: 95
+Vendors: Collector
+ML: 16
+Value: +8
+Store: 150
+Vendors: Gianthold
+ML: 20
+Value: +10
+Store: 175
+Vendors: Gianthold; Lahar
+
+Augment: Blindness Ward
+Color: Yellow
+Flags: Static
+ML: 8
+Store: 75
+Vendors: Collector; Lahar
+
+Augment: Fear Immunity
+Color: Yellow
+Flags: Static
+ML: 8
+Store: 75
+Vendors: Collector; Lahar
+
+Augment: Deathblock
+Color: Yellow
+Flags: Static
+ML: 12
+Store: 95
+
+Augment: Underwater Action
+Color: Yellow
+Flags: Static
+ML: 4
+Store: 50
+Vendors: Collector; Lahar
+
+Augment: Feather Falling
+Color: Yellow
+Flags: Static
+ML: 4
+Store: 50
+Vendors: Collector; Lahar
+
+Augment: Resistance
+Color: Blue
+ML: 1
+Value: +1
+Store: 50
+Remnants: 100
+Vendors: Collector
+ML: 4
+Value: +2
+Store: 50
+Remnants: 200
+Vendors: Collector
+ML: 8
+Value: +3
+Store: 75
+Remnants: 400
+Vendors: Collector
+ML: 12
+Value: +4
+Store: 95
+Remnants: 600
+Vendors: Gianthold
+ML: 16
+Value: +5
+Store: 150
+Remnants: 800
+Vendors: Gianthold
+ML: 20
+Value: +6
+Store: 175
+Remnants: 1000
+Vendors: Gianthold; Lahar
+ML: 24
+Value: +7
+Store: 195
+Vendors: Gianthold
+ML: 28
+Value: +8
+Store: 195
+
+Augment: Protection
+Color: Blue
+ML: 1
+Value: +1
+Store: 50
+Vendors: Collector
+ML: 4
+Value: +2
+Store: 50
+Vendors: Collector
+ML: 8
+Value: +3
+Store: 75
+Vendors: Collector
+ML: 12
+Value: +4
+Store: 95
+Vendors: Gianthold
+ML: 16
+Value: +5
+Store: 150
+Vendors: Gianthold
+ML: 20
+Value: +6
+Store: 175
+Vendors: Gianthold; Lahar
+ML: 24
+Value: +7
+Store: 195
+Vendors: Gianthold
+ML: 28
+Value: +8
+Store: 195
+
+Augment: Natural Armor
+Color: Blue
+ML: 1
+Value: +1
+Store: 50
+Vendors: Collector
+ML: 4
+Value: +2
+Store: 50
+Vendors: Collector
+ML: 8
+Value: +3
+Store: 75
+Vendors: Collector
+ML: 12
+Value: +4
+Store: 95
+Vendors: Gianthold
+ML: 16
+Value: +5
+Store: 150
+Vendors: Gianthold
+ML: 20
+Value: +6
+Store: 175
+Vendors: Gianthold; Lahar
+ML: 24
+Value: +7
+Store: 195
+Vendors: Gianthold
+ML: 28
+Value: +8
+Store: 195
+
+Augment: Fortification
+Color: Blue
+Flags: PrefixNotValue
+ML: 1
+Value: 25%
+Store: 50
+Vendors: Collector
+Prefix: Light
+ML: 4
+Value: 75%
+Store: 50
+Vendors: Collector
+Prefix: Moderate
+ML: 8
+Value: 100%
+Store: 75
+Vendors: Collector
+Prefix: Heavy
+
+Augment: False Life
+Color: Blue
+ML: 1
+Value: 5
+Store: 50
+Vendors: Collector
+ML: 4
+Value: 10
+Store: 50
+Vendors: Collector
+ML: 8
+Value: 15
+Store: 75
+Vendors: Collector
+ML: 12
+Value: 20
+Store: 95
+Vendors: Gianthold
+ML: 16
+Value: 25
+Store: 150
+Vendors: Gianthold
+ML: 20
+Value: 30
+Store: 175
+Vendors: Gianthold; Lahar
+ML: 24
+Value: 35
+Store: 195
+Vendors: Gianthold
+ML: 28
+Value: 40
+Store: 195
+
+Augment: PRR
+Color: Blue
+Variants: Physical Resistance
+ML: 1
+Value: +2
+Store: 50
+Remnants: 100
+Vendors: Collector
+ML: 4
+Value: +4
+Store: 50
+Remnants: 200
+Vendors: Collector
+ML: 8
+Value: +6
+Store: 75
+Remnants: 400
+Vendors: Collector
+ML: 12
+Value: +8
+Store: 95
+Remnants: 600
+Vendors: Gianthold
+ML: 16
+Value: +10
+Store: 150
+Remnants: 800
+Vendors: Gianthold
+ML: 20
+Value: +12
+Store: 175
+Remnants: 1000
+Vendors: Gianthold
+ML: 24
+Value: +14
+Store: 195
+Vendors: Gianthold
+ML: 28
+Value: +16
+Store: 195
+
+Augment: ASF
+Variants: Spell Agility
+Color: Blue
+ML: 12
+Value: -5%
+Store: 95
+ML: 16
+Value: -10%
+Store: 150
+ML: 20
+Value: -15%
+Store: 175
+Vendors: Lahar
+
+Augment: MDB
+Color: Blue
+Variants: Armored Agility
+ML: 12
+Value: +1
+Store: 95
+ML: 20
+Value: +2
+Store: 175
+Vendors: Lahar
+
+Augment: Good Luck
+Color: Blue
+ML: 12
+Value: +1
+Store: 95
+Vendors: Gianthold
+ML: 20
+Value: +2
+Store: 175
+Vendors: Gianthold; Lahar
+
+Augment: Spell Power
+Color: Red
+Variants: Combustion; Corrosion; Devotion; Glaciation; Impulse; Magnetism; Nullification; Radiance; Reconstruction; Resonance
+ML: 1
+Value: 30
+Store: 50
+Remnants: 100
+Vendors: Collector
+ML: 4
+Value: 42
+Store: 50
+Remnants: 200
+Vendors: Collector
+ML: 8
+Value: 54
+Store: 75
+Remnants: 400
+Vendors: Collector
+ML: 12
+Value: 66
+Store: 95
+Remnants: 600
+Vendors: Gianthold
+ML: 16
+Value: 78
+Store: 150
+Remnants: 800
+Vendors: Gianthold
+ML: 20
+Value: 90
+Store: 175
+Remnants: 1000
+Vendors: Gianthold
+ML: 24
+Value: 114
+Store: 195
+Vendors: Gianthold
+ML: 28
+Value: 138
+Store: 195
+
+Augment: Elemental Damage
+Color: Red
+Flags: PrefixNotValue
+Variants: Acid; Flame; Frost; Shock
+ML: 1
+Value: +1
+Store: 50
+Vendors: Collector
+Remnants: 100
+Prefix: Minor
+ML: 4
+Value: 1d2
+Store: 50
+Vendors: Collector
+Remnants: 200
+Prefix: Lesser
+ML: 8
+Value: 1d3
+Store: 75
+Vendors: Collector
+Remnants: 400
+ML: 12
+Value: 1d4
+Store: 95
+Vendors: Gianthold
+Remnants: 600
+Prefix: Improved
+ML: 16
+Value: 1d6
+Store: 150
+Vendors: Gianthold
+Remnants: 800
+Prefix: Greater
+ML: 20
+Value: 1d8
+Store: 175
+Vendors: Gianthold
+Remnants: 1000
+Prefix: Superior
+ML: 24
+Value: 1d10
+Store: 195
+Vendors: Gianthold
+Prefix: Sovereign
+ML: 28
+Value: 2d6
+Store: 195
+Prefix: Caustic; Blazing; Boreal; Voltaic
+
+Augment: Byeshk Weapon
+Color: Red
+Flags: Static
+Variants: Ruby of the Gatekeepers
+ML: 8
+Store: 75
+Vendors: Lahar
+
+Augment: Lawful Weapon
+Color: Red
+Flags: Static
+Variants: Ruby of Order
+ML: 8
+Store: 75
+Vendors: Lahar
+
+Augment: Chaotic Weapon
+Color: Red
+Flags: Static
+Variants: Ruby of Chaos
+ML: 8
+Store: 75
+Vendors: Lahar
+
+Augment: Evil Weapon
+Color: Red
+Flags: Static
+Variants: Ruby of Evil
+ML: 8
+Store: 75
+Vendors: Lahar
+
+Augment: Good Weapon
+Color: Red
+Flags: Static
+Variants: Ruby of Good
+ML: 12
+Store: 95
+Vendors: Lahar
+
+Augment: Adamantine Weapon
+Color: Red
+Flags: Static
+Variants: Ruby of Adamantine Arms
+ML: 12
+Store: 95
+Vendors: Lahar
+
+Augment: Cold Iron Weapon
+Color: Red
+Flags: Static
+Variants: Ruby of Iron Blows
+ML: 16
+Store: 150
+Vendors: Lahar
+
+Augment: Silver Weapon
+Color: Red
+Flags: Static
+Variants: Ruby of Silvered Strikes
+ML: 16
+Store: 150
+Vendors: Lahar
+
+Augment: Master's Gift
+Color: Clear
+Flags: Static; Named
+Descrip: +5% Enhancement Bonus to earned XP
+Notes: Combine 5 Greater Tokens of the Twelve, {url=https://ddowiki.com/page/Item:Voice_of_the_Master}Voice_of_the_Master and {url=https://ddowiki.com/page/Item:Mantle_of_the_Worldshaper}Mantle_of_the_Worldshaper in an Epic Altar. There is an Epic Altar in The Twelve, and they can also be placed in the cargo hold on guild airships.
+Notes: 
+Notes: The augment itself is Bound to Character, but slotting it into a Bound to Account item (eg: cannith crafted) leaves the item BTA, allowing it to be passed among alts via the shared bank.
+Links: The Master's Gift
+ML: 1
+
+Augment: Vitality
+Color: Clear
+Flags: Static; Named
+Variants: Diamond of Vitality
+Links: Diamond of Vitality +20
+ML: 11
+
+Augment: Festive Stat
+Color: Clear
+Descrip: Grants a festival bonus to stat, which stacks with all other bonuses.
+Notes: Farmable from the {url=https://ddowiki.com/page/Night_revels#Reward_items}Night_Revels event
+Variants: Festive Intelligence; Festive Wisdom
+Links: Diamond of Festive Intelligence +2; Diamond of Festive Wisdom +2
+Flags: Named
+ML: 22
+Value: +2
+
+Augment: Globe of Imperial Blood
+Color: Clear
+ResourceID: AUGGLOIMPBLO
+Descrip: +3 to all stats, but doesn't stack with regular gear
+Notes: Drops in {url=https://ddowiki.com/page/Gianthold_Tor}Gianthold_Tor Black Dragon chest, Heroic Elite or Reaper.
+Flags: Static; Named
+ML: 14
+
+Augment: Globe of True Imperial Blood
+Color: Clear
+ResourceID: AUGGLOIMPBLO
+Flags: Static; Named
+Descrip: +1 Exceptional Bonus to all stats
+Notes: Drops in {url=https://ddowiki.com/page/Return_to_Gianthold_Tor}Return_to_Gianthold_Tor Black Dragon chest, Epic Elite or Reaper.
+ML: 25
+
+Augment: Anthem
+Color: Yellow
+Flags: Static; Named
+Descrip: Regenerates Bard songs over time
+Notes: Drops in {url=https://ddowiki.com/page/Precious_Cargo}Precious_Cargo end chest
+Variants: Topaz of Anthem
+ML: 20
+
+Augment: Draconic Soul Gem
+Color: Yellow
+Flags: Static; Named
+Descrip: +30 Acid, Cold, Electric and Fire Resistance
+Notes: Drops in {url=https://ddowiki.com/page/The_Fall_of_Truth}The_Fall_of_Truth raid chest on Epic Elite
+ML: 25
+
+Augment: Golem's Heart
+Color: Blue
+ResourceID: AUGBLUE
+Flags: Static; Named
+Descrip: 2% chance on your being hit to heal you for 20 to 120 Hit Points and deal 50 to 300 Electric damage to your surrounding enemies. (Average of 1.4 healing and 3.5 damage per hit taken.)
+Descrip: 
+Descrip: When triggered during combat, it will provide healing for all 3 possible player Racial types: Undead (Negative energy), Warforged/Bladeforged (Repair energy) and Living (Positive Energy). However, only the type that matches your current or most recent Racial type will actually heal you when triggered.
+Descrip: 
+Descrip: Multiple Golem's Hearts will provide additional 2% chances to proc, meaning you're more likely to get it to proc faster after the 30 second cooldown ends.
+Notes: Drops in {url=https://ddowiki.com/page/A_Study_in_Sable}A_Study_in_Sable end chest on Epic Elite
+ML: 28
+
+Augment: Ghostbane
+Color: Red
+Flags: Static; Named
+Descrip: Ghost Touch and 1d6 Bane damage vs Undead
+Notes: Farmable from the {url=https://ddowiki.com/page/Night_revels#Reward_items}Night_Revels event
+Variants: Ruby of Ghostbane
+ML: 1
+
+Augment: Vampire Slayer
+Color: Red
+Flags: Static; Named
+Descrip: Silver, 1d4 Light damage
+Notes: Farmable from the {url=https://ddowiki.com/page/Night_revels#Reward_items}Night_Revels event
+Variants: Ruby of the Vampire Slayer
+ML: 1
+
+Augment: Endless Night
+Color: Red
+Flags: Static; Named
+Descrip: Inflicts a Negative Level on vorpal hits
+Notes: Farmable from the {url=https://ddowiki.com/page/Night_revels#Reward_items}Night_Revels event
+Variants: Ruby of the Endless Night
+ML: 1
+
+Augment: Ruby Eye
+Color: Red
+ResourceID: AUGRUBYEYE
+Flags: Static; Named
+Descrip: Ruby Eye augments add scaled damage based on the ML of the weapon they're slotted into. See {url=https://ddowiki.com/page/Ruby_Eye_Augments}this_wiki_page for a comparison of each type.
+Variants: Ruby Eye of Erosion; Ruby Eye of the Inferno; Ruby Eye of the Glacier; Ruby Eye of the Tempest; Ruby Eye of Righteousness; Ruby Eye of Force
+ML: 1
+Store: 395
+
+Augment: Meteoric Star Ruby
+Color: Red
+ResourceID: AUGMETSTARUB
+Flags: Static; Named
+Descrip: 2% chance On Hit to cause a falling star to strike your target, dealing 3 to 18 Fire Damage and 1 to 6 Bludgeoning Damage per Minimum Level of the weapon to all nearby enemies, with a chance to knock them prone.
+Descrip: 
+Descrip: DC to resist knockdown: 20 + Item's ML vs Reflex
+Notes: Rumors suggest that they may drop in {url=https://ddowiki.com/page/The_Haunted_Halls_of_Eveningstar}The_Haunted_Halls_of_Eveningstar extended end chest when run on Epic Elite or higher.
+ML: 1
+
+Augment: Crushing Wave
+Color: Red
+ResourceID: AUGRUBCRUWAV
+Flags: Static; Named
+Descrip: Adds {url=https://ddowiki.com/page/Crushing_Wave}Crushing_Wave proc: 5% Chance of 3 ticks of 30-40 Cold and 30-40 Bludgeon Damage over 6 seconds (180-240 damage, 210 average) Average of 10.5 damage per attack.
+Notes: May drop in {url=https://ddowiki.com/page/Ghost_of_a_Chance_(epic)}Ghost_of_a_Chance on epic.
+Variants: Ruby of the Crushing Wave
+ML: 20
+
+Augment: Crushing Wave Guard
+Color: Blue
+Flags: Static; Named
+Descrip: Adds {url=https://ddowiki.com/page/Crushing_Wave}Crushing_Wave guard proc: 5% Chance of 3 ticks of 30-40 Cold and 30-40 Bludgeon Damage over 6 seconds (180-240 damage, 210 average) Average of 10.5 damage per attack.
+Notes: May drop in {url=https://ddowiki.com/page/Old_Tomb,_New_Tenants}Old_Tomb,_New_Tenants
+Variants: Sapphire of Crushing Wave Guard
+ML: 20
+
+Augment: Deconstructor
+Color: Red
+Flags: Static; Named
+Descrip: Adamantine, Destruction, and 6d6 bonus Rust damage vs constructs
+Notes: Drops in {url=https://ddowiki.com/page/Brothers_of_the_Forge}Brothers_of_the_Forge end chest on Epic Elite or higher
+ML: 28
+
+Augment: Meridian Fragment
+Color: Orange
+Flags: Static; Named
+Descrip: -6 SP Cost to Maximized spells
+Descrip: 
+Descrip: Once every three seconds when you take physical damage you get Psionic Potency +8. This can stack up to three times (up to Psionic Potency +24) and each stack lasts for 20 seconds.
+Notes: Drops in {url=https://ddowiki.com/page/Fire_on_Thunder_Peak}Fire_on_Thunder_Peak warded chest
+ML: 28

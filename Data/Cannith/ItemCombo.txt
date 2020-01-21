@@ -1,0 +1,48 @@
+; See ItemChoices.txt for details on how to customize weapon lists in
+; the planner. Weapon lists can include combination items, which are
+; defined here.
+;
+; A combination item is a unique weapon name that stands in for multiple 
+; weapon types. For example, light pick and heavy pick are wrapped into 
+; a single combo item named "Pick."
+;
+; Create combination items here and point them to base items by setting 
+; the Parent value. Every weapon in the game is available to use as a parent
+; item, and they are defined in Items.txt.
+;
+; This file gets overwritten every update. To save your own customizations,
+; copy this file to UserItemCombo.txt in the same folder as this file
+; and make your changes there. If found, the program reads the User version
+; instead of this. 
+;
+; An example of a customization might be to create an "Axe" item (pointing 
+; to any Onehand axe) that consolidates Battle Axe, Hand Axe, and Dwarven Axe 
+; into one item.
+;
+; Another more severe idea is to create a "Sword" item to consolidate Bastard 
+; Sword, Kama, Khopesh, Kukri, Long Sword, Scimitar and Short Sword into one 
+; single item. This would greatly reduce clutter in the list.
+;
+; You can also create a combo item as an abbreviation. For example,
+; Rpt Hvy Crossbow instead of Repeating Heavy Crossbow. It's fine to create 
+; a combo item as a stand-in for a single item in this way.
+;
+; If a combo item has the same name as a base item, or if the Parent item isn't 
+; found, the combo item is ignored.
+;
+; Remember that the planner only recognizes 3 weapon types: Onehand, Twohand
+; and Range. Combination items only exists for your edification, and as such,
+; the planner doesn't care which or how many actual weapon types are represented
+; by any given combination item.
+
+Item: Bow
+Parent: Longbow
+
+Item: Crossbow
+Parent: Heavy Crossbow
+
+Item: Mace
+Parent: Heavy Mace
+
+Item: Pick
+Parent: Heavy Pick

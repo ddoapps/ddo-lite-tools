@@ -1,0 +1,270 @@
+PackName: Catacombs
+Wiki: The Catacombs
+Cost: 250
+HeroicLow: 3
+HeroicHigh: 4
+Patron: The Silver Flame
+Link: Named Items	Link	http://ddowiki.com/page/The_Catacombs#Reward_List
+
+PackName: Seal of Shan-To-Kor
+Abbreviation: STK
+Wiki: The Seal of Shan-To-Kor
+Cost: 250
+Patron: The Coin Lords
+Link: Named Items	Link	http://ddowiki.com/page/The_Seal_of_Shan-To-Kor#Reward_List
+
+PackName: Tangleroot Gorge
+Abbreviation: Tangleroot
+Cost: 550
+Patron: House Phiarlan
+Link: Named Items	Link	http://ddowiki.com/page/Tangleroot_Gorge#Reward_List
+
+PackName: Sharn Syndicate
+Abbreviation: S. Syndicate
+Wiki: The Sharn Syndicate
+Cost: 350
+Patron: The Coin Lords
+Link: Named Items	Link	http://ddowiki.com/page/Sharn_Syndicate#Reward_items
+
+PackName: Phiarlan Carnival
+Abbreviation: Carnival
+Cost: 450
+Patron: House Phiarlan
+Link: Named Items	Link	http://ddowiki.com/page/Phiarlan_Carnival#Reward_List
+Link: Epic Crafting	Link	http://ddowiki.com/page/Phiarlan_Carnival_epic_items
+
+PackName: Necropolis Part 1
+Abbreviation: Necro 1
+Wiki: Litany of the Dead Part 1
+
+PackName: Three-Barrel Cove
+Abbreviation: 3BC
+Link: Named Items	Link	http://ddowiki.com/page/Update_22_named_items
+Link: Heroic Wilderness	Link	http://ddowiki.com/page/Three-Barrel_Cove_(heroic)
+Link: Epic Wilderness	Link	http://ddowiki.com/page/Three-Barrel_Cove_(epic)
+
+PackName: Delera's Tomb
+Abbreviation: Delera's
+Cost: 850
+HeroicLow: 5
+HeroicHigh: 11
+Link: Named Items	Link	http://ddowiki.com/page/Delera's_Tomb#Rewards
+
+PackName: Devil Assault
+Link: Epic Crafting	Link	http://ddowiki.com/page/Devil_Assault_epic_items
+
+PackName: White Plume Mountain
+Abbreviation: WPM
+Wiki: White Plume Mountain and Other Tales
+Cost: 725
+HeroicLow: 6
+HeroicHigh: 9
+EpicLow: 21
+EpicHigh: 32
+Link: Named Items	Link	http://ddowiki.com/page/Update_39_named_items
+Link: Schism Shard Crafting	Link	https://ddowiki.com/page/Schism_Shard_Crafting
+
+PackName: Sorrowdusk Isle
+Abbreviation: Sorrowdusk
+Link: Named Items	Link	http://ddowiki.com/page/Cult_of_the_Six#Reward_List
+
+PackName: Temple of Elemental Evil
+Abbreviation: ToEE
+Wiki: The Temple of Elemental Evil
+Link: Named Items	Link	http://ddowiki.com/page/Update_25_named_items
+Link: ToEE Crafting	Link	http://ddowiki.com/page/ToEE_Crafting
+Link: Schism Shard Crafting	Link	https://ddowiki.com/page/Schism_Shard_Crafting
+
+PackName: Sentinels of Stormreach
+Abbreviation: Sentinels
+Link: Epic Crafting	Link	http://ddowiki.com/page/Sentinels_of_Stormreach_epic_items
+
+PackName: Against the Slave Lords
+Abbreviation: Slavers
+Cost: 595
+HeroicLow: 8
+HeroicHigh: 8
+EpicLow: 31
+EpicHight: 31
+Link: Named Items	Link	http://ddowiki.com/page/Update_32_named_items
+Link: Slave Lords Crafting	Link	http://ddowiki.com/page/Slave_Lords_Crafting
+
+PackName: Necropolis Part 2
+Abbreviation: Necro 2
+Wiki: Litany of the Dead Part 2
+
+PackName: Ruins of Threnal
+Abbreviation: Threnal
+
+PackName: Vault of Night
+Abbreviation: VON
+Wiki: Vault of Night (story arc)
+Link: Epic Crafting	Link	http://ddowiki.com/page/The_Vault_of_Night_epic_items
+Link: Dragonscale Armor	Link	http://ddowiki.com/page/Dragonscale_Armor
+
+PackName: Red Fens
+Wiki: The Red Fens
+Link: Named Items	Link	http://ddowiki.com/page/The_Red_Fens_named_items
+Link: Epic Crafting	Link	http://ddowiki.com/page/The_Red_Fens_epic_items
+
+PackName: Restless Isles
+Abbreviation: R. Isles
+Wiki: The Restless Isles
+
+PackName: Dragonblood Prophecy
+Abbreviation: Dragonblood
+Link: Named Items	Link	http://ddowiki.com/page/Update_35_named_items
+Link: Schism Shard Crafting	Link	https://ddowiki.com/page/Schism_Shard_Crafting
+
+PackName: Mists of Ravenloft
+Abbreviation: Ravenloft
+Wiki: Mists of Ravenloft#Adventure pack
+Area: The Land of Barovia
+Link: Named Items	Link	http://ddowiki.com/page/Update_37_named_items
+
+PackName: Demon Sands
+Abbreviation: Sands
+Wiki: Zawabi's Refuge
+Area: Sands of Menechtarun
+Link: Epic Crafting	Link	http://ddowiki.com/page/Sands_of_Menechtarun_epic_items
+
+PackName: Necropolis Part 3
+Abbreviation: Necro 3
+Wiki: Litany of the Dead Part 3
+
+PackName: Attack on Stormreach
+Abbreviation: Atk on Storm
+Cost: 450
+HeroicLow: 13
+HeroicHigh: 13
+Link: Named Items	Link	http://ddowiki.com/page/Update_8_named_items
+Link: Cauldron of Sora Katra	Link	http://ddowiki.com/page/Cauldron_of_Sora_Katra
+
+PackName: Ruins of Gianthold
+Abbreviation: Gianthold
+Wiki: Ruins of Gianthold (heroic)
+Area: Ruins of Gianthold
+Area: Ruins of Gianthold (epic)
+Link: Named Items	Link	http://ddowiki.com/page/Update_17_named_items
+Link: Attuned to Heroism	Link	http://ddowiki.com/page/Attuned_to_Heroism
+Link: Dragonscale Armor	Link	http://ddowiki.com/page/Dragonscale_Armor
+
+PackName: Trials of the Archons
+Abbreviation: Archons
+Link: Named Items	Link	http://ddowiki.com/page/Update_27_named_items
+
+PackName: Devil's Gambit
+Abbreviation: Gambit
+Wiki: The Devil's Gambit
+Link: Named Items	Link	http://ddowiki.com/page/Update_28_named_items
+
+PackName: Disciples of Rage
+Abbreviation: Rage
+Link: Named Items	Link	http://ddowiki.com/page/Update_38_named_items
+
+PackName: Necropolis Part 4
+Abbreviation: Necro 4
+Wiki: Litany of the Dead Part 4
+Area: Orchard of the Macabre
+Area: Orchard of the Macabre (epic)
+Link: Named Items	Link	http://ddowiki.com/page/Update_23_named_items
+
+PackName: Harbinger of Madness
+Abbreviation: Madness 1
+
+PackName: Mines of Tethyamar
+Abbreviation: Tethyamar
+Wiki: The Mines of Tethyamar
+Link: Schism Shard Crafting	Link	https://ddowiki.com/page/Schism_Shard_Crafting
+
+PackName: Vale of Twilight
+Abbreviation: Vale
+Wiki: The Vale of Twilight
+Area: The Subterrane - Central
+Area: The Subterrane - East
+Link: Greensteel Planner	Link	http://www.iro.umontreal.ca/~delallea/ddo/shroud/index.php
+Link: Legendary Greensteel	Link	http://ddowiki.com/page/Legendary_Green_Steel_items
+
+PackName: Reign of Madness
+Abbreviation: Madness 2
+Link: Altar of Insanity	Link	http://ddowiki.com/page/Altar_of_Insanity
+
+PackName: Reaver's Reach
+Abbreviation: Reaver's
+Wiki: Reaver's Refuge
+Area: Aussircaex's Valley
+Area: Soami Gardens
+Area: Mount Reysalon
+Area: Eerie Forest
+Link: Dragontouched Armor	Link	http://ddowiki.com/page/Item:Dragontouched_Armor
+
+PackName: Druid's Deep
+Wiki: The Druid's Deep
+Link: Named Items	Link	http://ddowiki.com/page/Update_15_named_items
+
+PackName: High Road of Shadows
+Abbreviation: High Road
+Wiki: The High Road of Shadows
+Area: The High Road
+
+PackName: Heart of Madness
+Abbreviation: Madness 3
+Link: Named Items	Link	http://ddowiki.com/page/Update_24_named_items
+
+PackName: Path of Inspiration
+Abbreviation: IQ1
+Wiki: The Path of Inspiration
+
+PackName: Dreaming Dark
+Abbreviation: IQ2
+Wiki: The Dreaming Dark
+Link: Dreamforge Crafting	Link	http://ddowiki.com/page/Dreamforge
+
+PackName: Devils of Shavarath
+Abbreviation: Amrath
+Wiki: The Devils of Shavarath
+Area: Devil Battlefield
+Link: Named Item Sets	Link	http://ddowiki.com/page/Named_item_sets#Prestige_Enhancements_sets
+Link: Incredible Potential	Link	http://ddowiki.com/page/Incredible_Potential
+
+PackName: Secrets of the Artificers
+Abbreviation: Cannith
+Link: Named Items	Link	http://ddowiki.com/page/Update_11_named_items#Chest_loot
+Link: Alchemical Crafting	Link	http://ddowiki.com/page/Alchemical_Crafting
+Area: House Cannith Manufactury
+Area: Artificer Workshops
+Area: Research Facility
+
+PackName: Menace of the Underdark
+Abbreviation: MotU
+Link: Story Arc	Link	http://ddowiki.com/page/Menace_of_the_Underdark_(story_arc)
+Area: The King's Forest
+Area: The Underdark
+Area: Sschindylryn
+Area: The Demonweb
+Link: Named Items	Link	http://ddowiki.com/page/Update_14_named_items
+
+PackName: Shadowfell Conspiracy
+Abbreviation: Shadowfell
+Link: Disciples of Shadow 	Link	http://ddowiki.com/page/Disciples_of_Shadow
+Link: Wheloon Prison	Link	http://ddowiki.com/page/Wheloon_Prison
+Link: The Storm Horns	Link	http://ddowiki.com/page/The_Storm_Horns
+Link: Named Items	Link	http://ddowiki.com/page/Update_19_named_items
+
+PackName: Haunted Halls of Eveningstar
+Abbreviation: HHoES
+Wiki: The Haunted Halls of Eveningstar
+
+PackName: Shadow Under Thunderholme
+Abbreviation: T-holme
+
+PackName: Masterminds of Sharn
+Abbreviation: Sharn
+Link: The Cogs	Link	https://ddowiki.com/page/The_Cogs
+Link: Named Items	Link	https://ddowiki.com/page/Update_42_named_items
+
+PackName: Sharn: The Cogs
+Abbreviation: The Cogs
+Wiki: Masterminds of Sharn
+Link: The Cogs	Link	https://ddowiki.com/page/The_Cogs
+Link: Named Items	Link	https://ddowiki.com/page/Update_42_named_items

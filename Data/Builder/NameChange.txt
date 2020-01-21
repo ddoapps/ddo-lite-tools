@@ -1,0 +1,7 @@
+NameChangeType: Feat
+Old: Energy Resistance
+New: Energy Absorption
+
+NameChangeType: Feat
+Old: Purity of Spirit
+New: Purity of Heart
