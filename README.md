@@ -1,6 +1,9 @@
 # DDO Lite Tools
 A public github repository for EllisDee37's original DDO Lite Tools
 
+## How To Get The Tools
+You can either clone the repository using Git, or click the green download button towards the top right of this page.  There will be an option to download as a zip there.  Once you download that file and unzip it, you will then also need to unzip the `executables.zip` file into the same directory, so that the `Utils` folder and executables are all in the same directory as the other directories.
+
 ## Contributing
 I hope to allow collaborating in the project in a number of ways.
 
