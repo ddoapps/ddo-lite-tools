@@ -2291,25 +2291,25 @@ AbilityName: Hardy
 Descrip: +1 Fortitude
 Tier: 0
 
-AbilityName: Stat
-Descrip: +1 Strength or Charisma
+AbilityName: Strength or Charisma
+Descrip: Select from:}{-+1 Strength}{-+1 Charisma}
 Tier: 0
 Cost: 2
 Flags: SelectorOnly
 Selector: Strength, Charisma
 
-AbilityName: Hardy II
+AbilityName: Hardy
 Descrip: +1 Fortitude
 Tier: 0
 
-AbilityName: Stat II
-Descrip: +1 Strength or Charisma
+AbilityName: Strength or Charisma
+Descrip: Select from:}{-+1 Strength}{-+1 Charisma}
 Tier: 0
 Cost: 2
 Flags: SelectorOnly
 Selector: Strength, Charisma
 
-AbilityName: Hardy III
+AbilityName: Hardy
 Descrip: +1 Fortitude
 Tier: 0
 
@@ -2319,12 +2319,12 @@ Tier: 1
 Cost: 2
 
 AbilityName: Hard Scales
-Descrip: +2/+4/+6 Natural Armor, stacking
+Descrip: +2/+4/+6 Natural Armor
 Tier: 1
 Ranks: 3
 
 AbilityName: Brutality
-Descrip: Choose one:} Brutal Spellcasting: Your damaging spells generate 25%/50%/75% more hate than they normally would, making enemies more likely to attack you.} Brute Fighting: Your melee attacks generate 25%/50%/75% more hate than they normally would, making enemies more likely to attack you.
+Descrip: Select from:}{-Brutal Spellcasting: Your damaging spells generate 25%/50%/75% more hate than they normally would, making enemies more likely to attack you.}{-Brute Fighting: Your melee attacks generate 25%/50%/75% more hate than they normally would, making enemies more likely to attack you.}
 Tier: 1
 Ranks: 3
 Flags: SelectorOnly
@@ -2353,18 +2353,18 @@ Ranks: 3
 All: Tier 1: Hard Scales
 
 AbilityName: Dragon Breath
-Descrip: Active Ability: Cone that deals 1d6 + 3 [red fire/white cold/black acid/blue electric] damage per caster level (reflex save for half). Counts as Evocation spell; gets full Metamagic feats, No SR, DC 10 + CHA mod + Evocation bonuses + Breath Weapon bonuses. Scales with 50% of spell power.}Activation Cost: Nothing Cooldown: 25 seconds
+Descrip: Active Ability: Discharge your breath weapon, dealing 1d6+3 Acid/Electric/Fire/Cold damage per caster level in a cone. A successful Reflex save reduces this damage by half.}}The DC for this ability is 10 + Charisma Modifier + Evocation Bonuses + Breath Weapon Bonuses.}}Activation Cost: Nothing}Cooldown: 25 seconds
 Tier: 2
 Cost: 2
 
 AbilityName: Extra Action Boost
-Descrip: Dragonborn keep fighting long after other races tire. You can use each of your action boosts 1/2/3 additional time per rest.
+Descrip: Dragonborn keep fighting long after other races tire. You can use each of your action boosts 1/2/3 additional times per rest.
 Tier: 2
 Ranks: 3
 Cost: 2
 
 AbilityName: Arcanum
-Descrip: +25/50/100 Spell Points and +1/+2/+3 Spell Penetration.
+Descrip: +25/+50/+100 spell points and +1/+2/+3 spell penetration.
 Tier: 2
 Ranks: 3
 Cost: 2
@@ -2376,18 +2376,18 @@ Cost: 2
 All: Tier 2: Resilience
 
 AbilityName: Dragon Heritage
-Descrip: +[10/20/30] spell power with the element associated with selected Draconic Ancestry.
+Descrip: +10/+20/+30 Acid/Electric/Fire/Cold Spell Power
 Tier: 3
 Ranks: 3
 All: Tier 2: Dragon Breath, Tier 3: Power in Breath
 
 AbilityName: Power in Breath
-Descrip: +1/+2/+3 DC's of Breath Attacks
+Descrip: +1/+2/+3 to the DCs of Breath Attacks
 Tier: 3
 Ranks: 3
 
 AbilityName: Draconic Knowledge
-Descrip: +1 Caster Level and +2 Max Caster Level with the element spell associated with selected Draconic Ancestry.
+Descrip: +1 Caster Level and +2 Max Caster Level with Acid/Electric/Fire/Cold spells
 Tier: 3
 Cost: 2
 All: Tier 2: Dragon Breath, Tier 3: Power in Breath
@@ -2399,12 +2399,12 @@ Cost: 2
 All: Tier 3: Resilience
 
 AbilityName: Memory of Flight
-Descrip: Active Ability: Activate: Memories of flight lie within you. You are able to leap through the air to bring the fight to your enemies or traverse chasms that make normal adventure balk. Activation Cost: Nothing Cooldown: 15 Seconds
+Descrip: Active Ability: Activate: Memories of flight lie within you. You are able to leap through the air to bring the fight to your enemies or traverse chasms that make normal adventurers balk.}}Activation Cost: Nothing}Cooldown: 15 Seconds
 Tier: 4
 Cost: 2
 
 AbilityName: True Power
-Descrip: +1/+2/+3 to Evocation DC's
+Descrip: +1/+2/+3 to Evocation and Conjuration DCs
 Tier: 4
 Ranks: 3
 All: Tier 3: Power in Breath
