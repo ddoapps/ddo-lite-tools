@@ -2295,7 +2295,6 @@ AbilityName: Strength or Charisma
 Descrip: Select from:}{-+1 Strength}{-+1 Charisma}
 Tier: 0
 Cost: 2
-Flags: SelectorOnly
 Selector: Strength, Charisma
 
 AbilityName: Hardy
@@ -2306,7 +2305,6 @@ AbilityName: Strength or Charisma
 Descrip: Select from:}{-+1 Strength}{-+1 Charisma}
 Tier: 0
 Cost: 2
-Flags: SelectorOnly
 Selector: Strength, Charisma
 
 AbilityName: Hardy
@@ -2324,10 +2322,9 @@ Tier: 1
 Ranks: 3
 
 AbilityName: Brutality
-Descrip: Select from:}{-Brutal Spellcasting: Your damaging spells generate 25%/50%/75% more hate than they normally would, making enemies more likely to attack you.}{-Brute Fighting: Your melee attacks generate 25%/50%/75% more hate than they normally would, making enemies more likely to attack you.}
+Descrip: Your attacks or spells make enemies more likely to attack you.}}Select from:}{-Brutal Spellcasting: Your damaging spells generate 25%/50%/75% more hate than they normally would, making enemies more likely to attack you.}{-Brute Fighting: Your melee attacks generate 25%/50%/75% more hate than they normally would, making enemies more likely to attack you.}
 Tier: 1
 Ranks: 3
-Flags: SelectorOnly
 Selector: Brutal Fighting, Brutal Spellcasting
 
 AbilityName: Draconic Visage
@@ -2353,9 +2350,10 @@ Ranks: 3
 All: Tier 1: Hard Scales
 
 AbilityName: Dragon Breath
-Descrip: Active Ability: Discharge your breath weapon, dealing 1d6+3 Acid/Electric/Fire/Cold damage per caster level in a cone. A successful Reflex save reduces this damage by half.}}The DC for this ability is 10 + Charisma Modifier + Evocation Bonuses + Breath Weapon Bonuses.}}Activation Cost: Nothing}Cooldown: 25 seconds
+Descrip: Choose an elemental breath weapon.}}Active Ability: Discharge your breath weapon, dealing 1d6+3 elemental damage per caster level in a cone. A successful Reflex save reduces this damage by half.}}The DC for this ability is 10 + Charisma Modifier + Evocation Bonuses + Breath Weapon Bonuses.}}Activation Cost: Nothing}Cooldown: 25 seconds
 Tier: 2
 Cost: 2
+Selector: Black (Acid), Blue (Electric), Red (Fire), White (Cold)
 
 AbilityName: Extra Action Boost
 Descrip: Dragonborn keep fighting long after other races tire. You can use each of your action boosts 1/2/3 additional times per rest.
@@ -2376,10 +2374,19 @@ Cost: 2
 All: Tier 2: Resilience
 
 AbilityName: Dragon Heritage
-Descrip: +10/+20/+30 Acid/Electric/Fire/Cold Spell Power
+Descrip: Select power associated to your Draconic heritage.}}+10/+20/+30 elemental Spell Power
 Tier: 3
 Ranks: 3
+Selector: Black (Acid), Blue (Electric), Red (Fire), White (Cold)
 All: Tier 2: Dragon Breath, Tier 3: Power in Breath
+SelectorName: Black (Acid)
+All: Tier 2: Dragon Breath: Black (Acid)
+SelectorName: Blue (Electric)
+All: Tier 2: Dragon Breath: Blue (Electric)
+SelectorName: Red (Fire)
+All: Tier 2: Dragon Breath: Red (Fire)
+SelectorName: White (Cold)
+All: Tier 2: Dragon Breath: White (Cold)
 
 AbilityName: Power in Breath
 Descrip: +1/+2/+3 to the DCs of Breath Attacks
@@ -2387,10 +2394,19 @@ Tier: 3
 Ranks: 3
 
 AbilityName: Draconic Knowledge
-Descrip: +1 Caster Level and +2 Max Caster Level with Acid/Electric/Fire/Cold spells
+Descrip: Select knowledge related to your Draconic heritage.}}+1 Caster Level and +2 Max Caster Level with elemental spells
 Tier: 3
 Cost: 2
+Selector: Black (Acid), Blue (Electric), Red (Fire), White (Cold)
 All: Tier 2: Dragon Breath, Tier 3: Power in Breath
+SelectorName: Black (Acid)
+All: Tier 2: Dragon Breath: Black (Acid)
+SelectorName: Blue (Electric)
+All: Tier 2: Dragon Breath: Blue (Electric)
+SelectorName: Red (Fire)
+All: Tier 2: Dragon Breath: Red (Fire)
+SelectorName: White (Cold)
+All: Tier 2: Dragon Breath: White (Cold)
 
 AbilityName: Resilience
 Descrip: +10 Maximum Hit Points and +10 Healing Amplification
@@ -2399,7 +2415,7 @@ Cost: 2
 All: Tier 3: Resilience
 
 AbilityName: Memory of Flight
-Descrip: Active Ability: Activate: Memories of flight lie within you. You are able to leap through the air to bring the fight to your enemies or traverse chasms that make normal adventurers balk.}}Activation Cost: Nothing}Cooldown: 15 Seconds
+Descrip: Active Ability: Memories of flight lie within you. You are able to leap through the air to bring the fight to your enemies or traverse chasms that make normal adventurers balk.}}Activation Cost: Nothing}Cooldown: 15 Seconds
 Tier: 4
 Cost: 2
 
@@ -2410,11 +2426,10 @@ Ranks: 3
 All: Tier 3: Power in Breath
 
 AbilityName: Augmented Breath
-Descrip: Select from:}{-Constricting Breath: 20% chance that enemies will be slowed by 50% when affected by your Breath Attacks.}{-Dazing Breath: 5% chance that enemies will be Dazed when affected by your Breath Attacks.}{-Lulling Breath: 10% chance that enemies will fall asleep when affected by your Breath Attacks.}{-Relentless Breath: 8% chance that enemies will be knocked down when affected by your Breath Attacks.
+Descrip: You have trained in using your Breath Weapon, which now applies an effect to enemies.}}Select from:}{-Constricting Breath: 20% chance that enemies will be slowed by 50% when affected by your Breath Attacks.}{-Dazing Breath: 5% chance that enemies will be Dazed when affected by your Breath Attacks.}{-Lulling Breath: 10% chance that enemies will fall asleep when affected by your Breath Attacks.}{-Relentless Breath: 8% chance that enemies will be knocked down when affected by your Breath Attacks.
 Tier: 4
 Cost: 2
 All: Tier 3: Draconic Knowledge
-Flags: SelectorOnly
 Selector: Constricting Breath, Dazing Breath, Lulling Breath, Relentless Breath
 
 TreeName: Drow
