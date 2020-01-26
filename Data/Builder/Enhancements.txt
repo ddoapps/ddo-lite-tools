@@ -9406,10 +9406,10 @@ TreeName: Vanguard
 Type: Class
 Initial: Van
 Color: Green
-Stats: Strength, Dexterity
+Stats: Strength
 
 AbilityName: To the Fore!
-Descrip: While shield equipped, +1 to hit and +1 damage with main hand weapon and shield bash attacks.
+Descrip: While you have a shield equipped, you gain +1 to hit and +1 damage with main hand weapon and shield bash attacks
 Tier: 0
 
 AbilityName: Shield Combat I
@@ -9417,132 +9417,132 @@ Descrip: +10% chance to make a secondary shield bash
 Tier: 0
 
 AbilityName: Vicious Shield I
-Descrip: additional +10% (total +20%) chance to make a secondary shield bash. While shield equipped, +5% Combat Style bonus to melee attack speed.
+Descrip: +10% chance to make a secondary shield bash}}While you have a shield equipped, +5% Combat Style bonus to Melee Attack Speed
 Tier: 0
 
 AbilityName: Shield Combat II
-Descrip: additional +10% (total 30%) chance to make a secondary shield bash. While shield equipped, additional +5% (total 10%) Combat style bonus to Melee Attack Speed. Your shield gains +1(W).
+Descrip: +10% chance to make a secondary shield bash}}While you have a shield equipped, +5% Combat style bonus to Melee Attack Speed}}Your shield gains +1[W]
 Tier: 0
 
 AbilityName: Vicious Shield II
-Descrip: Shield gains +1 critical threat range, +1 critical multiplier, +1(W), and additional +5% (total 15%) Combat Style bonus to Melee Attack Speed.
+Descrip: Your shield gains +1 critical threat range, +1 critical multiplier, +1[W]}}While you have a shield equipped, +5% Combat Style bonus to Melee Attack Speed
 Tier: 0
 
 AbilityName: Shield Champion
-Descrip: While shield is equipped: +2 attack, +2 damage, +5% doublestrike, +1(W) to your shield, an additional +5% (total 20%) Combat Style bonus to Melee Attack Speed, and shield bash stuns 10% of the time DC (10 + 1/2 Character lvl + strength modifier + stun bonus)
+Descrip: While you have a shield equipped, you gain +2 attack, +2 damage, +5% doublestrike, +5% Combat Style bonus to Melee Attack Speed}}Your shield gains +1[W]}}Your shield bashs stun enemies 10% of the time. DC (10 + 1/2 Character Level + Strength Modifier + Stun Bonus)
 Tier: 0
 
 AbilityName: Shield Specialization
-Descrip: While shield equipped, +1 to hit, +1 damage, and +1 to armor class.}{  Bug:  Shield Specialization I does provide the effects listed but the damage increase does not display on the inventory panel.
+Descrip: While shield equipped, you gain +1 to hit, damage, and armor class
 Tier: 1
 Cost: 2
 
 AbilityName: No Weakness
-Descrip: [+1/+2/+3] fortitude saving throws.
+Descrip: +1/+2/+3 Fortitude Saving Throws
 Tier: 1
 Ranks: 3
 
 AbilityName: Shield Smash
-Descrip: While shield equipped,Activate: Melee attack with your shield for [+1/+2/+3] (W) damage. On damage, PRR and MRR are increased by [2/4/6] points for [3/6/12] seconds. [12/9/6] seconds cooldown.
+Descrip: While you have a shield equipped, Activate: Melee attack with your shield for +1/+2/+3[W] damage. On damage, your Physical and Magical Resistance Rating are increased by +2/+4/+6 for 12 seconds}}Cooldown: 12/9/6 seconds
 Tier: 1
 Ranks: 3
 
 AbilityName: Unbalancing Shove
-Descrip: When you shield bash, damaged enemies get -1 to saving throws for [2/4/6] seconds.
+Descrip: When you shield bash, damaged enemies get -1 to Saving Throws for 2/4/6 seconds
 Tier: 1
 Ranks: 3
 
 AbilityName: Armor Training
-Descrip: +[1/2/3] to Balance, Intimidate, and Jump. Reduces total penalty to skills from armor and shield by [1/2/3] points.
+Descrip: +1/+2/+3 to Balance, Intimidate, and Jump. Reduces total penalty to skills from armor and shield by +1/+2/+3.
 Tier: 1
 Ranks: 3
 
 AbilityName: Shield Specialization
-Descrip: While shield equipped, +1 to hit, +1 damage, and +1 to armor class.}{  Bug:  Shield Specialization II does provide the effects listed but the damage increase does not display on the inventory panel.
+Descrip: While you have a shield equipped, you gain +1 to hit, damage, and armor class
 Tier: 2
 Cost: 2
 All: Tier 1: Shield Specialization
 
 AbilityName: Brutality
-Descrip: [+1/+2/+3] to the DC of Stunning abilities (e.g. Stunning Blow and Stunning Shield)
+Descrip: +1/+2/+3 to the DC of your Stunning abilities (such as Stunning Blow and Stunning Shield)
 Tier: 2
 Ranks: 3
 
 AbilityName: Stunning Shield
-Descrip: While shield equipped, Activate: Melee shield bash with shield for [+1/+2/+3] (W) attack. This attack stuns enemies unless Fortitude save vs DC(10 + highest ability modifier + character level + stunning bonuses). [60/45/30] seconds cooldown.
+Descrip: While you have a shield equipped, Activate: Melee shield bash attack with your shield for +1/+2/+3[W] attack. This attack stuns enemies unless they make a Fortitude saving throw vs DC (10 + Highest Ability Score Modifier + Character Level + Stunning Bonuses)}}Cooldown: 60/45/30 seconds
 Tier: 2
 Ranks: 3
 
 AbilityName: Missile Shield
-Descrip: While shield equipped, gain Deflect Arrow feat knocking one projectile that would have struck every [6/4/2] seconds. Antirequisite: Deflect Arrows.
+Descrip: While you have a shield equipped, you gain the benefits of the Deflect Arrow feat, knocking aside one incoming projectile that would have struck you every 6/4/2 seconds}}Antirequisite: Deflect Arrows
 Tier: 2
 Ranks: 3
 None: Tempest Tier 0: Deflect Arrows, Swashbuckler Tier 2: Deflect Arrows
 
 AbilityName: Melee Power Boost
-Descrip: [+10/+20/+30] Action Boost bonus to both Melee and Ranged Power for 20 seconds. Usable 5 times per rest. Shared cooldown: 20 seconds.
+Descrip: +10/+20/+30 Action Boost bonus to Melee and Ranged Power for 20 seconds}}Usable 5 times per rest}}Cooldown: 20 seconds
 Tier: 2
 Ranks: 3
 
 AbilityName: Shield Specialization
-Descrip: While shield equipped, +1 to hit, +1 damage, and +1 armor class.}{  Bug:  Shield Specialization III does provide the effects listed but the damage increase does not display on the inventory panel.
+Descrip: While you have a shield equipped, you gain +1 to hit, damage, and armor class
 Tier: 3
 Cost: 2
 All: Tier 2: Shield Specialization
 
 AbilityName: Follow Up
-Descrip: When you hit with activated stunning attack (e.g. Stunning Blow or Stunning Shield), your Melee Power increases by [3/6/9] points for 12 seconds, regardless if enemy stunned.
+Descrip: When you hit an enemy with an activated attack with certain stunning abilities (such as Stunning Blow or Stunning Shield), your melee power is increased by +3/+6/+9 for 12 seconds whether the stun works or not
 Tier: 3
 Ranks: 3
 
 AbilityName: Fatal Bulwark
-Descrip: Your shield gains +1 critical threat range.
+Descrip: Your shield gains +1 critical threat range
 Tier: 3
 Cost: 2
 
 AbilityName: Shield Riposte
-Descrip: While shield equipped, when missed by melee attacker, shield deals [1d4/1d6/1d8] bludgeoning damage to attacker. Damage scales with Melee Power.
+Descrip: When missed in melee while wearing a shield: Deals 1d4/1d6/1d8 bludgeoning damage to your attacker. Scales with melee power
 Tier: 3
 Ranks: 3
 
 AbilityName: Shield Specialization
-Descrip: While shield equipped, +1 to hit, +1 damage, and +1 armor class.}{  Bug:  Shield Specialization IV does provide the effects listed but the damage increase does not display on the inventory panel.
+Descrip: While you have a shield equipped, you gain +1 to hit, damage, and armor class
 Tier: 4
 Cost: 2
 All: Tier 3: Shield Specialization
 
 AbilityName: Armor Mastery
-Descrip: [+1/+2/+3] to armor class and armor maximum dexterity bonus. (Note: maximum dexterity bonus limits maximum dodge as well).
+Descrip: +1/+2/+3 Armor Class and Armor Maximum Dexterity Bonus. (Maximum Dexterity bonus limits your maximum Dodge as well)
 Tier: 4
 Ranks: 3
 
 AbilityName: Shield Charge
-Descrip: While shield equipped, Activate: Rush forward up to 30 feet to your selected opponent and deliver [+1/+2/+3] (W) shield attack that hits enemies around you. [36/24/12] seconds cooldown.
+Descrip: While you have a shield equipped, Activate: Rush forward up to 30 feet to your selected opponent and deliver a +1/+2/+3[W] shield attack that hits enemies around you}}Cooldown: 36/24/12 seconds
 Tier: 4
 Ranks: 3
 
 AbilityName: Myrmidon's Edge
-Descrip: [+1/+2/+3] to attack rolls to confirm critical hits and [+1/+2/+3] damage on critical hits (prior to applying weapon multipliers).
+Descrip: +1/+2/+3 to attack rolls to confirm critical hits and +1/+2/+3 damage on critical hits (before weapon multipliers)
 Tier: 4
 Ranks: 3
 
 AbilityName: Shield to the Face
-Descrip: Additional +10% chance to make a secondary shield bash.
+Descrip: +10% chance to make a secondary shield bash
 Tier: 5
 Cost: 2
 
 AbilityName: Disorienting Smash
-Descrip: When you shield bash, damaged enemies gain a stack of Vulnerability which can occur once every [3/2/1] seconds. Vulnerability makes enemies take 1% more damage for 3 seconds. This effect stacks up to 20 times, and loses one stack every 3 seconds.
+Descrip: When you shield bash, damaged enemies gain 1 stack of Vulnerability. This can occur at most once every 3/2/1 seconds}}Vulnerability: You take +1% more damage for 3 seconds. This effect stacks up to 20 times, and loses one stack on expiration
 Tier: 5
 Ranks: 3
 
 AbilityName: Shield Charge
-Descrip: While shield equipped, Activate: Rush forward in a line, delivering a shield bash to every creature hit. Each enemy is knocked down for [+2/+4/+6] (W) damage. The knockdown is negated on Fortitude saving throw vs DC(20 + highest ability modifier + class level + bonus to trip attacks). [60/45/25] seconds cooldown.
+Descrip: While you hae a shield equipped, Activate: Move forward in a line, delivering a shield bash attack to every creature hit. Each opponent is knocked down and takes a shield bash attack for +2/+4/+6[W] damage. The knockdown is negated on a Fortitude saving throw vs. DC (20 + Highest Ability Modifier + Class Level + bonuses to trip attacks)}}Cooldown: 60/45/25 seconds
 Tier: 5
 Ranks: 3
 
 AbilityName: Armored Strength
-Descrip: +10 to Melee Power.
+Descrip: +10 Melee Power
 Tier: 5
 Cost: 2
 
