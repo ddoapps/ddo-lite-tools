@@ -4765,94 +4765,92 @@ Color: Purple
 Stats: Dexterity, Intelligence
 
 AbilityName: Agent of Good I
-Descrip: +1 to hit vs. Evil, +1 Universal Spell Power.
+Descrip: +1 to hit versus evil}}+1 Universal Spell Power
 Tier: 0
 
-AbilityName: Harper Training I
-Descrip: Choose one.}{-  +1 Dexterity}{-  +1 Intelligence}{-  +1 Charisma
+AbilityName: Ability Score
+Descrip: Choose an ability to improve by +1
 Tier: 0
 Cost: 2
-Flags: SelectorOnly
-Selector: Dexterity, Intelligence, Charisma
+Selector: Charisma, Dexterity, Intelligence
 
 AbilityName: Agent of Good II
-Descrip: +2 to hit and damage vs. Evil, +5 Universal Spell Power.
+Descrip: +2 to hit versus evil}+2 damage vs. Evil}+5 Universal Spell Power
 Tier: 0
 
-AbilityName: Harper Training II
-Descrip: Choose one.}{-  +1 Dexterity}{-  +1 Intelligence}{-  +1 Charisma
+AbilityName: Ability Score II
+Descrip: Choose an ability to improve by +1
 Tier: 0
 Cost: 2
-Flags: SelectorOnly
-Selector: Dexterity, Intelligence, Charisma
+Selector: Charisma, Dexterity, Intelligence
 
 AbilityName: Agent of Good III
-Descrip: +3 to hit and damage vs. Evil. +10 Universal Spell Power.
+Descrip: +3 to hit versus evil}+3 damage vs. Evil}+10 Universal Spell Power
 Tier: 0
 
 AbilityName: Harper's Freedom
-Descrip: Dispel most detrimental effects from you and add +10 to all saving throws for 20 seconds. Cooldown: 5 minutes.
+Descrip: Dispel most detrimental effects from you and add +10 to all saving throws for 20 seconds. Cooldown: 5 minutes
 Tier: 0
 
 AbilityName: Harper Enchantment
-Descrip: Your weapon gains an additional +1 to its Enhancement bonus. You gain +20 to your maximum Spell Points.}{  Note: +1 to Enhancement bonus also applies to off-hand weapon but not to a shield (when bashing).
+Descrip: Your main and off-hand weapons gain an additional +1 to its Enhancement bonus. This does not apply to shields. You gain +20 to your maximum Spell Points
 Tier: 1
 Cost: 2
 
 AbilityName: Weathered Traveler
-Descrip: [+1/+2/+3] energy resistance.
+Descrip: +1/+2/+3 Energy Resistance
 Tier: 1
 Ranks: 3
 
 AbilityName: Traveler's Toughness
-Descrip: [+5/+10/+15] maximum hit points.
+Descrip: +5/+10/+15 maximum hit points
 Tier: 1
 Ranks: 3
 
 AbilityName: Strategic Combat
-Descrip: You can use your Intelligence modifier to hit with Melee and Missile weapons.}{  Note: This does not function with shields.
+Descrip: You can use your Intelligence modifier to hit with Melee and Missile weapons, as well as handwraps})Note: This ability does not apply to shields
 Tier: 1
 Cost: 2
 
 AbilityName: Awareness
-Descrip: +[1/2/3] to Listen, Search, and Spot. Rank 3: +1 save vs. traps.
+Descrip: +1/+2/+3 to Listen, Search, and Spot. Rank 3: +1 save versus traps
 Tier: 1
 Ranks: 3
 
 AbilityName: Heroic Companion
-Descrip: Action Boost: Grants an ally +0.25/+0.5/+1[W], +2/+4/+6 to hit and saving throws, 0/+2%/+4% Dodge and 0/0/+10 Physical Resistance Rating. (Cooldown: 30 seconds). Antireq: Cannot be taken with the Halfling racial enhancement.
+Descrip: Action Boost: Grants an ally +0.5/+0.75/+1[W], +2/+4/+6 to hit and saving throws, +0/+2%/+4% Dodge, and +0/+0/+10 Physical Resistance Rating. Usable five times per rest}}Cooldown: 30 seconds}}Antirequisite: Cannot be taken with the halfling Heroic Companion racial enhancement
 Tier: 2
 Ranks: 3
 None: Halfling Tier 2: Heroic Companion
 
 AbilityName: Magical Endurance
-Descrip: [+30/+60/+100] maximum Spell Points.
+Descrip: +30/+60/+100 maximum Spell Points
 Tier: 2
 Ranks: 3
 
-AbilityName: Versatile Adept
-Descrip: [+1/+2/+3] Melee Power, Ranged Power, and Universal Spell Power.
+AbilityName: Versatile Adept I
+Descrip: +1/+2/+3 Melee Power, Ranged Power, and Universal Spell Power
 Tier: 2
 Ranks: 3
 
 AbilityName: Know the Angles
-Descrip: Activation cost: [45/30/15] spell points. Cooldown: 20 seconds. Antirequisite: Divine Might, Deadly Instinct. You gain an Insight bonus to damage and the DC of tactical feats equal to 1/2 of your Intelligence modifier for [30/60/120] seconds.}{  Bug:  Know the Angles does not properly display duration scaling at higher ranks.}{  Bug:  Know the Angles damage does not appear on the character sheet, but does work correctly.
+Descrip: Battle Trance: You gain an Insight bonus to damage and the DC of tactical feats equal to 1/2 your Intelligence Modifier for 30/60/120 seconds}}Antirequisite: This ability can not be trained if you have any other Battle Trance abilities
 Tier: 2
 Ranks: 3
 None: Beacon of Hope Tier 2: Might's Reward, Falconry Tier 4: Deadly Instinct, Knight of the Chalice Tier 2: Divine Might, War Soul Tier 1: Divine Might, Warpriest Tier 1: Divine Might
 
 AbilityName: Harper Leadership
-Descrip: Your artificer/druid pets, hirelings, summoned, and charmed creatures gain [+2/+3/+4] to all ability scores.
+Descrip: Your hirelings, summoned, and charmed creatures gain +2/+3/+4 to all ability scores
 Tier: 2
 Ranks: 3
 
 AbilityName: Highly Skilled
-Descrip: [+1/+2/+3] to all skills.
+Descrip: +1/+2/+3 to all skills
 Tier: 3
 Ranks: 3
 
 AbilityName: Know Your Foe
-Descrip: Multiple enhancement selector: You gain a new Favored Enemy feat, dealing extra damage against those enemies: Aberration / Construct / Dragon / Evil Outsider / Giant / Monstrous Humanoid / Undead.
+Descrip: Choose an enemy. You gain the Favored Enemy feat for that type of enemy, dealing +2 damage to those enemies
 Tier: 3
 Cost: 2
 Selector: Aberration, Construct, Dragon, Evil Outsider, Giant, Monstrous Humanoid, Undead
@@ -4871,54 +4869,54 @@ None: Feat: Favored Enemy: Monstrous Humanoid, Deepwood Stalker Tier 5: Extra Fa
 SelectorName: Undead
 None: Feat: Favored Enemy: Undead
 
-AbilityName: Versatile Adept
-Descrip: [+1/+2/+3] Melee Power, Ranged Power, and Universal Spell Power.
+AbilityName: Versatile Adept II
+Descrip: +1/+2/+3 Melee Power, Ranged Power, and Universal Spell Power
 Tier: 3
 Ranks: 3
 
-AbilityName: Strategic Combat
-Descrip: You can use your Intelligence modifier for damage with Melee and Missile weapons.}{  Note: This does not function with shields.
+AbilityName: Strategic Combat II
+Descrip: You can use your Intelligence modifier for damage with Melee and Missle weapons, as well as handwraps.}}Note: This ability does not apply to shields
 Tier: 3
 Cost: 2
 
 AbilityName: Throat Dagger
-Descrip: Activation cost: [3/2/1] spell points. Cooldown: [60/30/15] seconds. SLA: Damages an enemy from afar for 1d4+4 Piercing damage per character level. Damaged non-boss enemies cannot cast spells for 6 seconds. Metamagic: Quicken, Enlarge (no extra cost). Spell resistance: No.
+Descrip: Damages an enemy from afar for 1d4+4 Piercing damage per character level. Damaged non-boss enemies can't cast spells for 6 seconds}}This Spell Like Ability can be Quickened or Enlarged for no extra cost, if you have those fears)}}Activation Cost: 3/2/1 Spell Points}Cooldown: 60/30/15 seconds
 Tier: 4
 Ranks: 3
 
-AbilityName: Vigor of Life
-Descrip: +20 positive healing amplification. -10% (?) less damage from negative energy.
+AbilityName: Vigor of Life I
+Descrip: +20 Positive Healing Amplification}-10% less damage from Negative Energy
 Tier: 4
 Cost: 2
 
-AbilityName: Versatile Adept
-Descrip: [+1/+2/+3] Melee Power, Ranged Power, and Universal Spell Power.
+AbilityName: Versatile Adept III
+Descrip: +1/+2/+3 Melee Power, Ranged Power, and Universal Spell Power
 Tier: 4
 Ranks: 3
 
 AbilityName: Magic of Austerity
-Descrip: Like Eschew Materials, your spells no longer need common material components. This does not increase their Spell Point cost.
+Descrip: Like Eschew Materials, your spells no longer need common material components. This does not increase their Spell Point cost
 Tier: 4
 Cost: 2
 
 AbilityName: Harper Enchantment
-Descrip: Choose one.}{-  Harper Enchantment of Deception: Your weapon gains an additional +1 to its Enhancement bonus and Improved Deception.}{-  Harper Enchantment of Magic: Your weapon gains a +10 Harper bonus to Universal Spell Power.}{-  Harper Enchantment of Righteousness: Your weapon gains stacking +3 Enhancement bonus to attack and damage, an additional +2 to attack bonus and damage against evil creatures, and your weapon is considered Good-aligned.}{  Note: Deception or Righteousness appears to work on off-hand weapon as well. [unverified] Magic may work as well, but does not stack with itself. [unverified]
+Descrip: Choose how to enchant your weapon!}}Select from:}{-Enchantment of Deception: Your weapon gains an additional +1 to its Enhancement bonus and Improved Deception}{-Enchantment of Magic: Your weapon gives +10 Harper bonus to Universal Spell Power}{-Enchantment of Righteousness: Your weapon gains stacking +3 Enhancement bonus to attack and damage, additional +2 to attack bonus and damage against any evil creature, and is considered Good-aligned}
 Tier: 5
 Cost: 2
 Selector: Deception, Magic, Righteousness
 
-AbilityName: Versatile Adept
-Descrip: [+2/+4/+6] Melee Power, Ranged Power, and Universal Spell Power.
+AbilityName: Versatile Adept IV
+Descrip: +2/+4/+6 Melee Power, Ranged Power, and Universal Spell Power
 Tier: 5
 Ranks: 3
 
 AbilityName: Magic of Patience
-Descrip: Your spells benefit from the Extend Spell metamagic feat. This does not increase their Spell Point cost. (This does not stack with the actual Extend metamagic feat.)
+Descrip: Your spells benefit from the Extend Spell metamagic feat. This does not increase their Spell Point cost}}(This does not stack with the actual Extend metamagic feat)
 Tier: 5
 Cost: 2
 
 AbilityName: Moment of Clarity
-Descrip: Cooldown: 5 minutes. Activate: For the next 10 seconds the DC of your spells and your tactical feats is increased by +10. Passive: +1 DC for your spells.
+Descrip: Activate: For the next 10 seconds the DC of your spells and your tactical feats in increased by +10}}Passive: +1 DC for your spells
 Tier: 5
 Cost: 2
 
