@@ -9544,146 +9544,145 @@ Color: Green
 Stats: Strength, Dexterity, Constitution, Intelligence, Wisdom, Charisma
 
 AbilityName: Knife Expertise
-Descrip: You gain +1 to hit and damage with daggers and throwing daggers.
+Descrip: You gain +1 to hit and damage with daggers and throwing knives
 Tier: 0
 
 AbilityName: Knife Juggler
-Descrip: You gain +5% to speed with throwing daggers. You gain the benefits of the Deflect Arrows feat, knocking aside one incoming projectile that would have struck you every 6 seconds.
+Descrip: You gain +5% to speed with throwing daggers. You gain the benefits of the Deflect Arrows feat, knocking aside one incoming projectile that would have struck you every 6 seconds
 Tier: 0
 
-AbilityName: Knife Specialist
-Descrip: You gain Quick Draw as a bonus feat. You gain +5% Doublestrike (main and off hand), and Doubleshot.
+AbilityName: Quick Reflexes
+Descrip: You gain Quickdraw as a bonus feat. You gain +5% Doublestrike, and +5% Doubleshot for both the main hand and the off hand
 Tier: 0
 
 AbilityName: One With Blades
-Descrip: You gain a +1 Competence bonus to Critical Threat Range and +1 to Critical Damage Multiplier with daggers and throwing daggers.
+Descrip: You gain a +1 Competence bonus to Critical Threat Range and +1 to Critical Damage multiplier with daggers and throwing knives
 Tier: 0
 
 AbilityName: Vistani Fortune
-Descrip: Passive: You gain +10 Physical Resistance Rating and Magical Resistance Rating. Activate to gain one random Vistani fortune. Cooldown 60 seconds.}{- Coins: You gain 10% Doublestrike and 10% Doubleshot for 60 seconds.}{- Glyphs: You gain 10 Physical Resistance Rating and 20 Magical Resistance Rating for 60 seconds.}{- Stars: You gain +2 to all ability scores for 60 seconds.}{- Swords: You gain 15 Melee Power and Ranged Power for 60 seconds.
+Descrip: Passive: You gain +10 Physical Resistance Rating and Magical Resistance Rating}}Activate to gain one random Vistani fortune}{-Coins: You gain +5% Doublestrike and +5% Doubleshot}{-Glyphs: You gain +10 Physical Resistance Rating and +20 Magical Resistance Rating}{-Stars: You gain +2 to all ability scores}{-Swords: You gain +15 Melee Power and Ranged Power}}Cooldown: 60 seconds
 Tier: 0
 
-AbilityName: Knife Master
-Descrip: You gain +2 to all ability scores. You gain +5% attack speed when using two daggers or throwing knives. You gain 20 Melee Power and 20 Ranged Power.
+AbilityName: Blade Master
+Descrip: You gain +2 to all ability scores. You gain +5% attack speed when using melee and throwing weapons. You gain +20 Melee Power and +20 Ranged Power
 Tier: 0
 
-AbilityName: Vistani Knife Training
-Descrip: When using a dagger in each hand, you now fight in melee using the Vistani style, with both daggers held down point down. You gain +1 to hit and damage with daggers and throwing daggers.
+AbilityName: Vistani Knife Training I
+Descrip: When using a dagger in each hand, you now fight in melee using the Vistani style, with both daggers held down point down. You gain +1 to hit and damage with daggers and throwing daggers
 Tier: 1
 
 AbilityName: Undead Hunter
-Descrip: You resist evil influences particularly well, gaining a +2 bonus to saves against spells and effects produced by evil creatures. Undead are automatically consider a Favored Enemy for you.
+Descrip: You resist evil influences particularly well, gaining +2 bonus to saving throws against spells and effects produced by evil creatures. Undead are automatically considered a Favored Enemy for you
 Tier: 1
 
 AbilityName: Mist Stalker
-Descrip: You gain +25% negative energy absorption. You gain +3 Physical Resistance Rating and Magical Resistance Rating.
+Descrip: You gain +25% negative energy absorption. You gain +3 Physical Resistance Rating and Magical Resistance Rating
 Tier: 1
 Cost: 2
 
 AbilityName: Acrobatic
-Descrip: +1/2/3 Balance, Jump, and Tumble. Rank 3: +1 to Reflex Saving Throws.
+Descrip: +1/+2/+3 Balance, Jump, and Tumble}}Rank 3: +1 to Reflex saving throws
 Tier: 1
 Ranks: 3
 
-AbilityName: Rapid Attack
-Descrip: You gain both of the following:}{- Rapid Slash: Requires dagger. Melee Attack: Deals +3(W) damage. You gain a 20% Morale bonus to (main hand) doublestrike for 10 seconds. Cooldown: 10 seconds.}{- Rapid Throw: Requires throwing knife. Missile Attack: Deals +3(W) damage. You gain a 20% Morale bonus to doubleshot for 10 seconds. Cooldown: 10 seconds. This puts Ten Thousand Stars and Manyshot on a 10 second cooldown.
+AbilityName: Rapid Slash
+Descrip: Requires dagger. Melee attack. +3[W] damage. You gain +20% Morale bonus to (main hand) doublestrike}}(Taking this ability also gives you Rapid Throw, the ranged version that requires a throwing knife.)}}Cooldown: 10 seconds
 Tier: 1
 Cost: 2
 
-AbilityName: Vistani Knife Training
-Descrip: You gain +1 to hit and +2 damage with daggers and throwing daggers.
+AbilityName: Vistani Knife Training II
+Descrip: You gain +1 to hit and +2 damage with daggers and throwing daggers
 Tier: 2
 Cost: 2
 
 AbilityName: Bleeding Cuts
-Descrip: When you score a Vorpal hit with a dagger or throwing knife you add a stack of Blood of Vengeance to your opponent.}    Blood of Vengeance: You deal 1d6 damage per two seconds for 30 seconds. This damage scales with 200% Melee Power. This stacks up to 10 times, with new stacks refreshing the duration.
+Descrip: When you score a vorpal hit with a dagger or throwing knife you add a stack of Blood of Vengeance to your opponent}}Blood of Vengeance: You deal 1d6 damage per two seconds for 30 seconds. This damage scales with 200% Melee Power. This stacks up to 10 times, with new stacks refreshing the duration
 Tier: 2
 Cost: 2
 
-AbilityName: Mist Stalker
-Descrip: You gain +2 to Will saving throws. You gain +3 Physical Resistance Rating and Magical Resistance Rating.
+AbilityName: Mist Stalker II
+Descrip: You gain +2 to Will saving throws. You gain +3 Physical Resistance Rating and Magical Resistance Rating
 Tier: 2
 Cost: 2
 All: Tier 1: Mist Stalker
 
 AbilityName: Weapon Versatility
-Descrip: While using daggers and throwing daggers, your melee and missile attacks use the higher of Melee Power or Ranged Power.
+Descrip: Your dagger and throwing dagger attacks use the higher of Melee Power or Ranged Power
 Tier: 2
 
 AbilityName: Haste Boost
-Descrip: Activate to gain a 10%/20%/30% Action Boost bonus to attack speed for 20 seconds. (Cooldown: 30 seconds)
+Descrip: Activate to gain a +10%/+20%/+30% Action Boost bonus to attack speed for 20 seconds}}Cooldown: 30 seconds
 Tier: 2
 Ranks: 3
 
-AbilityName: Vistani Knife Training
-Descrip: You gain +1 to hit and +2 damage with daggers and throwing knives.
+AbilityName: Vistani Knife Training III
+Descrip: You gain +1 to hit and +2 damage with daggers and throwing daggers
 Tier: 3
 Cost: 2
-All: Tier 2: Vistani Knife Training
+All: Tier 2: Vistani Knife Training II
 
 AbilityName: Fan of Knives
-Descrip: On activation: You throw a hail of throwing knives in a cone in front of you. Enemies caught in the cone take 5 to 8 per character level of damage and take 1 stack of Blood of Vengeance. This damage scales with 200% Ranged Power. Cooldown: 15 seconds
+Descrip: On activation: You throw a hail of throwing knives in a cone in front of you. Enemies caught in the cone take 1d8 damage per character level of damage and take one stack of Blood of Vengeance. This damage scales with 200% Ranged Power}}Cooldown: 15 seconds
 Tier: 3
 Cost: 2
 
-AbilityName: Mist Stalker
-Descrip: You are immune to Fear effects. You gain +3 Physical Resistance Rating and Magical Resistance Rating.
+AbilityName: Mist Stalker III
+Descrip: You are immune to Fear effects. You gain +3 Physical Resistance Rating and Magical Resistance Rating
 Tier: 3
 Cost: 2
-All: Tier 2: Mist Stalker
+All: Tier 2: Mist Stalker II
 
 AbilityName: Deadly Blades
-Descrip: Your daggers and throwing daggers do an additional +1(W) of damage. You are centered when fighting with daggers. (Note: not centered with throwing daggers).
+Descrip: Your daggers and throwing knives do an additional +1[W] of damage. You are centered when fighting with daggers
 Tier: 3
 Cost: 2
 
-AbilityName: Vistani Knife Training
-Descrip: You gain +1 to hit and +2 damage with daggers and throwing knives.
+AbilityName: Vistani Knife Training IV
+Descrip: You gain +1 to hit and +2 damage with daggers and throwing daggers
 Tier: 4
 Cost: 2
-All: Tier 3: Vistani Knife Training
+All: Tier 3: Vistani Knife Training III
 
 AbilityName: Celerity
-Descrip: You gain +5% Doublestrike (main and off hand), and Doubleshot.
+Descrip: You gain +5% main hand and off hand doublestrike, and doubleshot
 Tier: 4
 
-AbilityName: Mist Stalker
-Descrip: You gain immunity to Energy Drain. You gain +3 Physical Resistance Rating and Magical Resistance Rating.
-Tier: 4
-Cost: 2
-All: Tier 3: Mist Stalker
-
-AbilityName: Double Daggers
-Descrip: Choose One:}{-  Single Dagger: When fighting single weapon style with a dagger: +20 Melee Power.}{-  Double Daggers: When fighting with a dagger in each hand: +20% stacking chance to make off-hand attacks when dual wielding weapons.
+AbilityName: Mist Stalker IV
+Descrip: You gain immunity to energy drain. You gain +3 Physical Resistance Rating and Magical Resistance Rating
 Tier: 4
 Cost: 2
-Flags: SelectorOnly
-Selector: Single Dagger, Double Daggers
+All: Tier 3: Mist Stalker III
 
-AbilityName: Vistani Knife Training
-Descrip: You gain +3 to hit and damage with daggers and throwing knives.
+AbilityName: Choose One
+Descrip: Choose a dagger style to specialize in}}Select from:}{-Double Daggers: When fighting with a dagger in each hand: +20% stacking chance to make off hand attacks when dual wielding}{-Single Dagger: When Single Weapon Fighting with a dagger: +20 Melee Power}
+Tier: 4
+Cost: 2
+Selector: Double Daggers, Single Dagger
+
+AbilityName: Vistani Knife Training V
+Descrip: You gain +3 to hit and +3 damage with daggers and throwing knives
 Tier: 5
 Cost: 2
-All: Tier 4: Vistani Knife Training
+All: Tier 4: Vistani Knife Training IV
 
 AbilityName: Whirling Blades
-Descrip: Requires throwing knife. Missile Attack: +5(W) damage. Your throwing knife gains 100 doubleshot for 15 seconds. Cooldown one minute. (Shares cooldown with 10K Stars.)
+Descrip: Requires throwing knife. Missile Attack: +5[W] damage. Your throwing knife gains 100 doubleshot for 15 seconds}}Cooldown: 60 seconds
 Tier: 5
 Cost: 2
 
-AbilityName: Mist Stalker
-Descrip: Activate to gain +20% Dodge and Maximum Dodge, +30 PRR, and +30 MRR for 20 seconds. Cooldown: 60 seconds.
+AbilityName: Mist Stalker V
+Descrip: Activate to gain +20% Dodge and Maximum Dodge, +30 PRR, and +30 MRR for 20 seconds}}Cooldown: 60 seconds
 Tier: 5
 Cost: 2
-All: Tier 4: Mist Stalker
+All: Tier 4: Mist Stalker IV
 
 AbilityName: Blessed Blades
-Descrip: You gain both of the following:}{- Blessed Blades: Requires dagger. Melee attack. +5(W) damage, plus one stack of Blood of Vengeance. Your equipped daggers gain a +10 Enhancement bonus for 10 seconds. They also gain Silver, Good, and Ghost Touch. 10 second cooldown.}{- Blessed Knives: Requires throwing knife. Missile attack. +5(W) damage, plus one stack of Blood of Vengeance. Your throwing knife gains a +10 Enhancement bonus for 10 seconds. It also gains Silver, Good, and Ghost touch. 10 second cooldown.
+Descrip: Required dagger. Melee attack. +5[W] damage, plus one stack of Blood of Vengeance. Your equipped daggers gain a stacking +10 Enhancement bonus for 10 seconds. They also gain Silver, Good, and Ghost Touch}}(Taking this ability also gives you Blessed Knives, the ranged version that requires a throwing dagger)
 Tier: 5
 Cost: 2
 
 AbilityName: Vendetta
-Descrip: Activate to gain a unique +1 Critical Threat Range and +1 to Critical damage multiplier to your equipped daggers or throwing knife for 15 seconds. 60 second cooldown.
+Descrip: Activate to gain a unique +1 Critical Threat Range and +1 Critical damage multiplier to your equipped daggers or throwing knife for 15 seconds}}Cooldown: 60 seconds
 Tier: 5
 Cost: 2
 
