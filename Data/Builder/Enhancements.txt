@@ -3670,162 +3670,155 @@ Initial: Fal
 Color: Green
 
 AbilityName: Summon Avian Companion
-Descrip: You have been trained to keep a hunting bird. Activate this ability to summon your companion. Your pet cannot be attacked, and cannot die. Damage it causes is attributed to you. While your Hunting Bird is by your side, it grants you a +2 to Spot and Listen checks. Choose one: Summon Falcon, Summon Grey Owl, Summon Raven, Summon Snow Owl, Summon White Falcon. Your bird will remain with you in public areas, but, unlike a Wolf Companion or Iron Defender, it is considered a summoned creature. You can have only one summoned creature at a time.
+Descrip: Choose an Avian Companion. Summons a companion as your Hunting Bird. While your Hunting Bird is by your side, it grants you a +2 bonus to Spot and Listen checks
 Tier: 0
-Flags: SelectorOnly
 Selector: Falcon, Grey Owl, Raven, Snow Owl, White Falcon
 
-AbilityName: Stat
-Descrip: Choose an ability to improve: +1 Strength, Dexterity, Constitution, Intelligence, Wisdom, Charisma.
+AbilityName: Ability Score
+Descrip: Choose an ability to improve by +1
 Tier: 0
 Cost: 2
-Flags: SelectorOnly
 Selector: Strength, Dexterity, Constitution, Intelligence, Wisdom, Charisma
 
 AbilityName: Well Rounded
-Descrip: You gain +3 Melee Power, Ranged Power, Physical Resistance Rating, and Magical Resistance Rating. You gain +2 Spot and Listen.
+Descrip: You gain +3 Melee Power, Ranged Power, Physical Resistance Rating, and Magical Resistance Rating. You gain +2 Spot and Listen
 Tier: 0
 
-AbilityName: Stat II
-Descrip: Choose an ability to improve: +1 Strength, Dexterity, Constitution, Intelligence, Wisdom, Charisma.
+AbilityName: Ability Score II
+Descrip: Choose an ability to improve by +1
 Tier: 0
 Cost: 2
-Flags: SelectorOnly
 Selector: Strength, Dexterity, Constitution, Intelligence, Wisdom, Charisma
 
 AbilityName: Well Rounded II
-Descrip: You gain another +3 Melee Power, Ranged Power, Physical Resistance Rating, and Magical Resistance Rating. You gain +2 Spot and Listen.
+Descrip: You gain +3 Melee Power, Ranged Power, Physical Resistance Rating, and Magical Resistance Rating. You gain +2 Spot and Listen
 Tier: 0
 
 AbilityName: Master Falconer
-Descrip: You gain +2 to all ability scores and benefit from the spell Freedom of Movement. Your active Falcon attacks have a chance to reset the cooldown on Death From Above.
+Descrip: You gain +2 to all ability scores and benefit from the spell Freedom of Movement. Your active Falcon attacks have a chance to reset the cooldown on Death From Above
 Tier: 0
 
 AbilityName: Rugged
-Descrip: Gain +2/4/6 Physical Resistance Rating.
+Descrip: Gain +2/+4/+6 Physical Resistance Rating
 Tier: 1
 Ranks: 3
 
 AbilityName: Practiced Accuracy
-Descrip: You gain +1/2 to hit with weapons and +1/2 to confirm critical attacks.
+Descrip: You gain +1/+2 to hit with weapons and +1/+2 to confirm critical attacks
 Tier: 1
 Ranks: 2
 
 AbilityName: Hunter's Knowledge
-Descrip: You gain Animals as a favored enemy
+Descrip: You gain animals as a favored enemy
 Tier: 1
 
 AbilityName: Out in Nature
-Descrip: Gain +5/10/15 to Healing Amplification.
+Descrip: Gain +5/+10/+15 to Healing Amplification
 Tier: 1
 Ranks: 3
 
 AbilityName: Wanderlust
-Descrip: You gain +1/2/3 to Balance, Jump, and Swim. Rank 3: You gain +1 to Fortitude saving throws.
+Descrip: You gain +1/+2/+3 to Balance, Jump, and Swim. Rank 3: You gain +1 to Fortitude saving throws
 Tier: 1
 Ranks: 3
 
 AbilityName: Killer Instinct I
-Descrip: You can use your Wisdom modifier to hit with Melee and Missile weapons.
+Descrip: You can use your Wisdom modifier to hit with Melee and Missile weapons
 Tier: 2
 Cost: 2
 
 AbilityName: Watch the Center
-Descrip: Grants +1/2/3 to Assassinate DCs.
+Descrip: Grants a +1/+2/+3 to Assassinate DCs
 Tier: 2
 Ranks: 3
 
 AbilityName: Diving Attack
-Descrip: You and your Hunting Bird attack as one against a single target. Activate this ability to attack for +1/2/3[W] against a single target. Your Hunting bird will follow up for an additional 3d6/6d6/10d6 damage that scales with 200% of melee or ranged power, whichever is higher. Your Hunting Bird also trips the target, causing them to become Helpless. Your target is slowed by 30% for 10 seconds whether they make the saving throw or not. Trip DC: 10 + Character Level + Wisdom modifier + Assassinate bonuses. Cooldown 20 seconds, with a 4.5 second shared cooldown with other Hunting Bird attacks. Choose one: Diving Shot (Ranged Falconer Attack) or Diving Strike (Melee Falconer Attack).
+Descrip: Choose between a melee or ranged attack that will cause your bird to strike the target for damage and either slow or trip them}}You and your Hunting Bird attack as one against a single target. Activate this ability to attack for +1/+2/+3[W] against a single target. Your Hunting Bird will follow up for an additional +3d6/+6d6/+10d6 damage that scales with 200% of melee or ranged power, whichever is higher. Your Hunting Bird also trips the target, causing them to become Helpless. Your target is slowed by 30% for 10 seconds whether they make the saving throw or not}}Trip DC: 10 + Character Level + Wisdom modifier + Assassinate bonuses
 Tier: 2
 Ranks: 3
-Flags: SelectorOnly
-Selector: Diving Shot, Diving Strike
+Selector: Diving Attack Shot, Diving Attack Strike
 
 AbilityName: Meticulous Weaponry
-Descrip: Protect your items, or increase your chance of recovering ammunition. Choose one:}{- Meticulous Weaponry: You have a 25/50/75% chance to negate potential item wear.}{- Meticulous Fletching: You are skilled at enhancing, salvaging, and re-purposing your arrows, bolts, and throwing weapons. your ammunition gains a 50/65/80% chance of returning.
+Descrip: Protect your items or increase your chance of recovering ammunition}}Select from:}{-Meticulous Fletching: You are skilled at enhancing, salvaging, and re-purposing your arrows, bolts, and throwing weapons. Your ammunition gains a +50%/+65%/+80% chance of returning}{-Meticulous Weaponry: You have a +25%/+50%/+75% chance to negate potential item wear}
 Tier: 2
 Ranks: 3
-Flags: SelectorOnly
-Selector: Meticulous Weaponry, Meticulous Fletching
+Selector: Meticulous Fletching, Meticulous Weaponry
 
-AbilityName: Sprint Boost
-Descrip: Action Boost: Sprint +30/35/45% Action Boost bonus to movement speed for 20 seconds.
+AbilityName: Action Boost: Sprint
+Descrip: +30%/+35%/+45% Action Boost bonus to movement speed for 20 seconds
 Tier: 2
 Ranks: 3
 
 AbilityName: Killer Instinct II
-Descrip: You can use your Wisdom modifier for damage with melee and missile weapons.
+Descrip: You can use your Wisdom modifier for damage with Melee and Missile weapons
 Tier: 3
 Cost: 2
 
 AbilityName: Tear Flesh
-Descrip: Your bird attacks now also cause a Bleed effect. Bleed: Do 1d6 damage every 2 seconds for 60 seconds. This stacks up to 10 times, and scales with 200% Melee or Ranged Power.
+Descrip: Your bird attacks now also cause a Bleed effect. Bleed: Do 1d6 damage every 2 seconds for 60 seconds. This stacks up to 10 times and scales with 200% Melee or Ranged Power
 Tier: 3
 Cost: 2
 
 AbilityName: Strike for the Eyes
-Descrip: You and your Hunting Bird attack as one against a single target. Activate this ability to attack for +1/2/3[W] against a single target. Your Hunting bird will follow up for an additional 3d6/6d6/10d6 damage that scales with 200% of Melee or Ranged Power, whichever is higher. Your Hunting Bird also attempts to Blind the target, causing them to become Helpless. Your target is slowed by 30% for 10 seconds whether they make the Saving Throw or not. Blind DC: 10 + Character Level + Wisdom modifier + Assassinate bonuses. Cooldown 10 seconds, with a 4.5 second shared cooldown with other Hunting Bird attacks. Choose One: Shoot for the Eyes (Ranged Falconer Attack) or Strike for the Eyes (Melee Falconer Attack).
+Descrip: Choose between a melee or ranged attack that will cause your bird to strike the target for damage, blind them and make them helpless}}You and your Hunting Bird attack as one against a single target. Activate this ability to attack for +1/+2/+3[W] against a single target. Your Hunting Bird will follow up for an additional +3d6/+6d6/+10d6 damage that scales with 200% of melee or ranged power, whichever is higher. Your Hunting Bird also attempts to Blind the target, causing them to become Helpless. Your target is slowed by 30% for 10 seconds whether they make the saving throw or not}}Blind DC: 10 + Character Level + Wisdom modifier + Assassinate bonuses
 Tier: 3
 Ranks: 3
 Selector: Shot, Strike
 
 AbilityName: Conditioning
-Descrip: You gain +5% to your Hit Points.
+Descrip: You gain +5% to your hit points
 Tier: 3
 Cost: 2
 
 AbilityName: Eyes of the Eagle
-Descrip: You gain True Seeing.
+Descrip: You gain True Seeing
 Tier: 3
 Cost: 2
 
 AbilityName: Deadly Instinct
-Descrip: You gain an Insight bonus to damage and the DC of Tactical feats equal to 1/2 of your Wisdom modifier for 30/60/120 seconds. Cooldown: 20 seconds. 5 Charges per rest. Each attack from your avian companion has a chance to reset 1 charge. Antirequisite: This ability can not be trained if you have any other Trance ability (Know the Angles).
+Descrip: Battle Trance: You gain an Insight bonus to damage and the DC of tactical feats equal to 1/2 of your Wisdom modifier for 30/60/120 seconds. 5 Charages per rest. Each attack from your avian companion has a chance to reset 1 charge}}Antirequisite: This ability can not be trained if you have any other Battle Trance abilities
 Tier: 4
 Ranks: 3
 None: Beacon of Hope Tier 2: Might's Reward, Harper Agent Tier 2: Know the Angles, Knight of the Chalice Tier 2: Divine Might, War Soul Tier 1: Divine Might, Warpriest Tier 1: Divine Might
 
 AbilityName: No Mercy
-Descrip: You deal 10/20/30% additional damage to helpless opponents.
+Descrip: You deal +10%/+20%/+30% additional damage to helpless opponents
 Tier: 4
 Ranks: 3
 
 AbilityName: Coordinated Strikes
-Descrip: Choose between a melee or ranged attack that will cause your bird to rain attacks over an area, damaging and blinding all foes in the area. Choose One:}{- Coordinated Shot: Ranged Falconer Attack: You make a ranged attack for +2[W], as your Hunting Bird descends to frenzy in a large area around the first target struck for an additional 10d6 damage that scales with Melee or Ranged Power, whichever is higher. Your Hunting Bird also attempts to Blind each opponent Struck. Blind DC: 10 + Character level + Wisdom modifier + Assassinate bonuses. Cooldown one minute, with a 4.5 second shared cooldown with other Hunting Bird attacks.}{- Coordinated Strike: Melee Falconer Cleave Attack: You cleave all opponents near you for +2[W], as your Hunting Bird descends to frenzy in a large area for an additional 10d6 damage that scales with Melee or Ranged Power, whichever is higher. Your Hunting Bird also attempts to Blind each opponent struck. Blind DC: 10 + Character Level + Wisdom modifier + Assassinate bonuses. Cooldown one minute, with a 4.5 second shared cooldown with other Hunting Bird attacks.
+Descrip: Choose between a melee or ranged attack that will cause your bird to rain attacks over an area, damaging and blinding all foes in the area}}Select from:}{-Coordinated Shot: Ranged Falconer Attack: You make a ranged attack for +2[W], as your Hunting Bird descends to frenzy in a large area of the first target struck for an additional 10d6 damage that scales with Melee and Ranged Power, whichever is higher. Your Hunting Bird also attempts to blind each opponent struck}{-Coordinated Strike: Melee Falconer Cleave Attack: You cleave all opponents near you for +2[W], as your Hunting Bird descends to frenzy in a large area for an additional 10d6 damage that scales with Melee and Ranged Power, whichever is higher. Your Hunting Bird also attempts to blind each opponent struck}}Blind DC: 10 + Character Level + Wisdom modifier + Assassinate bonuses
 Tier: 4
-Flags: SelectorOnly
 Selector: Coordinated Shot, Coordinated Strike
 
 AbilityName: Expose Weakness
-Descrip: Attacks from your Hunting Bird also reduce your target's Fortification by 50%. (10 second duration)
+Descrip: Attacks from your hunting bird also reduce your target's fortification by 50%
 Tier: 4
 
 AbilityName: Shared Vision
-Descrip: You are immune to Blindness effects.
+Descrip: You are immune to Blindness effects
 Tier: 4
-Ranks: 3
 Cost: 2
 
 AbilityName: Dangerous
-Descrip: You gain +10 Melee and Ranged Power.
+Descrip: You gain +10 Melee and Ranged Power
 Tier: 5
 Cost: 2
 
 AbilityName: Death from Above
-Descrip: Your Hunting Bird swoops down and attempts to end someone's life. You make an attack for +1/3/5[W], and your Hunting Bird also attacks for 50/100/200 points of damage that scales with 200% of Melee or Ranged Power, whichever is higher. The target struck makes a Fortitude Saving Throw, and on a failed save, dies. DC: 10 + Character level + Wisdom bonus + Assassinate bonuses. Cooldown one minute, with a 4.5 second shared cooldown with other Hunting Bird attacks. Choose One: Death from Above Shot (Ranged Falconer Attack) or Death from Above: (Melee Falconer Attack).
+Descrip: Choose between a melee or ranged attack that will cause your bird to attempt to slay your foes}}Your Hunting Bird swoops down and attempts to end someone's life. You make an attack for +1/+3/+5[W], and your Hunting Bird also attacks for 50/100/200 points of damage that scales with 200% of Melee or Ranged Power, whichever is higher. The target struck makes a Fortitude saving throw, and on a failed save, dies}}DC: 10 + Character level + Wisdom bonus + Assassinate bonuses
 Tier: 5
 Ranks: 3
 Selector: Shot, Strike
 
 AbilityName: Thrill of the Hunt
-Descrip: Choose One:}{- Melee: You strike your target for +1/3/5[W]. If you hit, you also heal for 5/10/15% of your total hit Points in Positive Healing. Cooldown: 20 seconds.}{- Ranged: You strike your target for +1/3/5[W]. If you hit, you also heal for 5/10/15% of your total Hit Points in Positive Healing. Cooldown: 30 seconds. Not affected in reaper mode.
+Descrip: Choose between a melee or ranged attack that causes you to heal for a percentage of your max health}}You strike your target for +1/+3/+5[W]. If you hit, you also heal for 5%/10%/15% of your total hit points in Positive Healing}}Healing Amplification applies to the heal, but Spell Power does not
 Tier: 5
 Ranks: 3
 Selector: Shot, Strike
 
 AbilityName: Mark the Prey
-Descrip: You have learned how to spot weaknesses in even the mightiest of foes. You make an attack for +5[W] on the target, marking it as prey. The marked target takes 10% extra damage from you and your allies for 10 seconds. Cooldown 3 minutes. Choose One: Mark the Prey (Melee Attack) or Mark the Prey Shot (Ranged Attack).
+Descrip: Choose between a melee or ranged attack that causes your bird to strike that target and mark them, making them more vulnerable to damage for a short period of time}}You have learned how to spot weaknesses in even the mightiest of foes. You make an attack for +5[W], marking it as prey. The marked target takes 10% extra damage from you and your allies for 10 seconds
 Tier: 5
 Selector: Shot, Strike
 
