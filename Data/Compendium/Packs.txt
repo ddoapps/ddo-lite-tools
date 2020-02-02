@@ -260,11 +260,34 @@ Abbreviation: T-holme
 
 PackName: Masterminds of Sharn
 Abbreviation: Sharn
+Patron: Sharn City Council
 Link: The Cogs	Link	https://ddowiki.com/page/The_Cogs
 Link: Named Items	Link	https://ddowiki.com/page/Update_42_named_items
 
 PackName: Sharn: The Cogs
 Abbreviation: The Cogs
+Patron: Sharn City Council
 Wiki: Masterminds of Sharn
 Link: The Cogs	Link	https://ddowiki.com/page/The_Cogs
 Link: Named Items	Link	https://ddowiki.com/page/Update_42_named_items
+
+PackName: The Soul Splitter
+Cost: 650
+HeroicLow: 17
+HeroicHigh: 17
+HeroicLow: 32
+HeroicHigh: 32
+Patron: Sharn City Council
+Wiki: The Soul Splitter
+Link: Named Items	Link	https://ddowiki.com/page/Update_43_named_items
+
+PackName: Keep on the Borderlands
+Abbreviation: Borderlands
+Cost: 995
+HeroicLow: 1
+HeroicHigh: 1
+EpicLow=21
+EpicHigh=22
+Patron: The Gatekeepers
+Wiki: Keep on the Borderlands
+Link: Named Items	Link	https://ddowiki.com/page/Update_44_named_items

@@ -1,3 +1,51 @@
+QuestName: Caged Beast
+Patron: The Gatekeepers
+Favor: 2
+Level: 1
+Epic: 21
+
+QuestName: Obstructing the Orcs
+Patron: The Gatekeepers
+Favor: 2
+Level: 1
+Epic: 21
+
+QuestName: The Bugbear Bandits
+Patron: The Gatekeepers
+Favor: 2
+Level: 1
+Epic: 21
+
+QuestName: The Hobgoblin Horde
+Patron: The Gatekeepers
+Favor: 3
+Level: 1
+Epic: 21
+
+QuestName: Total Chaos
+Patron: The Gatekeepers
+Favor: 3
+Level: 1
+Epic: 22
+
+QuestName: Treasure Hunt
+Patron: The Gatekeepers
+Favor: 2
+Level: 1
+Epic: 21
+
+QuestName: Violent Delights
+Patron: The Gatekeepers
+Favor: 2
+Level: 1
+Epic: 21
+
+QuestName: Watch Your Step
+Patron: The Gatekeepers
+Favor: 2
+Level: 1
+Epic: 21
+
 QuestName: The Cannith Crystal
 Patron: House Deneith
 Favor: 2
@@ -2262,6 +2310,41 @@ Level: 16
 Epic: 26
 Map: Wheloon Prison
 Map: Wheloon Prison (epic)
+
+QuestName: Finding Dorris
+Pack: The Soul Splitter
+Patron: Sharn City Council
+Favor: 7
+Level: 17
+Epic: 32
+
+QuestName: Members Only
+Pack: The Soul Splitter
+Patron: Sharn City Council
+Favor: 6
+Level: 17
+Epic: 32
+
+QuestName: Safety in Numbers
+Pack: The Soul Splitter
+Patron: Sharn City Council
+Favor: 6
+Level: 17
+Epic: 32
+
+QuestName: The Underlane Assignment
+Pack: The Soul Splitter
+Patron: Sharn City Council
+Favor: 6
+Level: 17
+Epic: 32
+
+QuestName: Soul Survivor
+Pack: The Soul Splitter
+Patron: Sharn City Council
+Favor: 7
+Level: 17
+Epic: 32
 
 QuestName: Acute Delirium
 Pack: Reign of Madness

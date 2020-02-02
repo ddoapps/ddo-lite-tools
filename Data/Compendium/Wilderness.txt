@@ -4,6 +4,15 @@ Low: 1
 High: 3
 Explorer: 1500
 
+Area: The Borderlands
+Wiki: The Borderlands
+Map: Keep-on-the-Borderlands.png
+Link: Explorers	https://ddowiki.com/page/The_Borderlands#Explorer
+Low: 1
+High: 2
+Explorer: 2500
+Pack: Keep on the Borderlands
+
 Area: The Cerulean Hills
 Map: CeruleanHills.jpg
 Low: 1
@@ -203,6 +212,15 @@ Low: 16
 High: 24
 Explorer: 8625
 Pack: Secrets of the Artificers
+
+Area: The Borderlands (epic)
+Wiki: The Borderlands
+Map: Keep-on-the-Borderlands.png
+Link: Explorers	https://ddowiki.com/page/The_Borderlands#Explorer
+Low: 20
+High: 25
+Explorer: 59400
+Pack: Keep on the Borderlands
 
 Area: The King's Forest
 Map: KingsForestMap.jpg
