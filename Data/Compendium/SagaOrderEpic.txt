@@ -1,0 +1,111 @@
+; Customize the natural order of quests on the saga screen by rearranging
+; the quests in this file.
+;
+; Use blank lines to specify where group separator lines should go.
+;
+; Any customizations in this file get overwritten each update.
+; Instead, copy this file to UserSagaOrderEpic.txt in the same folder
+; as this file and make your changes there. On load, if UserSagaOrderEpic.txt
+; exists, it will be used instead of this file.
+
+The Lords of Dust
+Servants of the Overlord
+The Spinner of Shadows
+Beyond the Rift
+
+Impossible Demands
+Unquiet Graves
+Lost Thread
+The Battle for Eveningstar
+House of Rusted Blades
+House of Broken Chains
+House of Death Undone
+The Portal Opens
+Trial by Fury
+Deal and the Demon
+Reclaiming the Rift
+
+Don't Drink the Water
+In the Belly of the Beast
+
+Outbreak
+Overgrowth
+Thorn and Paw
+Druid's Curse
+
+Detour
+Rest Stop
+Lost in the Swamp
+A Stay at the Inn
+The End of the Road
+
+Disciples of Shar
+Escape Plan
+Shadow of a Doubt
+
+Friends in Low Places
+A Lesson in Deception
+The Thrill of the Hunt
+Army of Shadow
+Through a Mirror Darkly
+The Tracker's Trap
+Lines of Supply
+Breaking the Ranks
+A Break in the Ice
+What Goes Up
+
+Bargain of Blood
+The Black Loch
+Storm the Beaches
+The Tide Turns
+Spies in the House
+Legend of Two-Toed Tobias
+Prove Your Worth
+Ghost of a Chance
+Garl's Tomb: Troglodyte's Get
+Garl's Tomb: Old Grey Garl
+Precious Cargo
+
+Feast or Famine
+Trial by Fire
+The Maze of Madness
+Foundation of Discord
+A Cry for Help
+The Crucible
+Madstone Crater
+The Prison of the Planes
+A Cabal for One
+Gianthold Tor
+
+Into the Mists
+Death House
+Fresh-baked Dreams
+An Invitation to Dinner
+Oath of Vengeance
+A Raven at the Door
+Mad Tea Party
+Sealed in Amber
+The Final Vintage
+Wrath of the Earth
+Ravens' Bane
+Sunrise
+
+Smash and Burn
+Thralls of the Fungus Lord
+Scavenger Hunt
+The Magma Must Flow
+Roll Call
+Security Detail
+Ruinous Schemes
+The Wraithcallers
+
+Lost at Sea
+A Sharn Welcome
+Red Rain
+Best Laid Plans
+The Same Old Song
+Just Business
+No Refunds
+House of Pain
+Blown Deadline
+Reach for the Sky

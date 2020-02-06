@@ -1,0 +1,100 @@
+Arcane 1: Caged Trolls: Casual
+Arcane 1: Tomb of the Crimson Heart: Casual, Normal
+
+Arcane 2: Caged Trolls: Normal, Hard, Elite
+Arcane 2: Shadow Crypt: Casual, Normal, Hard
+Arcane 2: The Enemy Within: Casual
+Arcane 2: Tomb of the Crimson Heart: Hard, Elite
+
+Arcane 3: Shadow Crypt: Elite
+Arcane 3: The Enemy Within: Normal, Hard, Elite
+Arcane 3: The Mask of Deception: Casual
+Arcane 3: Through a Mirror Darkly: Casual
+
+Arcane 4: Terminal Delirium: Heroic
+Arcane 4: Through a Mirror Darkly: Normal, Hard, Elite
+Arcane 4: The Mask of Deception: Normal, Hard, Elite
+
+Arcane 5: Terminal Delirium: Epic Casual
+Arcane 5: The House of Rusted Blades: Epic
+Arcane 5: Through a Mirror Darkly: Epic Casual
+
+Arcane 6: Terminal Delirium: EN, EH, EE
+Arcane 6: The Mask of Deception: Epic
+Arcane 6: Through a Mirror Darkly: EN, EH, EE
+
+Cultural 1: Kobolds
+Cultural 1: Troglodytes
+
+Cultural 2: Gnolls
+Cultural 2: Goblinoids
+Cultural 2: Skeletons
+Cultural 2: Wights
+Cultural 2: Zombies
+
+Cultural 3: Demons
+Cultural 3: Giants
+Cultural 3: Trolls
+
+Cultural 4: Desecrated Temple of Vol: Elite
+Cultural 4: Tavern Brawl: Elite
+Cultural 4: The Unquiet Graves: Epic Casual
+Cultural 4: Wheloon Prison: Heroic
+
+Cultural 5: Elementals
+Cultural 5: Precious Cargo: EC, EN
+Cultural 5: The Unquiet Graves: EN, EH, EE
+Cultural 5: Wheloon Prison: Epic
+
+Cultural 6: Desecrated Temple of Vol: Epic
+Cultural 6: Precious Cargo: EH, EE
+Cultural 6: Tavern Brawl: Epic
+
+Lore 1: Protect Baudry's Interests: Any
+Lore 1: Repossession: Casual, Normal, Hard
+Lore 1: Tomb of the Immortal Heart: Casual, Normal
+
+Lore 2: Repossession: Elite
+Lore 2: Tomb of the Immortal Heart: Hard, Elite
+Lore 2: Tomb of the Unhallowed: Casual
+
+Lore 3: Eyes of Stone: Any
+Lore 3: Tomb of the Unhallowed: Normal, Hard, Elite
+
+Lore 4: Schemes of the Enemy: Casual, Normal, Hard
+Lore 4: Terminal Delirium: Heroic
+Lore 4: Terminal Delirium (Lore): Heroic
+Lore 4: The Mask of Deception: Heroic
+
+Lore 5: Schemes of the Enemy: Elite
+Lore 5: Terminal Delirium: Epic Casual
+Lore 5: Terminal Delirium (Lore): Epic Casual
+
+Lore 6: Terminal Delirium: EN, EH, EE
+Lore 6: Terminal Delirium (Lore): EN, EH, EE
+Lore 6: The Mask of Deception: Epic
+
+Natural 1: A Small Problem: Casual, Normal
+Natural 1: The Depths of Discord: Casual, Normal
+
+Natural 2: A Small Problem: Hard, Elite
+Natural 2: The Depths of Discord: Hard, Elite
+Natural 2: The Last Stand: Casual, Normal, Hard
+
+Natural 3: Assault on Summerfield: Any
+Natural 3: Sinister Storage: Casual, Normal
+Natural 3: The Last Stand: Elite
+Natural 3: The Lords of Dust: Casual
+
+Natural 4: A Small Problem: EC, EN
+Natural 4: Breaking the Ranks: Casual, Normal, Hard
+Natural 4: Sinister Storage: Hard, Elite
+Natural 4: The Last Stand: Epic Casual
+Natural 4: The Lords of Dust: Normal, Hard, Elite, EC
+
+Natural 5: A Small Problem: EH, EE
+Natural 5: Breaking the Ranks: Elite
+Natural 5: The Last Stand: EN, EH, EE
+Natural 5: The Lords of Dust: EN, EH, EE
+
+Natural 6: Breaking the Ranks: Epic

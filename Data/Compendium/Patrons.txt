@@ -1,0 +1,47 @@
+PatronName: Agents of Argonnessen
+Abbreviation: Argo
+
+PatronName: House Cannith
+Abbreviation: Cannith
+
+PatronName: The Silver Flame
+Abbreviation: S. Flame
+
+PatronName: Purple Dragon Knights
+Abbreviation: PDK
+
+PatronName: House Phiarlan
+Abbreviation: Phiarlan
+
+PatronName: House Kundarak
+Abbreviation: Kundarak
+
+PatronName: Keepers of the Feather
+Abbreviation: Feather
+
+PatronName: House Jorasco
+Abbreviation: Jorasco
+
+PatronName: The Twelve
+Abbreviation: Twelve
+
+PatronName: The Gatekeepers
+Abbreviation: Gatekeep
+
+PatronName: House Deneith
+Abbreviation: Deneith
+
+PatronName: The Yugoloth
+Abbreviation: Yugoloth
+
+PatronName: The Coin Lords
+Abbreviation: Coin Lord
+
+PatronName: The Free Agents
+Abbreviation: F. Agent
+
+PatronName: The Harpers
+Abbreviation: Harper
+
+PatronName: Sharn City Council
+Abbreviation: Sharn

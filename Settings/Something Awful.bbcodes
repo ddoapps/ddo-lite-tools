@@ -1,0 +1,11 @@
+Codes=True
+Dots=False
+TextColors=True
+Bold=True	[b]	[/b]
+Underline=True	[u]	[/u]
+Fixed=False	[fixed]	[/fixed]
+Lists=True	[list]	[/list]	[list=1]	[/list=1]
+Color=False	[color=#$]	[/color]
+Wrapper=True	[pre]	[/pre]
+
+

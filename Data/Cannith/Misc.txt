@@ -1,0 +1,104 @@
+MiscName: Adamantine Ore
+Used for {url=https://ddowiki.com/page/Stone_of_Change_-_Recipes#Alchemical_Rituals}Adamantine_Rituals in the Stone of Change.
+
+Found in quest {url=https://ddowiki.com/page/A_Relic_of_a_Sovereign_Past}A_Relic_of_a_Sovereign_Past.
+
+15 Ore semi-randomly placed in the halls of the optional on all difficulties. For fast ore farms, run Casual. You won't complete the quest so bravery is unaffected.
+
+For a detailed guide on running this quest as an ore farm, see the following forum thread:
+
+{url=https://www.ddo.com/forums/showthread.php/284046-How-to-get-Heavy-Fort-for-free-at-level-9}How_to_get_Heavy_Fort_for_free_at_level_9
+
+Unbound and freely tradable. Stacks up to 25, does not go in bags.
+
+MiscName: Khyber Dragonshard Fragment
+Common collectable drops in Eberron quests. Possibly more likely from Lore dispensers.
+
+Used to {url=https://ddowiki.com/page/Stone_of_Change_-_Recipes#Binding_and_Attuning_of_Items}Bind_and_Attune any item in the Stone of Change before applying Eldritch Rituals.
+
+Additionally can be combined in the Stone of Change to make spell components for the Trap the Soul spell.
+
+Unbound and freely tradable.
+
+MiscName: Mark of House Cannith
+Favor reward unlocked with 50 House Cannith favor. 
+
+Purchase these BTA marks from:
+
+{url=https://ddowiki.com/page/Visgard_d%27Cannith}Visgard_d'Cannith
+<House Cannith Vendor>
+
+Visgard is located in House Cannith, on a platform very high in the air. To get there, take the elevator platform that starts just left of the Auctioneer.
+
+Favor marks can also appear unbound in chests, extremely rarely.
+
+MiscName: Mark of the Silver Flame
+Favor reward unlocked with 400 Silver Flame favor.
+
+Purchase these BTA marks from:
+
+{url=https://ddowiki.com/page/Salariin_Founts}Salariin_Founts
+<Silver Flame Armorer>
+
+Salariin is located in the Marketplace, right outside the entrance to House Cannith next to the fountain.
+
+Favor marks can also appear unbound in chests, extremely rarely.
+
+MiscName: Mark of the Yugoloth
+Favor reward unlocked with 75 Yugoloth favor.
+
+Purchase these BTA marks from:
+
+{url=https://ddowiki.com/page/Azdaf_the_Wary}Azdaf_the_Wary
+<Yugoloth Alchemist>
+
+Azdaf is located in Amrath next to the portal to enter the Devil Battlefield.
+
+Talk to the planescaller in the Twelve (or on your airship) to get to Amrath. Once ported in, if you jump off the side and wait for a bit, you'll be teleported right next to the portal. Turn around and you'll be able to see Azadaf from where you stand.
+
+Favor marks can also appear unbound in chests, extremely rarely.
+
+MiscName: Purified Eberron Dragonshard
+Also known as PEDs or Purifieds, these crafting ingredients can be purchased from the vendor in the crafting hall. Tell the vendor you'd like to trade essences, then drag any of the following items into the barter box:
+
+Tokens of the Twelve
+1 Token for 1 Purified
+
+Tomes
+When trading stat and skill tomes, Upgrade tomes can be traded just like regular tomes. They're worth what they upgrade to, meaning a +1 to +2 upgrade tome is worth the same as a regular +2 tome.
+
+Stat Tomes/Stat Upgrade Tomes
++1 Stat Tome for 4 Purifieds
++2 Stat Tome for 9 Purifieds
++3 Stat Tome for 16 Purifieds
++4 Stat Tome for 25 Purifieds
++5 Stat Tome for 35 Purifieds
+
+Skill Tomes/Skill Upgrade Tomes
++1 Skill Tome for 2 Purifieds
++2 Skill Tome for 4 Purifieds
++3 Skill Tome for 9 Purifieds
++4 Skill Tome for 16 Purifieds
++5 Skill Tome for 25 Purifieds
+
+Eberron Dragonshards (rare unbound collectable drops)
+1 Small Eberron Dragonshard for 1 Purified
+1 Medium Eberron Dragonshard for 2 Purifieds
+1 Large Eberron Dragonshard for 3 Purifieds
+
+Astral Shards
+20 Astral Shards for 4 Purifieds (5.00 shards each)
+35 Astral Shards for 9 Purifieds (3.89 shards each)
+50 Astral Shards for 16 Purifieds (3.125 shards each)
+
+
+Purifieds can also appear as extremely rare chest drops.
+
+MiscName: Siberys Dragonshard Fragment
+Common collectable drops in Eberron quests. Possibly more likely from Arcane dispensers.
+
+Used for crafting ammunition.
+
+Additionally can be combined in the Stone of Change to pay Fred for feat exchanges.
+
+Unbound and freely tradable.

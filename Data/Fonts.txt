@@ -1,0 +1,31 @@
+; List of font names the programs will try to offer whenever 
+; you can choose a font. 
+;
+; Add each font you want to include, one per line, in the order 
+; you want them to appear. Any fonts not found on the user's 
+; machine are ignored.
+;
+; Add a comma-seperated list of fonts to specify fallbacks.
+; Only the first valid font found (if any) is used.
+;
+; - The default font in all lite tools is Verdana 9
+; - The default monospace font is Courier New 10
+; - The quests list in the Compendium is Arial Narrow 10
+; 
+Arial
+Arial Narrow
+Bookman
+Consolas
+Courier New, Courier
+Calibri
+Garamond
+Geneva
+Georgia
+Helvetica
+Open Sans
+Palantino
+PT Sans
+Tahoma
+Times New Roman
+Trebuchet MS
+Verdana

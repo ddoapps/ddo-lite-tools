@@ -1,0 +1,553 @@
+Class: Barbarian
+Caption: THF
+Descrip: Strength build
+Levelups: Strength
+PTS: 28 30 32 34 36
+STR: 16 16 16 16 16
+DEX:  2  4     2  4
+CON: 10 10 16 16 16
+
+Class: Barbarian
+Caption: TWF
+Descrip: Strength build with Dex for TWF feats
+Warning: May need tomes or levelups to reach 17 Dex for GTWF
+Levelups: Strength
+PTS: 28 30 32 34 36
+STR: 16 16 16 16 16
+DEX:  6  8  6  8 10
+CON:  6  6 10 10 10
+
+Class: Barbarian
+Caption: Con
+Descrip: Constitution flavor build
+Warning: May need tomes or levelups to qualify for GTHF or GTWF
+Levelups: Constitution
+PTS: 28 30 32 34 36
+STR: 10 10 16 16 16
+DEX:  2  4     2  4
+CON: 16 16 16 16 16
+
+Class: Barbarian
+Flags: Traps
+Caption: THF
+Descrip: Strength build with Int for trapping skills
+Levelups: Strength
+PTS: 28 30 32 34 36
+STR: 16 16 16 16 16
+DEX:     2     2  4
+CON:  6  6 10 10 10
+INT:  6  6  6  6  6
+
+Class: Barbarian
+Flags: Traps
+Caption: TWF
+Descrip: Strength build with Dex for TWF and Int for trapping
+Warning: May need tomes or levelups to reach 17 Dex for GTWF
+Levelups: Strength
+PTS: 28 30 32 34 36
+STR: 10 10 10 16 16
+DEX:  6  8 10  6  8
+CON:  6  6  6  6  6
+INT:  6  6  6  6  6
+
+Class: Barbarian
+Flags: Traps
+Caption: Con
+Descrip: Constitution flavor build with Int for trapping
+Warning: May need tomes or levelups to qualify for GTHF or GTWF
+Levelups: Constitution
+PTS: 28 30 32 34 36
+STR:  6  6 10 10 10
+DEX:     2     2  4
+CON: 16 16 16 16 16
+INT:  6  6  6  6  6
+
+Class: Bard
+Caption: Strength
+Descrip: Strength build with Dex for precision
+Levelups: Strength
+PTS: 28 30 32 34 36
+STR: 10 10 10 16 16
+DEX:  6  6  6  6  6
+CON:  6  8 10  6  8
+CHA:  6  6  6  6  6
+
+Class: Bard
+Caption: Charisma
+Descrip: Charisma build with Dex for precision
+Levelups: Charisma
+PTS: 28 30 32 34 36
+STR:     2     2  4
+DEX:  6  6  6  6  6
+CON:  6  6 10 10 10
+CHA: 16 16 16 16 16
+
+Class: Bard
+Caption: Intelligence
+Descrip: Intelligence build with Dex for precision
+Levelups: Intelligence
+PTS: 28 30 32 34 36
+STR:     2  4     2
+DEX:  6  6  6  6  6
+CON:  6  6  6  6  6
+INT: 10 10 10 16 16
+CHA:  6  6  6  6  6
+
+Class: Bard
+Caption: Dexterity
+Descrip: Dexterity build
+Levelups: Dexterity
+PTS: 28 30 32 34 36
+STR:     2     2  4
+DEX: 16 16 16 16 16
+CON:  6  6 10 10 10
+CHA:  6  6  6  6  6
+
+Class: Bard
+Flags: Traps
+Caption: Strength
+Descrip: Strength build with Dex for precision and Int for traps
+Levelups: Strength
+PTS: 28 30 32 34 36
+STR: 10 10 10 10 10
+DEX:  6  6  6  6  6
+CON:  6  6  6  6  8
+INT:  6  6  6  6  6
+CHA:     2  4  6  6
+
+Class: Bard
+Flags: Traps
+Caption: Charisma
+Descrip: Charisma build with Dex for precision and Int for traps
+Levelups: Charisma
+PTS: 28 30 32 34 36
+STR:     2  4  6  6
+DEX:  6  6  6  6  6
+CON:  6  6  6  6  8
+INT:  6  6  6  6  6
+CHA: 10 10 10 10 10
+
+Class: Bard
+Flags: Traps
+Caption: Intelligence
+Descrip: Intelligence build with Dex for precision
+Levelups: Intelligence
+PTS: 28 30 32 34 36
+STR:     2  4     2
+DEX:  6  6  6  6  6
+CON:  6  6  6  6  6
+INT: 10 10 10 16 16
+CHA:  6  6  6  6  6
+
+Class: Bard
+Flags: Traps
+Caption: Dexterity
+Descrip: Dexterity build with Int for traps
+Levelups: Dexterity
+PTS: 28 30 32 34 36
+STR:     2  4  6  6
+DEX: 10 10 10 10 10
+CON:  6  6  6  6  8
+INT:  6  6  6  6  6
+CHA:  6  6  6  6  6
+
+Class: Cleric
+Caption: Caster
+Descrip: Wisdom build for casters and healers
+Levelups: Wisdom
+PTS: 28 30 32 34 36
+STR:  2  4     2  4
+CON:  6  6  6  6  6
+INT:  4  4  4  4  4
+WIS: 10 10 16 16 16
+CHA:  6  6  6  6  6
+
+Class: Cleric
+Caption: Warpriest
+Descrip: Strength build for battle clerics
+Levelups: Strength
+PTS: 28 30 32 34 36
+STR: 10 10 16 16 16
+CON:  6  6  6  6  6
+INT:  4  4  4  4  4
+WIS:  2  4     2  4
+CHA:  6  6  6  6  6
+
+Class: Cleric
+Flags: Traps
+Caption: Caster
+Descrip: Wisdom build with Int for trapping
+Levelups: Wisdom
+PTS: 28 30 32 34 36
+CON:  6  6  6  6  6
+INT: 10 10 10 10 10
+WIS: 10 10 10 16 16
+CHA:  2  4  6  2  4
+
+Class: Cleric
+Flags: Traps
+Caption: Warpriest
+Descrip: Strength build with Int for trapping
+Levelups: Strength
+PTS: 28 30 32 34 36
+STR: 10 10 10 10 10
+CON:  6  6  6  8 10
+INT: 10 10 10 10 10
+WIS:               
+CHA:  2  4  6  6  6
+
+Class: Fighter
+Caption: THF
+Descrip: Strength build
+Levelups: Strength
+PTS: 28 30 32 34 36
+STR: 16 16 16 16 16
+DEX:     2  4     2
+CON: 10 10 10 16 16
+INT:  2  2  2  2  2
+
+Class: Fighter
+Caption: TWF
+Descrip: Strength build with Dex for TWF feats
+Warning: May need tomes or levelups to reach 17 Dex for GTWF
+Levelups: Strength
+PTS: 28 30 32 34 36
+STR: 10 10 10 16 16
+DEX: 10 10 10 10 10
+CON:  6  8 10  6  8
+INT:  2  2  2  2  2
+
+Class: Fighter
+Flags: Traps
+Caption: THF
+Descrip: Strength build with Int for trapping skills
+Levelups: Strength
+PTS: 28 30 32 34 36
+STR: 10 10 10 10 16
+DEX:        2  4   
+CON:  8 10 10 10 10
+INT: 10 10 10 10 10
+
+Class: Fighter
+Flags: Traps
+Caption: TWF
+Descrip: Strength build with Dex for TWF and Int for trapping
+Warning: Need tomes or levelups to reach 17 Dex for GTWF
+Levelups: Strength
+PTS: 28 30 32 34 36
+STR: 10 10 10 10 10
+DEX:  6  6  6  6  6
+CON:  6  6 10 10 10
+INT:  6  6  6  6  6
+WIS:     2     2  4
+
+Class: Paladin
+Caption: Paladin
+Descrip: Strength build with Cha for Divine Might
+Levelups: Strength
+PTS: 28 30 32 34 36
+STR: 10 10 10 16 16
+DEX:     2        2
+CON:  6  6 10  6  6
+INT:  2  2  2  2  2
+CHA: 10 10 10 10 10
+
+Class: Paladin
+Flags: Traps
+Caption: Paladin
+Descrip: Strength build with Cha for Divine Might and Int for traps
+Levelups: Strength
+PTS: 28 30 32 34 36
+STR: 10 10 10 10 10
+DEX:           2  4
+CON:  6  6  6  6  6
+INT: 10 10 10 10 10
+CHA:  2  4  6  6  6
+
+Class: Ranger
+Caption: Strength
+Descrip: Ranger strength build
+Levelups: Strength
+PTS: 28 30 32 34 36
+STR: 10 10 10 16 16
+DEX:  6  6  6  6  6
+CON:  6  8 10  6  8
+WIS:  6  6  6  6  6
+
+Class: Ranger
+Caption: Dexterity
+Descrip: Ranger dexterity build
+Levelups: Dexterity
+PTS: 28 30 32 34 36
+STR:     2  4  2  4
+DEX: 16 16 16 16 16
+CON:  6  6  6 10 10
+WIS:  6  6  6  6  6
+
+Class: Ranger
+Flags: Traps
+Caption: Strength
+Descrip: Ranger strength build with Int for traps
+Levelups: Strength
+PTS: 28 30 32 34 36
+STR: 10 10 10 16 16
+DEX:  6  6  6  6  6
+CON:  6  8 10  6  8
+INT:  6  6  6  6  6
+
+Class: Ranger
+Flags: Traps
+Caption: Dexterity
+Descrip: Ranger dexterity build with Int for traps
+Levelups: Dexterity
+PTS: 28 30 32 34 36
+STR:     2  4  2  4
+DEX: 16 16 16 16 16
+CON:  6  6  6 10 10
+INT:  6  6  6  6  6
+
+Class: Rogue
+Flags: Always
+Caption: Intelligence
+Descrip: Intelligence build for Mechanics and Assassins
+Warning: May need tomes or levelups for Combat Archery (Dex 21)
+Levelups: Intelligence
+PTS: 28 30 32 34 36
+STR:     2  4  2  4
+DEX:  6  6  6  6  6
+CON:  6  6  6 10 10
+INT: 16 16 16 16 16
+
+Class: Rogue
+Flags: Always
+Caption: Dexterity
+Descrip: Dexterity build for Acrobats and Assassins
+Warning: Acrobats need tomes or levelups to reach 17 Str for GTHF
+Levelups: Dexterity
+PTS: 28 30 32 34 36
+STR:     2  4  2  4
+DEX: 16 16 16 16 16
+CON:  6  6  6 10 10
+INT:  6  6  6  6  6
+
+Class: Sorcerer
+Caption: Sorcerer
+Descrip: Charisma build
+Levelups: Charisma
+PTS: 28 30 32 34 36
+STR:  2  2  2  4   
+INT:  4  4  4  4  4
+CON:  6  8 10 10 16
+CHA: 16 16 16 16 16
+
+Class: Sorcerer
+Flags: Traps
+Caption: Sorcerer
+Descrip: Charisma build with extra Int for trapping
+Levelups: Charisma
+PTS: 28 30 32 34 36
+DEX:  2  4     2  4 
+INT: 10 10 10 10 10
+CON:  6  6  6  6  6
+CHA: 10 10 16 16 16
+
+Class: Wizard
+Flags: Always
+Caption: Wizard
+Descrip: Intelligence build
+Levelups: Intelligence
+PTS: 28 30 32 34 36
+STR:  2  4     2  4 
+CON: 10 10 16 16 16
+INT: 16 16 16 16 16
+
+Class: Monk
+Caption: Melee
+Descrip: Dexterity and Wisdom build
+Levelups: Wisdom
+PTS: 28 30 32 34 36
+STR:        2  4  6
+DEX: 10 10 10 10 10
+CON:  8 10 10 10 10
+WIS: 10 10 10 10 10
+
+Class: Monk
+Caption: Ranged
+Descrip: Dexterity build with some Wisdom
+Levelups: Dexterity
+PTS: 28 30 32 34 36
+STR:  2  4     2   
+DEX: 10 10 16 16 16
+CON:  6  6  6  6 10
+WIS: 10 10 10 10 10
+
+Class: Monk
+Flags: Traps
+Caption: Melee
+Descrip: Dexterity and Wisdom build with Int for trapping
+Levelups: Wisdom
+PTS: 28 30 32 34 36
+DEX:  8 10 10 10 10
+CON:  6  6  6  8 10
+INT:  6  6  6  6  6
+WIS:  8  8 10 10 10
+
+Class: Monk
+Flags: Traps
+Caption: Ranged
+Descrip: Dexterity build with some Wisdom plus Int for traps
+Levelups: Dexterity
+PTS: 28 30 32 34 36
+DEX:  8 10 10 10 10
+CON:  6  6  6  8 10
+INT:  6  6  6  6  6
+WIS:  8  8 10 10 10
+
+Class: Favored Soul
+Caption: Charisma
+Descrip: Charisma also determines Energy Burst DC
+Levelups: Charisma
+PTS: 28 30 32 34 36
+STR:  4     2  4   
+CON: 10 10 10 10 16
+INT:  4  4  4  4  4
+CHA: 10 16 16 16 16
+
+Class: Favored Soul
+Caption: Wisdom
+Descrip: Wisdom also determines Crusader and Primal Avatar DCs
+Levelups: Wisdom
+PTS: 28 30 32 34 36
+STR:  4     2  4   
+CON: 10 10 10 10 16
+INT:  4  4  4  4  4
+WIS: 10 16 16 16 16
+
+Class: Favored Soul
+Caption: Strength
+Descrip: Flavor melee build
+Levelups: Strength
+PTS: 28 30 32 34 36
+STR: 10 10 16 16 16
+CON:  8  6  6  8  6
+INT:  4  4  4  4  4
+CHA:  6 10  6  6 10
+
+Class: Favored Soul
+Flags: Traps
+Caption: Charisma
+Descrip: Charisma also determines Energy Burst DC
+Levelups: Charisma
+PTS: 28 30 32 34 36
+STR:  2     2  4   
+CON:  6 10 10 10 10
+INT: 10 10 10 10 10
+CHA: 10 10 10 10 16
+
+Class: Favored Soul
+Flags: Traps
+Caption: Wisdom
+Descrip: Wisdom also determines Crusader and Primal Avatar DCs
+Levelups: Wisdom
+STR:  2     2  4   
+CON:  6 10 10 10 10
+INT: 10 10 10 10 10
+WIS: 10 10 10 10 16
+
+Class: Favored Soul
+Flags: Traps
+Caption: Strength
+Descrip: Flavor melee build
+Levelups: Strength
+PTS: 28 30 32 34 36
+STR: 10 10 10 10 10
+CON:  6  6  6  8  6
+INT: 10 10 10 10 10
+CHA:  2  4  6  6 10
+
+Class: Artificer
+Flags: Always
+Caption: Artificer
+Descrip: Intelligence build with Dex for ranged feats
+Warning: May need tomes or levelups for Combat Archery (Dex 21)
+Levelups: Intelligence
+PTS: 28 30 32 34 36
+DEX:  6  8 10 10 10
+CON:  6  6  6  8 10
+INT: 16 16 16 16 16
+
+Class: Druid
+Caption: Caster
+Descrip: Wisdom build
+Levelups: Wisdom
+PTS: 28 30 32 34 36
+STR:  2  2  4     2
+CON:  8 10 10 16 16
+INT:  2  2  2  2  2
+WIS: 16 16 16 16 16
+
+Class: Druid
+Flags: Traps
+Caption: Caster
+Descrip: Wisdom build with Int for trapping skills
+Levelups: Wisdom
+PTS: 28 30 32 34 36
+STR:     2  4  2  4
+CON:  6  6  6 10 10
+INT:  6  6  6  6  6
+WIS: 16 16 16 16 16
+
+Class: Druid
+Caption: Wolf
+Descrip: Strength build with Dex for reflex saves
+Levelups: Strength
+PTS: 28 30 32 34 36
+STR: 10 10 16 16 16
+DEX:  6  6  6  6  6
+CON:  6  6  6  6  6
+INT:  2  2  2  2  2
+WIS:  4  6  2  4  6
+
+Class: Druid
+Flags: Traps
+Caption: Wolf
+Descrip: Strength build with Int for trapping skills
+Levelups: Strength
+PTS: 28 30 32 34 36
+STR: 10 10 10 16 16
+DEX:  4  6  6  4  6
+CON:  6  6  6  6  6
+INT:  6  6  6  6  6
+WIS:  2  2  4  2  2
+
+Class: Druid
+Flags: Always
+Caption: Bear
+Descrip: Tank build with Int for Combat Expertise
+Warning: May need tomes or levelups for Combat Expertise (Int 13)
+Levelups: Strength
+PTS: 28 30 32 34 36
+STR: 10 10 10 16 16
+CON:  6  8 10  6  8
+INT:  6  6  6  6  6
+WIS:  6  6  6  6  6
+
+Class: Warlock
+Caption: Warlock
+Descrip: Charisma build with some Int for skills
+Levelups: Charisma
+PTS: 28 30 32 34 36
+STR:        2  4   
+CON:  8 10 10 10 16
+INT:  4  4  4  4  4
+CHA: 16 16 16 16 16
+
+Class: Warlock
+Flags: Traps
+Caption: Warlock
+Descrip: Charisma build with extra Int for trapping
+Levelups: Charisma
+PTS: 28 30 32 34 36
+CON:  8 10  6  8 10
+INT: 10 10 10 10 10
+CHA: 10 10 16 16 16

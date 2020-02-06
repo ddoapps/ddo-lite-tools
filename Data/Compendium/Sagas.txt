@@ -1,0 +1,361 @@
+;***** IMPORTANT ******
+; You can reorder sagas columns by changing the order of sagas in this file,
+; BUT DO NOT CHANGE THE QUEST ORDER WITHIN A SAGA. Character saga progress is 
+; stored as a number, not a quest name, so if the quest order in this file
+; changes your progress will point to the wrong quests.
+; 
+; You can freely change quest order within sagas using the SagaOrderXXXX.txt files
+
+SagaName: The Pirates of the Thunder Sea (heroic)
+Abbreviation: Pirates
+Tier: Heroic
+NPC: Drell Jake
+Tome: 1
+Astrals: 1
+XP: 8	13	20	26
+Quest: Irestone Inlet
+Quest: Legend of Two-Toed Tobias
+Quest: Prove Your Worth
+Quest: Ghost of a Chance
+Quest: Garl's Tomb: Troglodyte's Get
+Quest: Garl's Tomb: Old Grey Garl
+Quest: The Black Loch
+Quest: Storm the Beaches
+Quest: Bargain of Blood
+Quest: The Tide Turns
+
+SagaName: Mists of Ravenloft Saga: Heroic
+Abbreviation: Ravenloft
+Tier: Heroic
+NPC: Livius Lanston
+Tome: 1
+Astrals: 1
+XP: 16	22	35	46
+Quest: Into the Mists
+Quest: Death House
+Quest: Fresh-baked Dreams
+Quest: An Invitation to Dinner
+Quest: Oath of Vengeance
+Quest: A Raven at the Door
+Quest: Mad Tea Party
+Quest: Sealed in Amber
+Quest: The Final Vintage
+Quest: Wrath of the Earth
+Quest: Ravens' Bane
+Quest: Sunrise
+
+SagaName: The Wastes of Gianthold (heroic)
+Abbreviation: Gianthold
+Tier: Heroic
+NPC: Tiragonis
+Tome: 1
+Astrals: 1
+XP: 16	22	35	46
+Quest: Feast or Famine
+Quest: A Cabal for One
+Quest: The Crucible
+Quest: The Maze of Madness
+Quest: Trial by Fire
+Quest: Madstone Crater
+Quest: Foundation of Discord
+Quest: A Cry for Help
+Quest: The Prison of the Planes
+Quest: Gianthold Tor
+
+SagaName: Cogs: Heroic
+Abbreviation: Cogs
+Tier: Heroic
+NPC: Bellman Rulth
+Tome: ?
+Astrals: 1
+XP: ???	???	???	???
+Quest: Smash and Burn
+Quest: Thralls of the Fungus Lord
+Quest: Scavenger Hunt
+Quest: The Magma Must Flow
+Quest: Roll Call
+Quest: Security Detail
+Quest: Ruinous Schemes
+Quest: The Wraithcallers
+
+SagaName: Masterminds of Sharn: Heroic
+Abbreviation: Sharn
+Tier: Heroic
+NPC: Darius Benford
+Tome: ?
+Astrals: 1
+XP: ???	???	???	???
+Quest: Lost at Sea
+Quest: A Sharn Welcome
+Quest: Red Rain
+Quest: Best Laid Plans
+Quest: The Same Old Song
+Quest: Just Business
+Quest: No Refunds
+Quest: House of Pain
+Quest: Blown Deadline
+Quest: Reach for the Sky
+
+SagaName: Perils of Cormyr (heroic)
+Abbreviation: Cormyr
+Tier: Heroic
+NPC: Horton Waxley
+Tome: 2
+Astrals: 2
+XP: 38	53	83	111
+Quest: Murder by Night
+Quest: The Riddle
+Quest: Outbreak
+Quest: Overgrowth
+Quest: Thorn and Paw
+Quest: Druid's Curse
+Quest: Detour
+Quest: Rest Stop
+Quest: Lost in the Swamp
+Quest: A Stay at the Inn
+Quest: The End of the Road
+Quest: Disciples of Shar
+Quest: Escape Plan
+Quest: Shadow of a Doubt
+Quest: Friends in Low Places
+Quest: A Lesson in Deception
+Quest: The Thrill of the Hunt
+Quest: Army of Shadow
+Quest: Through a Mirror Darkly
+Quest: The Tracker's Trap
+Quest: Lines of Supply
+Quest: Breaking the Ranks
+Quest: A Break in the Ice
+Quest: What Goes Up
+
+SagaName: Honor of the Huntsilver (heroic)
+Abbreviation: Huntsilver
+Tier: Heroic
+NPC: Antone Corluk
+Tome: 2
+Astrals: 1
+XP: 26	36	56	74
+Quest: Druid's Curse
+Quest: Detour
+Quest: Rest Stop
+Quest: Lost in the Swamp
+Quest: A Stay at the Inn
+Quest: The End of the Road
+Quest: Friends in Low Places
+Quest: A Lesson in Deception
+Quest: The Thrill of the Hunt
+Quest: Army of Shadow
+Quest: Through a Mirror Darkly
+Quest: The Tracker's Trap
+Quest: Lines of Supply
+Quest: Breaking the Ranks
+Quest: A Break in the Ice
+Quest: What Goes Up
+
+SagaName: The End of Eberron
+Abbreviation: Eberron
+Tier: Epic
+NPC: Gatekeeper Grazla
+NPC: Gatekeeper Gizla
+Tome: 3
+Astrals: 1
+XP: 32	49	76	102
+Quest: The Lords of Dust
+Quest: Servants of the Overlord
+Quest: The Spinner of Shadows
+Quest: Beyond the Rift
+Quest: House of Rusted Blades
+Quest: House of Broken Chains
+Quest: House of Death Undone
+Quest: The Portal Opens
+Quest: Trial by Fury
+Quest: Deal and the Demon
+Quest: Reclaiming the Rift
+
+SagaName: The Planeswalker's Path
+Abbreviation: Planes
+Tier: Epic
+NPC: Eclesta Xillian
+NPC: Istine Madrovelle
+Tome: 3
+Astrals: 1
+XP: 35	49	76	102
+Quest: Beyond the Rift
+Quest: Lost Thread
+Quest: Trial by Fury
+Quest: Deal and the Demon
+Quest: Reclaiming the Rift
+Quest: Detour
+Quest: Rest Stop
+Quest: Lost in the Swamp
+Quest: A Stay at the Inn
+Quest: The End of the Road
+Quest: Through a Mirror Darkly
+
+SagaName: Menace of the Underdark
+Abbreviation: Menace
+Tier: Epic
+NPC: Lady Azana Winter
+Tome: 3
+Astrals: 1
+XP: 55	68	100	134
+Quest: Impossible Demands
+Quest: Unquiet Graves
+Quest: Lost Thread
+Quest: The Battle for Eveningstar
+Quest: House of Rusted Blades
+Quest: House of Broken Chains
+Quest: House of Death Undone
+Quest: The Portal Opens
+Quest: Trial by Fury
+Quest: Deal and the Demon
+Quest: Reclaiming the Rift
+Quest: Don't Drink the Water
+Quest: In the Belly of the Beast
+
+SagaName: Perils of Cormyr (epic)
+Abbreviation: Cormyr
+Tier: Epic
+NPC: Fidilee Fallowfield
+Tome: 3
+Astrals: 2
+XP: 79	110	173	230
+Quest: Impossible Demands
+Quest: Unquiet Graves
+Quest: Lost Thread
+Quest: The Battle for Eveningstar
+Quest: Don't Drink the Water
+Quest: In the Belly of the Beast
+Quest: Outbreak
+Quest: Overgrowth
+Quest: Thorn and Paw
+Quest: Druid's Curse
+Quest: Detour
+Quest: Rest Stop
+Quest: Lost in the Swamp
+Quest: A Stay at the Inn
+Quest: The End of the Road
+Quest: Friends in Low Places
+Quest: A Lesson in Deception
+Quest: The Thrill of the Hunt
+Quest: Army of Shadow
+Quest: Through a Mirror Darkly
+Quest: The Tracker's Trap
+Quest: Lines of Supply
+Quest: Breaking the Ranks
+Quest: A Break in the Ice
+Quest: What Goes Up
+
+SagaName: Honor of the Huntsilver (epic)
+Abbreviation: Huntsilver
+Tier: Epic
+NPC: Belvedere Huntsilver
+Tome: 3
+Astrals: 1
+XP: 67	84	122	165
+Quest: Druid's Curse
+Quest: Detour
+Quest: Rest Stop
+Quest: Lost in the Swamp
+Quest: A Stay at the Inn
+Quest: The End of the Road
+Quest: Friends in Low Places
+Quest: A Lesson in Deception
+Quest: The Thrill of the Hunt
+Quest: Army of Shadow
+Quest: Through a Mirror Darkly
+Quest: The Tracker's Trap
+Quest: Lines of Supply
+Quest: Breaking the Ranks
+Quest: A Break in the Ice
+Quest: What Goes Up
+
+SagaName: The Pirates of the Thunder Sea (epic)
+Abbreviation: Pirates
+Tier: Epic
+NPC: Cassiopia Carragher
+Tome: 3
+Astrals: 1
+XP: 32	44	69	92
+Quest: Legend of Two-Toed Tobias
+Quest: Prove Your Worth
+Quest: Ghost of a Chance
+Quest: Garl's Tomb: Old Grey Garl
+Quest: The Black Loch
+Quest: Storm the Beaches
+Quest: Bargain of Blood
+Quest: The Tide Turns
+Quest: Spies in the House
+Quest: Precious Cargo
+
+SagaName: The Wastes of Gianthold (epic)
+Abbreviation: Gianthold
+Tier: Epic
+NPC: Paddrog
+Tome: 3
+Astrals: 1
+XP: 32	49	69	92
+Quest: Feast or Famine
+Quest: A Cabal for One
+Quest: The Crucible
+Quest: The Maze of Madness
+Quest: Trial by Fire
+Quest: Madstone Crater
+Quest: Foundation of Discord
+Quest: A Cry for Help
+Quest: The Prison of the Planes
+Quest: Gianthold Tor
+
+SagaName: Mists of Ravenloft Saga: Epic
+Abbreviation: Ravenloft
+Tier: Epic
+NPC: Lavinia Lanston
+Tome: 3
+Astrals: 1
+XP: 96	147	207	276
+Quest: Into the Mists
+Quest: Death House
+Quest: Fresh-baked Dreams
+Quest: An Invitation to Dinner
+Quest: Oath of Vengeance
+Quest: A Raven at the Door
+Quest: Mad Tea Party
+Quest: Sealed in Amber
+Quest: The Final Vintage
+Quest: Wrath of the Earth
+Quest: Ravens' Bane
+Quest: Sunrise
+
+SagaName: Cogs: Epic
+Abbreviation: Cogs
+Tier: Epic
+NPC: Alle Latham
+Tome: ?
+Astrals: 1
+XP: ???	???	???	???
+Quest: Smash and Burn
+Quest: Thralls of the Fungus Lord
+Quest: Scavenger Hunt
+Quest: The Magma Must Flow
+Quest: Roll Call
+Quest: Security Detail
+Quest: Ruinous Schemes
+Quest: The Wraithcallers
+
+SagaName: Masterminds of Sharn: Epic
+Abbreviation: Sharn
+Tier: Epic
+NPC: Cyrene Gorham
+Tome: ?
+Astrals: 1
+XP: ???	???	???	???
+Quest: Lost at Sea
+Quest: A Sharn Welcome
+Quest: Red Rain
+Quest: Best Laid Plans
+Quest: The Same Old Song
+Quest: Just Business
+Quest: No Refunds
+Quest: House of Pain
+Quest: Blown Deadline
+Quest: Reach for the Sky

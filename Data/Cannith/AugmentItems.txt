@@ -1,0 +1,362 @@
+; Add an asterisk (*) to the end of the item name
+; to signify an item that drops random augments
+
+Augment: Acid Resistance 10
+Item: Docent of Acid
+Item: Enlightened Robes
+Item: Hellfire Cloak
+Item: Robe of Acid
+Item: Yogg-Ratha Plate
+
+Augment: Acid Resistance 15
+Item: Oilskin Tunic
+Item: Widow Weave Cloak
+
+Augment: Balance +13
+Item: Kobold Admiral's Tiller
+
+Augment: Charisma +1
+Item: Bloodknuckle's Loincloth Waistband*
+Item: Grundok's Boots*
+
+Augment: Charisma +2
+Item: Cloak of Silence*
+Item: Sigil of Stormreach
+
+Augment: Charisma +4
+Item: Intricate Field Optics (Level 13)*
+Item: Intricate Field Optics (Level 14)*
+Item: Jeweled Cloak (Level 13)*
+Item: Jeweled Cloak (Level 14)*
+
+Augment: Charisma +6
+Item: Jeweled Cloak (Level 23)*
+
+Augment: Charisma +7
+Item: Jeweled Cloak (Level 24)*
+Item: Jeweled Cloak (Level 25)*
+
+Augment: Cold Resistance 10
+Item: Black Wolfskin Cloak
+Item: Cloak of Troll's Resistance
+
+Augment: Cold Resistance 15
+Item: Elemental Mithral Breastplate
+
+Augment: Cold Resistance 5
+Item: Tunnelworm Champion's Belt
+
+Augment: Constitution +1
+Item: Bloodknuckle's Loincloth Waistband*
+Item: Moss Weave Cloak
+Item: Sludge Fin Boots
+
+Augment: Constitution +2
+Item: Cloak of Silence*
+Item: Rusted Shirt
+
+Augment: Constitution +4
+Item: Bulwark of the Storm's Fist (Level 12)
+Item: Bulwark of the Storm's Fist (Level 13)
+Item: Bulwark of the Storm's Fist (Level 14)
+Item: Daggertooth's Belt (level 13)
+Item: Daggertooth's Belt (level 14)
+Item: Jeweled Cloak (Level 13)*
+Item: Jeweled Cloak (Level 14)*
+
+Augment: Constitution +6
+Item: Daggertooth's Belt (level 23)
+Item: Jeweled Cloak (Level 23)*
+
+Augment: Constitution +7
+Item: Daggertooth's Belt (level 24)
+Item: Daggertooth's Belt (level 25)
+Item: Jeweled Cloak (Level 24)*
+Item: Jeweled Cloak (Level 25)*
+
+Augment: Devotion 114
+Item: Drowned Priest's Torch
+
+Augment: Dexterity +1
+Item: Bloodknuckle's Loincloth Waistband*
+Item: Bronkarz's Cloak
+Item: Jade Ring
+
+Augment: Dexterity +2
+Item: Cloak of Silence*
+Item: Thuranni Stalker's Mail
+
+Augment: Dexterity +4
+Item: Gloves of Forgotten Craft (Level 12)
+Item: Gloves of Forgotten Craft (Level 13)
+Item: Gloves of Forgotten Craft (Level 14)
+Item: Jeweled Cloak (Level 13)*
+Item: Jeweled Cloak (Level 14)*
+Item: Steady Handed Armbands (Level 13)
+Item: Steady Handed Armbands (Level 14)
+
+Augment: Dexterity +6
+Item: Jeweled Cloak (Level 23)*
+Item: Steady Handed Armbands (Level 23)
+
+Augment: Dexterity +7
+Item: Cannoneer's Goggles
+Item: Jeweled Cloak (Level 24)*
+Item: Jeweled Cloak (Level 25)*
+Item: Steady Handed Armbands (Level 24)
+Item: Steady Handed Armbands (Level 25)
+
+Augment: Diamond of Vitality
+Item: Minos Legens
+
+Augment: Electric Resistance 10
+Item: Cloak of Troll's Resistance
+
+Augment: Exceptional Charisma +1
+Item: Jeweled Cloak (Level 23)*
+
+Augment: Exceptional Constitution +1
+Item: Arkat's Cord (Level 23)
+Item: Arkat's Cord (Level 24)
+Item: Daggertooth's Belt (level 23)
+Item: Jeweled Cloak (Level 23)*
+
+Augment: Exceptional Dexterity +1
+Item: Jeweled Cloak (Level 23)*
+
+Augment: Exceptional Intelligence +1
+Item: Jeweled Cloak (Level 23)*
+
+Augment: Exceptional Strength +1
+Item: Girdle of Giants' Brawn (Level 23)
+Item: Girdle of Giants' Brawn (Level 25)
+Item: Jeweled Cloak (Level 23)*
+
+Augment: Exceptional Wisdom +1
+Item: Jeweled Cloak (Level 23)*
+
+Augment: False Life 15
+Item: Crystal Prism
+Item: Wharfrat's Plank
+
+Augment: False Life 5
+Item: Dhakaani Shield
+Item: Wayfinder's Armor
+
+Augment: Fire Resistance 15
+Item: Elemental Mithral Breastplate
+Item: Firestorm Greaves
+
+Augment: Fire Resistance 20
+Item: Axe of Adaxus (Level 13)
+Item: Axe of Adaxus (Level 14)
+
+Augment: Fire Resistance 30
+Item: Axe of Adaxus (Level 23)
+
+Augment: Fire Resistance 35
+Item: Axe of Adaxus (Level 24)
+Item: Axe of Adaxus (Level 25)
+
+Augment: Heavy Fortification
+Item: Coronation Shield
+Item: Kundarak Trooper's Shield
+Item: Plundered Pirate Hat
+Item: Reaver's Ring
+Item: Ring of Balance
+
+Augment: Insightful Charisma +2
+Item: Jeweled Cloak (Level 24)*
+Item: Jeweled Cloak (Level 25)*
+
+Augment: Insightful Constitution +2
+Item: Arkat's Cord (Level 25)
+Item: Daggertooth's Belt (level 24)
+Item: Daggertooth's Belt (level 25)
+Item: Jeweled Cloak (Level 24)*
+Item: Jeweled Cloak (Level 25)*
+
+Augment: Insightful Dexterity +2
+Item: Jeweled Cloak (Level 24)*
+Item: Jeweled Cloak (Level 25)*
+
+Augment: Insightful Intelligence +2
+Item: Jeweled Cloak (Level 24)*
+Item: Jeweled Cloak (Level 25)*
+
+Augment: Insightful Strength +2
+Item: Girdle of Giants' Brawn (Level 24)
+Item: Girdle of Giants' Brawn (Level 25)
+Item: Jeweled Cloak (Level 24)*
+Item: Jeweled Cloak (Level 25)*
+
+Augment: Insightful Wisdom +2
+Item: Jeweled Cloak (Level 24)*
+Item: Jeweled Cloak (Level 25)*
+
+Augment: Intelligence +1
+Item: Bloodknuckle's Loincloth Waistband*
+Item: Grundok's Boots*
+
+Augment: Intelligence +2
+Item: Cloak of Silence*
+Item: Golden Cartouche
+Item: Zulkash's Bone Necklace
+
+Augment: Intelligence +4
+Item: Intricate Field Optics (Level 13)*
+Item: Intricate Field Optics (Level 14)*
+Item: Jeweled Cloak (Level 13)*
+Item: Jeweled Cloak (Level 14)*
+
+Augment: Intelligence +6
+Item: Jeweled Cloak (Level 23)*
+
+Augment: Intelligence +7
+Item: Jeweled Cloak (Level 24)*
+Item: Jeweled Cloak (Level 25)*
+
+Augment: Intimidate +13
+Item: Orcish Privateer's Boots
+
+Augment: Light Fortification
+Item: Madooroh's Vest
+
+Augment: Minor Acid
+Item: Rhakmel's Dagger
+
+Augment: Minor Frost
+Item: Brakhash's Axe
+
+Augment: Minor Shock
+Item: Bloodknuckle's Smasher
+
+Augment: Moderate Fortification
+Item: Disc of Enhancement*
+Item: Full Plate of Giants
+Item: Gargoyle Granite Plate
+Item: Roguebane Breastplate
+
+Augment: Natural Armor +2
+Item: Ring of Troll's Regeneration
+
+Augment: Physical Resistance +2
+Item: Chitin Shield
+Item: Dink's Leather Wraps
+
+Augment: Physical Resistance +6
+Item: Shield of the Scorpion
+
+Augment: Power 100
+Item: Shade's Hood (Level 16)
+
+Augment: Power 200
+Item: Shade's Hood (Level 25)
+Item: Shade's Hood (Level 26)
+Item: Shade's Hood (Level 27)
+
+Augment: Power 50
+Item: Chaos Band
+
+Augment: Power 75
+Item: Shade's Hood (Level 14)
+Item: Shade's Hood (Level 15)
+
+Augment: Proof Against Poison +2
+Item: Poison Ring
+Item: Shining Adamantine Plate
+
+Augment: Proof Against Poison +4
+Item: Bracers of Spiderkind
+Item: Gleaming Adamantine Plate
+Item: Thaarak Fang
+
+Augment: Protection +1
+Item: Yaaryar's Magnificent Band
+
+Augment: Protection +2
+Item: Arlyn's Ring
+Item: Cloak of Shadows
+Item: Enchanted Darkleaf Banded Armor
+
+Augment: Protection +3
+Item: Docent of Defense
+Item: Spectacular Optics
+
+Augment: Resistance +1
+Item: Sanctuary
+
+Augment: Resistance +2
+Item: Black Wolfskin Cloak
+Item: Krugg's Spiked Boots
+
+Augment: Resistance +3
+Item: Quilted Cape
+Item: Rabbit Gloves
+Item: Weathered Targe
+
+Augment: Resistance +4
+Item: Giantcraft Siberys Compass (Level 14)
+Item: Ring of the Stormreaver Prophecy (Level 14)
+
+Augment: Resistance +6
+Item: Giantcraft Siberys Compass (Level 23)
+Item: Ring of the Stormreaver Prophecy (Level 23)
+
+Augment: Resistance +7
+Item: Giantcraft Siberys Compass (Level 24)
+Item: Giantcraft Siberys Compass (Level 25)
+Item: Ring of the Stormreaver Prophecy (Level 24)
+Item: Ring of the Stormreaver Prophecy (Level 25)
+
+Augment: Sonic Resistance 10
+Item: Hellfire Cloak
+
+Augment: Strength +1
+Item: Bloodknuckle's Loincloth Waistband*
+
+Augment: Strength +2
+Item: Cloak of Silence*
+Item: Wighthide Armor
+
+Augment: Strength +4
+Item: Jeweled Cloak (Level 13)*
+Item: Jeweled Cloak (Level 14)*
+
+Augment: Strength +6
+Item: Jeweled Cloak (Level 23)*
+
+Augment: Strength +7
+Item: Jeweled Cloak (Level 24)*
+Item: Jeweled Cloak (Level 25)*
+
+Augment: Striding 20%
+Item: Boots of the Innocent
+
+Augment: Underwater Action
+Item: Drowned Priest's Torch
+
+Augment: Vitality +20
+Item: Minos Legens
+
+Augment: Wisdom +1
+Item: Bloodknuckle's Loincloth Waistband*
+Item: Cloak of the Asylum
+Item: Graskitch's Skullcap
+Item: Grundok's Boots*
+
+Augment: Wisdom +2
+Item: Cloak of Silence*
+
+Augment: Wisdom +4
+Item: Intricate Field Optics (Level 13)*
+Item: Intricate Field Optics (Level 14)*
+Item: Jeweled Cloak (Level 13)*
+Item: Jeweled Cloak (Level 14)*
+
+Augment: Wisdom +6
+Item: Jeweled Cloak (Level 23)*
+
+Augment: Wisdom +7
+Item: Jeweled Cloak (Level 24)*
+Item: Jeweled Cloak (Level 25)*

@@ -1,0 +1,511 @@
+' Define help topics with the following format:
+'
+' HelpTopic: <Topic Name>
+'
+' All text between "HelpTopic" identifiers is considered part of that help topic.
+'
+' Help text can include a small variety of special codes to handle formatting. These
+' codes are limited to a single word. You can force multiple words to share a single
+' code by separating the words with underscores (_) instead of spaces ( ). Underscores 
+' in special codes are replaced by spaces when displayed.
+' 
+' Special codes are surrounded by curly braces "{}" and always begin the word they
+' apply to. There are no closing tags, which is why they can only apply to a single
+' word.
+' 
+' Basic formatting special codes are b for bold, i for italics and u for underline.
+' You can use any one, two, or all three in a single code. Order doesn't matter. eg:
+' {ub}This_text_is_bold_and_underlined
+'
+' You can also specify a link, of which there are several types:
+'
+' Open {url=https://www.google.com/}Google in default browser
+' Open {run=\Settings.txt}Settings.txt in Notepad
+' Run the {run=\GearPlanner.exe}Gear_Planner
+' Open the {frm=frmOptions}Options form
+' See {hlp=Spinners}Spinners for tips on using spinner controls.
+'
+' - Internally, opening a document {run=\Settings.txt} is handled the same way as
+'   running a program {run=\GearPlanner.exe}
+' - Add a backslash (\) character to the start of the file or program to run to 
+'   specify the application folder. eg: {run=\Settings.txt}
+' - URLs are opened in the default browser. 
+' - Opening a form requires that you know the internal form name. Generally speaking,
+'   form names are "frm" plus the form's title. eg: frmEnhancements. This is not always
+'   the case, though. (Output Format is frmFormat, for example.)
+'
+' All codes and identifiers are case-sensitive. Special codes must be lower case.
+
+HelpTopic: Table_of_Contents
+
+{hlp=Getting_Started}Getting_Started
+
+{hlp=Quests}Quests_List
+
+{hlp=Characters}Characters
+
+{hlp=Notes}Notes
+
+{hlp=Links}Links
+
+{hlp=Tools}Tools
+
+{hlp=Saving}Saving_Your_Data
+
+{frm=frmAbout}About_Compendium
+
+
+{bu}TIPS
+
+- Instead of manually clicking individual cells to track your progress, grab and drag a difficulty to "paint" it down the list.
+
+- If clicking links won't open web pages, try running the program as administrator: Right click the exe in explorer and choose Run as Administrator from the Compatibility tab.
+
+- The utilities intended for use directly in-game (Shroud puzzle solver, ADQ riddle solver, and stopwatch) won't stay on top of the game client in Full Screen mode, but will work if you switch to Full Screen (Windowed) when you want to use them. They are available via the {frm=frmTools}Tools screen.
+
+
+HelpTopic: Characters
+
+Open the characters screen from the {frm=frmTools}Tools screen, or by 
+right clicking an existing character header in the quest list.
+
+{b}Character_List
+
+Adding, deleting and reordering characters is reflected in the Quests list immediately, and cannot be undone with the Cancel button.
+
+{b}Import
+
+Import characters from other compendium files. Imported characters are not deleted from their original file.
+
+{b}Export
+
+Export character build files to character planners with tomes and past lives filled in. Supported formats:
+
+- {url=https://www.ddo.com/forums/showthread.php/455712}Character_Builder_Lite
+- {url=https://www.ddo.com/forums/showthread.php/427100}Ron's_Character_Planner
+- {url=https://www.ddo.com/forums/showthread.php/487211}Ordinary's_DDO_Builder
+
+{b}Name
+
+Try to keep your character names as short as possble, as the widest name will determine the width of all character columns. Columns will always be wide enough to display "Casual" and "Normal", so aim for around that length.
+
+{b}Column_Header
+
+Character names along the top of the Quests list are clickable links. Right clicking opens a context menu, which you can define with the Customize button. Left click defaults to opening the Edit Characters screen, but you can also change it to one of your custom menu commands.
+
+{b}Colors
+
+Choose a named color for this character, or define a custom color. Named colors are automatically updated when the background color changes, which can be done with the {run=\Utils\Colors.exe}Colors utility via the {frm=frmTools}Tools screen. Custom Colors are never changed by the program.
+
+Click the "Named" link to open the {frm=frmColorPreview}Named_Colors screen. There you can adjust the values used to generate named colors.
+
+
+HelpTopic: Named Colors
+
+Named colors are generated using three possible RGB values: High, Medium and Low. For example, the color red uses high Red, low Green and Blue.
+
+The Brightness control lets you adjust all three values at the same time, preserving the differential between them. The actual brightness value mirrors the high value.
+
+Skipped % is the percentage of each individual RGB value to use for darker rows to denote quest packs you don't own or quests you normally skip, like Twilight Forge. A sample of three "skipped" rows is displayed in the preview.
+
+Background shows you the actual RGB values that make up the background color of the Quests list. You can't change that value here; you have to go to the {run=\Utils\Colors.exe}Colors program via the {frm=frmTools}Tools screen.
+
+Click the Match link to automatically match the named colors to the background color.
+
+See {hlp=Spinners}Spinners for tips on using spinner controls.
+
+
+HelpTopic: Menu Editor
+
+Custom menus are used two ways: As context menus when right-clicking something, and also as Link Lists in the Links tab of the main screen.
+
+When defining a Link List, you'll be able to edit the title caption of the list.
+
+A shortcut can point to any file, and it will be opened as if you double-clicked it in explorer.
+
+Parameter allows specifying a command-line parameter. This is mainly for opening specific build files in Character Builder Lite, or opening specific screens or gearsers in Cannith Crafting Builder Lite. 
+
+When specifying a build file or a gearset file as the parameter, you can just enter the filename without the path. You don't need to specify a complete path, or even preface it with "Save\". You also don't need to surround it with quotes, even if it has spaces. 
+
+You do need to include the extension. For example: Kensei Warpriest.build
+
+Note that the old ".bld" extension is still supported. If Character Builder Lite is sent a .bld file as a parameter, it will check for the .bld file first, and if not found, it will then check for a .build file with the same name.
+
+
+HelpTopic: Spinners
+
+{b}Spinners
+
+Type a value into the spinner control, or navigate values with the keyboard or mouse.
+
+{b}Typing
+
+For spinners whose maximum value is greater than 9, type the full number you want. After a pause of a little under a second, the spinner assumes you're starting over. For example, when entering a three-digit number, if you type 2, 3, (pause), 4, the spinner will show 2, 23, then 4. 
+
+Typing mode doesn't engage until the first non-zero digit.
+
+Typing a number that's higher than the maximum value will default to the maximum, lower than the minimum results in the minimum. For example, typing the number 44 in a spinner whose max value is 30 results in 30.
+
+{b}Hotkeys
+
+The following keyboard hotkeys are recognized:
+
+Small step higher: +, RightArrow
+Large step higher: Up, PageUp
+Maximum value: Home, Insert
+
+Small step lower: -, LeftArrow
+Large step lower: Down, PageDown
+Minimum value: End, Delete
+
+Toggle mouse step: Spacebar
+
+{b}Mouse
+
+Use the mouse wheel to scroll values. Toggle the step size by clicking the Middle button (click the mouse wheel) in the center of the spinner on the number itself.
+
+Hold down a mouse button on the left and right arrows to quickly scroll values, or click to change the value one step at a time.
+
+For the left and right arrows, all three mouse buttons have different effects:
+
+Left Button: Small change
+Right Button: Large change
+Click Mousewheel: Set to minimum or maximum
+
+
+HelpTopic: Quests
+
+{b}SORTING
+
+Click a column header to sort by that column. Some column sorts have customized behavior:
+
+{u}Sort_by_Level
+There are three different variations of Level Sort:
+
+- Sort by Heroic Level
+- Sort by Epic Level
+- Match In-Game Order
+
+Left clicking the Lvl column header sorts by the currently active setting. Change the setting by right clicking, or in the {frm=frmTools}Tools screen. 
+
+When not matching in-game order, some heroic quests are grouped at different levels than they actually are: Misery's Peak is grouped with the other Korthos quests, Return to Delera's Tomb is grouped with the 7s, and most of Threnal is grouped as level 9.
+
+{u}Sort_by_Epic_Level
+Only epic quests are shown.
+
+{u}Sort_by_Pack
+Quests are mostly grouped by pack, but a few outlier exceptions are grouped with free to play quests:
+- Delera's side quests
+- The final Shadowfell pre-quest
+- Menace of the Underdark side quests
+- Legendary Shroud
+
+{u}Sort_by_Patron
+Within each patron, quests are sorted by heroic level so you can see at a glance the easiest quests to run to earn more favor for a given patron.
+
+{u}Sort_by_Party
+Only raids are shown.
+
+
+{b}CHARACTERS
+
+If you don't have any characters set up, go to {frm=frmTools}Tools to open the {frm=frmCharacters}Characters screen. 
+
+When setting up characters, you can set up a custom context menu for them when you right click their column headers. You can also choose what happens when you left click their column headers.
+
+
+{b}PROGRESS
+
+Track your progress through the game for each of your characters. 
+
+Right click a cell to choose any difficulty, or Left click to toggle between a difficulty and cleared. The toggle value is whatever was there, or if it was blank, it toggles between the last difficulty you applied.
+
+"Paint" a difficulty by grabbing and dragging any cell. That cell's value gets applied to adjacent cells as you drag. Dragging only applies to the current character; even if you fade left or right, no other character's progress will be effected by dragging.
+
+Dragging a blank cell clears adjacent cells.
+
+Painting with the middle button instead of the left button clears progress.
+
+
+{b}WIKI_LINKS
+
+Left click a quest, pack or patron to open its wiki page. 
+
+Right click a quest or pack to open a context menu of relevant links.
+
+
+{b}SKIPPED_QUESTS
+
+You can set packs you don't own as skipped, and also any individual quests you normally skip each life. (eg: Twilight Forge) You can still track progress for skipped quests.
+
+Right click any quest to set its skipped flag. Right click a pack to apply a skipped flag for all quests in that pack. Only quests have skip flags; skipping packs is a courtesy feature.
+
+Skipped quests show a darker background in the character progress columns. You can adjust how much darker in the {frm=frmColorPreview}Named_Colors screen, available from {frm=frmTools}Tools.
+
+
+HelpTopic: Challenges
+
+Set star values by clicking stars. Click to the left of the stars to clear, right of the stars for 6-star "gold" completion.
+
+Right click any star value to clear, middle click for 6-star "gold" completion.
+
+Match In-Game Order to the order you get if you sort by the "Challenge Name:" column in-game. (Click that column header in-game to sort the list.)
+
+Click a challenge name to open its wiki page.
+
+NOTE: It is currently believed that Short Cuts and Epic Short Cuts can't be 6-starred; only 4 stars are possible. This limitation is enforced on this screen, and reflected in the Max Favor totals on the {frm=frmPatrons}Patrons screen.
+
+
+HelpTopic: Crit_Calculator
+
+See what your effective crit range is when facing fortification and/or when you have Exploit Weakness.
+
+The calculator simulates many attack rolls and keeps track of whether or not you would have crit. If fortification prevents a crit, that attack is not counted as a crit in the results even though it would still proc on-crit effects like Maiming.
+
+The results ranges show a rounded off value for easy reference. A range of "21 to 20" means you never crit, or at least you crit less than 2.5% of the time, which is rounded down to 0.
+
+Note that if fortification prevents a crit, that still counts as a crit for Exploit Weakness and resets its stack to 0. Otherwise, on-crit procs like Maiming would quickly reach 100% when facing 100% fortification with 0% bypass.
+
+See {hlp=Spinners}Spinners for tips on using spinner controls.
+
+
+HelpTopic: Getting_Started
+
+The Compendium offers a variety of tools to enhance your DDO experience.
+
+Use the {frm=frmCharacter}Characters screen to define your characters and track their progress through the game.
+
+Click the {frm=frmTools}Tools button in the top right corner to access all the various screens and utilities.
+
+Click the {hlp=Table_of_Contents}Help button in the top right corner for more detailed information.
+
+
+{bu}TIPS 
+
+- Instead of manually clicking individual cells to track your progress, grab and drag a difficulty to "paint" it down the list.
+
+- If clicking links won't open web pages, try running the program as administrator: Right click the exe in explorer and choose Run as Administrator from the Compatibility tab.
+
+- The utilities intended for use directly in-game (Shroud puzzle solver, ADQ riddle solver, and stopwatch) won't stay on top of the game client in Full Screen mode, but will work if you switch to Full Screen (Windowed) when you want to use them. They are available via the {frm=frmTools}Tools screen.
+
+
+HelpTopic: Notes
+
+Notes are stored in the text file {run=\Save\Notes.txt}Notes.txt located in your \Save\ folder. (Don't delete that file!)
+
+Notes are independent of character data; any compendium file you create will always point to the same Notes.txt. For character-specific notes, use the Notes field in the {frm=frmCharacter}Characters screen.
+
+
+HelpTopic: Links
+
+Create and manage personalized Link Lists to keep all your 
+favorite resources at your fingertips. 
+
+Links are saved independently of your character data. All compendium files point to the shared file Compendium.linklists in your \Save\ directory. Despite the .linklists extension, it's a human-readable text file you can view in Notepad. Editing it in Notepad is possible but not recommended.
+
+{b}LISTS
+
+To create a new blank list, right click any blank space in the Links area and choose New List. Below that are a selection of template lists you can create copies of, which you can then customize to suit your needs.
+
+Right click a list (not on one of the links) to open the menu editor, create a duplicate copy of the list, or delete the list.
+
+Deleted lists can be recovered by right clicking empty space in the Links area. (Not on any list.) Deleted lists are purged when you close the Compendium.
+
+Move a list around by grabbing and dragging the title bar. A snap-to-grid feature applies to moving lists to simplify lining them up symmetrically.
+
+Click a title caption to open the menu editor.
+
+{b}LINKS
+
+Some editing features can be done directly on the links themselves, without having to open the full menu editor.
+
+Right click a link to Cut or Copy it to a temporary clipboard. (Not the actual clipboard.) Right click a different link to insert the clipboard link ahead of it. Right click the list itself to paste to the end. Note: You cannot cut, copy or paste separators.
+
+The clipboard feature allows you to copy links from list to list, which lets you cannibalize the template lists more easily than reproducing them using the menu editor.
+
+You can also right click a link and choose Edit to open the menu editor directly to that link.
+
+{b}TEMPLATES
+
+Some templates contain invalid placeholder shortcuts to other programs outside the DDO Lite family. (eg: DDO-ML, DDO Character Planner.) Edit those shortcuts to point to wherever the programs are on your computer.
+
+
+HelpTopic: Tools
+
+{b}[Tools]     {hlp=Options}[Options]
+
+{b}Data
+
+The basic design of the Compendium is to have only a single data file, but there are times when you might want more. One file for each server you play on, or each account you have, for example.
+
+To rename a data file, first make it active. Then type in a new name and click Save.
+
+When you create a new data file, the Skipped Quest settings for the current data file are copied over to it.
+
+Each time the Compendium starts, backup copies of your character data, notes and links are saved. Revert data to restore the backup version. This can help if you accidentally "paint" character progress too far and don't remember what the values were supposed to be.
+
+Closing and re-opening the Compendium will take new snapshot backups, but as a courtesy feature you can refresh the backups without having to restart the program.
+
+You cannot delete all data files. If you delete the only remaining file, a new blank file named Main is created automatically.
+
+
+{b}Save_Path
+
+The save files used by Compendium are:
+
+- Anything with a "compendium" extension (*.compendium)
+- Compendium.linklists
+- Notes.txt
+
+There are two ways to change the save path: Switch and Move.
+
+{b}Switch is for when you manually move or copy your save files to a new folder with explorer and want to point the compendium to this new folder. 
+
+When switching, you must select a compendium save file to open. That folder becomes the new save path, and the notes and linklists from that path are loaded. Your old data files in the previous location are left as-is.
+
+You can also use the Switch feature to maintain multiple different sets of data independently, switching back and forth among them freely.
+
+{b}Move is for when you want the program to move your saved files for you. The "Save As" dialog will open, letting you choose (or create) a folder to move your files. All compendium save files will be moved, not just the filename listed in the Save As dialog.
+
+Once you select the new folder and confirm the move, your saved files will be moved to the new folder, overwriting any files already there. Your old path will no longer contain any compendium save files.
+
+
+HelpTopic: Options
+
+{hlp=Tools}[Tools]     {b}[Options]
+
+{b}Main_Window
+
+When running DDO in windowed mode, if your Windows is set to a non-standard DPI resolution the DDO game client won't completely fill your desktop, leaving bleed-through along the sides and bottom of the screen. 
+
+You can match Compendium's margins to the game client margins to reduce the distraction from this effect. 
+
+Note that this is most effective using the default black color scheme with the Compendium maximized.
+
+Child Windows
+By default, all dialogs will be opened as child forms of the main form. Child forms can be moved outside of the main form, but if the main form is minimized, all child forms will also be minimized. Uncheck this option if you want dialogs to be independent of the main form. Note: Unchecking this option will make forms "disappear" behind the main form whenever the main form gains focus.
+
+
+{b}Quests
+
+You can specify the margins used when drawing individual cells in the quests list. The smaller the margins the more data will fit on the screen, but it will also become more crowded and harder to read.
+
+Customize the step size when using the mouse wheel to scroll the quests list. The windows default is 3 lines, but you might prefer the responsiveness of 5 or 6 for a list of 300+ items.
+
+Set the step size to 0 to make the mouse wheel equivalent to page up and page down. (The effective value changes when you resize the window.)
+
+
+{b}Play
+
+The Play button appears on the main form in the top right of the screen, to the left of the Tools button. 
+
+Click the "..." button to choose what to run to launch the game. For example, to launch the official game launcher in the default path you'd use:
+
+C:\Program Files (x86)\Turbine\Dungeons & Dragons Online\TurbineLauncher.exe
+
+However, you could also point the play button to the {url=https://www.ddo.com/forums/showthread.php/436296}DDO-ML program.
+
+
+See {hlp=Spinners}Spinners for tips on using spinner controls.
+
+
+HelpTopic: Saving
+
+Compendium data consists of four unrelated data files:
+
+- Character data (also referred to as "Compendium files")
+- Notes
+- Links
+- Settings
+
+All four types of data are saved independently of each other, meaning all character files share the same notes and links.
+
+Most people will only need one character file. You might set up additional files if you play on multiple servers, or if you run multiple accounts.
+
+Your data is automatically saved as you use the compendium. Any change to any of the four elements triggers a delayed save, which is marked by an asterisk (*) in the title bar. After two seconds of inactivity, all changes are saved. Even scrolling the quest list will trigger a delayed save, as the scroll position is one of the saved settings.
+
+Settings are saved to Settings.txt (also used by Character Builder Lite) in the same path as the exe files. All other compendium data is saved in the Save subfolder:
+
+- Notes are saved in \Save\Notes.txt
+- Links are saved in \Save\Compendium.linklists
+- Character data defaults to \Save\Main.compendium
+
+Both the .linklists and .compendium files are human-readable text files. It is possible to manually edit them in notepad, but it is not recommended.
+
+"Main" is the default name for your character data, but you can change it in the {frm=frmTools}Tools screen. There you can rename, add or delete compendium files.
+
+On startup, the Compendium creates backup copies of your notes, links, and the active compendium file. If you accidentally change something you didn't intend, like maybe you erased a large chunk of notes, you can restore from those backups by going to {frm=frmTools}Tools.
+
+
+HelpTopic: Sagas
+
+{b}Sorting_Quests
+
+Click the Level, Quest or Pack column headers to change the sort order. Additionally, you can right click a saga column header to bring that saga's quests to the top of the list.
+
+You can customize the natural order of quests in the saga screen by creating User copies of SagaOrderHeroic.txt and SagaOrderEpic.txt in the {run=\Data\Compendium}Data\Compendium folder. See those files for details.
+
+
+{b}Character_Column
+
+Click the header to open the Character screen.
+
+The character column is a calculated column, showing the lowest progress for that quest in any saga. That means you can only increase the progress in the character column. You can't lower or clear progress here.
+
+The character column acts as a surrogate quests list progress column. As you complete saga quests, apply the difficulty you completed to each quest and it propagates to all sagas automatically. (But only if you completed a higher difficulty.)
+
+All the same right-click and click & drag "painting" features are available for the character column, but again, you can't reduce or clear progress here.
+
+
+{b}Saga_Columns
+
+Match any given saga column with your in-game progress. Changing saga columns directly does not propagate to other sagas.
+
+Right click a cell to choose any difficulty, or Left click to toggle between a difficulty and cleared. The toggle value is whatever was there, or if it was blank, it toggles between the last difficulty you applied.
+
+"Paint" a difficulty by grabbing and dragging any cell. That cell's value gets applied to adjacent cells as you drag. Dragging only applies to the current saga; even if you fade left or right, no other saga's progress will be effected by dragging.
+
+Dragging a blank cell clears adjacent cells.
+
+Painting with the middle button instead of the left button clears progress.
+
+You can drag values up and down through "empty" sections of the grid.
+
+
+{b}Skip_Quests
+
+Right-click a cell and choose VIP Skip or Astral Shard Skip.
+
+VIPs can skip 1 quest per saga. Additionally, anyone can skip 1 or 2 more quests per saga by spending 5 Astral Shards.
+
+Skipped quests count as Elite completions.
+
+The game only allows skipping quests you haven't completed. Meaning you can't increase a quest from Normal to Elite by skipping it.
+
+You can't "undo" a skipped quest in-game. Once you skip a quest, that quest stays skipped until you claim a saga reward.
+
+To mirror these game mechanics, you cannot "paint" a skip value to multiple quests, and skipped quests cannot be changed to new values by right-clicking or painting. You can, however, clear a skipped quest by right-clicking it and choosing Clear.
+
+
+{b}Claim_Rewards
+
+Click a saga column header to open the detail for that saga. 
+
+If you have a character selected, and that character has completed all quests in the saga, you can Claim Rewards for that saga.
+
+
+{b}Wiki_Links
+
+Left click a quest or pack name to open its wiki page.
+
+Right click to open the same context menus as in the quests list on the main form.
+
+
+HelpTopic: Saga_Detail
+
+You must complete all quests (on any difficulty, even casual) to claim the reward for that saga. Skipped quests count as completed.
+
+Claiming a saga reward clears all progress for that saga.
+
+Note: When claiming a saga reward, you can optionally spend 15 Astral Shards to increase your reward to the next tier. For example, if you have just enough points for the Elite reward, you can spend 15 shards to claim the True Elite reward.
+

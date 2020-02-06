@@ -1,0 +1,44 @@
+Ritual: Adamantine Ritual I
+Descrip: +5 Hardness and +10 Durability.
+Ingredients: 400 Khyber Dragonshard Fragment; 10 Adamantine Ore; 10 Soul Gem: Essence of Earth
+
+Ritual: Adamantine Ritual II
+Descrip: +5 Hardness and +15 Durability. Adamantine Rituals must be performed in order. Effects and costs listed are the cumulative total including all previous rituals.
+Ingredients: 400 Khyber Dragonshard Fragment; 25 Adamantine Ore; 30 Soul Gem: Essence of Earth
+
+Ritual: Adamantine Ritual III
+Descrip: +5 Hardness and +20 Durability. Adamantine Rituals must be performed in order. Effects and costs listed are the cumulative total including all previous rituals.
+Ingredients: 400 Khyber Dragonshard Fragment; 45 Adamantine Ore; 60 Soul Gem: Essence of Earth
+
+Ritual: Adamantine Ritual IV
+Descrip: +5 Hardness and +25 Durability. Adamantine Rituals must be performed in order. Effects and costs listed are the cumulative total including all previous rituals.
+Ingredients: 400 Khyber Dragonshard Fragment; 70 Adamantine Ore; 100 Soul Gem: Essence of Earth
+
+Ritual: Adamantine Ritual V
+Descrip: +5 Hardness and +30 Durability. Adamantine Rituals must be performed in order. Effects and costs listed are the cumulative total including all previous rituals.
+Ingredients: 400 Khyber Dragonshard Fragment; 100 Adamantine Ore; 150 Soul Gem: Essence of Earth
+
+Ritual: Alchemical Armor
+Descrip: +1 Alchemical Bonus to AC. Can be applied to cosmetic armor or cosmetic helmets, including the Spider Cult Mask. Stacks with Alchemical Shield Ritual.
+Type: Armor
+Ingredients: 400 Khyber Dragonshard Fragment; 15 String of Prayer Beads; 5 Vial of Pure Water
+
+Ritual: Alchemical Shield
+Descrip: +1 Alchemical Bonus to AC. Stacks with Alchemical Armor Ritual.
+Type: Shield; Orb
+Ingredients: 400 Khyber Dragonshard Fragment; 2 Tome: Prophecies of Khyber; 6 Silver Flame Hymnal
+
+Ritual: Force Critical
+Descrip: 1d4 points of force damage on each successful critical hit.
+Type: Weapon
+Ingredients: 400 Khyber Dragonshard Fragment; 6 Sparkling Dust; 12 Deadly Feverblanch
+
+Ritual: Force Damage
+Descrip: 1 point of force damage on each successful hit.
+Type: Weapon
+Ingredients: 400 Khyber Dragonshard Fragment; 3 Luminescent Dust; 9 Fragrant Drowshood
+
+Ritual: Resistance
+Descrip: +1 competence bonus to saves, which stacks with normal resistance gear.
+Style: Jewelry
+Ingredients: 400 Khyber Dragonshard Fragment; 4 Lightning-Split Soarwood; 22 Funerary Token

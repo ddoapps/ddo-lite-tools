@@ -1,0 +1,28 @@
+' Frequency is the ratio of Common / Uncommon / Rare for all dispensers, as confirmed by a dev
+Frequency: 0.75, 0.20, 0.05
+
+' Any is the Any dispenser ratio of Arcane / Culture / Lore / Natural, as determined by testing
+' Forum thread: https://www.ddo.com/forums/showthread.php/484819
+Any: 0.22, 0.50, 0.20, 0.08
+
+' EssenceRate is the average essences per second from solo epic dailies (700 / 3600)
+EssenceRate: 0.19444
+
+' Demand can be calculated in multiple ways:
+' Raw just adds up all the demand values for all bound shards a collectable is used for
+' Top # adds up only the top [number specified] demand values for a given collectable
+' Weighted caps the number of contributions from any given category (universal, common, etc...)
+' Uncomment the one you want to be active by removing the '
+' If multiple demands are active (ie: not commented) the last one is used
+'Demand: Raw
+'Demand: Top 5
+Demand: Weighted
+
+' DemandValue is the list of demand category values (Universal, Common, Uncommon, Niche, 
+' Obsolete, Rare) used by all styles of calculating demand
+DemandValue: 10, 8, 6, 4, 2, 1
+
+' DemandWeights is a list of how many contributions any given category is allowed for a given
+' collectable when using Weighted style. (Universal, Common, Uncommon, Niche, Obsolete, Rare)
+' Use 99 to specify Unlimited
+DemandWeights: 99, 5, 3, 2, 1, 1

@@ -1,0 +1,434 @@
+; Every item type is defined, including type, style, and image. (ResourceID)
+; Images are hardcoded in the exe file; do not change the ResourceID values.
+;
+; For weapons and armor, Style defines the crafting effects you can apply via 
+; cannith crafting. All Two-Hand melee weapons have the same crafting options, 
+; all Metal armor has the same crafting choices, etc...
+;
+; The Style for accessories doesn't actually do anything; Jewelry is hardcoded
+; into the program for purposes of Stone of Change crafting.
+;
+; See ItemChoices.txt to customize the weapon lists that appear in the planner.
+;
+; Note: The flag "TwoHand: True" is used for range weapons that require two
+; hands. (Bows, but not crossbows or throwers.) "Style: Melee2H" weapons are
+; automatically flagged and don't need that line.
+
+
+Item: Bastard Sword
+ResourceID: ITMBSTDSWORD
+Type: Weapon
+Style: Melee1H
+Slots: Red
+
+Item: Battle Axe
+ResourceID: ITMBATTLEAXE
+Type: Weapon
+Style: Melee1H
+Slots: Red
+
+Item: Belt
+ResourceID: ITMBELT
+Type: Accessory
+Style: Clothing
+Slots: Green; Yellow; Colorless; Dual
+
+Item: Boots
+ResourceID: ITMBOOTS
+Type: Accessory
+Style: Clothing
+Slots: Green; Yellow; Colorless; Dual
+
+Item: Bracers
+ResourceID: ITMBRACERS
+Type: Accessory
+Style: Jewelry
+Slots: Green; Yellow; Colorless; Dual
+
+Item: Breastplate
+ResourceID: ITMBREASTPLT
+Type: Armor
+Style: Metal Armor
+Scaling: Breastplate; Battle Breastplate; Magecraft Breastplate; Mountain Breastplate; Planeforged Breastplate
+Slots: Blue
+
+Item: Buckler
+ResourceID: ITMBUCKLER
+Type: Shield
+Style: Shield
+Scaling: Buckler; Darkwood Buckler; Densewood Buckler; Spiritcraft Buckler; Celestial Buckler
+Slots: Blue
+
+Item: Chainmail
+ResourceID: ITMCHAINMAIL
+Type: Armor
+Style: Metal Armor
+Scaling: Chainmail Shirt; Skirmish Chainmail; Feycraft Chainmail; Spiritcraft Chainmail; Celestial Chainmail
+Slots: Blue
+
+Item: Cloak
+ResourceID: ITMCLOAK
+Type: Accessory
+Style: Clothing
+Slots: Green; Yellow; Colorless; Dual
+
+Item: Club
+ResourceID: ITMCLUB
+Type: Weapon
+Style: Melee1H
+Slots: Red
+
+Item: Dagger
+ResourceID: ITMDAGGER
+Type: Weapon
+Style: Melee1H
+Slots: Red
+
+Item: Dart
+ResourceID: ITMDART
+Type: Weapon
+Style: Thrower
+Slots: Red
+
+Item: Docent
+ResourceID: ITMDOCENT
+Type: Armor
+Style: Docent
+Scaling: Docent; Battle Docent; Magecraft Docent; Quoriforged Docent; Planeforged Docent
+Slots: Blue
+
+Item: Dwarven Axe
+ResourceID: ITMDWARFAXE
+Type: Weapon
+Style: Melee1H
+Slots: Red
+
+Item: Empty
+ResourceID: SLTOFFHAND
+Type: Empty
+Style: Empty
+
+Item: Falchion
+ResourceID: ITMFALCHION
+Type: Weapon
+Style: Melee2H
+Slots: Red
+
+Item: Full Plate
+ResourceID: ITMFULLPLATE
+Type: Armor
+Style: Metal Armor
+Scaling: Full Plate; Battle Plate; Magecraft Plate; Mountain Plate; Planeforged Plate
+Slots: Blue
+
+Item: Gloves
+ResourceID: ITMGLOVES
+Type: Accessory
+Style: Clothing
+Slots: Green; Yellow; Colorless; Dual
+
+Item: Goggles
+ResourceID: ITMGOGGLES
+Type: Accessory
+Style: Jewelry
+Slots: Green; Yellow; Colorless; Dual
+
+Item: Great Axe
+ResourceID: ITMGRTAXE
+Type: Weapon
+Style: Melee2H
+Slots: Red
+
+Item: Great Club
+ResourceID: ITMGRTCLUB
+Type: Weapon
+Style: Melee2H
+Slots: Red
+
+Item: Great Crossbow
+ResourceID: ITMGRTXBOW
+Type: Weapon
+Style: Range
+Slots: Red
+
+Item: Great Sword
+ResourceID: ITMGRTSWORD
+Type: Weapon
+Style: Melee2H
+Slots: Red
+
+Item: Half Plate
+ResourceID: ITMHALFPLATE
+Type: Armor
+Style: Metal Armor
+Scaling: Half Plate; Battle Half Plate; Magecraft Half Plate; Mountain Half Plate; Planeforged Half Plate
+Slots: Blue
+
+Item: Hand Axe
+ResourceID: ITMHANDAXE
+Type: Weapon
+Style: Melee1H
+Slots: Red
+
+Item: Handwraps
+ResourceID: ITMHANDWRAPS
+Type: Weapon
+Style: Melee2H
+Slots: Red
+
+Item: Heavy Crossbow
+ResourceID: ITMHVYXBOW
+Type: Weapon
+Style: Range
+Slots: Red
+
+Item: Heavy Mace
+ResourceID: ITMHVYMACE
+Type: Weapon
+Style: Melee1H
+Slots: Red
+
+Item: Heavy Pick
+ResourceID: ITMHVYPICK
+Type: Weapon
+Style: Melee1H
+Slots: Red
+
+Item: Heavy Shield
+ResourceID: ITMHVYSHIELD
+Type: Shield
+Style: Shield
+Scaling: Heavy Shield; Heavy Darkwood Shield; Heavy Densewood Shield; Heavy Spiritcraft Shield; Heavy Celestial Shield
+Slots: Blue
+
+Item: Helmet
+ResourceID: ITMHELMET
+Type: Accessory
+Style: Clothing
+Slots: Green; Yellow; Colorless; Dual
+
+Item: Hide
+ResourceID: ITMHIDE
+Type: Armor
+Style: Leather Armor
+Scaling: Hide Armor; Skirmish Hide; Feycraft Hide; Spiritcraft Hide; Celestial Hide
+Slots: Blue
+
+Item: Kama
+ResourceID: ITMKAMA
+Type: Weapon
+Style: Melee1H
+Slots: Red
+
+Item: Khopesh
+ResourceID: ITMKHOPESH
+Type: Weapon
+Style: Melee1H
+Slots: Red
+
+Item: Kukri
+ResourceID: ITMKUKRI
+Type: Weapon
+Style: Melee1H
+Slots: Red
+
+Item: Leather
+ResourceID: ITMLEATHER
+Type: Armor
+Style: Leather Armor
+Scaling: Leather Armor; Skirmish Leather; Feycraft Leather; Spiritcraft Leather; Celestial Leather 	
+Slots: Blue
+
+Item: Light Crossbow
+ResourceID: ITMLTXBOW
+Type: Weapon
+Style: Range
+Slots: Red
+
+Item: Light Hammer
+ResourceID: ITMLTHAMMER
+Type: Weapon
+Style: Melee1H
+Slots: Red
+
+Item: Light Mace
+ResourceID: ITMLTMACE
+Type: Weapon
+Style: Melee1H
+Slots: Red
+
+Item: Light Pick
+ResourceID: ITMLTPICK
+Type: Weapon
+Style: Melee1H
+Slots: Red
+
+Item: Light Shield
+ResourceID: ITMLTSHIELD
+Type: Shield
+Style: Shield
+Scaling: Light Shield; Light Darkwood Shield; Light Densewood Shield; Light Spiritcraft Shield; Light Celestial Shield
+Slots: Blue
+
+Item: Long Sword
+ResourceID: ITMLGSWORD
+Type: Weapon
+Style: Melee1H
+Slots: Red
+
+Item: Longbow
+ResourceID: ITMLONGBOW
+Type: Weapon
+Style: Range
+TwoHand: True
+Slots: Red
+
+Item: Maul
+ResourceID: ITMMAUL
+Type: Weapon
+Style: Melee2H
+Slots: Red
+
+Item: Morningstar
+ResourceID: ITMMORNING
+Type: Weapon
+Style: Melee1H
+Slots: Red
+
+Item: Necklace
+ResourceID: ITMNECKLACE
+Type: Accessory
+Style: Jewelry
+Slots: Green; Yellow; Colorless; Dual
+
+Item: Orb
+ResourceID: ITMORB
+Type: Orb
+Style: Orb
+
+Item: Outfit
+ResourceID: ITMOUTFIT
+Type: Armor
+Style: Cloth Armor
+Slots: Blue
+
+Item: Quarterstaff
+ResourceID: ITMSTAFF
+Type: Weapon
+Style: Melee2H
+Slots: Red
+
+Item: Rapier
+ResourceID: ITMRAPIER
+Type: Weapon
+Style: Melee1H
+Slots: Red
+
+Item: Repeating Heavy Crossbow
+ResourceID: ITMRPTHVXBOW
+Type: Weapon
+Style: Range
+Slots: Red
+
+Item: Repeating Light Crossbow
+ResourceID: ITMRPTLTXBOW
+Type: Weapon
+Style: Range
+Slots: Red
+
+Item: Ring
+ResourceID: ITMRING
+Type: Accessory
+Style: Jewelry
+Slots: Green; Yellow; Colorless; Dual
+
+Item: Robe
+ResourceID: ITMROBE
+Type: Armor
+Style: Cloth Armor
+Slots: Blue
+
+Item: Runearm
+ResourceID: ITMRUNEARM
+Type: Runearm
+Style: Runearm
+
+Item: Scalemail
+ResourceID: ITMSCALEMAIL
+Type: Armor
+Style: Metal Armor
+Scaling: Scalemail; Skirmish Scalemail; Feycraft Scalemail; Spiritcraft Scalemail; Celestial Scalemail
+Slots: Blue
+
+Item: Scepter
+ResourceID: ITMSCEPTER
+Type: Weapon
+Style: Melee1H
+Slots: Red; Blue
+
+Item: Scimitar
+ResourceID: ITMSCIMITAR
+Type: Weapon
+Style: Melee1H
+Slots: Red
+
+Item: Short Sword
+ResourceID: ITMSHRTSWORD
+Type: Weapon
+Style: Melee1H
+Slots: Red
+
+Item: Shortbow
+ResourceID: ITMSHRTBOW
+Type: Weapon
+Style: Range
+TwoHand: True
+Slots: Red
+
+Item: Shuriken
+ResourceID: ITMSHURIKEN
+Type: Weapon
+Style: Thrower
+Slots: Red
+
+Item: Sickle
+ResourceID: ITMSICKLE
+Type: Weapon
+Style: Melee1H
+Slots: Red
+
+Item: Throwing Axe
+ResourceID: ITMTHRAXE
+Type: Weapon
+Style: Thrower
+Slots: Red
+
+Item: Throwing Dagger
+ResourceID: ITMTHRDAGGER
+Type: Weapon
+Style: Thrower
+Slots: Red
+
+Item: Throwing Hammer
+ResourceID: ITMTHRHAMMER
+Type: Weapon
+Style: Thrower
+Slots: Red
+
+Item: Tower Shield
+ResourceID: ITMTOWERSHLD
+Type: Shield
+Style: Shield
+Scaling: Tower Shield; Battle Shield; Magecraft Shield; Mountain Shield; Planeforged Tower Shield
+Slots: Blue
+
+Item: Trinket
+ResourceID: ITMTRINKET
+Type: Accessory
+Style: Jewelry
+
+Item: Warhammer
+ResourceID: ITMWARHAMMER
+Type: Weapon
+Style: Melee1H
+Slots: Red

@@ -1,0 +1,3 @@
+The Exceptions list is empty.
+
+All relevant game rules and mechanics are implemented.

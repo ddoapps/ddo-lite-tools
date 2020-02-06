@@ -1,0 +1,303 @@
+Area: Korthos Island
+Map: KorthosIslandMap.jpg
+Low: 1
+High: 3
+Explorer: 1500
+
+Area: The Cerulean Hills
+Map: CeruleanHills.jpg
+Low: 1
+High: 4
+Explorer: 2187
+
+Area: The Waterworks
+Map: WaterworksMap.jpg
+Low: 1
+High: 6
+
+Area: Tangleroot Gorge
+Map: TanglerootGorgeMap.jpg
+Low: 2
+High: 7
+Explorer: 2843
+Pack: Tangleroot Gorge
+
+Area: Three-Barrel Cove
+Map: ThreeBarrelCoveMap.jpg
+Wiki: Three-Barrel Cove (heroic)
+Low: 3
+High: 8
+Explorer: 5000
+Pack: Three-Barrel Cove
+
+Area: Searing Heights
+Map: SearingHeightsMap.jpg
+Low: 4
+High: 10
+Explorer: 4218
+
+Area: Sorrowdusk Isle
+Map: SorrowduskIsleMap.jpg
+Low: 4
+High: 11
+Explorer: 5000
+Pack: Sorrowdusk Isle
+
+Area: The Red Fens
+Map: RedFensMap.jpg
+Low: 6
+High: 13
+Explorer: 4200
+Pack: Red Fens
+
+Area: Ataraxia's Haven
+Map: AtaraxiasHavenMap.jpg
+Low: 7
+High: 14
+Explorer: 8775
+
+Area: The Restless Isles
+Map: RestlessIslesMapCombined.jpg
+Low: 7
+High: 14
+Explorer: 2450
+Pack: Restless Isles
+
+Area: The Land of Barovia
+Map: The_Land_of_Barovia_map.jpg
+Link: Journal Locations	Journals	https://ddowiki.com/page/The_Land_of_Barovia#Journal
+Low: 7
+High: 14
+Explorer: 18279
+Pack: Mists of Ravenloft
+
+Area: Sands of Menechtarun
+Map: SandsOfMenechtarunMap.jpg
+Link: Sands of Menechtarun Pathing	Pathing	https://ddowiki.com/images/Menechtarun_Desert_Map_w_Paths.jpg
+Low: 8
+High: 15
+Explorer: 10937
+Pack: Demon Sands
+
+Area: Ruins of Gianthold
+Map: RuinsOfGiantholdMap.jpg
+Wiki: Ruins of Gianthold (heroic)
+Low: 10
+High: 18
+Explorer: 10000
+Pack: Ruins of Gianthold
+
+Area: Orchard of the Macabre
+Map: Orchard_of_the_Macabre_(map).jpg
+Wiki: Orchard of the Macabre (heroic)
+Link: Orchard of the Macabre Rares	Rares	https://ddowiki.com/images/OrchardOfTheMacabreMapRareRoutes.jpg
+Low: 10
+High: 19
+Explorer: 12218
+Pack: Necropolis Part 4
+
+Area: Wheloon Prison
+Map: Wheloon-prison-heroic.jpg
+Link: Wheloon Prison Backpack Farm	Backpacks	https://www.ddo.com/forums/showthread.php/485586-Wheloon-Prison-backpack-farming
+Low: 11
+High: 20
+Explorer: 13500
+Pack: Shadowfell Conspiracy
+
+Area: The Cogs (heroic)
+Wiki: The Cogs
+Map: TheCogsMap.png
+Low: 11
+High: 20
+Explorer: 16874
+Pack: Masterminds of Sharn
+
+Area: The Vale of Twilight
+Map: ValeOfTwilight_Map.jpg
+Low: 12
+High: 21
+Explorer: 12468
+Pack: Vale of Twilight
+
+Area: The Subterrane - Central
+Map: SubterraneCentralMap.jpg
+Link: Path to Garamol	Garamol	https://ddowiki.com/images/SubterraneCentralSkelliePath.jpg
+Low: 14
+High: 21
+Explorer: 4750
+Pack: Vale of Twilight
+
+Area: The Subterrane - East
+Map: SubterraneEastMap.jpg
+Low: 14
+High: 21
+Explorer: 3681
+Pack: Vale of Twilight
+
+Area: Aussircaex's Valley
+Map: AussircaexsValleyMap.jpg
+Low: 13
+High: 22
+Explorer: 3750
+Pack: Reaver's Reach
+
+Area: Soami Gardens
+Map: SoamiGardensMap.jpg
+Low: 13
+High: 22
+Explorer: 2500
+Pack: Reaver's Reach
+
+Area: Mount Reysalon
+Map: MountReysalonMap.jpg
+Low: 13
+High: 22
+Explorer: 3750
+Pack: Reaver's Reach
+
+Area: Eerie Forest
+Map: EerieForestMap.jpg
+Low: 13
+High: 22
+Explorer: 3125
+Pack: Reaver's Reach
+
+Area: The High Road
+Map: HighRoadMap.jpg
+Low: 14
+High: 23
+Explorer: 7875
+Pack: High Road of Shadows
+
+Area: Devil Battlefield
+Map: DevilBattlefieldMap.jpg
+Low: 15
+High: 24
+Explorer: 9075
+Pack: Devils of Shavarath
+
+Area: House Cannith Manufactury
+Map: HouseCannithManufacturyMap.jpg
+Low: 15
+High: 24
+Explorer: 8250
+Pack: Secrets of the Artificers
+
+Area: The Storm Horns
+Map: Storm_Horns_Heroic_Map.jpg
+Low: 15
+High: 24
+Explorer: 30937
+Pack: Shadowfell Conspiracy
+
+Area: Artificer Workshops
+Map: Artificer_Workshops_Journals.gif
+Low: 16
+High: 24
+Explorer: 8625
+Pack: Secrets of the Artificers
+
+Area: Research Facility
+Map: Research_Facility_Journals.png
+Low: 16
+High: 24
+Explorer: 8625
+Pack: Secrets of the Artificers
+
+Area: The King's Forest
+Map: KingsForestMap.jpg
+Low: 20
+High: 25
+Explorer: 91000
+Pack: Menace of the Underdark
+
+Area: The Underdark
+Map: UnderdarkMap.jpg
+Low: 20
+High: 26
+Explorer: 30468
+Pack: Menace of the Underdark
+
+Area: Sschindylryn
+Map: SschindylrynMap.jpg
+Low: 20
+High: 26
+Explorer: 56250
+Pack: Menace of the Underdark
+
+Area: The Demonweb
+Map: DemonwebMap.jpg
+Low: 20
+High: 27
+Explorer: 97500
+Pack: Menace of the Underdark
+
+Area: The High Road (epic)
+Wiki: The High Road
+Map: HighRoadMap.jpg
+Low: 20
+High: 28
+Explorer: 30375
+Pack: High Road of Shadows
+
+Area: Ruins of Gianthold (epic)
+Map: EpicGianthold.jpg
+Low: 20
+High: 28
+Explorer: 73404
+Pack: Ruins of Gianthold
+
+Area: Three-Barrel Cove (epic)
+Map: ThreeBarrelCoveEpic.jpg
+Low: 20
+High: 29
+Explorer: 31500
+Pack: Three-Barrel Cove
+
+Area: Wheloon Prison (epic)
+Wiki: Wheloon Prison
+Map: Wheloon-prison-epic.jpg
+Link: Wheloon Prison Backpack Farm	Backpacks	https://www.ddo.com/forums/showthread.php/485586-Wheloon-Prison-backpack-farming
+Low: 21
+High: 29
+Explorer: 63000
+Pack: Shadowfell Conspiracy
+
+Area: The Storm Horns (epic)
+Wiki: The Storm Horns
+Map: Storm_Horns_Epic_Map.jpg
+Low: 23
+High: 31
+Explorer: 125561
+Pack: Shadowfell Conspiracy
+
+Area: Orchard of the Macabre (epic)
+Map: EpicOrchardoftheMacabreMap.jpg
+Low: 20
+High: 33
+Explorer: 72000
+Pack: Necropolis Part 4
+
+Area: The Ruins of Thunderholme
+Map: Map_The_Ruins_of_Thunderholme.jpg
+Low: 20
+High: 33
+Explorer: 60000
+Pack: Shadow Under Thunderholme
+
+Area: The Cogs (epic)
+Wiki: The Cogs
+Map: TheCogsMap.png
+Low: 20
+High: 34
+Explorer: 92808
+Pack: Masterminds of Sharn
+
+Area: The Land of Barovia (epic)
+Wiki: The Land of Barovia
+Map: The_Land_of_Barovia_map.jpg
+Link: Journal Locations	Journals	https://ddowiki.com/page/The_Land_of_Barovia#Journal
+Low: 20
+High: 35
+Explorer: 47811
+Pack: Mists of Ravenloft

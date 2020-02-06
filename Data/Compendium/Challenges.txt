@@ -1,0 +1,217 @@
+ChallengeName: Dragon's Hoard
+Wiki: Extraplanar Palace: The Dragon's Hoard
+Group: Extraplanar Palace
+Patron: House Cannith
+LevelLow: 8
+LevelHigh: 20
+Order: 10
+
+ChallengeName: Buying Time
+Wiki: Extraplanar Palace: Buying Time
+Group: Extraplanar Palace
+Patron: House Cannith
+LevelLow: 12
+LevelHigh: 20
+Order: 6
+
+ChallengeName: Labor Shortage
+Wiki: Extraplanar Palace: Labor Shortage
+Group: Extraplanar Palace
+Patron: House Cannith
+LevelLow: 14
+LevelHigh: 20
+Order: 8
+
+ChallengeName: Epic Dragon's Hoard
+Wiki: Extraplanar Palace: The Dragon's Hoard - EPIC
+Group: Extraplanar Palace
+Patron: House Cannith
+LevelLow: 21
+LevelHigh: 25
+Order: 11
+
+ChallengeName: Epic Buying Time
+Wiki: Extraplanar Palace: Buying Time - EPIC
+Group: Extraplanar Palace
+Patron: House Cannith
+LevelLow: 20
+LevelHigh: 25
+Order: 7
+
+ChallengeName: Epic Labor Shortage
+Wiki: Extraplanar Palace: Labor Shortage - EPIC
+Group: Extraplanar Palace
+Patron: House Cannith
+LevelLow: 21
+LevelHigh: 25
+Order: 9
+
+ChallengeName: Circles of Power
+Wiki: Lava Caves: Circles of Power
+Group: Lava Caves
+Patron: House Cannith
+LevelLow: 4
+LevelHigh: 15
+Order: 19
+
+ChallengeName: Colossal Crystals
+Wiki: Lava Caves: Colossal Crystals
+Group: Lava Caves
+Patron: House Cannith
+LevelLow: 8
+LevelHigh: 20
+Order: 20
+
+ChallengeName: Time is Money
+Wiki: Lava Caves: Time is Money
+Group: Lava Caves
+Patron: House Cannith
+LevelLow: 15
+LevelHigh: 20
+Order: 22
+
+ChallengeName: Epic Colossal Crystals
+Wiki: Lava Caves: Colossal Crystals - EPIC
+Group: Lava Caves
+Patron: House Cannith
+LevelLow: 21
+LevelHigh: 25
+Order: 21
+
+ChallengeName: Epic Time is Money
+Wiki: Lava Caves: Time is Money - EPIC
+Group: Lava Caves
+Patron: House Cannith
+LevelLow: 21
+LevelHigh: 25
+Order: 23
+
+ChallengeName: Kobold Chaos
+Wiki: Kobold Island: Kobold Chaos
+Group: Kobold Island
+Patron: House Cannith
+LevelLow: 4
+LevelHigh: 15
+Order: 14
+
+ChallengeName: The Disruptor
+Wiki: Kobold Island: The Disruptor
+Group: Kobold Island
+Patron: House Cannith
+LevelLow: 8
+LevelHigh: 20
+Order: 17
+
+ChallengeName: Short Cuts
+Wiki: Kobold Island: Short Cuts
+Group: Kobold Island
+Patron: House Cannith
+LevelLow: 15
+LevelHigh: 20
+Order: 15
+MaxStars: 4
+
+ChallengeName: Epic Disruptor
+Wiki: Kobold Island: The Disruptor - EPIC
+Group: Kobold Island
+Patron: House Cannith
+LevelLow: 21
+LevelHigh: 25
+Order: 18
+
+ChallengeName: Epic Short Cuts
+Wiki: Kobold Island: Short Cuts - EPIC
+Group: Kobold Island
+Patron: House Cannith
+LevelLow: 21
+LevelHigh: 25
+Order: 16
+MaxStars: 4
+
+ChallengeName: Behind the Door
+Wiki: Dr. Rushmore's Mansion: Behind the Door
+Group: Rushmore Mansion
+Patron: House Cannith
+LevelLow: 4
+LevelHigh: 15
+Order: 1
+
+ChallengeName: Moving Targets
+Wiki: Dr. Rushmore's Mansion: Moving Targets
+Group: Rushmore Mansion
+Patron: House Cannith
+LevelLow: 15
+LevelHigh: 20
+Order: 2
+
+ChallengeName: Picture Portals
+Wiki: Dr. Rushmore's Mansion: Picture Portals
+Group: Rushmore Mansion
+Patron: House Cannith
+LevelLow: 15
+LevelHigh: 20
+Order: 4
+
+ChallengeName: Epic Moving Targets
+Wiki: Dr. Rushmore's Mansion: Moving Targets - EPIC
+Group: Rushmore Mansion
+Patron: House Cannith
+LevelLow: 21
+LevelHigh: 25
+Order: 3
+
+ChallengeName: Epic Picture Portals
+Wiki: Dr. Rushmore's Mansion: Picture Portals - EPIC
+Group: Rushmore Mansion
+Patron: House Cannith
+LevelLow: 21
+LevelHigh: 25
+Order: 5
+
+ChallengeName: Defenseless
+Wiki: Dryad Grove: Defenseless
+Group: Dryad Grove
+Patron: Purple Dragon Knights
+LevelLow: 15
+LevelHigh: 30
+Order: 12
+
+ChallengeName: The Great Tree
+Wiki: Dryad Grove: The Great Tree
+Group: Dryad Grove
+Patron: Purple Dragon Knights
+LevelLow: 15
+LevelHigh: 30
+Order: 13
+
+ChallengeName: Ring of Fire
+Wiki: Underdark Arena: Ring of Fire
+Group: Underdark Arena
+Patron: Purple Dragon Knights
+LevelLow: 15
+LevelHigh: 30
+Order: 27
+
+ChallengeName: Fight to the Finish
+Wiki: Underdark Arena: Fight to the Finish
+Group: Underdark Arena
+Patron: Purple Dragon Knights
+LevelLow: 15
+LevelHigh: 30
+Order: 26
+
+ChallengeName: Sunset Ritual
+Wiki: Ruined Keep: The Sunset Ritual
+Group: Ruined Keep
+Patron: Purple Dragon Knights
+LevelLow: 15
+LevelHigh: 30
+Order: 25
+
+ChallengeName: Daybreak Ritual
+Wiki: Ruined Keep: The Daybreak Ritual
+Group: Ruined Keep
+Patron: Purple Dragon Knights
+LevelLow: 15
+LevelHigh: 30
+Order: 24

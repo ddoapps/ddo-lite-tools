@@ -1,0 +1,219 @@
+Vendor: Goldscuttle
+Type: Collector
+Color: Clear
+ML: 1
+Cost: 4 Astral Shards
+Location: Harbor, top left corner, across from bank
+Fast: Teleport Spell to Harbor, to the right
+
+Vendor: Xovun Chalk
+Type: Collector
+Color: Clear
+ML: 4
+Cost: 8 Astral Shards
+Location: Market, top middle, in between staircases going from airship to House Deneith
+Fast: Airship to Market or House Teleporter to Market (North), head west to bottom of stairs
+
+Vendor: Rudolf Rightman
+Type: Collector
+Color: Clear
+ML: 4
+Cost: 8 Astral Shards
+Location: Market, bottom left corner, next to Searing Heights
+
+Vendor: Kayla Skywhisper
+Type: Collector
+Color: Clear
+ML: 8
+Cost: 12 Astral Shards
+Location: House Phiarlan, lower left, just north of airship access
+Fast: Airship to House Phiarlan, go left
+
+Vendor: Farrik Foe-Cleaver
+Type: Collector
+Color: Clear
+ML: 8
+Cost: 12 Astral Shards
+Location: House Jorasco, bottom middle, behind auctioneer
+
+Vendor: Husk
+Type: Collector
+Color: Clear
+ML: 8
+Cost: 12 Astral Shards
+Location: House Kundarak, bottom right, outside the Ever Full Flagon
+
+Vendor: Tara Wightraven
+Type: Collector
+Color: Clear
+ML: 8
+Cost: 12 Astral Shards
+Location: House Deneith, bottom left corner, near Depths chain
+
+Vendor: Celaeno Kelle
+Type: Collector
+Color: Red
+ML: 1
+Cost: 4 Astral Shards
+Location: Harbor, bottom left corner, next to exit door from Wayward Lobster
+
+Vendor: Yannick Drumdoom
+Type: Collector
+Color: Red
+ML: 4
+Cost: 8 Astral Shards
+Location: Market, lower middle, sitting on ground with pawn brokers
+Fast: House Teleporter to Market (south), go down left stairs
+
+Vendor: Davyd Turner
+Type: Collector
+Color: Red
+ML: 4
+Cost: 8 Astral Shards
+Location: Market, top left corner, across from House Phiarlan entrance
+
+Vendor: Flintchip Fireson
+Type: Collector
+Color: Red
+ML: 8
+Cost: 12 Astral Shards
+Location: House Deneith, next to Dragon Tooth Arms
+Fast: Teleport Spell to House Deneith, just outside Arms shop on right
+
+Vendor: Leif Lightman
+Type: Collector
+Color: Red
+ML: 8
+Cost: 12 Astral Shards
+Location: House Kundarak, middle left, next to Second Gauntlet Goods behind house teleporter
+Fast: House Teleporter to House Kundarak, turn left at Second Gauntlet Goods
+
+Vendor: Bowdlin
+Type: Collector
+Color: Red
+ML: 8
+Cost: 12 Astral Shards
+Location: House Phiarlan, middle left, just outside Object Desire
+
+Vendor: Wash Pynoptis
+Type: Collector
+Color: Blue
+ML: 1
+Cost: 4 Astral Shards
+Location: Harbor, top left corner, next to bank
+Fast: Teleport Spell to Harbor, go right
+
+Vendor: Clarice Roden
+Type: Collector
+Color: Blue
+ML: 4
+Cost: 8 Astral Shards
+Location: Market, lower middle next to hireling vendors at bottom of stairs
+Fast: House Teleporter to Market (south), go down right stairs
+
+Vendor: Loura Jotun
+Type: Collector
+Color: Blue
+ML: 4
+Cost: 8 Astral Shards
+Location: Market, center right, just outside tent on the right
+Fast: Teleport Spell to Market, turn around go through/past tent
+
+Vendor: Seld the Gray Sister
+Type: Collector
+Color: Blue
+ML: 8
+Cost: 12 Astral Shards
+Location: House Phiarlan, middle right, hiding in bushes left of ramp up to theater
+Fast: Teleport Spell to House Phiarlan, run directly straight and drop down
+
+Vendor: Verisgante
+Type: Collector
+Color: Blue
+ML: 8
+Cost: 12 Astral Shards
+Location: House Jorasco, bottom right corner, at gate to Delera's Graveyard go right up path past small pool
+Fast: Airship to House Jorasco, go left
+
+Vendor: Chirugeon Laj'Amal
+Type: Collector
+Color: Blue
+ML: 8
+Cost: 12 Astral Shards
+Location: House Deneith, bottom left corner, near Depths chain
+
+Vendor: Giles Goodman
+Type: Collector
+Color: Yellow
+ML: 1
+Cost: 4 Astral Shards
+Location: Harbor, bottom left corner, next to gate to Market
+Fast: House Teleporter to Market (south), enter Harbor turn left
+
+Vendor: Peta Flashpin
+Type: Collector
+Color: Yellow
+ML: 4
+Cost: 8 Astral Shards
+Location: Market, middle left outside bank
+Fast: Teleport Spell to Market, straight ahead then take stairs down on right
+
+Vendor: Kipling Vranch
+Type: Collector
+Color: Yellow
+ML: 4
+Cost: 8 Astral Shards
+Location: Market, top left corner, in between gates for House Deneith and House Phiarlan
+Fast: Airship to Market or House Teleporter to Market (North), head west
+
+Vendor: Chor Blast-Horn
+Type: Collector
+Color: Yellow
+ML: 8
+Cost: 12 Astral Shards
+Location: House Kundarak, middle, north of house teleporter
+
+Vendor: Mantakhan
+Type: Collector
+Color: Yellow
+ML: 8
+Cost: 12 Astral Shards
+Location: House Jorasco, middle left, just outside Drowning Sorrows Tavern (Enemy Within / Mirra's Sleepless Nights)
+
+Vendor: Ruskin Blackboot
+Type: Gianthold
+ML: 12
+Cost: 3 each Ancient Relics (Dragon, Elven, Giant)
+Location: Gianthold town area, top left near bank
+
+Vendor: Meliager Ei'n
+Type: Gianthold
+ML: 16
+Cost: 6 each Ancient Relics (Dragon, Elven, Giant)
+Location: Gianthold town area, top left near bank
+
+Vendor: Broag Umber
+Type: Gianthold
+ML: 20
+Cost: 6 each Restored Relics (Dragon, Elven, Giant)
+Location: Gianthold town area, top left near bank
+
+Vendor: Agate Twistiron
+Type: Gianthold
+ML: 24
+Cost: 9 each Restored Relics (Dragon, Elven, Giant) and 1 Commendation of Heroism
+Location: Gianthold town area, top left near bank
+
+Vendor: Lahar
+Type: Lahar
+ML: 20
+Cost: 20 Tokens of the Twelve
+Location: The Twelve, just north of entrance to the tower (jump down)
+Flags: AnyLevel
+
+Vendor: Lahar
+Type: Lahar5Greater
+ML: 20
+Cost: 5 Greater Tokens of the Twelve
+Location: The Twelve, just north of entrance to the tower (jump down)
+Flags: AnyLevel
