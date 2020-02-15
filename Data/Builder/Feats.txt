@@ -15,6 +15,26 @@ Descrip: Improve your monk stances and elemental strikes. Automatically granted 
 Class: Monk 1
 Level: 6
 
+FeatName: Alchemical Studies
+Group: Heroic, Spellcasting
+Descrip: +1 Max Caster level with spells that match either of the two colors in your study.
+Class: Alchemist 4
+ClassBonus: Alchemist
+Selector: Orichidium, Pyrite, Verudite
+
+FeatName: Alchemical Studies II
+Group: Heroic, Spellcasting
+Descrip: +1 Max Caster level with spells that match either of the two colors in your study.
+Class: Alchemist 16
+ClassBonus: Alchemist
+Selector: Orichidium, Pyrite, Verudite
+
+FeatName: Alchemy on the Run
+Group: Misc
+Descrip: You can now move while drinking potions.
+Flags: Unselectable
+Class: Alchemist 4
+
 FeatName: Alertness
 Group: Heroic, Misc
 Descrip: +2 bonus to Listen and Spot.
@@ -66,6 +86,12 @@ Group: Heroic, Misc
 Descrip: Summons, hirelings, pets and charmed minions have +4 to all ability scores, increased HP, and +50% fortification.
 RaceBonus: Human, Purple Dragon Knight
 ClassBonus: Artificer, Wizard
+
+FeatName: Battalion Brew
+Group: Heroic, Melee, Range
+Descrip: You can use Intelligence for to hit and damage rolls with simple weapons.
+Class: Alchemist 4
+ClassBonus: Alchemist
 
 FeatName: Beloved of
 Group: Heroic, Misc
@@ -383,7 +409,7 @@ Group: Heroic, Defense
 Descrip: +3% Dodge.
 Stat: Dexterity 13
 RaceBonus: Human, Purple Dragon Knight
-ClassBonus: Fighter, Monk
+ClassBonus: Alchemist, Fighter, Monk
 
 FeatName: Domain
 Group: Heroic, Misc
@@ -492,7 +518,7 @@ FeatName: Empower Spell
 Group: Heroic, Spellcasting
 Descrip: +75 universal Spell Power, spells cost +15 more mana to cast.
 CanCastSpell: 1
-ClassBonus: Artificer, Wizard
+ClassBonus: Alchemist, Artificer, Wizard
 RaceBonus: Human, Purple Dragon Knight
 
 FeatName: Energy Absorption
@@ -509,7 +535,7 @@ FeatName: Enlarge Spell
 Group: Heroic, Spellcasting
 Descrip: Double spell range for the cost of +10 more mana per cast.
 CanCastSpell: 1
-ClassBonus: Artificer, Wizard
+ClassBonus: Alchemist, Artificer, Wizard
 RaceBonus: Human, Purple Dragon Knight
 
 FeatName: Epic Arcane Eldritch Blast
@@ -645,7 +671,7 @@ FeatName: Eschew Materials
 Group: Heroic, Spellcasting
 Descrip: Your spells cost 2 more spellpoints and removes need for normal material components. Especially expensive material components, such as for Stoneskin and Trap the Soul, are still required.
 CanCastSpell: 1
-ClassBonus: Artificer, Wizard
+ClassBonus: Alchemist, Artificer, Wizard
 RaceBonus: Human, Purple Dragon Knight
 
 FeatName: Evasion
@@ -699,7 +725,7 @@ FeatName: Extend Spell
 Group: Heroic, Spellcasting
 Descrip: Doubles the duration of a spell at the cost of +10 spell points per cast.
 CanCastSpell: 1
-ClassBonus: Artificer, Wizard
+ClassBonus: Alchemist, Artificer, Wizard
 RaceBonus: Human, Purple Dragon Knight
 
 FeatName: Extra Turning
@@ -861,7 +887,7 @@ FeatName: Greater Two Handed Fighting
 Abbreviation: Greater THF
 SortName: Two Handed Fighting3
 Group: Heroic, Melee
-Descrip: Your THF Combat Style bonus increases to +6 Melee Power. Your glancing blows now do 50% of your base damage and have a 9% chance to proc weapon effects. You now get glancing blows on three out of every four swings, instead of the default two out of four.
+Descrip: +30% additional Strikethrough chance. Your Combat Style bonus to Melee Power is increased by +2 to a total of +6. While using a two-handed weapon (not including Bastard Sword or Dwarven Axe), your Ability Score bonus to damage improves to 3x the Ability Score you use for damage. Bastard Swords and Dwarven Axes increase to 1.6x instead.
 BAB: 11
 Stat: Strength 17
 All: Two Handed Fighting, Improved Two Handed Fighting
@@ -1027,7 +1053,7 @@ FeatName: Heighten Spell
 Group: Heroic, Spellcasting
 Descrip: Spells are raised to the highest spell level your character can cast, but cost 5 more spell points per level raised.
 CanCastSpell: 2
-ClassBonus: Artificer, Wizard
+ClassBonus: Alchemist, Artificer, Wizard
 
 FeatName: Hellball
 Group: Destiny, Spellcasting
@@ -1113,12 +1139,12 @@ Group: Heroic, Spellcasting
 Descrip: +10 maximum spell points at first level and +5 per additional level. (+105 at level 20, +210 counting regular mental toughness.) +1% spell critical chance.
 CanCastSpell: 3
 All: Mental Toughness
-ClassBonus: Wizard
+ClassBonus: Alchemist, Wizard
 
 FeatName: Improved Precise Shot
 SortName: Precise Shot2
 Group: Heroic, Range
-Descrip: Your ranged attacks pass through and potentially damage all foes in the projectile's path.
+Descrip: Your ranged attacks pass through and potentially damage all foes in the projectile's path. Your ranged damage is reduced by 20%.
 BAB: 11
 Stat: Dexterity 19
 All: Point Blank Shot, Precise Shot
@@ -1160,7 +1186,7 @@ Stat: Dexterity 21
 
 FeatName: Improved Sunder
 Group: Heroic, Melee
-Descrip: Melee special attack (Cooldown: 10 seconds): Reduce the target's AC by 5 and Fortification by 10% for 24 seconds. Fortitude save (DC 14 + Str mod) negates. Additionally, apply a -3 Fortitude Saving Throw penalty that lasts for 24 seconds and stacks up to 5 times.
+Descrip: Tactical Melee Attack: Using this attack, you may reduce the target's Armor Class by 10% and Fortification by 25% for 12 seconds. Some creatures may be immune to the sunder effect. (DC 10 + STR Mod + Sunder Bonuses). Regardless of saving throw result, enemies will suffer the Trauma effect, which is a -3 penalty to Fortitude saving throws. Stacks 5 times. Lasts 24 seconds. Cooldown: 10 seconds. This feat replaces your Sunder feat.
 All: Power Attack
 RaceBonus: Human, Purple Dragon Knight
 ClassBonus: Fighter, Monk
@@ -1182,7 +1208,7 @@ FeatName: Improved Two Handed Fighting
 Abbreviation: Improved THF
 SortName: Two Handed Fighting2
 Group: Heroic, Melee
-Descrip: Your THF Combat Style bonus increases to +4 Melee Power. Your glancing blows now do 40% of your base damage and have a 6% chance to proc weapon effects.
+Descrip: +30% additional Strikethrough chance while two-handed fighting. Your Combat Style bonus to Melee Power is increased by +2 to a total of +4. While using a two-handed weapon (not including Bastard Sword or Dwarven Axe), your Ability Score bonus to damage improves to 2.5x the Ability Score you use for damage. Bastard Swords and Dwarven Axes increase to 1.35x instead.
 BAB: 6
 Stat: Strength 17
 All: Two Handed Fighting
@@ -1295,6 +1321,23 @@ Descrip: +2 bonus to Reflex saves.
 RaceBonus: Human, Purple Dragon Knight
 ClassBonus: Monk
 
+FeatName: Liquid Courage / Tough Tincture
+Group: Heroic, Defense
+Descrip: You can use Intelligence for Will OR Fortitude saves.
+Class: Alchemist 8
+ClassBonus: Alchemist
+Selector: Liquid Courage, Tough Tincture
+SelectorName: Liquid Courage
+Descrip: You can use Intelligence for Will saves.
+SelectorName: Tough Tincture
+Descrip: You can use Intelligence for Fortitude saves.
+
+FeatName: Liquid Luck
+Group: Heroic, Defense
+Descrip: Gain Evasion.
+Class: Alchemist 12
+ClassBonus: Alchemist
+
 FeatName: Luck of Heroes
 Group: Heroic, Defense
 Descrip: +1 bonus to all saves.
@@ -1370,7 +1413,7 @@ FeatName: Maximize Spell
 Group: Heroic, Spellcasting
 Descrip: +150 universal Spell Power, spells cost +25 more mana to cast.
 CanCastSpell: 1
-ClassBonus: Artificer, Wizard
+ClassBonus: Alchemist, Artificer, Wizard
 RaceBonus: Human, Purple Dragon Knight
 
 FeatName: Mental Toughness
@@ -1378,7 +1421,7 @@ Group: Heroic, Spellcasting
 Descrip: +10 maximum spell points at first level and +5 per additional level. (+105 at level 20.) +1% spell critical chance.
 CanCastSpell: 1
 RaceBonus: Human, Purple Dragon Knight
-ClassBonus: Wizard
+ClassBonus: Alchemist, Wizard
 
 FeatName: Mithral Body
 Group: Heroic, Defense
@@ -1406,7 +1449,13 @@ Descrip: +2% dodge, +2 MDB to armor and tower shields.
 Stat: Dexterity 13
 All: Dodge
 RaceBonus: Human, Purple Dragon Knight
-ClassBonus: Fighter, Monk
+ClassBonus: Alchemist, Fighter, Monk
+
+FeatName: Multitude of Missiles
+Group: Heroic, Range
+Descrip: For the next 20 seconds, while wielding a Simple Thrown Weapon add 100 to your Doubleshot and 2x your Base Attack Bonus to Ranged Power. Shares a cooldown with Manyshot.
+All: Point Blank Shot
+BAB: 6
 
 FeatName: Natural Fighting
 Group: Heroic, Melee
@@ -1548,7 +1597,7 @@ Level: 26
 FeatName: Perfect Two Handed Fighting
 Abbreviation: Perfect THF
 Group: Destiny, Melee
-Descrip: +10% glancing blow damage, +10% chance for glancing blows to trigger weapon procs.
+Descrip: While two-handed fighting: You gain +30% Strikethrough chance. You also gain a +10 Combat Style bonus to Melee Power while two-handed fighting.
 Level: 26
 
 FeatName: Perfect Two Weapon Fighting
@@ -1580,7 +1629,7 @@ FeatName: Point Blank Shot
 Group: Heroic, Range
 Descrip: +1[W] damage with ranged weapons. Also +1 to-hit within 45 feet.
 RaceBonus: Human, Purple Dragon Knight
-ClassBonus: Artificer, Fighter
+ClassBonus: Alchemist, Artificer, Fighter
 
 FeatName: Power Attack
 Group: Heroic, Melee
@@ -1601,7 +1650,7 @@ Group: Heroic, Range
 Descrip: Targeted range attacks pass through friend and foe alike to strike your target. (Only your target will be damaged.) Also grants Archer's Focus stance, which deals progressively more damage while not moving.
 All: Point Blank Shot
 RaceBonus: Human, Purple Dragon Knight
-ClassBonus: Artificer, Fighter
+ClassBonus: Alchemist, Artificer, Fighter
 
 FeatName: Precision
 Group: Heroic, Melee, Range
@@ -1609,7 +1658,7 @@ Descrip: Combat Stance: Bypass 25% fortification and gain +5% chance to-hit.
 BAB: 1
 Stat: Dexterity 13
 RaceBonus: Human, Purple Dragon Knight
-ClassBonus: Fighter, Monk
+ClassBonus: Alchemist, Fighter, Monk
 
 FeatName: Purity of Heart
 Group: Heroic, Spellcasting, Misc
@@ -1624,15 +1673,14 @@ Group: Heroic, Range
 Descrip: Increases the rate of fire of thrown weapons, but not bows or crossbows. Stacks with Rapid Shot. Switching weapons and armor is also faster.
 BAB: 1
 RaceBonus: Human, Purple Dragon Knight
-ClassBonus: Fighter
+ClassBonus: Alchemist, Fighter
 
 FeatName: Quicken Spell
 Group: Heroic, Spellcasting
 Descrip: Spells cannot be interrupted and cast twice as fast, but cost +10 more mana to cast.
 CanCastSpell: 1
-ClassBonus: Artificer, Wizard
+ClassBonus: Alchemist, Artificer, Wizard
 RaceBonus: Human, Purple Dragon Knight
-ClassBonus: Wizard
 
 FeatName: Rage
 Group: Misc
@@ -1652,7 +1700,7 @@ Descrip: Bows, crossbows and throwers fire and reload about 20% faster. Stacks w
 Stat: Dexterity 13
 All: Point Blank Shot
 RaceBonus: Human, Purple Dragon Knight
-ClassBonus: Artificer, Fighter
+ClassBonus: Alchemist, Artificer, Fighter
 
 FeatName: Resilience
 Group: Heroic, Defense
@@ -1744,11 +1792,11 @@ RaceBonus: Human, Purple Dragon Knight
 
 FeatName: Shot on the Run
 Group: Heroic, Range
-Descrip: +3 Ranged Power. You no longer incur to-hit penalties from moving while firing range (and thrown) weapons.
+Descrip: +3 Ranged Power. You no longer incur to-hit penalties from moving while firing range (and thrown) weapons. Gain 10% Alacrity bonus to Shortbows and Longbows.
 BAB: 4
 Stat: Dexterity 13
 All: Point Blank Shot, Dodge, Mobility
-ClassBonus: Artificer, Fighter
+ClassBonus: Alchemist, Artificer, Fighter
 
 FeatName: Shuriken Expertise
 Group: Heroic, Range
@@ -1757,6 +1805,12 @@ Stat: Dexterity 13
 One: Exotic Weapon: Shuriken, Half-Elf Dilettante: Monk
 RaceBonus: Human, Purple Dragon Knight
 ClassBonus: Monk
+
+FeatName: Simple Thrown Expertise
+Group: Heroic, Range
+Descrip: You are skilled with the use of the simple thrown weapons, and have a chance to throw an additional one per throw. Percent chance to throw an additional projectile is equal to your Dexterity.
+Stat: Dexterity 13
+ClassBonus: Alchemist
 
 FeatName: Simple Weapons
 Group: Heroic, Melee, Range
@@ -1945,6 +1999,12 @@ Descrip: Grants proficiency with Tower Shields:}{-Basic (AML1)}{-Battle (AML4)}{
 All: Shield Proficiency
 RaceBonus: Human, Purple Dragon Knight
 
+FeatName: Toxic Tonic
+Group: Heroic, Defense
+Descrip: You are immune to Poison damage and get bonus saves versus poisons.
+Class: Alchemist 12
+ClassBonus: Alchemist
+
 FeatName: Turn Undead
 Group: Misc
 Descrip: Cause undead to freeze in place, run away, or explode. Large area of effect, limited uses per rest.
@@ -1953,7 +2013,7 @@ Flags: Unselectable
 
 FeatName: Two Handed Fighting
 Group: Heroic, Melee
-Descrip: While Two Handed Fighting, gain a Combat Style bonus of +2 Melee Power. Your glancing blows now do 30% of your base damage (normally 20%) and have a 3% chance to proc weapon effects.
+Descrip: While Two Handed Fighting, gain a Combat Style bonus of +2 Melee Power and +60% Strikethrough chance. While using a two-handed weapon (not including Bastard Sword or Dwarven Axe), your Ability Score bonus to damage improves to 2x the Ability Score you use for damage. Bastard Swords and Dwarven Axes increase to 1.1x instead.
 Stat: Strength 15
 RaceBonus: Human, Purple Dragon Knight
 ClassBonus: Fighter, Monk

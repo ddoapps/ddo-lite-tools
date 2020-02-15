@@ -1395,3 +1395,311 @@ Descrip: Teleports you to the Temple of the Sovereign Host in House Deneith.
 SpellName: Zeal
 Descrip: Grants the caster a +10% sacred bonus to doublestrike.
 
+SpellName: Action Boost Bottle: Attack
+Descrip: DESCRIBE ME LATER
+
+SpellName: Action Boost Bottle: Defense
+Descrip: DESCRIBE ME LATER
+
+SpellName: Admixture: Cure Light Wounds
+Descrip: DESCRIBE ME LATER
+
+SpellName: Admixture: Cure Disease
+Descrip: DESCRIBE ME LATER
+
+SpellName: Admixture: Cure Poison
+Descrip: DESCRIBE ME LATER
+
+SpellName: Admixture: Inflict Light Wounds
+Descrip: DESCRIBE ME LATER
+
+SpellName: Elemental Skin
+Descrip: DESCRIBE ME LATER
+
+SpellName: Empty Bottle
+Descrip: DESCRIBE ME LATER
+
+SpellName: Feathers Extract
+Descrip: DESCRIBE ME LATER
+
+SpellName: Fine Dust
+Descrip: DESCRIBE ME LATER
+
+SpellName: Flash Powder
+Descrip: DESCRIBE ME LATER
+
+SpellName: Gills Extract
+Descrip: DESCRIBE ME LATER
+
+SpellName: Lesser Alchemical Evolution
+Descrip: DESCRIBE ME LATER
+
+SpellName: Lesser Restorative Vial
+Descrip: DESCRIBE ME LATER
+
+SpellName: Rapid Condensation
+Descrip: DESCRIBE ME LATER
+
+SpellName: Sleep Powder
+Descrip: DESCRIBE ME LATER
+
+SpellName: Stiffen Skin
+Descrip: DESCRIBE ME LATER
+
+SpellName: Venom Vial
+Descrip: DESCRIBE ME LATER
+
+SpellName: Venom Vial Smash
+Descrip: DESCRIBE ME LATER
+
+SpellName: Vial of Acid
+Descrip: DESCRIBE ME LATER
+
+SpellName: Vial of Flame
+Descrip: DESCRIBE ME LATER
+
+SpellName: Vial of Frost
+Descrip: DESCRIBE ME LATER
+
+SpellName: Vial of Sparks
+Descrip: DESCRIBE ME LATER
+
+SpellName: Vial Smash: Acid
+Descrip: DESCRIBE ME LATER
+
+SpellName: Vial Smash: Flame
+Descrip: DESCRIBE ME LATER
+
+SpellName: Vial Smash: Frost
+Descrip: DESCRIBE ME LATER
+
+SpellName: Vial Smash: Sparks
+Descrip: DESCRIBE ME LATER
+
+SpellName: Action Boost Bottle: Spell Power
+Descrip: DESCRIBE ME LATER
+
+SpellName: Admixture: Cure Moderate Wounds
+Descrip: DESCRIBE ME LATER
+
+SpellName: Admixture: Inflict Moderate Wounds
+Descrip: DESCRIBE ME LATER
+
+SpellName: Admixture: Remove Curse
+Descrip: DESCRIBE ME LATER
+
+SpellName: Admixture: Remove Paralysis
+Descrip: DESCRIBE ME LATER
+
+SpellName: Alluring Elixir
+Descrip: DESCRIBE ME LATER
+
+SpellName: Augment Armor
+Descrip: DESCRIBE ME LATER
+
+SpellName: Cold Spike
+Descrip: DESCRIBE ME LATER
+
+SpellName: Corrode Weapons
+Descrip: DESCRIBE ME LATER
+
+SpellName: Glue Solution
+Descrip: DESCRIBE ME LATER
+
+SpellName: Greater Venom Vial
+Descrip: DESCRIBE ME LATER
+
+SpellName: Lesser Heartseeker Poison Imbue
+Descrip: DESCRIBE ME LATER
+
+SpellName: Lesser Ice Chill Poison Imbue
+Descrip: DESCRIBE ME LATER
+
+SpellName: Lesser Soulshatter Poison Imbue
+Descrip: DESCRIBE ME LATER
+
+SpellName: Lesser Voidmind Poison Imbue
+Descrip: DESCRIBE ME LATER
+
+SpellName: Liquid Courage
+Descrip: DESCRIBE ME LATER
+
+SpellName: Melt Armor
+Descrip: DESCRIBE ME LATER
+
+SpellName: Restorative Vial
+Descrip: DESCRIBE ME LATER
+
+SpellName: Salt Crystals
+Descrip: DESCRIBE ME LATER
+
+SpellName: Voltaic Backlash
+Descrip: DESCRIBE ME LATER
+
+SpellName: Action Boost Bottle: Doubleshot/Doublestrike
+Descrip: DESCRIBE ME LATER
+
+SpellName: Admixture: Cure Serious Wounds
+Descrip: DESCRIBE ME LATER
+
+SpellName: Admixture: Inflict Serious Wounds
+Descrip: DESCRIBE ME LATER
+
+SpellName: Alchemical Evolution
+Descrip: DESCRIBE ME LATER
+
+SpellName: Bitter Frost Burst
+Descrip: DESCRIBE ME LATER
+
+SpellName: Caustic Solvent
+Descrip: DESCRIBE ME LATER
+
+SpellName: Choking Smog Elemental Weapons
+Descrip: DESCRIBE ME LATER
+
+SpellName: Flash Freeze
+Descrip: DESCRIBE ME LATER
+
+SpellName: Greater Liquid Courage
+Descrip: DESCRIBE ME LATER
+
+SpellName: Greater Restorative Vial
+Descrip: DESCRIBE ME LATER
+
+SpellName: Heartstopper Poison
+Descrip: DESCRIBE ME LATER
+
+SpellName: Iron Shavings
+Descrip: DESCRIBE ME LATER
+
+SpellName: Invisibility Potion
+Descrip: DESCRIBE ME LATER
+
+SpellName: Melt Lock
+Descrip: DESCRIBE ME LATER
+
+SpellName: Molotov Cocktail
+Descrip: DESCRIBE ME LATER
+
+SpellName: Quicksilver Potion
+Descrip: DESCRIBE ME LATER
+
+SpellName: Voltaic Induction
+Descrip: DESCRIBE ME LATER
+
+SpellName: Action Boost Bottle: Melee/Ranged Power
+Descrip: DESCRIBE ME LATER
+
+SpellName: Action Boost Bottle: Sprint Boost
+Descrip: DESCRIBE ME LATER
+
+SpellName: Admixture: Cure Critical Wounds
+Descrip: DESCRIBE ME LATER
+
+SpellName: Admixture: Inflict Critical Wounds
+Descrip: DESCRIBE ME LATER
+
+SpellName: Caustic Overload
+Descrip: DESCRIBE ME LATER
+
+SpellName: Cindersmoke
+Descrip: DESCRIBE ME LATER
+
+SpellName: Corrosive Dust
+Descrip: DESCRIBE ME LATER
+
+SpellName: Flesh to Gold
+Descrip: DESCRIBE ME LATER
+
+SpellName: Heartseeker Poison Imbue
+Descrip: DESCRIBE ME LATER
+
+SpellName: Hypnotic Combination
+Descrip: DESCRIBE ME LATER
+
+SpellName: Ice Chill Poison Imbue
+Descrip: DESCRIBE ME LATER
+
+SpellName: Soulshatter Poison Imbue
+Descrip: DESCRIBE ME LATER
+
+SpellName: Smoke Bomb
+Descrip: DESCRIBE ME LATER
+
+SpellName: Stoneskin Potion
+Descrip: DESCRIBE ME LATER
+
+SpellName: Vein Freeze
+Descrip: DESCRIBE ME LATER
+
+SpellName: Voidmind Poison Imbue
+Descrip: DESCRIBE ME LATER
+
+SpellName: Voltaic Burst
+Descrip: DESCRIBE ME LATER
+
+SpellName: Action Boost Bottle: Attack Speed
+Descrip: DESCRIBE ME LATER
+
+SpellName: Greater Alchemical Evolution
+Descrip: DESCRIBE ME LATER
+
+SpellName: Greater Elemental Weapons
+Descrip: DESCRIBE ME LATER
+
+SpellName: Greater Stoneskin
+Descrip: DESCRIBE ME LATER
+
+SpellName: Flashbang
+Descrip: DESCRIBE ME LATER
+
+SpellName: Flesh to Gold Mass
+Descrip: DESCRIBE ME LATER
+
+SpellName: Multivial of Acid
+Descrip: DESCRIBE ME LATER
+
+SpellName: Multivial of Bitterchill
+Descrip: DESCRIBE ME LATER
+
+SpellName: Multivial of Flame
+Descrip: DESCRIBE ME LATER
+
+SpellName: Multivial of Sparks
+Descrip: DESCRIBE ME LATER
+
+SpellName: Poison Breath
+Descrip: DESCRIBE ME LATER
+
+SpellName: Turn to Frog
+Descrip: DESCRIBE ME LATER
+
+SpellName: Admixture: Harm
+Descrip: DESCRIBE ME LATER
+
+SpellName: Admixture: Heal
+Descrip: DESCRIBE ME LATER
+
+SpellName: Dust of Confusion
+Descrip: DESCRIBE ME LATER
+
+SpellName: Elemental Reaction
+Descrip: DESCRIBE ME LATER
+
+SpellName: Gold Breath
+Descrip: DESCRIBE ME LATER
+
+SpellName: Goldskin Potion
+Descrip: DESCRIBE ME LATER
+
+SpellName: Heartseeker Poison Imbue
+Descrip: DESCRIBE ME LATER
+
+SpellName: Ice Chill Poison Imbue
+Descrip: DESCRIBE ME LATER
+
+SpellName: Soulshatter Poison Imbue
+Descrip: DESCRIBE ME LATER
+
+SpellName: Voidmind Poison Imbue
+Descrip: DESCRIBE ME LATER

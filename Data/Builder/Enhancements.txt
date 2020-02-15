@@ -1,3 +1,24 @@
+TreeName: Apothecary
+Abbreviation: Apoth
+Type: Class
+Initial: Apo
+Color: Blue
+Stats: Intelligence, Charisma
+
+TreeName: Vile Chemist
+Abbreviation: Chemist
+Type: Class
+Initial: VC
+Color: Blue
+Stats: Intelligence, Charisma
+
+TreeName: Bombardier
+Abbreviation: Bomb
+Type: Class
+Initial: Bom
+Color: Blue
+Stats: Intelligence, Charisma
+
 TreeName: Aasimar
 Type: Race
 Initial: Aas
@@ -2291,23 +2312,25 @@ AbilityName: Hardy
 Descrip: +1 Fortitude
 Tier: 0
 
-AbilityName: Strength or Charisma
-Descrip: Select from:}{-+1 Strength}{-+1 Charisma}
+AbilityName: Stat
+Descrip: +1 Strength or Charisma
 Tier: 0
 Cost: 2
+Flags: SelectorOnly
 Selector: Strength, Charisma
 
-AbilityName: Hardy
+AbilityName: Hardy II
 Descrip: +1 Fortitude
 Tier: 0
 
-AbilityName: Strength or Charisma
-Descrip: Select from:}{-+1 Strength}{-+1 Charisma}
+AbilityName: Stat II
+Descrip: +1 Strength or Charisma
 Tier: 0
 Cost: 2
+Flags: SelectorOnly
 Selector: Strength, Charisma
 
-AbilityName: Hardy
+AbilityName: Hardy III
 Descrip: +1 Fortitude
 Tier: 0
 
@@ -2317,14 +2340,15 @@ Tier: 1
 Cost: 2
 
 AbilityName: Hard Scales
-Descrip: +2/+4/+6 Natural Armor
+Descrip: +2/+4/+6 Natural Armor, stacking
 Tier: 1
 Ranks: 3
 
 AbilityName: Brutality
-Descrip: Your attacks or spells make enemies more likely to attack you.}}Select from:}{-Brutal Spellcasting: Your damaging spells generate 25%/50%/75% more hate than they normally would, making enemies more likely to attack you.}{-Brute Fighting: Your melee attacks generate 25%/50%/75% more hate than they normally would, making enemies more likely to attack you.}}Cooldown: 2 seconds
+Descrip: Choose one:} Brutal Spellcasting: Your damaging spells generate 25%/50%/75% more hate than they normally would, making enemies more likely to attack you.} Brute Fighting: Your melee attacks generate 25%/50%/75% more hate than they normally would, making enemies more likely to attack you.
 Tier: 1
 Ranks: 3
+Flags: SelectorOnly
 Selector: Brutal Fighting, Brutal Spellcasting
 
 AbilityName: Draconic Visage
@@ -2350,19 +2374,18 @@ Ranks: 3
 All: Tier 1: Hard Scales
 
 AbilityName: Dragon Breath
-Descrip: Choose an elemental breath weapon.}}Active Ability: Discharge your breath weapon, dealing 1d6+3 elemental damage per caster level in a cone. A successful Reflex save reduces this damage by half.}}The DC for this ability is 10 + Charisma Modifier + Evocation Bonuses + Breath Weapon Bonuses.}}Cooldown: 25 seconds
+Descrip: Active Ability: Cone that deals 1d6 + 3 [red fire/white cold/black acid/blue electric] damage per caster level (reflex save for half). Counts as Evocation spell; gets full Metamagic feats, No SR, DC 10 + CHA mod + Evocation bonuses + Breath Weapon bonuses. Scales with 50% of spell power.}Activation Cost: Nothing Cooldown: 25 seconds
 Tier: 2
 Cost: 2
-Selector: Black (Acid), Blue (Electric), Red (Fire), White (Cold)
 
 AbilityName: Extra Action Boost
-Descrip: Dragonborn keep fighting long after other races tire. You can use each of your action boosts 1/2/3 additional times per rest.
+Descrip: Dragonborn keep fighting long after other races tire. You can use each of your action boosts 1/2/3 additional time per rest.
 Tier: 2
 Ranks: 3
 Cost: 2
 
 AbilityName: Arcanum
-Descrip: +25/+50/+100 spell points and +1/+2/+3 spell penetration.
+Descrip: +25/50/100 Spell Points and +1/+2/+3 Spell Penetration.
 Tier: 2
 Ranks: 3
 Cost: 2
@@ -2374,39 +2397,21 @@ Cost: 2
 All: Tier 2: Resilience
 
 AbilityName: Dragon Heritage
-Descrip: Select power associated to your Draconic heritage.}}+10/+20/+30 elemental Spell Power
+Descrip: +[10/20/30] spell power with the element associated with selected Draconic Ancestry.
 Tier: 3
 Ranks: 3
-Selector: Black (Acid), Blue (Electric), Red (Fire), White (Cold)
 All: Tier 2: Dragon Breath, Tier 3: Power in Breath
-SelectorName: Black (Acid)
-All: Tier 2: Dragon Breath: Black (Acid)
-SelectorName: Blue (Electric)
-All: Tier 2: Dragon Breath: Blue (Electric)
-SelectorName: Red (Fire)
-All: Tier 2: Dragon Breath: Red (Fire)
-SelectorName: White (Cold)
-All: Tier 2: Dragon Breath: White (Cold)
 
 AbilityName: Power in Breath
-Descrip: +1/+2/+3 to the DCs of Breath Attacks
+Descrip: +1/+2/+3 DC's of Breath Attacks
 Tier: 3
 Ranks: 3
 
 AbilityName: Draconic Knowledge
-Descrip: Select knowledge related to your Draconic heritage.}}+1 Caster Level and +2 Max Caster Level with elemental spells
+Descrip: +1 Caster Level and +2 Max Caster Level with the element spell associated with selected Draconic Ancestry.
 Tier: 3
 Cost: 2
-Selector: Black (Acid), Blue (Electric), Red (Fire), White (Cold)
 All: Tier 2: Dragon Breath, Tier 3: Power in Breath
-SelectorName: Black (Acid)
-All: Tier 2: Dragon Breath: Black (Acid)
-SelectorName: Blue (Electric)
-All: Tier 2: Dragon Breath: Blue (Electric)
-SelectorName: Red (Fire)
-All: Tier 2: Dragon Breath: Red (Fire)
-SelectorName: White (Cold)
-All: Tier 2: Dragon Breath: White (Cold)
 
 AbilityName: Resilience
 Descrip: +10 Maximum Hit Points and +10 Healing Amplification
@@ -2415,21 +2420,22 @@ Cost: 2
 All: Tier 3: Resilience
 
 AbilityName: Memory of Flight
-Descrip: Active Ability: Memories of flight lie within you. You are able to leap through the air to bring the fight to your enemies or traverse chasms that make normal adventurers balk.}}Cooldown: 15 Seconds
+Descrip: Active Ability: Activate: Memories of flight lie within you. You are able to leap through the air to bring the fight to your enemies or traverse chasms that make normal adventure balk. Activation Cost: Nothing Cooldown: 15 Seconds
 Tier: 4
 Cost: 2
 
 AbilityName: True Power
-Descrip: +1/+2/+3 to Evocation and Conjuration DCs
+Descrip: +1/+2/+3 to Evocation DC's
 Tier: 4
 Ranks: 3
 All: Tier 3: Power in Breath
 
 AbilityName: Augmented Breath
-Descrip: You have trained in using your Breath Weapon, which now applies an effect to enemies.}}Select from:}{-Constricting Breath: 20% chance that enemies will be slowed by 50% when affected by your Breath Attacks.}{-Dazing Breath: 5% chance that enemies will be Dazed when affected by your Breath Attacks.}{-Lulling Breath: 10% chance that enemies will fall asleep when affected by your Breath Attacks.}{-Relentless Breath: 8% chance that enemies will be knocked down when affected by your Breath Attacks.
+Descrip: Select from:}{-Constricting Breath: 20% chance that enemies will be slowed by 50% when affected by your Breath Attacks.}{-Dazing Breath: 5% chance that enemies will be Dazed when affected by your Breath Attacks.}{-Lulling Breath: 10% chance that enemies will fall asleep when affected by your Breath Attacks.}{-Relentless Breath: 8% chance that enemies will be knocked down when affected by your Breath Attacks.
 Tier: 4
 Cost: 2
 All: Tier 3: Draconic Knowledge
+Flags: SelectorOnly
 Selector: Constricting Breath, Dazing Breath, Lulling Breath, Relentless Breath
 
 TreeName: Drow
@@ -3670,155 +3676,162 @@ Initial: Fal
 Color: Green
 
 AbilityName: Summon Avian Companion
-Descrip: Choose an Avian Companion. Summons a companion as your Hunting Bird. While your Hunting Bird is by your side, it grants you a +2 bonus to Spot and Listen checks
+Descrip: You have been trained to keep a hunting bird. Activate this ability to summon your companion. Your pet cannot be attacked, and cannot die. Damage it causes is attributed to you. While your Hunting Bird is by your side, it grants you a +2 to Spot and Listen checks. Choose one: Summon Falcon, Summon Grey Owl, Summon Raven, Summon Snow Owl, Summon White Falcon. Your bird will remain with you in public areas, but, unlike a Wolf Companion or Iron Defender, it is considered a summoned creature. You can have only one summoned creature at a time.
 Tier: 0
+Flags: SelectorOnly
 Selector: Falcon, Grey Owl, Raven, Snow Owl, White Falcon
 
-AbilityName: Ability Score
-Descrip: Choose an ability to improve by +1
+AbilityName: Stat
+Descrip: Choose an ability to improve: +1 Strength, Dexterity, Constitution, Intelligence, Wisdom, Charisma.
 Tier: 0
 Cost: 2
+Flags: SelectorOnly
 Selector: Strength, Dexterity, Constitution, Intelligence, Wisdom, Charisma
 
 AbilityName: Well Rounded
-Descrip: You gain +3 Melee Power, Ranged Power, Physical Resistance Rating, and Magical Resistance Rating. You gain +2 Spot and Listen
+Descrip: You gain +3 Melee Power, Ranged Power, Physical Resistance Rating, and Magical Resistance Rating. You gain +2 Spot and Listen.
 Tier: 0
 
-AbilityName: Ability Score II
-Descrip: Choose an ability to improve by +1
+AbilityName: Stat II
+Descrip: Choose an ability to improve: +1 Strength, Dexterity, Constitution, Intelligence, Wisdom, Charisma.
 Tier: 0
 Cost: 2
+Flags: SelectorOnly
 Selector: Strength, Dexterity, Constitution, Intelligence, Wisdom, Charisma
 
 AbilityName: Well Rounded II
-Descrip: You gain +3 Melee Power, Ranged Power, Physical Resistance Rating, and Magical Resistance Rating. You gain +2 Spot and Listen
+Descrip: You gain another +3 Melee Power, Ranged Power, Physical Resistance Rating, and Magical Resistance Rating. You gain +2 Spot and Listen.
 Tier: 0
 
 AbilityName: Master Falconer
-Descrip: You gain +2 to all ability scores and benefit from the spell Freedom of Movement. Your active Falcon attacks have a chance to reset the cooldown on Death From Above
+Descrip: You gain +2 to all ability scores and benefit from the spell Freedom of Movement. Your active Falcon attacks have a chance to reset the cooldown on Death From Above.
 Tier: 0
 
 AbilityName: Rugged
-Descrip: Gain +2/+4/+6 Physical Resistance Rating
+Descrip: Gain +2/4/6 Physical Resistance Rating.
 Tier: 1
 Ranks: 3
 
 AbilityName: Practiced Accuracy
-Descrip: You gain +1/+2 to hit with weapons and +1/+2 to confirm critical attacks
+Descrip: You gain +1/2 to hit with weapons and +1/2 to confirm critical attacks.
 Tier: 1
 Ranks: 2
 
 AbilityName: Hunter's Knowledge
-Descrip: You gain animals as a favored enemy
+Descrip: You gain Animals as a favored enemy
 Tier: 1
 
 AbilityName: Out in Nature
-Descrip: Gain +5/+10/+15 to Healing Amplification
+Descrip: Gain +5/10/15 to Healing Amplification.
 Tier: 1
 Ranks: 3
 
 AbilityName: Wanderlust
-Descrip: You gain +1/+2/+3 to Balance, Jump, and Swim. Rank 3: You gain +1 to Fortitude saving throws
+Descrip: You gain +1/2/3 to Balance, Jump, and Swim. Rank 3: You gain +1 to Fortitude saving throws.
 Tier: 1
 Ranks: 3
 
 AbilityName: Killer Instinct I
-Descrip: You can use your Wisdom modifier to hit with Melee and Missile weapons
+Descrip: You can use your Wisdom modifier to hit with Melee and Missile weapons.
 Tier: 2
 Cost: 2
 
 AbilityName: Watch the Center
-Descrip: Grants a +1/+2/+3 to Assassinate DCs
+Descrip: Grants +1/2/3 to Assassinate DCs.
 Tier: 2
 Ranks: 3
 
 AbilityName: Diving Attack
-Descrip: Choose between a melee or ranged attack that will cause your bird to strike the target for damage and either slow or trip them}}You and your Hunting Bird attack as one against a single target. Activate this ability to attack for +1/+2/+3[W] against a single target. Your Hunting Bird will follow up for an additional +3d6/+6d6/+10d6 damage that scales with 200% of melee or ranged power, whichever is higher. Your Hunting Bird also trips the target, causing them to become Helpless. Your target is slowed by 30% for 10 seconds whether they make the saving throw or not}}Trip DC: 10 + Character Level + Wisdom modifier + Assassinate bonuses
+Descrip: You and your Hunting Bird attack as one against a single target. Activate this ability to attack for +1/2/3[W] against a single target. Your Hunting bird will follow up for an additional 3d6/6d6/10d6 damage that scales with 200% of melee or ranged power, whichever is higher. Your Hunting Bird also trips the target, causing them to become Helpless. Your target is slowed by 30% for 10 seconds whether they make the saving throw or not. Trip DC: 10 + Character Level + Wisdom modifier + Assassinate bonuses. Cooldown 20 seconds, with a 4.5 second shared cooldown with other Hunting Bird attacks. Choose one: Diving Shot (Ranged Falconer Attack) or Diving Strike (Melee Falconer Attack).
 Tier: 2
 Ranks: 3
-Selector: Diving Attack Shot, Diving Attack Strike
+Flags: SelectorOnly
+Selector: Diving Shot, Diving Strike
 
 AbilityName: Meticulous Weaponry
-Descrip: Protect your items or increase your chance of recovering ammunition}}Select from:}{-Meticulous Fletching: You are skilled at enhancing, salvaging, and re-purposing your arrows, bolts, and throwing weapons. Your ammunition gains a +50%/+65%/+80% chance of returning}{-Meticulous Weaponry: You have a +25%/+50%/+75% chance to negate potential item wear}
+Descrip: Protect your items, or increase your chance of recovering ammunition. Choose one:}{- Meticulous Weaponry: You have a 25/50/75% chance to negate potential item wear.}{- Meticulous Fletching: You are skilled at enhancing, salvaging, and re-purposing your arrows, bolts, and throwing weapons. your ammunition gains a 50/65/80% chance of returning.
 Tier: 2
 Ranks: 3
-Selector: Meticulous Fletching, Meticulous Weaponry
+Flags: SelectorOnly
+Selector: Meticulous Weaponry, Meticulous Fletching
 
-AbilityName: Action Boost: Sprint
-Descrip: +30%/+35%/+45% Action Boost bonus to movement speed for 20 seconds
+AbilityName: Sprint Boost
+Descrip: Action Boost: Sprint +30/35/45% Action Boost bonus to movement speed for 20 seconds.
 Tier: 2
 Ranks: 3
 
 AbilityName: Killer Instinct II
-Descrip: You can use your Wisdom modifier for damage with Melee and Missile weapons
+Descrip: You can use your Wisdom modifier for damage with melee and missile weapons.
 Tier: 3
 Cost: 2
 
 AbilityName: Tear Flesh
-Descrip: Your bird attacks now also cause a Bleed effect. Bleed: Do 1d6 damage every 2 seconds for 60 seconds. This stacks up to 10 times and scales with 200% Melee or Ranged Power
+Descrip: Your bird attacks now also cause a Bleed effect. Bleed: Do 1d6 damage every 2 seconds for 60 seconds. This stacks up to 10 times, and scales with 200% Melee or Ranged Power.
 Tier: 3
 Cost: 2
 
 AbilityName: Strike for the Eyes
-Descrip: Choose between a melee or ranged attack that will cause your bird to strike the target for damage, blind them and make them helpless}}You and your Hunting Bird attack as one against a single target. Activate this ability to attack for +1/+2/+3[W] against a single target. Your Hunting Bird will follow up for an additional +3d6/+6d6/+10d6 damage that scales with 200% of melee or ranged power, whichever is higher. Your Hunting Bird also attempts to Blind the target, causing them to become Helpless. Your target is slowed by 30% for 10 seconds whether they make the saving throw or not}}Blind DC: 10 + Character Level + Wisdom modifier + Assassinate bonuses
+Descrip: You and your Hunting Bird attack as one against a single target. Activate this ability to attack for +1/2/3[W] against a single target. Your Hunting bird will follow up for an additional 3d6/6d6/10d6 damage that scales with 200% of Melee or Ranged Power, whichever is higher. Your Hunting Bird also attempts to Blind the target, causing them to become Helpless. Your target is slowed by 30% for 10 seconds whether they make the Saving Throw or not. Blind DC: 10 + Character Level + Wisdom modifier + Assassinate bonuses. Cooldown 10 seconds, with a 4.5 second shared cooldown with other Hunting Bird attacks. Choose One: Shoot for the Eyes (Ranged Falconer Attack) or Strike for the Eyes (Melee Falconer Attack).
 Tier: 3
 Ranks: 3
 Selector: Shot, Strike
 
 AbilityName: Conditioning
-Descrip: You gain +5% to your hit points
+Descrip: You gain +5% to your Hit Points.
 Tier: 3
 Cost: 2
 
 AbilityName: Eyes of the Eagle
-Descrip: You gain True Seeing
+Descrip: You gain True Seeing.
 Tier: 3
 Cost: 2
 
 AbilityName: Deadly Instinct
-Descrip: Battle Trance: You gain an Insight bonus to damage and the DC of tactical feats equal to 1/2 of your Wisdom modifier for 30/60/120 seconds. 5 Charages per rest. Each attack from your avian companion has a chance to reset 1 charge}}Antirequisite: This ability can not be trained if you have any other Battle Trance abilities
+Descrip: You gain an Insight bonus to damage and the DC of Tactical feats equal to 1/2 of your Wisdom modifier for 30/60/120 seconds. Cooldown: 20 seconds. 5 Charges per rest. Each attack from your avian companion has a chance to reset 1 charge. Antirequisite: This ability can not be trained if you have any other Trance ability (Know the Angles).
 Tier: 4
 Ranks: 3
 None: Beacon of Hope Tier 2: Might's Reward, Harper Agent Tier 2: Know the Angles, Knight of the Chalice Tier 2: Divine Might, War Soul Tier 1: Divine Might, Warpriest Tier 1: Divine Might
 
 AbilityName: No Mercy
-Descrip: You deal +10%/+20%/+30% additional damage to helpless opponents
+Descrip: You deal 10/20/30% additional damage to helpless opponents.
 Tier: 4
 Ranks: 3
 
 AbilityName: Coordinated Strikes
-Descrip: Choose between a melee or ranged attack that will cause your bird to rain attacks over an area, damaging and blinding all foes in the area}}Select from:}{-Coordinated Shot: Ranged Falconer Attack: You make a ranged attack for +2[W], as your Hunting Bird descends to frenzy in a large area of the first target struck for an additional 10d6 damage that scales with Melee and Ranged Power, whichever is higher. Your Hunting Bird also attempts to blind each opponent struck}{-Coordinated Strike: Melee Falconer Cleave Attack: You cleave all opponents near you for +2[W], as your Hunting Bird descends to frenzy in a large area for an additional 10d6 damage that scales with Melee and Ranged Power, whichever is higher. Your Hunting Bird also attempts to blind each opponent struck}}Blind DC: 10 + Character Level + Wisdom modifier + Assassinate bonuses
+Descrip: Choose between a melee or ranged attack that will cause your bird to rain attacks over an area, damaging and blinding all foes in the area. Choose One:}{- Coordinated Shot: Ranged Falconer Attack: You make a ranged attack for +2[W], as your Hunting Bird descends to frenzy in a large area around the first target struck for an additional 10d6 damage that scales with Melee or Ranged Power, whichever is higher. Your Hunting Bird also attempts to Blind each opponent Struck. Blind DC: 10 + Character level + Wisdom modifier + Assassinate bonuses. Cooldown one minute, with a 4.5 second shared cooldown with other Hunting Bird attacks.}{- Coordinated Strike: Melee Falconer Cleave Attack: You cleave all opponents near you for +2[W], as your Hunting Bird descends to frenzy in a large area for an additional 10d6 damage that scales with Melee or Ranged Power, whichever is higher. Your Hunting Bird also attempts to Blind each opponent struck. Blind DC: 10 + Character Level + Wisdom modifier + Assassinate bonuses. Cooldown one minute, with a 4.5 second shared cooldown with other Hunting Bird attacks.
 Tier: 4
+Flags: SelectorOnly
 Selector: Coordinated Shot, Coordinated Strike
 
 AbilityName: Expose Weakness
-Descrip: Attacks from your hunting bird also reduce your target's fortification by 50%
+Descrip: Attacks from your Hunting Bird also reduce your target's Fortification by 50%. (10 second duration)
 Tier: 4
 
 AbilityName: Shared Vision
-Descrip: You are immune to Blindness effects
+Descrip: You are immune to Blindness effects.
 Tier: 4
+Ranks: 3
 Cost: 2
 
 AbilityName: Dangerous
-Descrip: You gain +10 Melee and Ranged Power
+Descrip: You gain +10 Melee and Ranged Power.
 Tier: 5
 Cost: 2
 
 AbilityName: Death from Above
-Descrip: Choose between a melee or ranged attack that will cause your bird to attempt to slay your foes}}Your Hunting Bird swoops down and attempts to end someone's life. You make an attack for +1/+3/+5[W], and your Hunting Bird also attacks for 50/100/200 points of damage that scales with 200% of Melee or Ranged Power, whichever is higher. The target struck makes a Fortitude saving throw, and on a failed save, dies}}DC: 10 + Character level + Wisdom bonus + Assassinate bonuses
+Descrip: Your Hunting Bird swoops down and attempts to end someone's life. You make an attack for +1/3/5[W], and your Hunting Bird also attacks for 50/100/200 points of damage that scales with 200% of Melee or Ranged Power, whichever is higher. The target struck makes a Fortitude Saving Throw, and on a failed save, dies. DC: 10 + Character level + Wisdom bonus + Assassinate bonuses. Cooldown one minute, with a 4.5 second shared cooldown with other Hunting Bird attacks. Choose One: Death from Above Shot (Ranged Falconer Attack) or Death from Above: (Melee Falconer Attack).
 Tier: 5
 Ranks: 3
 Selector: Shot, Strike
 
 AbilityName: Thrill of the Hunt
-Descrip: Choose between a melee or ranged attack that causes you to heal for a percentage of your max health}}You strike your target for +1/+3/+5[W]. If you hit, you also heal for 5%/10%/15% of your total hit points in Positive Healing}}Healing Amplification applies to the heal, but Spell Power does not
+Descrip: Choose One:}{- Melee: You strike your target for +1/3/5[W]. If you hit, you also heal for 5/10/15% of your total hit Points in Positive Healing. Cooldown: 20 seconds.}{- Ranged: You strike your target for +1/3/5[W]. If you hit, you also heal for 5/10/15% of your total Hit Points in Positive Healing. Cooldown: 30 seconds. Not affected in reaper mode.
 Tier: 5
 Ranks: 3
 Selector: Shot, Strike
 
 AbilityName: Mark the Prey
-Descrip: Choose between a melee or ranged attack that causes your bird to strike that target and mark them, making them more vulnerable to damage for a short period of time}}You have learned how to spot weaknesses in even the mightiest of foes. You make an attack for +5[W], marking it as prey. The marked target takes 10% extra damage from you and your allies for 10 seconds
+Descrip: You have learned how to spot weaknesses in even the mightiest of foes. You make an attack for +5[W] on the target, marking it as prey. The marked target takes 10% extra damage from you and your allies for 10 seconds. Cooldown 3 minutes. Choose One: Mark the Prey (Melee Attack) or Mark the Prey Shot (Ranged Attack).
 Tier: 5
 Selector: Shot, Strike
 
@@ -4765,92 +4778,94 @@ Color: Purple
 Stats: Dexterity, Intelligence
 
 AbilityName: Agent of Good I
-Descrip: +1 to hit versus evil}}+1 Universal Spell Power
+Descrip: +1 to hit vs. Evil, +1 Universal Spell Power.
 Tier: 0
 
-AbilityName: Ability Score
-Descrip: Choose an ability to improve by +1
+AbilityName: Harper Training I
+Descrip: Choose one.}{-  +1 Dexterity}{-  +1 Intelligence}{-  +1 Charisma
 Tier: 0
 Cost: 2
-Selector: Charisma, Dexterity, Intelligence
+Flags: SelectorOnly
+Selector: Dexterity, Intelligence, Charisma
 
 AbilityName: Agent of Good II
-Descrip: +2 to hit versus evil}+2 damage vs. Evil}+5 Universal Spell Power
+Descrip: +2 to hit and damage vs. Evil, +5 Universal Spell Power.
 Tier: 0
 
-AbilityName: Ability Score II
-Descrip: Choose an ability to improve by +1
+AbilityName: Harper Training II
+Descrip: Choose one.}{-  +1 Dexterity}{-  +1 Intelligence}{-  +1 Charisma
 Tier: 0
 Cost: 2
-Selector: Charisma, Dexterity, Intelligence
+Flags: SelectorOnly
+Selector: Dexterity, Intelligence, Charisma
 
 AbilityName: Agent of Good III
-Descrip: +3 to hit versus evil}+3 damage vs. Evil}+10 Universal Spell Power
+Descrip: +3 to hit and damage vs. Evil. +10 Universal Spell Power.
 Tier: 0
 
 AbilityName: Harper's Freedom
-Descrip: Dispel most detrimental effects from you and add +10 to all saving throws for 20 seconds. Cooldown: 5 minutes
+Descrip: Dispel most detrimental effects from you and add +10 to all saving throws for 20 seconds. Cooldown: 5 minutes.
 Tier: 0
 
 AbilityName: Harper Enchantment
-Descrip: Your main and off-hand weapons gain an additional +1 to its Enhancement bonus. This does not apply to shields. You gain +20 to your maximum Spell Points
+Descrip: Your weapon gains an additional +1 to its Enhancement bonus. You gain +20 to your maximum Spell Points.}{  Note: +1 to Enhancement bonus also applies to off-hand weapon but not to a shield (when bashing).
 Tier: 1
 Cost: 2
 
 AbilityName: Weathered Traveler
-Descrip: +1/+2/+3 Energy Resistance
+Descrip: [+1/+2/+3] energy resistance.
 Tier: 1
 Ranks: 3
 
 AbilityName: Traveler's Toughness
-Descrip: +5/+10/+15 maximum hit points
+Descrip: [+5/+10/+15] maximum hit points.
 Tier: 1
 Ranks: 3
 
 AbilityName: Strategic Combat
-Descrip: You can use your Intelligence modifier to hit with Melee and Missile weapons, as well as handwraps})Note: This ability does not apply to shields
+Descrip: You can use your Intelligence modifier to hit with Melee and Missile weapons.}{  Note: This does not function with shields.
 Tier: 1
 Cost: 2
 
 AbilityName: Awareness
-Descrip: +1/+2/+3 to Listen, Search, and Spot. Rank 3: +1 save versus traps
+Descrip: +[1/2/3] to Listen, Search, and Spot. Rank 3: +1 save vs. traps.
 Tier: 1
 Ranks: 3
 
 AbilityName: Heroic Companion
-Descrip: Action Boost: Grants an ally +0.5/+0.75/+1[W], +2/+4/+6 to hit and saving throws, +0/+2%/+4% Dodge, and +0/+0/+10 Physical Resistance Rating. Usable five times per rest}}Cooldown: 30 seconds}}Antirequisite: Cannot be taken with the halfling Heroic Companion racial enhancement
+Descrip: Action Boost: Grants an ally +0.25/+0.5/+1[W], +2/+4/+6 to hit and saving throws, 0/+2%/+4% Dodge and 0/0/+10 Physical Resistance Rating. (Cooldown: 30 seconds). Antireq: Cannot be taken with the Halfling racial enhancement.
 Tier: 2
 Ranks: 3
 None: Halfling Tier 2: Heroic Companion
 
 AbilityName: Magical Endurance
-Descrip: +30/+60/+100 maximum Spell Points
+Descrip: [+30/+60/+100] maximum Spell Points.
 Tier: 2
 Ranks: 3
 
-AbilityName: Versatile Adept I
-Descrip: +1/+2/+3 Melee Power, Ranged Power, and Universal Spell Power
+AbilityName: Versatile Adept
+Descrip: [+1/+2/+3] Melee Power, Ranged Power, and Universal Spell Power.
 Tier: 2
 Ranks: 3
 
 AbilityName: Know the Angles
-Descrip: Battle Trance: You gain an Insight bonus to damage and the DC of tactical feats equal to 1/2 your Intelligence Modifier for 30/60/120 seconds}}Antirequisite: This ability can not be trained if you have any other Battle Trance abilities
+Descrip: Activation cost: [45/30/15] spell points. Cooldown: 20 seconds. Antirequisite: Divine Might, Deadly Instinct. You gain an Insight bonus to damage and the DC of tactical feats equal to 1/2 of your Intelligence modifier for [30/60/120] seconds.}{  Bug:  Know the Angles does not properly display duration scaling at higher ranks.}{  Bug:  Know the Angles damage does not appear on the character sheet, but does work correctly.
 Tier: 2
 Ranks: 3
 None: Beacon of Hope Tier 2: Might's Reward, Falconry Tier 4: Deadly Instinct, Knight of the Chalice Tier 2: Divine Might, War Soul Tier 1: Divine Might, Warpriest Tier 1: Divine Might
 
 AbilityName: Harper Leadership
-Descrip: Your hirelings, summoned, and charmed creatures gain +2/+3/+4 to all ability scores
+Descrip: Your artificer/druid pets, hirelings, summoned, and charmed creatures gain [+2/+3/+4] to all ability scores.
 Tier: 2
 Ranks: 3
 
 AbilityName: Highly Skilled
-Descrip: +1/+2/+3 to all skills
+Descrip: [+1/+2/+3] to all skills.
 Tier: 3
 Ranks: 3
 
 AbilityName: Know Your Foe
-Descrip: Choose an enemy. You gain the Favored Enemy feat for that type of enemy, dealing +2 damage to those enemies
+Descrip: Multiple enhancement selector: You gain a new Favored Enemy feat, dealing extra damage against those enemies: Aberration / Construct / Dragon / Evil Outsider / Giant / Monstrous Humanoid / Undead.
 Tier: 3
 Cost: 2
 Selector: Aberration, Construct, Dragon, Evil Outsider, Giant, Monstrous Humanoid, Undead
@@ -4869,54 +4884,54 @@ None: Feat: Favored Enemy: Monstrous Humanoid, Deepwood Stalker Tier 5: Extra Fa
 SelectorName: Undead
 None: Feat: Favored Enemy: Undead
 
-AbilityName: Versatile Adept II
-Descrip: +1/+2/+3 Melee Power, Ranged Power, and Universal Spell Power
+AbilityName: Versatile Adept
+Descrip: [+1/+2/+3] Melee Power, Ranged Power, and Universal Spell Power.
 Tier: 3
 Ranks: 3
 
-AbilityName: Strategic Combat II
-Descrip: You can use your Intelligence modifier for damage with Melee and Missle weapons, as well as handwraps.}}Note: This ability does not apply to shields
+AbilityName: Strategic Combat
+Descrip: You can use your Intelligence modifier for damage with Melee and Missile weapons.}{  Note: This does not function with shields.
 Tier: 3
 Cost: 2
 
 AbilityName: Throat Dagger
-Descrip: Damages an enemy from afar for 1d4+4 Piercing damage per character level. Damaged non-boss enemies can't cast spells for 6 seconds}}This Spell Like Ability can be Quickened or Enlarged for no extra cost, if you have those fears)}}Activation Cost: 3/2/1 Spell Points}Cooldown: 60/30/15 seconds
+Descrip: Activation cost: [3/2/1] spell points. Cooldown: [60/30/15] seconds. SLA: Damages an enemy from afar for 1d4+4 Piercing damage per character level. Damaged non-boss enemies cannot cast spells for 6 seconds. Metamagic: Quicken, Enlarge (no extra cost). Spell resistance: No.
 Tier: 4
 Ranks: 3
 
-AbilityName: Vigor of Life I
-Descrip: +20 Positive Healing Amplification}-10% less damage from Negative Energy
+AbilityName: Vigor of Life
+Descrip: +20 positive healing amplification. -10% (?) less damage from negative energy.
 Tier: 4
 Cost: 2
 
-AbilityName: Versatile Adept III
-Descrip: +1/+2/+3 Melee Power, Ranged Power, and Universal Spell Power
+AbilityName: Versatile Adept
+Descrip: [+1/+2/+3] Melee Power, Ranged Power, and Universal Spell Power.
 Tier: 4
 Ranks: 3
 
 AbilityName: Magic of Austerity
-Descrip: Like Eschew Materials, your spells no longer need common material components. This does not increase their Spell Point cost
+Descrip: Like Eschew Materials, your spells no longer need common material components. This does not increase their Spell Point cost.
 Tier: 4
 Cost: 2
 
 AbilityName: Harper Enchantment
-Descrip: Choose how to enchant your weapon!}}Select from:}{-Enchantment of Deception: Your weapon gains an additional +1 to its Enhancement bonus and Improved Deception}{-Enchantment of Magic: Your weapon gives +10 Harper bonus to Universal Spell Power}{-Enchantment of Righteousness: Your weapon gains stacking +3 Enhancement bonus to attack and damage, additional +2 to attack bonus and damage against any evil creature, and is considered Good-aligned}
+Descrip: Choose one.}{-  Harper Enchantment of Deception: Your weapon gains an additional +1 to its Enhancement bonus and Improved Deception.}{-  Harper Enchantment of Magic: Your weapon gains a +10 Harper bonus to Universal Spell Power.}{-  Harper Enchantment of Righteousness: Your weapon gains stacking +3 Enhancement bonus to attack and damage, an additional +2 to attack bonus and damage against evil creatures, and your weapon is considered Good-aligned.}{  Note: Deception or Righteousness appears to work on off-hand weapon as well. [unverified] Magic may work as well, but does not stack with itself. [unverified]
 Tier: 5
 Cost: 2
 Selector: Deception, Magic, Righteousness
 
-AbilityName: Versatile Adept IV
-Descrip: +2/+4/+6 Melee Power, Ranged Power, and Universal Spell Power
+AbilityName: Versatile Adept
+Descrip: [+2/+4/+6] Melee Power, Ranged Power, and Universal Spell Power.
 Tier: 5
 Ranks: 3
 
 AbilityName: Magic of Patience
-Descrip: Your spells benefit from the Extend Spell metamagic feat. This does not increase their Spell Point cost}}(This does not stack with the actual Extend metamagic feat)
+Descrip: Your spells benefit from the Extend Spell metamagic feat. This does not increase their Spell Point cost. (This does not stack with the actual Extend metamagic feat.)
 Tier: 5
 Cost: 2
 
 AbilityName: Moment of Clarity
-Descrip: Activate: For the next 10 seconds the DC of your spells and your tactical feats in increased by +10}}Passive: +1 DC for your spells
+Descrip: Cooldown: 5 minutes. Activate: For the next 10 seconds the DC of your spells and your tactical feats is increased by +10. Passive: +1 DC for your spells.
 Tier: 5
 Cost: 2
 
@@ -5254,152 +5269,153 @@ Color: Purple
 Stats: Strength, Dexterity, Constitution, Intelligence, Wisdom, Charisma
 
 AbilityName: Inquisitive
-Descrip: +1 to Attack with all weapons. +1 to Diplomacy, Intimidate and Bluff
+Descrip: +1 to Attack with all weapons. +1 to Diplomacy, Intimidate and Bluff.
 Tier: 0
 
 AbilityName: Hit the Streets
-Descrip: You gain an additional copy of Diplomacy on a separate cooldown timer. This timer is shared with Half-Elven Social Grace's Diplomacy. Diplomacy allows you to attempt to encourage enemies to find targets other than yourself}}Passive: +2% Dodge, +3 Diplomacy skill. If you are a Half-Elf, this Diplomacy bonus is instead +10}}Cooldown: 60 seconds
+Descrip: You gain an additional copy of Diplomacy on a separate cooldown timer.}This timer is shared with Half-Elven Social Grace's Diplomacy.}Diplomacy allows you to attempt to encourage enemies to find targets other than yourself.}Passive: +2% Dodge, +3 Diplomacy skill.}If you are a Half-Elf, this Diplomacy bonus is instead +10.}Cooldown: 1 Minute
 Tier: 0
 
 AbilityName: Mind Like Iron
-Descrip: +3 to Will Saving Throws. You no longer automatically fail Saving Throws for Fear, Enchantment, or Illusion effects on a Natural 1. You will automatically perform a Search check to locate traps and secret doors when you are in range to Spot them, although this Search check occurs at a -4 penalty
+Descrip: +3 to Will Saving Throws. You no longer automatically fail Saving Throws for Fear, Enchantment or Illusion effects on a Natural 1.}You will automatically perform a Search check to locate traps and secret doors when you are in range to Spot them, although this Search check operates at a -4 penalty.
 Tier: 0
 
 AbilityName: True Seeing
-Descrip: You permanently gain the effects of the True Seeing spell. You gain +1 Competence Bonus to Critical Threat Range and Multiplier with Light and Heavy (non-repeating) Crossbows. In addition, you gain +2 Damage dice with Law on your Side
+Descrip: You permanently gain the effects of the True Seeing spell. You gain +1 Competence Bonus to Critical Threat Range and Multiplier with Light and Heavy (non-repeating) Crossbows.}In addition, you gain +2 Damage dice with Law on your Side.
 Tier: 0
 
 AbilityName: Undaunted
-Descrip: +10 Ranged Power, +3 to all Saving Throws, +4 to the Max Dex Bonus of equipped armor. You gain the Slippery Mind feat (you can wriggle free from magical effects that would otherwise control or compel you. You gain a second saving throw versus enchantments.) In addition, you gain +3 Damage dice with Law on your Side
+Descrip: +10 Ranged Power, +3 to all Saving Throws, +4 to the Max Dex Bonus of equipped armor.}You gain the Slippery Mind feat (you can wriggle free from magical effects}that would otherwise control or compel you. You gain a second saving throw}versus enchantments).}In addition, you gain +3 Damage dice with Law on your Side.
 Tier: 0
 
 AbilityName: Master Inquisitive
-Descrip: +2 to all Ability Scores. +10 Ranged Power. While wielding a Light or Heavy (non-repeating) Crossbow, your Vorpal hits will knock down targets hit on a natural 20 + confirmation for 6 seconds without a saving throw, as a Great Crossbow. In addition, you gain +4 Damage dice with Law on your Side
+Descrip: +2 to all Ability Scores. +10 Ranged Power. While wielding a Light or Heavy (non-repeating) Crossbow, your Vorpal hits will knock down targets hit on a natural 20 + confirmation for 6 seconds without a saving throw, as a Great Crossbow.}In addition, you gain +4 Damage dice with Law on your Side.
 Tier: 0
 
 AbilityName: Dual Shooter
-Descrip: While you have a Light or Heavy (non-repeating) Crossbow equipped, you instead fight with a Hand Crossbow in each hand, with each mimicking the damage and effects of your equipped Crossbow. +1 to Attack and Damage with Light and Heavy (non-repeating) crossbows
+Descrip: While you have a Light or Heavy (non-repeating) Crossbow equipped, you instead fight with a Hand Crossbow in each hand, with each mimicking the damage and effects of your equipped Crossbow. +1 to Attack and Damage with Light and Heavy (non-repeating) crossbows.
 Tier: 1
 Cost: 2
 
 AbilityName: Eye for Accuracy
-Descrip: +1/+2/+3 to Attack with weapons
+Descrip: +1/2/3 to Attack with weapons.
 Tier: 1
 Ranks: 3
 
 AbilityName: Conjure Bolts
-Descrip: Conjures a stack of 1000 bolts for use with a crossbow. These bolts have a +1 enhancement bonus. These bolts dissolve into nothingness after logout}}Activation Cost: 30/20/10
+Descrip: Conjures a stack of 1000 bolts for use with a crossbow. These bolts have a +1 enhancement bonus. These bolts dissolve into nothingness after logout.}Spell Point Cost: 30/20/10
 Tier: 1
 Ranks: 3
 
 AbilityName: Law on your Side
-Descrip: Toggle: Your Light and Heavy (non-repeating) Crossbow attacks deal 1d8 Law damage on hit to non-Lawful creatures, scaling with 200% Ranged Power. Lawful creatures take 1d4 Law damage, scaling with 200% Ranged Power
+Descrip: Toggle: Your Light and Heavy (non-repeating) Crossbow attacks deal 1d8 Law damage on hit to non-Lawful creatures, scaling with 200% Ranged Power. Lawful creatures take 1d4 Law damage, scaling with 200% Ranged Power.
 Tier: 1
 Cost: 2
 
 AbilityName: Inquisitive Skills
-Descrip: +1/2/3 to Diplomacy, Intimidate and Bluff}}Rank 3: +1 to Will Saving Throws
+Descrip: +1/2/3 to Diplomacy, Intimidate and Bluff.}Rank 3: +1 to Will Saving Throws.
 Tier: 1
 Ranks: 3
 
 AbilityName: Crossbow Adept
-Descrip: +1 to Attack and +2 to Damage with Light and Heavy (non-repeating) Crossbows
+Descrip: +1 to Attack and +2 to Damage with Light and Heavy (non-repeating) Crossbows.
 Tier: 2
 Cost: 2
 
 AbilityName: Wand and Scroll Mastery
-Descrip: +25%/+50%/+75% damage and healing of your wands, scrolls, and other items that cast spells. Adds +1/2/3 to the save DCs of your offensive wands. Taking Wand and Scroll Mastery in one enhancement tree will block its availability in other enhancement trees
+Descrip: +25/50/75% damage and healing of your wands, scrolls and other items that cast spells. Adds +1/2/3 to the save DC's of your offensive wands. Taking Wand and Scroll Mastery in one enhancement tree will block its availability in other enhancement trees.
 Tier: 2
 Ranks: 3
 
 AbilityName: Observation
-Descrip: When you use Diplomacy on an enemy, you gain one stack of Observation (+2 to Armor Class, +2 to PRR, +2 to MRR). Each stack lasts 20 seconds before being removed. This stacks up to 5 times
+Descrip: When you use Diplomacy on an enemy, you gain one stack of Observation (+2 to Armor Class, +2 to PRR, +2 to MRR). Each stack lasts 20 seconds before being removed. This stacks up to 5 times.
 Tier: 2
 Cost: 2
 
 AbilityName: Improved Law
-Descrip: +2 Damage dice with Law on your Side
+Descrip: +2 Damage dice with Law on your Side.
 Tier: 2
 Cost: 2
 All: Tier 1: Law on your Side
 
 AbilityName: Action Boost: Skills
-Descrip: Active to gain a +2/+4/+6 Action Boost bonus to all skills for 20 seconds}}Cooldown: 30 seconds
+Descrip: Active to gain a +2/4/6 Action Boost bonus to all skills for 20 seconds.}Cooldown: 30 seconds.
 Tier: 2
 Ranks: 3
 
 AbilityName: Crossbow Adept
-Descrip: +1 to Attack and +1 to Damage with Light and Heavy (non-repeating) Crossbows
+Descrip: +1 to Attack and +1 to Damage with Light and Heavy (non-repeating) Crossbows.
 Tier: 3
 Cost: 2
 All: Tier 2: Crossbow Adept
 
 AbilityName: What First?
-Descrip: Pick a skill that you'd use to enter a room}}Select from:}{-Ask Questions First: Activate this skill to gain +20 to Diplomacy and a 10% reduction in the cooldown time of Social Skills for 60 seconds. When you use Diplomacy on an enemy while this is active, you gain a stack of Preparation (+2% Dodge that ignores Dodge Cap). Each stack of Preparation lasts 12 seconds, and acquiring a new stack resets the duration. Preparation can stack up to 5 times. Cooldown: 120 seconds}{-Shoot First: Ranged Attack: +3[W] damage. On successful damage, this causes your opponent to take a Shot Wound effect. (Cooldown: 6 seconds) Note: Shot Wound deals 1d6 damage per Character Level every 2 seconds for 12 seconds. This damage scales with 200% Ranged Power}
+Descrip: Pick a skill that you'd use to enter a room.}{- Ask Questions First: Activate this skill to gain +20 to Diplomacy and a 10% reduction in the cooldown time of Social Skills for 60 seconds. When you use Diplomacy on an enemy while this is active, you gain a stack of Preparation (+2% Dodge that ignores Dodge Cap). Each stack of Preparation lasts 12 seconds, and acquiring a new stack resets the duration. Preparation can stack up to 5 times. Cooldown: 2 Minutes}{- Shoot First: Bow or Crossbow Attack: +3[W] damage. On successful damage, this causes your opponent to take "Shot Wound". (Cooldown: 6 seconds) Note: Shot Wound deals 1d6 damage per Character Level every 2 seconds for 12 seconds. This damage scales with 200% Ranged Power.
 Tier: 3
 Cost: 2
+Flags: SelectorOnly
 Selector: Ask Questions First, Shoot First
 
 AbilityName: Improved Observation
-Descrip: Each stack of Observation now also grants you 5% Fortification Bypass
+Descrip: Each stack of Observation now also grants you 5% Fortification bypass.
 Tier: 3
 All: Tier 2: Observation
 
 AbilityName: Stop in the Name
-Descrip: Active: Targeted enemy must save (DC Diplomacy + d20 vs. Will) or be Dazed for 10 seconds. Daze is removed on hit. Bosses are immune to Daze}}Cooldown: 18 seconds
+Descrip: Active: Targeted enemy must save (DC Diplomacy + d20 vs. Will) or be Dazed for 10 seconds. Daze is removed on hit. Bosses are immune to Daze. Cooldown: 18 seconds
 Tier: 3
 Cost: 2
 
 AbilityName: Crossbow Adept
-Descrip: Crossbow Adept: +1 to Attack and +2 to Damage with Light and Heavy (non-repeating) Crossbows
+Descrip: +1 to Attack and +2 to Damage with Light and Heavy (non-repeating) Crossbows.
 Tier: 4
 Cost: 2
 All: Tier 3: Crossbow Adept
 
 AbilityName: What Later?
-Descrip: Take a follow up skill to handle the situation}}Select from:}{-Ask Questions Later: Requires Shoot First. When you use Diplomacy on enemies who have at least one stack of Shot Wound, they receive a Crushing Despair effect for 30 seconds}{-Shoot Later: Requires Ask Questions First. Ranged Attack: +5[W]. This attack gains +2 to Critical Threat Range and Multiplier}}Cooldown: 15 seconds
+Descrip: Take a follow up skill to handle the situation.}{- Ask Questions Later: Requires Shoot First. When you use Diplomacy on enemies who have at least one stack of Shot Wound, they receive a Crushing Despair effect for 30 seconds.}{- Shoot Later: Requires Ask Questions First. Bow or Crossbow Attack: +5[w]. This attack has +2 Critical Threat Range and Multiplier. Cooldown: 15 seconds.
 Tier: 4
 All: Tier 3: What First?
+Flags: SelectorOnly
 Parent: Tier 3: What First?
 Selector: Ask Questions Later, Shoot Later
-SelectorName: Ask Questions Later
-All: Tier 3: What First?: Ask Questions First
-SelectorName: Shoot Later
-All: Tier 3: What First?: Shoot First
 
 AbilityName: Inquisition Style
-Descrip: Select from:}{-Arcane Inquisition: You gain +15 Universal Spell Power while you have a Light or Heavy (non-repeating) Crossbow equipped}{-Dashing Inquisition: You can Swashbuckle while wielding a Light (non-repeating) Crossbow}{-Divine Inquisition: You count Light and Heavy (non-repeating) Crossbows as Favored Weapons, regardless of your Deity}{-Martial Inquisition: +5% Doubleshot with Light and Heavy (non-repeating) Crossbows}
+Descrip: How do you interrogate?}{- Arcane Inquisition: You gain +15 Universal Spell Power while you have a Light or Heavy (non-repeating) Crossbow equipped.}{- Dashing Inquisition: You can Swashbuckle while wielding a Light (non-repeating) Crossbow.}{- Divine Inquisition: You count Light and Heavy (non-repeating) Crossbows as Favored Weapons, regardless of your Deity.}{- Martial Inquisition: +5% Doubleshot with Light and Heavy (non-repeating) Crossbows.
 Tier: 4
 Cost: 2
+Flags: SelectorOnly
 Selector: Arcane Inquisition, Dashing Inquisition, Divine Inquisition, Martial Inquisition
 
 AbilityName: Greater Law
-Descrip: +2 Damage dice with Law on your Side
+Descrip: +2 Damage dice with Law on your Side.
 Tier: 4
 Cost: 2
 All: Tier 1: Law on your Side
 
 AbilityName: No Holds Barred
-Descrip: Action Boost: You may activate this ability to enchant your crossbow to instantly reload itself for 18 seconds. This shares charges and a cooldown with Endless Fusilade. If you also have Endless Fusilade, you gain +10 Ranged Power while No Holds Barred is active}}Passive: +5 Ranged Power, +10% Doubleshot}}Cooldown: 30 seconds
+Descrip: Action Boost: You may activate this ability to enchant your Light of Heavy (non-repeating) crossbow to instantly reload itself for 18 seconds. This shares charges and a cooldown with Endless Fusilade. If you also have Endless Fusilade, you gain +10 Ranged Power while No Holds}Barred is active. Passive: +5 Ranged Power, +10% Doubleshot. Cooldown: 30 seconds
 Tier: 5
 Cost: 2
 
 AbilityName: Arresting Assault
-Descrip: Activate Ability: All nearby enemies take -10 Melee, Ranged, and Spell Power for 20 seconds and 5 stacks of Vulnerability. In addition, nearby enemies must save (DC Diplomacy + d20 vs. Will) or be subjected to a 10-second Daze. (Bosses are immune to Daze, but not the Power reduction or Vulnerability). Daze is removed on hit}}Cooldown: 60 seconds
+Descrip: Activate Ability: All nearby enemies receive -10 Melee, Ranged, and Spell Power for 20 seconds and 5 stacks of Vulnerability. In addition, nearby enemies must save (DC Diplomacy + d20 vs. Will) or be subjected to a 10-second Daze. (Bosses are immune to Daze, but not the Power reduction or Vulnerability). Daze is removed on hit. Cooldown: 1 minute
 Tier: 5
 
 AbilityName: Improved Uncanny Dodge
-Descrip: Activate this ability to gain a temporary 50% Dodge bonus and a +6 reflex save bonus. This feat also grants you a 1% passive bonus to Dodge at levels 4, 6, 8, 12, 16 and 20.  This shares a cooldown with the Improved Uncanny Dodge feat}}Cooldown: 120 seconds
+Descrip: Grants the Improved Uncanny Dodge feat. Activate this ability to gain a temporary 50% Dodge bonus and a +6 reflex save bonus. This feat also grants you a 1% passive bonus to Dodge at levels 4, 6, 8, 12, 16 and 20.
 Tier: 5
 
 AbilityName: Inquisitor's Path
-Descrip: Which path will you follow?}}Select from:}{-Jaded: Your damage dice with Law on your Side are now d8s for all enemies, regardless of alignment}{-Optimistic: +2 Damage Dice with Law on your Side}{-Vigilante: +1 Damage Dice with Law on your Side. Damage from Law on your Side is now Chaos damage, with non-Chaotic creatures taking d8s of damage, and Chaotic creatures taking d4s of damage}}+10 Ranged Power, +30% Alacrity with non-Repeating Crossbows
+Descrip: Which path will you follow?}{- Jaded: Your damage dice with Law on your Side are now d8s for all enemies, regardless of alignment. +10 Ranged Power, +30% Alacrity with non-Repeating Crossbows}{- Optimistic: +2 Damage Dice with Law on your Side. +10 Ranged Power, +30% Alacrity with non-Repeating Crossbows}{- Vigilante: +1 Damage Dice with Law on your Side. Damage from Law on your Side is now Chaos damage, with non-Chaotic creatures taking d8s of damage, and Chaotic creatures taking d4s of damage. +10 Ranged Power, +30% Alacrity with non-Repeating Crossbows
 Tier: 5
+Cost: 2
 All: Tier 4: Greater Law
+Flags: SelectorOnly
 Selector: Jaded, Optimistic, Vigilante
 
 AbilityName: Diplomatic Immunity
-Descrip: Toggle: While active, your attacks with Light and Heavy (non-repeating) Crossbows have a chance to automatically trigger Diplomacy around you
+Descrip: Toggle: While active, your attacks with Light and Heavy (non-repeating) Crossbows have a chance to automatically trigger Diplomacy around you.
 Tier: 5
 Cost: 2
 
@@ -5410,126 +5426,80 @@ Color: Red
 Stats: Strength, Dexterity, Wisdom
 
 AbilityName: Kensei Focus
-Descrip: Select a group of weapons as your Kensei Focus. You gain +1 to hit with these weapons, and many Kensei abilities require that you use one of these weapons. (These are labeled as 'Focus' abilities.)}}Select from:}{-Archery: You focus your Kensei training in the use of bows. You gain +1 to hit with longbows and shortbows}{-Axes: You focus your Kensei training in the use of axes. You gain +1 to hit with battleaxes, greataxes, handaxes, and throwing axes. Dwarves also receive this bonus with dwarven waraxes. (The Exotic Weapon Mastery enhancement will add dwarven waraxes to this list of weapons if you are not a dwarf.)}{-Crossbows: You focus your Kensei training in the use of crossbows. You gain +1 to hit with heavy crossbows, and light crossbows. (The Exotic Weapon Mastery enhancement will add great crossbows and repeating crossbows to this list of weapons.)}{-Druidic Weapons: You focus your Kensei training in the use of druidic weapons. You gain +1 to hit with clubs, daggers, darts, quarterstaves, scimitars, sickles, and when using unarmed combat}{-Heavy Blades: You focus your Kensei training in the use of heavy blades. You gain +1 to hit with falchions, greatswords, longswords, and scimitars. (The Exotic Weapon Mastery enhancement will add bastard swords and khopeshes to this list of weapons.)}{-Light Blades: You focus your Kensei training in the use of light blades. You gain +1 to hit with daggers, kukri, rapiers, shortswords, and throwing daggers}{-Maces and Clubs: You focus your Kensei training in the use of maces and clubs. You gain +1 to hit with clubs, light maces, heavy maces, greatclubs, morningstars, and quarterstaves}{-Martial Arts: You focus your Kensei training in the use of monk weapons. You gain +1 to hit with handwraps, kama, quarterstaves, shuriken, and when using unarmed combat}{-Picks and Hammers: You focus your Kensei training in the use of picks and hammers. You gain +1 to hit with light picks, heavy picks, light hammers, warhammers, mauls, and throwing hammers}
+Descrip: Select a group of weapons as your Kensei focus. You gain +1 to hit with these weapons, and many Kensei abilities require that you use one of these weapons. (These are labeled as "Focus" abilities).}Choose one:}{-  Kensei Focus: Archery: You focus your Kensei training in the use of bows. You gain +1 to hit with longbows and shortbows.}{-  Kensei Focus: Axes: You focus your Kensei training in the use of axes. You gain +1 to hit with battleaxes, greataxes, handaxes, and throwing axes. Dwarves also receive this bonus with dwarven waraxes. (The Exotic Weapon Mastery enhancement will add dwarven waraxes to this list of weapons if you are not a dwarf.)}{-  Kensei Focus: Crossbows: You focus your Kensei training in the use of crossbows. You gain +1 to hit with heavy crossbows, and light crossbows. (The Exotic Weapon Mastery enhancement will add great crossbows and repeating crossbows to this list of weapons.)}{-  Kensei Focus: Druidic Weapons: You focus your Kensei training in the use of druidic weapons. You gain +1 to hit with clubs, daggers, darts, quarterstaves, scimitars, sickles, and when using unarmed combat.}{-  Kensei Focus: Heavy Blades: You focus your Kensei training in the use of heavy blades. You gain +1 to hit with falchions, greatswords, longswords, and scimitars. (The Exotic Weapon Mastery enhancement will add bastard swords and khopeshes to this list of weapons.)}{-  Kensei Focus: Light Blades: You focus your Kensei training in the use of light blades. You gain +1 to hit with daggers, kukri, rapiers, shortswords, and throwing daggers.}{-  Kensei Focus: Maces and Clubs: You focus your Kensei training in the use of maces and clubs. You gain +1 to hit with clubs, light maces, heavy maces, greatclubs, morningstars, and quarterstaves.}{-  Kensei Focus: Martial Arts: You focus your Kensei training in the use of monk weapons. You gain +1 to hit with handwraps, kama, quarterstaves, shuriken, and when using unarmed combat.}{-  Kensei Focus: Picks and Hammers: You focus your Kensei training in the use of picks and hammers. You gain +1 to hit with light picks, heavy picks, light hammers, warhammers, mauls, and throwing hammers.
 Tier: 0
 Selector: Archery, Axes, Crossbows, Druidic Weapons, Heavy Blades, Light Blades, Maces and Clubs, Martial Arts, Picks and Hammers
 
 AbilityName: Spiritual Bond
-Descrip: When you have a weapon equipped in your main hand that is part of your Focus, it gains:}{-On Vorpal: +1 stack of Battle Meditation}}Battle Meditation: +1 Insight bonus to Enhancement bonus for 20 seconds. This stacks up to the number of Kensei Core Abilities you possess (max 10). On timer expiration, 1 stack of Meditative Focus is removed at a time.
+Descrip: When you have a weapon equipped in your main hand that is part of your Focus, it gains On Vorpal: one stack of Battle Meditation: This weapon gains a +1 Insight bonus to Enhancement bonus for 20 seconds. This stacks up to the number of Kensei Core Abilities you possess (max 10). On timer expiration, 1 stack of Meditative Focus is removed at a time.
 Tier: 0
 
-AbilityName: Strike With No Thought
-Descrip: Passive: Your weapons gain +1 Competence Bonus to Critical Damage Multiplier. When you have a weapon equipped in your main hand that is part of your Focus, you gain 1% Doublestrike or 1% Doubleshot (depending on whether your Focus is melee or ranged). Each additional Core Ability you acquire from this tree increases this bonus by 1%}}Doublestrike: Your mainhand melee attacks gain a percent chance to strike twice}}Doubleshot: Your ranged attacks, including thrown attacks, gain a percent chance to attack with an extra projectile. Repeating Crossbows have a reduced chance to produce extra shots.
+AbilityName: Strike with No Thought
+Descrip: Passive: Your weapons gain +1 competence bonus to Critical Damage Multiplier. When you have a weapon equipped in your main hand that is part of your Focus, you gain 1% Doublestrike or 1% Doubleshot (depending on whether your Focus is melee or ranged). Each additional Core Ability you acquire from this tree increases this bonus by 1%.
 Tier: 0
 
 AbilityName: Power Surge
-Descrip: Active: You gain a +8 Psionic bonus to all attributes for 60 seconds. If you possess the ability to generate Ki, you gain On Hit: +2 Ki. You may use this 5 times per Rest.
+Descrip: Active: You gain +8 Psionic bonus to all attributes for 60 seconds. If you possess the ability to generate Ki, you gain On Hit: +2 Ki. You may use this 5 times per Rest.}{  Note: No longer an Action Boost.
 Tier: 0
 
 AbilityName: One Cut
-Descrip: Activate: Your currently equipped primary weapon gains x1 Critical Damage Multiplier for 15 secs, with a cooldown of 60 seconds}}Passive: +20 Melee Power and Ranged Power. +1 use of Power Surge per Rest.
+Descrip: Activate: Your currently equipped primary weapon gains x1 Critical Damage Multiplier for 15 secs.(Cooldown: 1 minute) Passive: +20 Melee Power and Ranged Power. +1 use of Power Surge per Rest.}{  Note: No longer an Action Boost.}{  Note: Counts as Personal Weapon Enchantment, thus activating this ability will dispel any other Enchantments ( Artificer's Deadly, Planar and any Metal Weapons for example).
 Tier: 0
 
 AbilityName: Alacrity
-Descrip: +2 to all ability scores}+15% Doublestrike}+15% Doubleshot}+4 Action Boost uses}+2 to the DCs of all Tactical feats}+2 uses of Power Surge per Rest
+Descrip: }{- +2 to all ability scores}{- +15% Doublestrike}{- +15% Doubleshot}{- +4 Action Boost uses}{- +2 to the DCs of all Tactical Feats}{- +2 uses of Power Surge per Rest.
 Tier: 0
 
 AbilityName: Extra Action Boost
-Descrip: +1/+2/+3 extra action boost
+Descrip: +1/+2/+3 extra action boost.
 Tier: 1
 Ranks: 3
 Cost: 2
 
 AbilityName: Weapon Group Specialization
-Descrip: Grants bonuses to hit and damage with your selected Weapon Group}}Select from:}{-Archery: You gain +1 to hit and damage with bows}{-Axes: You gain +1 to hit and damage with axes}{-Crossbows: You gain +1 to hit and damage with non-repeating crossbows. If you possess Exotic Weapon Mastery, you gain +1 to hit with repeating crossbows}{-Druidic Weapons: You gain +1 to hit and damage with druidic weapons}{-Heavy Blades: You gain +1 to hit and damage with heavy blades}{-Light Blades: You gain +1 to hit and damage with light blades}{-Maces and Clubs: You gain +1 to hit and damage with maces and clubs}{-Martial Arts: You gain +1 to hit and damage with martial arts weapons}{-Picks and Hammers: You gain +1 to hit and damage with picks and hammers}
+Descrip: You gain +1 to hit and damage with your Focus group. This bonus does not apply to exotic weapons unless you also take Exotic Weapon Mastery. (Dwarves do not need to take Exotic Weapon Mastery to apply this bonus to Dwarven Axes.) Repeating crossbows only gain +1 to hit, not damage.
 Tier: 1
 Cost: 2
-Selector: Archery, Axes, Crossbows, Druidic Weapons, Heavy Blades, Light Blades, Maces and Clubs, Martial Arts, Picks and Hammers
-All: Tier 0: Kensei Focus
-SelectorName: Archery
-All: Tier 0: Kensei Focus: Archery
-SelectorName: Axes
-All: Tier 0: Kensei Focus: Axes
-SelectorName: Crossbows
-All: Tier 0: Kensei Focus: Crossbows
-SelectorName: Druidic Weapons
-All: Tier 0: Kensei Focus: Druidic Weapons
-SelectorName: Heavy Blades
-All: Tier 0: Kensei Focus: Heavy Blades
-SelectorName: Light Blades
-All: Tier 0: Kensei Focus: Light Blades
-SelectorName: Maces and Clubs
-All: Tier 0: Kensei Focus: Maces and Clubs
-SelectorName: Martial Arts
-All: Tier 0: Kensei Focus: Martial Arts
-SelectorName: Picks and Hammers
-All: Tier 0: Kensei Focus: Picks and Hammers
 
 AbilityName: Exotic Weapon Mastery
-Descrip: Adds exotic weapons to your Kensei Focus}}Select from:}{-Axes: Adds dwarven axes if you are not a dwarf. (This has no effect if you are a dwarf)}{-Crossbows: Adds great crossbows, heavy repeating crossbows, and light repeating crossbows}{-Heavy Blades: Adds bastard swords and khopeshes}}Note that this does not grant Weapon Proficiency with these weapons.
+Descrip: Adds exotic weapons to your Kensei Focus.}{- Axes: Adds dwarven axe if you are not a dwarf. (This is not necessary if you are a dwarf.)}{- Crossbows: Adds great crossbows, heavy repeating crossbows, and light repeating crossbows.}{- Heavy Blades: Adds bastard swords and khopesh.}{  Note: This enhancement does not grant Proficiency.
 Tier: 1
 Cost: 2
-All: Tier 1: Weapon Group Specialization
-Selector: Axes, Crossbows, Heavy Blades
-SelectorName: Axes
-All: Tier 1: Weapon Group Specialization: Axes
-SelectorName: Crossbows
-All: Tier 1: Weapon Group Specialization: Crossbows
-SelectorName: Heavy Blades
-All: Tier 1: Weapon Group Specialization: Heavy Blades
 
 AbilityName: Action Boost
-Descrip: Choose an Action Boost}}Select from:}{-Attack Boost: Activate to gain a +4 Action Boost bonus to hit and damage for 20 seconds}{-Haste Boost: Activate to gain a +10% Action Boost bonus to attack speed for 20 seconds}}Cooldown: 30 seconds
+Descrip: Choose One: (Cooldown: 30 seconds.)}{-  Attack Boost: Activate to gain +4/+6/+8 Action Boost bonus to hit and damage for 20 seconds.}{-  Haste Boost: Activate to gain +10%/+20%/+30% Action Boost bonus to attack speed for 20 seconds.
 Tier: 1
 Ranks: 3
+Flags: SelectorOnly
 Selector: Attack Boost, Haste Boost
 
 AbilityName: Reed in the Wind
-Descrip: Focus Melee Attack: Deals +1/+2/+3[W] damage. If you successfully damage your target you gain a +3%/+6%/+9% Insight bonus to Dodge for 6 seconds}}Cooldown: 15 seconds
+Descrip: Focus Melee Attack: Deals +1/2/3[W] damage. If you successfully damage your target you gain a +3%/6%/9% Insight bonus to Dodge for 6 seconds. (Cooldown: 15 seconds.)
 Tier: 1
 Ranks: 3
 All: Feat: Dodge
 
 AbilityName: Tactics
-Descrip: +1/2/3 to the DCs of your Tactical abilities
+Descrip: +1/2/3 to the DC's of your Tactical abilities.
 Tier: 2
 Ranks: 3
 Cost: 2
 None: Half-Elf Tier 4: Dilettante Special Ability: Master Tactics
 
 AbilityName: Weapon Group Specialization
-Descrip: Grants bonuses to hit and damage with your selected Weapon Group}}Select from:}{-Archery: You gain +1 to hit and +2 damage with bows}{-Axes: You gain +1 to hit and +2 damage with one handed axes, and +1 to hit and +3 damage with two handed axes}{-Crossbows: You gain +1 to hit and +3 damage with non-repeating crossbows. If you possess Exotic Weapon Mastery, you gain +1 to hit and +2 damage with repeating crossbows}{-Druidic Weapons: You gain +1 to hit and +2 damage with one handed druidic weapons, and +1 to hit and +3 damage with two handed druidic weapons}{-Heavy Blades: You gain +1 to hit and +2 damage with one handed heavy blades, and +1 to hit and +3 damage with two handed heavy blades}{-Light Blades: You gain +1 to hit and +2 damage with light blades}{-Maces and Clubs: You gain +1 to hit and +2 damage with one handed maces and clubs, and +1 to hit and +3 damage with two handed maces and clubs}{-Martial Arts: You gain +1 to hit and +2 damage with one handed martial arts weapons, and +1 hit and +3 damage with two handed martial arts weapons}{-Picks and Hammers: You gain +1 to hit and +2 damage with one handed picks and hammers, and +1 to hit and +3 damage with two handed picks and hammers}
+Descrip: You gain +1 to hit and +2 damage with one handed weapons, bows and repeating crossbows. You gain +1 to hit and +3 damage with two handed weapons and non-repeating crossbows. These bonuses only apply to weapons in your focus group.
 Tier: 2
 Cost: 2
 All: Feat: Weapon Focus, Tier 1: Weapon Group Specialization
-Selector: Archery, Axes, Crossbows, Druidic Weapons, Heavy Blades, Light Blades, Maces and Clubs, Martial Arts, Picks and Hammers
-SelectorName: Archery
-All: Tier 1: Weapon Group Specialization: Archery
-SelectorName: Axes
-All: Tier 1: Weapon Group Specialization: Axes
-SelectorName: Crossbows
-All: Tier 1: Weapon Group Specialization: Crossbows
-SelectorName: Druidic Weapons
-All: Tier 1: Weapon Group Specialization: Druidic Weapons
-SelectorName: Heavy Blades
-All: Tier 1: Weapon Group Specialization: Heavy Blades
-SelectorName: Light Blades
-All: Tier 1: Weapon Group Specialization: Light Blades
-SelectorName: Maces and Clubs
-All: Tier 1: Weapon Group Specialization: Maces and Clubs
-SelectorName: Martial Arts
-All: Tier 1: Weapon Group Specialization: Martial Arts
-SelectorName: Picks and Hammers
-All: Tier 1: Weapon Group Specialization: Picks and Hammers
 
 AbilityName: Improved Dodge
-Descrip: +1%/+2%/+3% Dodge when wearing light or no armor
+Descrip: +1%/+2%/+3% Dodge when wearing light or no armor.}{  Note: Stacks with Tempest: Improved Dodge.
 Tier: 2
 Ranks: 3
 All: Feat: Dodge
 
 AbilityName: Ascetic Training
-Descrip: Your rigorous training gives you various benefits}}Select from:}{-Agility: +1/+2/+3 Concentration, Reflex Saves, and Dodge cap}{-Conditioning: +1/+2/+3 Fortitude Saves, +5/+10/+15 HP, and +5%/+10%/+15% Fortification}{-Contemplation: +1/+2/+3 Concentration and Will Saves. Rank 3: Your passive ki regeneration is increased by 1}
+Descrip: Your rigorous training gives you various benefits.}Choose one:}{-  Agility: +1/+2/+3 Concentration, Reflex Saves, and Dodge cap (in light or no armor).}{  Note: Stacks with Ninja Spy: Agility.}{-  Conditioning: +1/+2/+3 Fortitude Saves, +5/+10/+15 HP and Fortification.}{-  Contemplation: +1/+2/+3 Concentration and Will Saves. Rank 3: Your passive ki regeneration is increased by 1.
 Tier: 2
 Ranks: 3
 Selector: Agility, Conditioning, Contemplation
@@ -5540,112 +5510,66 @@ Tier: 3
 Ranks: 3
 
 AbilityName: Weapon Group Specialization
-Descrip: Grants bonuses to hit and damage with your selected Weapon Group}}Select from:}{-Archery: You gain +1 to hit and +2 damage with bows}{-Axes: You gain +1 to hit and +2 damage with axes}{-Crossbows: You gain +1 to hit and +4 damage with non-repeating crossbows. If you possess Exotic Weapon Mastery, you gain +1 to hit and +2 damage with repeating crossbows}{-Druidic Weapons: You gain +1 to hit and +2 damage with druidic weapons}{-Heavy Blades: You gain +1 to hit and +2 damage with heavy blades}{-Light Blades: You gain +1 to hit and +2 damage with light blades}{-Maces and Clubs: You gain +1 to hit and +2 damage with maces and clubs}{-Martial Arts: You gain +1 to hit and +2 damage with martial arts weapons}{-Picks and Hammers: You gain +1 to hit and +2 damage with picks and hammers}
+Descrip: Gain +1 to hit and +2 damage with weapons in your Focus group.
 Tier: 3
 Cost: 2
 All: Feat: Weapon Specialization, Tier 2: Weapon Group Specialization
-Selector: Archery, Axes, Crossbows, Druidic Weapons, Heavy Blades, Light Blades, Maces and Clubs, Martial Arts, Picks and Hammers
-SelectorName: Archery
-All: Feat: Weapon Specialization: Ranged, Tier 2: Weapon Group Specialization: Archery
-SelectorName: Axes
-All: Tier 2: Weapon Group Specialization: Axes
-One: Feat: Weapon Specialization: Slashing, Feat: Weapon Specialization: Thrown
-SelectorName: Crossbows
-All: Feat: Weapon Specialization: Ranged, Tier 2: Weapon Group Specialization: Crossbows
-SelectorName: Druidic Weapons
-All: Tier 2: Weapon Group Specialization: Druidic Weapons
-One: Feat: Weapon Specialization: Bludgeoning, Feat: Weapon Specialization: Piercing, Feat: Weapon Specialization: Slashing, Feat: Weapon Specialization: Thrown
-SelectorName: Heavy Blades
-All: Feat: Weapon Specialization: Slashing, Tier 2: Weapon Group Specialization: Heavy Blades
-SelectorName: Light Blades
-All: Tier 2: Weapon Group Specialization: Light Blades
-One: Feat: Weapon Specialization: Piercing, Feat: Weapon Specialization: Slashing, Feat: Weapon Specialization: Thrown
-SelectorName: Maces and Clubs
-All: Feat: Weapon Specialization: Bludgeoning, Tier 2: Weapon Group Specialization: Maces and Clubs
-SelectorName: Martial Arts
-All: Tier 2: Weapon Group Specialization: Martial Arts
-One: Feat: Weapon Specialization: Bludgeoning, Feat: Weapon Specialization: Slashing, Feat: Weapon Specialization: Thrown
-SelectorName: Picks and Hammers
-All: Tier 2: Weapon Group Specialization: Picks and Hammers
-One: Feat: Weapon Specialization: Bludgeoning, Feat: Weapon Specialization: Piercing, Feat: Weapon Specialization: Thrown
 
 AbilityName: Athletic Mastery
-Descrip: +1/+2/+3 Maximum Dexterity bonus and Dodge cap. -1/-2/-3 Armor Check Penalty
+Descrip: +1/+2/+3 Maximum Dexterity bonus and Dodge cap. -1/-2/-3 Armor Check Penalty. (works with all armor types)}{  Note: Does not stack with Tempest: Improved Mobility.
 Tier: 3
 Ranks: 3
 All: Feat: Mobility, Tier 2: Improved Dodge
 
 AbilityName: Shattering Strike
-Descrip: Select a melee or ranged special attack that deals extra damage and reduces an opponent's fortification}}Select from:}{-Shattering Shot: Focus Ranged Attack: Deals +1/+2/+3[W] damage. On Damage: Target loses 15% fortification for 10 seconds}{-Shattering Strike: Focus Melee Attack: Deals +1/+2/+3[W] damage. On Damage: Target loses 15% fortification for 10 seconds}}Cooldown: 10 seconds
+Descrip: Select a melee or ranged special attack that deals extra damage and reduces an opponent's fortification.}Choose one: (Cooldown: 10 seconds.)}{-  Shattering Shot: Focus Ranged Attack: Deals +1/+2/+3[W] damage. On Damage: Target loses 15% fortification for 10 seconds. (no save)}{-  Shattering Strike: Focus Melee Attack: Deals +1/2/3[W] damage. On Damage: Target loses 15% fortification for 10 seconds. (no save)
 Tier: 3
 Ranks: 3
+Flags: SelectorOnly
 Selector: Shattering Shot, Shattering Strike
 
 AbilityName: Opportunity Attack
-Descrip: Melee Attack: Deals +3[W] Damage, consumes 1 charge. On Damage: You gain 20 Melee Power for 6 seconds. There is a 10% change to regain an expended charge of this enhancement}}Charges: 2
+Descrip: 2 Charges. Melee Attack: Deals +3[W] Damage, consumes 1 charge. On Damage: You gain 20 Melee Power for 6 seconds. There is a 10% change to regain an expended charge of this enhancement anytime you hit an enemy.
 Tier: 4
 Cost: 2
 
 AbilityName: Weapon Group Specialization
-Descrip: Grants bonuses to hit and damage with your selected Weapon Group}}Select from:}{-Archery: You gain +1 to hit and +2 damage with bows}{-Axes: You gain +1 to hit and +2 damage with one handed axes, and +1 to hit and +4 damage with two handed axes}{-Crossbows: You gain +1 to hit and +4 damage with non-repeating crossbows. If you possess Exotic Weapon Mastery, you gain +1 to hit and +2 damage with repeating crossbows}{-Druidic Weapons: You gain +1 to hit and +2 damage with one handed druidic weapons, and +1 to hit and +4 damage with two handed druidic weapons}{-Heavy Blades: You gain +1 to hit and +2 damage with one handed heavy blades, and +1 to hit and +4 damage with two handed heavy blades}{-Light Blades: You gain +1 to hit and +2 damage with light blades}{-Maces and Clubs: You gain +1 to hit and +2 damage with one handed maces and clubs, and +1 to hit and +4 damage with two handed maces and clubs}{-Martial Arts: You gain +1 to hit and +2 damage with one handed martial arts weapons, and +1 hit and +4 damage with two handed martial arts weapons}{-Picks and Hammers: You gain +1 to hit and +2 damage with one handed picks and hammers, and +1 to hit and +4 damage with two handed picks and hammers}
+Descrip: You gain +1 to hit and +2 damage with one handed weapons, bows and repeating crossbows. You gain +1 to hit and +4 damage with two handed weapons and non-repeating crossbows. These bonuses only apply to weapons in your focus group.
 Tier: 4
 Cost: 2
 All: Feat: Greater Weapon Focus, Tier 3: Weapon Group Specialization
-Selector: Archery, Axes, Crossbows, Druidic Weapons, Heavy Blades, Light Blades, Maces and Clubs, Martial Arts, Picks and Hammers
-SelectorName: Archery
-All: Feat: Greater Weapon Focus: Ranged, Tier 3: Weapon Group Specialization: Archery
-SelectorName: Axes
-All: Tier 3: Weapon Group Specialization: Axes
-One: Feat: Greater Weapon Focus: Slashing, Feat: Greater Weapon Focus: Thrown
-SelectorName: Crossbows
-All: Feat: Greater Weapon Focus: Ranged, Tier 3: Weapon Group Specialization: Crossbows
-SelectorName: Druidic Weapons
-All: Tier 3: Weapon Group Specialization: Druidic Weapons
-One: Feat: Greater Weapon Focus: Bludgeoning, Feat: Greater Weapon Focus: Piercing, Feat: Greater Weapon Focus: Slashing, Feat: Greater Weapon Focus: Thrown
-SelectorName: Heavy Blades
-All: Feat: Greater Weapon Focus: Slashing, Tier 3: Weapon Group Specialization: Heavy Blades
-SelectorName: Light Blades
-All: Tier 3: Weapon Group Specialization: Light Blades
-One: Feat: Greater Weapon Focus: Piercing, Feat: Greater Weapon Focus: Slashing, Feat: Greater Weapon Focus: Thrown
-SelectorName: Maces and Clubs
-All: Feat: Greater Weapon Focus: Bludgeoning, Tier 3: Weapon Group Specialization: Maces and Clubs
-SelectorName: Martial Arts
-All: Tier 3: Weapon Group Specialization: Martial Arts
-One: Feat: Greater Weapon Focus: Bludgeoning, Feat: Greater Weapon Focus: Slashing, Feat: Greater Weapon Focus: Thrown
-SelectorName: Picks and Hammers
-All: Tier 3: Weapon Group Specialization: Picks and Hammers
-One: Feat: Greater Weapon Focus: Bludgeoning, Feat: Greater Weapon Focus: Piercing, Feat: Greater Weapon Focus: Thrown
 
 AbilityName: Liquid Courage
-Descrip: After drinking, you will receive +50 Healing and Repair Amplification for 30 seconds
+Descrip: After drinking a potion, you receive +50 Healing and Repair Amplification for 30 seconds.
 Tier: 4
 
 AbilityName: Strike at the Heart
-Descrip: Your weapon attacks have the Improved Destruction effect
+Descrip: Your weapon attacks have the Improved Destruction effect.
 Tier: 4
 Cost: 2
 
 AbilityName: A Good Death
-Descrip: Select a melee or ranged special attack that deals extra damage to targets at low health}}Select from:}{-Melee: Focus Melee Attack: Perform a melee attack with +1 Critical Damage Multiplier. On Damage: If the target is below 30% health, deal 500 damage that scales with 400% Melee Power}{-Ranged: Focus Ranged Attack: Perform a ranged attack with +1 Critical Damage Multiplier. On Damage: If the target is below 30% health, deal 500 damage that scales with 400% Ranged Power}}Cooldown: 15 seconds
+Descrip: Select a melee or ranged special attack that deals extra damage to targets at low health. (Cooldown: 15 seconds)}Choose one:}{-  A Good Death (Melee): Focus Melee Attack: Perform a melee attack with +1 Critical Damage Multiplier. On Damage: If the target is below 30% health, deal 500 damage that scales with 400% Melee Power.}{-  A Good Death (Ranged): Focus Ranged Attack: Perform a ranged attack with +1 Critical Damage Multiplier. On Damage: If the target is below 30% health, deal 500 damage that scales with 400% Ranged Power.
 Tier: 5
 Selector: Melee, Range
 
 AbilityName: Weapon Master
-Descrip: +3 to hit and damage with all weapons
+Descrip: +3 to hit and damage with all weapons.
 Tier: 5
 All: Tier 4: Weapon Group Specialization
 
-AbilityName: One With The Blade
-Descrip: Passive: +20 Melee and Ranged Power. Your melee Focus weapons are considered Centering. While Centered, you may gain various benefits from levels in Monk or as a Grandmaster of Flowers
+AbilityName: One with the Blade
+Descrip: Passive: +20 Melee and Ranged Power. Your melee Focus weapons are considered Centering. While Centered, you may gain various benefits from levels in Monk or as a Grandmaster of Flowers.
 Tier: 5
 
 AbilityName: Deadly Strike
-Descrip: Select a melee or ranged special attack that is automatically considered a critical threat if it hits}}Select from:}{-Deadly Shot: Focus Ranged Attack: Attack to perform a ranged attack that is automatically considered a critical threat. On Vorpal: 500 damage which scales with Ranged Power}{-Deadly Strike: Focus Melee Attack: Attack to perform a melee attack that is automatically considered a critical threat. On Vorpal: 500 damage which scales with Melee Power}}Cooldown: 20 seconds
+Descrip: Select a melee or ranged special attack that is automatically considered a critical threat if it hits. (Cooldown: 20 seconds)}Choose one:}{-  Deadly Shot: Focus Ranged Attack: Attack to perform a ranged attack that is automatically considered a critical threat. On Vorpal: 500 damage which scales with Ranged Power.}{  BUG: only does 500 damage on a Vorpal roll, does not scale with Ranged Power.}{-  Deadly Strike: Focus Melee Attack: Attack to perform a melee attack that is automatically considered a critical threat. On Vorpal: 500 damage which scales with Melee Power.
 Tier: 5
+Flags: SelectorOnly
 Selector: Deadly Shot, Deadly Strike
 
 AbilityName: Keen Edge
-Descrip: You gain a +1 Competence bonus to Critical Threat Range with your Focus weapons
+Descrip: You gain a +1 Competence bonus to Critical Threat Range with your Focus weapons.
 Tier: 5
 All: Feat: Improved Critical
 
@@ -8371,144 +8295,153 @@ Color: Blue
 Stats: Strength, Constitution
 
 AbilityName: Toughness
-Descrip: You gain +1 Hit Point for each action point you spend in this tree. Each Stalwart Defender Core Ability you possess (including this one) grants +3% Fortification}}(Core Abilities are the abilities along the bottom of each Tree, such as this Enhancement)
+Descrip: You gain +1 Hit Point for each action point you spend in this tree. Each Stalwart Defender Core Ability you possess (including this one) grants +3% Fortification. (Core Abilities are the abilities along the bottom of each Tree, such as this Enhancement.)
 Tier: 0
 
 AbilityName: Stalwart Defense
-Descrip: Defensive Combat Stance: You gain +10 Physical and Magical Resistance and a +150% bonus to melee threat generation}}Cannot be used while raged
+Descrip: Defensive Combat Stance:}{- +10 Physical and Magical Resistance}{- +50% bonus to threat generation}{- Cannot be used while Raged}{- Sacred Defense and Stalwart Defense can't be active at the same time}Unlisted Passive Effect: +2 stacking Constitution
 Tier: 0
 
 AbilityName: Overbalance
-Descrip: Your shields gain On Vorpal: Knock an opponent to the ground
+Descrip: Your shields gain On Vorpal: Knock an opponent to the ground.
 Tier: 0
 
 AbilityName: Stand Fast
-Descrip: Action Boost: You gain a +20 bonus to saves vs. Fear and a +20 bonus to Balance, and +4 bonus to all saves for 20 seconds. This ability can be used while feared or knocked down to end these effects}}Cooldown: 30 seconds
+Descrip: Shield Action Boost: You gain a +20 bonus to saves vs. Fear and a +20 bonus to Balance and +4 bonus to all saves for 20 seconds. This ability can be used while feared or knocked down to end those effects. (Cooldown: 30 seconds.)
 Tier: 0
 
 AbilityName: Defensive Sweep
-Descrip: Action Boost: You generate +50% threat and your basic attacks strike two targets per swing instead of one for 20 seconds}}Cooldown: 30 seconds
+Descrip: Shield Action Boost: You generate +50% threat and your basic attacks strike two targets per swing instead of one for 20 seconds. (Cooldown: 30 seconds.)
 Tier: 0
 
 AbilityName: Last Stand
-Descrip: Passive: You gain +10 Physical and Magical Resistance Rating, +2 Strength, +6 Constitution, and +2 to the DCs of all Tactical feats.}}Action Boost: You gain +100% Maximum hit points, +50 Physical and Magical Resistance Rating, and On Attacked: You are healed for 1d10 positive energy healing. This Action Boost does not share a cooldown with other Action Boost abilities, and can be used while helpless}}Cooldown: 3 minutes
+Descrip: Passive: You gain +2 Strength +6 Constitution +10 Physical and Magical Resist Ratings and +2 to the DCs of all Tactical Feats. Shield Action Boost: Your gain +100% Maximum hit points, +50 Physical and Magical Resistance Rating, and On Attacked: You are healed for 1d10 positive energy healing. This Action Boost does not share a cooldown with other Action Boost abilities, and can be used while helpless. (Cooldown: 3 minutes.)
 Tier: 0
 
 AbilityName: Item Defense
-Descrip: You have a +25%/+50%/+75% chance to negate potential item wear
+Descrip: You have a [25/50/75]% chance to negate potential item wear.
 Tier: 1
 Ranks: 3
 
 AbilityName: Improved Stalwart Defense
-Descrip: Improves your Stalwart Defense stance}}Select from:}{-Durable Defense: While in Stalwart Defense, you gain a +5/+10/+15 Competence bonus to Physical and Magical Resistance Rating}{-Inciting Defense: While in Stalwart Defense, you gain a +150%/+300%/+450% Competence bonus to melee threat generation}{-Resilient Defense: While in Stalwart Defense, you gain a +1/+2/+3 Competence bonus to all Saving Throws}
+Descrip: Improves your Stalwart Defense stance.}Choose one:}{-  Durable Defense: While in Stalwart Defense, you gain a +[5/10/15] Competence bonus to Physical and Magical Resistance Rating.}{-  Inciting Defense: While in Stalwart Defense, you gain a [50/100/150]% Competence bonus to melee threat generation.}{-  Resilient Defense: While in Stalwart Defense, you gain a +[1/2/3] Competence bonus to all Saving Throws.
 Tier: 1
 Ranks: 3
+Flags: SelectorOnly
 Selector: Durable Defense, Inciting Defense, Resilient Defense
 
 AbilityName: Stalwart Defensive Mastery
-Descrip: +1/+2/+3 Armor Class and Armor Maximum Dexterity Bonus
+Descrip: +[1/2/3] Armor Class and Armor Maximum Dexterity Bonus.
 Tier: 1
 Ranks: 3
 None: Half-Elf Tier 2: Dilettante Special Ability: Armor Mastery
 
 AbilityName: Defense Boost
-Descrip: Activate to gain a +5/+10/+15 Action Boost bonus to Armor Class; Physical and Magical Resistance Rating for 20 seconds}}Cooldown: 30 seconds
+Descrip: Activate to gain a +[5/10/15] Action Boost bonus to Armor Class and Physical Resistance Rating for 20 seconds. (Cooldown: 30 seconds.)
 Tier: 1
 Ranks: 3
 
 AbilityName: Threatening Countenance
-Descrip: +1/+2/+3 Haggle, Intimidate, and +60%/+120%/+180% melee threat generation
+Descrip: +[1/2/3] Haggle, Intimidate, and +[20/40/60]% melee threat generation.
 Tier: 1
 Ranks: 3
 
 AbilityName: Improved Stalwart Defense
-Descrip: Improves your Stalwart Defense stance}}Select from:}{-Durable Defense: While in Stalwart Defense, you gain a +5/+10/+15 Competence bonus to Physical and Magical Resistance Rating}{-Inciting Defense: While in Stalwart Defense, you gain a +150%/+300%/+450% Competence bonus to melee threat generation}{-Resilient Defense: While in Stalwart Defense, you gain a +1/+2/+3 Competence bonus to all Saving Throws}
+Descrip: Improves your Stalwart Defense stance.Choose one of the options you did not pick at tier 1.
 Tier: 2
 Ranks: 3
 All: Tier 1: Improved Stalwart Defense
+Flags: SelectorOnly
 Parent: Tier 1: Improved Stalwart Defense
 
 AbilityName: Stalwart Shield Mastery
-Descrip: +5%/+10%/+15% Shield Armor Class and +1/+2/+3 Tower Shield Maximum Dexterity Bonus
+Descrip: +5%/+10%/+15% Shield Armor Class and +[1/2/3] Tower Shield Maximum Dexterity Bonus.
 Tier: 2
 Ranks: 3
 All: Tier 1: Stalwart Defensive Mastery
 
 AbilityName: Armor Expertise
-Descrip: Armor you equip gains +1/+2/+3 to its Enhancement bonus
+Descrip: Armor you equip gains +[1/2/3] to its Enhancement Bonus.
 Tier: 2
 Ranks: 3
 
 AbilityName: Instinctive Defense
-Descrip: You take +5%/+10%/+15% less damage when struck while helpless
+Descrip: You take [5/10/15]% less extra damage when struck while helpless. (Additional damage while helpless varies by difficulty setting from 5% to 25%.)
 Tier: 2
 Ranks: 3
 
 AbilityName: Improved Stalwart Defense
-Descrip: Improves your Stalwart Defense stance}}Select from:}{-Durable Defense: While in Stalwart Defense, you gain a +5/+10/+15 Competence bonus to Physical and Magical Resistance Rating}{-Inciting Defense: While in Stalwart Defense, you gain a +150%/+300%/+450% Competence bonus to melee threat generation}{-Resilient Defense: While in Stalwart Defense, you gain a +1/+2/+3 Competence bonus to all Saving Throws}
+Descrip: Improves your Stalwart Defense stance.Pick the third option left.
 Tier: 3
 Ranks: 3
 All: Tier 2: Improved Stalwart Defense
+Flags: SelectorOnly
 Parent: Tier 1: Improved Stalwart Defense
 Siblings: Tier 2: Improved Stalwart Defense
 
 AbilityName: Greater Stalwart Defense
-Descrip: Further improves your Stalwart Defense stance}}Select from:}{-Hardy Defense: While wearing medium armor, heavy armor, or wielding a shield, you gain a +2/+4/+6 Competence bonus to Constitution}{-Strong Defense: While wearing medium armor, heavy armor, or wielding a shield, you gain a +2/+4/+6 Competence bonus to Strength}{-Tenacious Defense: While wearing medium armor, heavy armor, or wielding a shield, you gain a +10%/+15%/+20% Competence bonus to maximum hit points}
+Descrip: Further improves your Stalwart Defense stance.}Choose one:}{-  Hardy Defense: While wearing medium armor, heavy armor, or wielding a shield and in Stalwart Defense, you gain a  you gain a +[2/4/6] Competence bonus to Constitution.}{-  Strong Defense:While wearing medium armor, heavy armor, or wielding a shield and in Stalwart Defense, you gain a +[2/4/6] Competence bonus to Strength.}{-  Tenacious Defense: While wearing medium armor, heavy armor, or wielding a shield and in Stalwart Defense, you gain a +10%/+15%/+20% Competence bonus to maximum hit points.
 Tier: 3
 Ranks: 3
+Flags: SelectorOnly
 Selector: Hardy Defense, Strong Defense, Tenacious Defense
 
 AbilityName: Shield Expertise
-Descrip: Shields and weapons you equip gain +1/+2/+3 to their Enhancement bonus
+Descrip: Shields and weapons you equip gain +[1/2/3] to their Enhancement bonus.
 Tier: 3
 Ranks: 3
 All: Tier 2: Armor Expertise
 
 AbilityName: Counterattack
-Descrip: Action Boost: You gain On Shield Block: Your next attack within 3 seconds gains +1[W]. This effect can stack up to +1/+2/+3 times}}Cooldown: 30 seconds
+Descrip: Action Boost: You gain On Shield Block: Your next attack within 3 seconds gains +1[W] that stacks 1/2/3 times. (Cooldown: 30 seconds.)
 Tier: 4
 Ranks: 3
 
 AbilityName: Swift Defense
-Descrip: Stalwart Defense grants a +10% Action Boost bonus to Movement Speed
+Descrip: Stalwart Defense provides a +10% Action Boost bonus to your movement speed.
 Tier: 4
 
 AbilityName: Greater Stalwart Defense
-Descrip: Further improves your Stalwart Defense stance}}Select from:}{-Hardy Defense: While wearing medium armor, heavy armor, or wielding a shield, you gain a +2/+4/+6 Competence bonus to Constitution}{-Strong Defense: While wearing medium armor, heavy armor, or wielding a shield, you gain a +2/+4/+6 Competence bonus to Strength}{-Tenacious Defense: While wearing medium armor, heavy armor, or wielding a shield, you gain a +10%/+15%/+20% Competence bonus to maximum hit points}
+Descrip: Further improves your Stalwart Defense stance.Choose one of the options you did not pick at tier 3.
 Tier: 4
 Ranks: 3
 All: Tier 3: Greater Stalwart Defense
+Flags: SelectorOnly
 Parent: Tier 3: Greater Stalwart Defense
 
 AbilityName: Reinforced Defense
-Descrip: Improves the Armor Class bonuses you receive from shields or armor}}Select from:}{-Reinforced Armor: The Armor Class bonus you gain from armor or docents is increased by +15%/+30%/+50%}{-Reinforced Shield: The Armor Class bonus you gain from using a shield is increased by +15%/+30%/+50%}
+Descrip: Improves the armor class bonus you receive from shields or armor.}{-  Reinforced Armor: The Armor Class bonus you gain from armor or docents is increased by [15/30/50]%.}{-  Reinforced Shield: The Armor Class bonus you gain from using a shield is increased by [15/30/50]%.}{  Note: This stacks with Reinforced Defense from Sacred Defender.
 Tier: 4
 Ranks: 3
+Flags: SelectorOnly
 Selector: Reinforced Armor, Reinforced Shield
 
 AbilityName: Reprisal
-Descrip: On Attacked: Your next attack gains +1 damage. This effect can stack up to +3/+6/+10 times
+Descrip: You gain On Attacked: Your next attack gains +1 damage. This effect can stack up to 3/6/10 times (timer 30 sec).
 Tier: 5
 Ranks: 3
+All: Tier 4: Counterattack
 
 AbilityName: Block and Cut
-Descrip: Melee Attack: Performs a melee attack with your main hand weapon that deals +1/+2/+3[W]. On Damage: You gain a +10%/+15%/+25% Morale bonus to melee doublestrike for 10 seconds}}Cooldown: 20 seconds
+Descrip: Shield Melee Attack: Performs a melee attack with your main hand weapon that deals +[1/2/3][W]. On Damage: You gain a [10/15/25]% Morale bonus to melee doublestrike for 10 seconds. (Cooldown: 20 seconds.)
 Tier: 5
 Ranks: 3
 
 AbilityName: Greater Stalwart Defense
-Descrip: Further improves your Stalwart Defense stance}}Select from:}{-Hardy Defense: While wearing medium armor, heavy armor, or wielding a shield, you gain a +2/+4/+6 Competence bonus to Constitution}{-Strong Defense: While wearing medium armor, heavy armor, or wielding a shield, you gain a +2/+4/+6 Competence bonus to Strength}{-Tenacious Defense: While wearing medium armor, heavy armor, or wielding a shield, you gain a +10%/+15%/+20% Competence bonus to maximum hit points}
+Descrip: Further improves your Stalwart Defense stance.Choose the option you didn't chose at Tier 3 or 4.
 Tier: 5
 Ranks: 3
 All: Tier 4: Greater Stalwart Defense
+Flags: SelectorOnly
 Parent: Tier 3: Greater Stalwart Defense
 Siblings: Tier 4: Greater Stalwart Defense
 
 AbilityName: Reinforced Defense
-Descrip: Improves the Armor Class bonuses you receive from shields or armor
+Descrip: Improves the armor class bonus you receive from shields or armor. (Cannot choose same as Reinforced Defense from Tier 4.)
 Tier: 5
 Ranks: 3
 All: Tier 4: Reinforced Defense
+Flags: SelectorOnly
 Parent: Tier 4: Reinforced Defense
 
 TreeName: Swashbuckler
@@ -9396,10 +9329,10 @@ TreeName: Vanguard
 Type: Class
 Initial: Van
 Color: Green
-Stats: Strength
+Stats: Strength, Dexterity
 
 AbilityName: To the Fore!
-Descrip: While you have a shield equipped, you gain +1 to hit and +1 damage with main hand weapon and shield bash attacks
+Descrip: While shield equipped, +1 to hit and +1 damage with main hand weapon and shield bash attacks.
 Tier: 0
 
 AbilityName: Shield Combat I
@@ -9407,132 +9340,132 @@ Descrip: +10% chance to make a secondary shield bash
 Tier: 0
 
 AbilityName: Vicious Shield I
-Descrip: +10% chance to make a secondary shield bash}}While you have a shield equipped, +5% Combat Style bonus to Melee Attack Speed
+Descrip: additional +10% (total +20%) chance to make a secondary shield bash. While shield equipped, +5% Combat Style bonus to melee attack speed.
 Tier: 0
 
 AbilityName: Shield Combat II
-Descrip: +10% chance to make a secondary shield bash}}While you have a shield equipped, +5% Combat style bonus to Melee Attack Speed}}Your shield gains +1[W]
+Descrip: additional +10% (total 30%) chance to make a secondary shield bash. While shield equipped, additional +5% (total 10%) Combat style bonus to Melee Attack Speed. Your shield gains +1(W).
 Tier: 0
 
 AbilityName: Vicious Shield II
-Descrip: Your shield gains +1 critical threat range, +1 critical multiplier, +1[W]}}While you have a shield equipped, +5% Combat Style bonus to Melee Attack Speed
+Descrip: Shield gains +1 critical threat range, +1 critical multiplier, +1(W), and additional +5% (total 15%) Combat Style bonus to Melee Attack Speed.
 Tier: 0
 
 AbilityName: Shield Champion
-Descrip: While you have a shield equipped, you gain +2 attack, +2 damage, +5% doublestrike, +5% Combat Style bonus to Melee Attack Speed}}Your shield gains +1[W]}}Your shield bashs stun enemies 10% of the time. DC (10 + 1/2 Character Level + Strength Modifier + Stun Bonus)
+Descrip: While shield is equipped: +2 attack, +2 damage, +5% doublestrike, +1(W) to your shield, an additional +5% (total 20%) Combat Style bonus to Melee Attack Speed, and shield bash stuns 10% of the time DC (10 + 1/2 Character lvl + strength modifier + stun bonus)
 Tier: 0
 
 AbilityName: Shield Specialization
-Descrip: While shield equipped, you gain +1 to hit, damage, and armor class
+Descrip: While shield equipped, +1 to hit, +1 damage, and +1 to armor class.}{  Bug:  Shield Specialization I does provide the effects listed but the damage increase does not display on the inventory panel.
 Tier: 1
 Cost: 2
 
 AbilityName: No Weakness
-Descrip: +1/+2/+3 Fortitude Saving Throws
+Descrip: [+1/+2/+3] fortitude saving throws.
 Tier: 1
 Ranks: 3
 
 AbilityName: Shield Smash
-Descrip: While you have a shield equipped, Activate: Melee attack with your shield for +1/+2/+3[W] damage. On damage, your Physical and Magical Resistance Rating are increased by +2/+4/+6 for 12 seconds}}Cooldown: 12/9/6 seconds
+Descrip: While shield equipped,Activate: Melee attack with your shield for [+1/+2/+3] (W) damage. On damage, PRR and MRR are increased by [2/4/6] points for [3/6/12] seconds. [12/9/6] seconds cooldown.
 Tier: 1
 Ranks: 3
 
 AbilityName: Unbalancing Shove
-Descrip: When you shield bash, damaged enemies get -1 to Saving Throws for 2/4/6 seconds
+Descrip: When you shield bash, damaged enemies get -1 to saving throws for [2/4/6] seconds.
 Tier: 1
 Ranks: 3
 
 AbilityName: Armor Training
-Descrip: +1/+2/+3 to Balance, Intimidate, and Jump. Reduces total penalty to skills from armor and shield by +1/+2/+3.
+Descrip: +[1/2/3] to Balance, Intimidate, and Jump. Reduces total penalty to skills from armor and shield by [1/2/3] points.
 Tier: 1
 Ranks: 3
 
 AbilityName: Shield Specialization
-Descrip: While you have a shield equipped, you gain +1 to hit, damage, and armor class
+Descrip: While shield equipped, +1 to hit, +1 damage, and +1 to armor class.}{  Bug:  Shield Specialization II does provide the effects listed but the damage increase does not display on the inventory panel.
 Tier: 2
 Cost: 2
 All: Tier 1: Shield Specialization
 
 AbilityName: Brutality
-Descrip: +1/+2/+3 to the DC of your Stunning abilities (such as Stunning Blow and Stunning Shield)
+Descrip: [+1/+2/+3] to the DC of Stunning abilities (e.g. Stunning Blow and Stunning Shield)
 Tier: 2
 Ranks: 3
 
 AbilityName: Stunning Shield
-Descrip: While you have a shield equipped, Activate: Melee shield bash attack with your shield for +1/+2/+3[W] attack. This attack stuns enemies unless they make a Fortitude saving throw vs DC (10 + Highest Ability Score Modifier + Character Level + Stunning Bonuses)}}Cooldown: 60/45/30 seconds
+Descrip: While shield equipped, Activate: Melee shield bash with shield for [+1/+2/+3] (W) attack. This attack stuns enemies unless Fortitude save vs DC(10 + highest ability modifier + character level + stunning bonuses). [60/45/30] seconds cooldown.
 Tier: 2
 Ranks: 3
 
 AbilityName: Missile Shield
-Descrip: While you have a shield equipped, you gain the benefits of the Deflect Arrow feat, knocking aside one incoming projectile that would have struck you every 6/4/2 seconds}}Antirequisite: Deflect Arrows
+Descrip: While shield equipped, gain Deflect Arrow feat knocking one projectile that would have struck every [6/4/2] seconds. Antirequisite: Deflect Arrows.
 Tier: 2
 Ranks: 3
 None: Tempest Tier 0: Deflect Arrows, Swashbuckler Tier 2: Deflect Arrows
 
 AbilityName: Melee Power Boost
-Descrip: +10/+20/+30 Action Boost bonus to Melee and Ranged Power for 20 seconds}}Usable 5 times per rest}}Cooldown: 20 seconds
+Descrip: [+10/+20/+30] Action Boost bonus to both Melee and Ranged Power for 20 seconds. Usable 5 times per rest. Shared cooldown: 20 seconds.
 Tier: 2
 Ranks: 3
 
 AbilityName: Shield Specialization
-Descrip: While you have a shield equipped, you gain +1 to hit, damage, and armor class
+Descrip: While shield equipped, +1 to hit, +1 damage, and +1 armor class.}{  Bug:  Shield Specialization III does provide the effects listed but the damage increase does not display on the inventory panel.
 Tier: 3
 Cost: 2
 All: Tier 2: Shield Specialization
 
 AbilityName: Follow Up
-Descrip: When you hit an enemy with an activated attack with certain stunning abilities (such as Stunning Blow or Stunning Shield), your melee power is increased by +3/+6/+9 for 12 seconds whether the stun works or not
+Descrip: When you hit with activated stunning attack (e.g. Stunning Blow or Stunning Shield), your Melee Power increases by [3/6/9] points for 12 seconds, regardless if enemy stunned.
 Tier: 3
 Ranks: 3
 
 AbilityName: Fatal Bulwark
-Descrip: Your shield gains +1 critical threat range
+Descrip: Your shield gains +1 critical threat range.
 Tier: 3
 Cost: 2
 
 AbilityName: Shield Riposte
-Descrip: When missed in melee while wearing a shield: Deals 1d4/1d6/1d8 bludgeoning damage to your attacker. Scales with melee power
+Descrip: While shield equipped, when missed by melee attacker, shield deals [1d4/1d6/1d8] bludgeoning damage to attacker. Damage scales with Melee Power.
 Tier: 3
 Ranks: 3
 
 AbilityName: Shield Specialization
-Descrip: While you have a shield equipped, you gain +1 to hit, damage, and armor class
+Descrip: While shield equipped, +1 to hit, +1 damage, and +1 armor class.}{  Bug:  Shield Specialization IV does provide the effects listed but the damage increase does not display on the inventory panel.
 Tier: 4
 Cost: 2
 All: Tier 3: Shield Specialization
 
 AbilityName: Armor Mastery
-Descrip: +1/+2/+3 Armor Class and Armor Maximum Dexterity Bonus. (Maximum Dexterity bonus limits your maximum Dodge as well)
+Descrip: [+1/+2/+3] to armor class and armor maximum dexterity bonus. (Note: maximum dexterity bonus limits maximum dodge as well).
 Tier: 4
 Ranks: 3
 
 AbilityName: Shield Charge
-Descrip: While you have a shield equipped, Activate: Rush forward up to 30 feet to your selected opponent and deliver a +1/+2/+3[W] shield attack that hits enemies around you}}Cooldown: 36/24/12 seconds
+Descrip: While shield equipped, Activate: Rush forward up to 30 feet to your selected opponent and deliver [+1/+2/+3] (W) shield attack that hits enemies around you. [36/24/12] seconds cooldown.
 Tier: 4
 Ranks: 3
 
 AbilityName: Myrmidon's Edge
-Descrip: +1/+2/+3 to attack rolls to confirm critical hits and +1/+2/+3 damage on critical hits (before weapon multipliers)
+Descrip: [+1/+2/+3] to attack rolls to confirm critical hits and [+1/+2/+3] damage on critical hits (prior to applying weapon multipliers).
 Tier: 4
 Ranks: 3
 
 AbilityName: Shield to the Face
-Descrip: +10% chance to make a secondary shield bash
+Descrip: Additional +10% chance to make a secondary shield bash.
 Tier: 5
 Cost: 2
 
 AbilityName: Disorienting Smash
-Descrip: When you shield bash, damaged enemies gain 1 stack of Vulnerability. This can occur at most once every 3/2/1 seconds}}Vulnerability: You take +1% more damage for 3 seconds. This effect stacks up to 20 times, and loses one stack on expiration
+Descrip: When you shield bash, damaged enemies gain a stack of Vulnerability which can occur once every [3/2/1] seconds. Vulnerability makes enemies take 1% more damage for 3 seconds. This effect stacks up to 20 times, and loses one stack every 3 seconds.
 Tier: 5
 Ranks: 3
 
 AbilityName: Shield Charge
-Descrip: While you hae a shield equipped, Activate: Move forward in a line, delivering a shield bash attack to every creature hit. Each opponent is knocked down and takes a shield bash attack for +2/+4/+6[W] damage. The knockdown is negated on a Fortitude saving throw vs. DC (20 + Highest Ability Modifier + Class Level + bonuses to trip attacks)}}Cooldown: 60/45/25 seconds
+Descrip: While shield equipped, Activate: Rush forward in a line, delivering a shield bash to every creature hit. Each enemy is knocked down for [+2/+4/+6] (W) damage. The knockdown is negated on Fortitude saving throw vs DC(20 + highest ability modifier + class level + bonus to trip attacks). [60/45/25] seconds cooldown.
 Tier: 5
 Ranks: 3
 
 AbilityName: Armored Strength
-Descrip: +10 Melee Power
+Descrip: +10 to Melee Power.
 Tier: 5
 Cost: 2
 
@@ -9544,145 +9477,146 @@ Color: Green
 Stats: Strength, Dexterity, Constitution, Intelligence, Wisdom, Charisma
 
 AbilityName: Knife Expertise
-Descrip: You gain +1 to hit and damage with daggers and throwing knives
+Descrip: You gain +1 to hit and damage with daggers and throwing daggers.
 Tier: 0
 
 AbilityName: Knife Juggler
-Descrip: You gain +5% to speed with throwing daggers. You gain the benefits of the Deflect Arrows feat, knocking aside one incoming projectile that would have struck you every 6 seconds
+Descrip: You gain +5% to speed with throwing daggers. You gain the benefits of the Deflect Arrows feat, knocking aside one incoming projectile that would have struck you every 6 seconds.
 Tier: 0
 
-AbilityName: Quick Reflexes
-Descrip: You gain Quickdraw as a bonus feat. You gain +5% Doublestrike, and +5% Doubleshot for both the main hand and the off hand
+AbilityName: Knife Specialist
+Descrip: You gain Quick Draw as a bonus feat. You gain +5% Doublestrike (main and off hand), and Doubleshot.
 Tier: 0
 
 AbilityName: One With Blades
-Descrip: You gain a +1 Competence bonus to Critical Threat Range and +1 to Critical Damage multiplier with daggers and throwing knives
+Descrip: You gain a +1 Competence bonus to Critical Threat Range and +1 to Critical Damage Multiplier with daggers and throwing daggers.
 Tier: 0
 
 AbilityName: Vistani Fortune
-Descrip: Passive: You gain +10 Physical Resistance Rating and Magical Resistance Rating}}Activate to gain one random Vistani fortune}{-Coins: You gain +5% Doublestrike and +5% Doubleshot}{-Glyphs: You gain +10 Physical Resistance Rating and +20 Magical Resistance Rating}{-Stars: You gain +2 to all ability scores}{-Swords: You gain +15 Melee Power and Ranged Power}}Cooldown: 60 seconds
+Descrip: Passive: You gain +10 Physical Resistance Rating and Magical Resistance Rating. Activate to gain one random Vistani fortune. Cooldown 60 seconds.}{- Coins: You gain 10% Doublestrike and 10% Doubleshot for 60 seconds.}{- Glyphs: You gain 10 Physical Resistance Rating and 20 Magical Resistance Rating for 60 seconds.}{- Stars: You gain +2 to all ability scores for 60 seconds.}{- Swords: You gain 15 Melee Power and Ranged Power for 60 seconds.
 Tier: 0
 
-AbilityName: Blade Master
-Descrip: You gain +2 to all ability scores. You gain +5% attack speed when using melee and throwing weapons. You gain +20 Melee Power and +20 Ranged Power
+AbilityName: Knife Master
+Descrip: You gain +2 to all ability scores. You gain +5% attack speed when using two daggers or throwing knives. You gain 20 Melee Power and 20 Ranged Power.
 Tier: 0
 
-AbilityName: Vistani Knife Training I
-Descrip: When using a dagger in each hand, you now fight in melee using the Vistani style, with both daggers held down point down. You gain +1 to hit and damage with daggers and throwing daggers
+AbilityName: Vistani Knife Training
+Descrip: When using a dagger in each hand, you now fight in melee using the Vistani style, with both daggers held down point down. You gain +1 to hit and damage with daggers and throwing daggers.
 Tier: 1
 
 AbilityName: Undead Hunter
-Descrip: You resist evil influences particularly well, gaining +2 bonus to saving throws against spells and effects produced by evil creatures. Undead are automatically considered a Favored Enemy for you
+Descrip: You resist evil influences particularly well, gaining a +2 bonus to saves against spells and effects produced by evil creatures. Undead are automatically consider a Favored Enemy for you.
 Tier: 1
 
 AbilityName: Mist Stalker
-Descrip: You gain +25% negative energy absorption. You gain +3 Physical Resistance Rating and Magical Resistance Rating
+Descrip: You gain +25% negative energy absorption. You gain +3 Physical Resistance Rating and Magical Resistance Rating.
 Tier: 1
 Cost: 2
 
 AbilityName: Acrobatic
-Descrip: +1/+2/+3 Balance, Jump, and Tumble}}Rank 3: +1 to Reflex saving throws
+Descrip: +1/2/3 Balance, Jump, and Tumble. Rank 3: +1 to Reflex Saving Throws.
 Tier: 1
 Ranks: 3
 
-AbilityName: Rapid Slash
-Descrip: Requires dagger. Melee attack. +3[W] damage. You gain +20% Morale bonus to (main hand) doublestrike}}(Taking this ability also gives you Rapid Throw, the ranged version that requires a throwing knife.)}}Cooldown: 10 seconds
+AbilityName: Rapid Attack
+Descrip: You gain both of the following:}{- Rapid Slash: Requires dagger. Melee Attack: Deals +3(W) damage. You gain a 20% Morale bonus to (main hand) doublestrike for 10 seconds. Cooldown: 10 seconds.}{- Rapid Throw: Requires throwing knife. Missile Attack: Deals +3(W) damage. You gain a 20% Morale bonus to doubleshot for 10 seconds. Cooldown: 10 seconds. This puts Ten Thousand Stars and Manyshot on a 10 second cooldown.
 Tier: 1
 Cost: 2
 
-AbilityName: Vistani Knife Training II
-Descrip: You gain +1 to hit and +2 damage with daggers and throwing daggers
+AbilityName: Vistani Knife Training
+Descrip: You gain +1 to hit and +2 damage with daggers and throwing daggers.
 Tier: 2
 Cost: 2
 
 AbilityName: Bleeding Cuts
-Descrip: When you score a vorpal hit with a dagger or throwing knife you add a stack of Blood of Vengeance to your opponent}}Blood of Vengeance: You deal 1d6 damage per two seconds for 30 seconds. This damage scales with 200% Melee Power. This stacks up to 10 times, with new stacks refreshing the duration
+Descrip: When you score a Vorpal hit with a dagger or throwing knife you add a stack of Blood of Vengeance to your opponent.}    Blood of Vengeance: You deal 1d6 damage per two seconds for 30 seconds. This damage scales with 200% Melee Power. This stacks up to 10 times, with new stacks refreshing the duration.
 Tier: 2
 Cost: 2
 
-AbilityName: Mist Stalker II
-Descrip: You gain +2 to Will saving throws. You gain +3 Physical Resistance Rating and Magical Resistance Rating
+AbilityName: Mist Stalker
+Descrip: You gain +2 to Will saving throws. You gain +3 Physical Resistance Rating and Magical Resistance Rating.
 Tier: 2
 Cost: 2
 All: Tier 1: Mist Stalker
 
 AbilityName: Weapon Versatility
-Descrip: Your dagger and throwing dagger attacks use the higher of Melee Power or Ranged Power
+Descrip: While using daggers and throwing daggers, your melee and missile attacks use the higher of Melee Power or Ranged Power.
 Tier: 2
 
 AbilityName: Haste Boost
-Descrip: Activate to gain a +10%/+20%/+30% Action Boost bonus to attack speed for 20 seconds}}Cooldown: 30 seconds
+Descrip: Activate to gain a 10%/20%/30% Action Boost bonus to attack speed for 20 seconds. (Cooldown: 30 seconds)
 Tier: 2
 Ranks: 3
 
-AbilityName: Vistani Knife Training III
-Descrip: You gain +1 to hit and +2 damage with daggers and throwing daggers
+AbilityName: Vistani Knife Training
+Descrip: You gain +1 to hit and +2 damage with daggers and throwing knives.
 Tier: 3
 Cost: 2
-All: Tier 2: Vistani Knife Training II
+All: Tier 2: Vistani Knife Training
 
 AbilityName: Fan of Knives
-Descrip: On activation: You throw a hail of throwing knives in a cone in front of you. Enemies caught in the cone take 1d8 damage per character level of damage and take one stack of Blood of Vengeance. This damage scales with 200% Ranged Power}}Cooldown: 15 seconds
+Descrip: On activation: You throw a hail of throwing knives in a cone in front of you. Enemies caught in the cone take 5 to 8 per character level of damage and take 1 stack of Blood of Vengeance. This damage scales with 200% Ranged Power. Cooldown: 15 seconds
 Tier: 3
 Cost: 2
 
-AbilityName: Mist Stalker III
-Descrip: You are immune to Fear effects. You gain +3 Physical Resistance Rating and Magical Resistance Rating
+AbilityName: Mist Stalker
+Descrip: You are immune to Fear effects. You gain +3 Physical Resistance Rating and Magical Resistance Rating.
 Tier: 3
 Cost: 2
-All: Tier 2: Mist Stalker II
+All: Tier 2: Mist Stalker
 
 AbilityName: Deadly Blades
-Descrip: Your daggers and throwing knives do an additional +1[W] of damage. You are centered when fighting with daggers
+Descrip: Your daggers and throwing daggers do an additional +1(W) of damage. You are centered when fighting with daggers. (Note: not centered with throwing daggers).
 Tier: 3
 Cost: 2
 
-AbilityName: Vistani Knife Training IV
-Descrip: You gain +1 to hit and +2 damage with daggers and throwing daggers
+AbilityName: Vistani Knife Training
+Descrip: You gain +1 to hit and +2 damage with daggers and throwing knives.
 Tier: 4
 Cost: 2
-All: Tier 3: Vistani Knife Training III
+All: Tier 3: Vistani Knife Training
 
 AbilityName: Celerity
-Descrip: You gain +5% main hand and off hand doublestrike, and doubleshot
+Descrip: You gain +5% Doublestrike (main and off hand), and Doubleshot.
 Tier: 4
 
-AbilityName: Mist Stalker IV
-Descrip: You gain immunity to energy drain. You gain +3 Physical Resistance Rating and Magical Resistance Rating
-Tier: 4
-Cost: 2
-All: Tier 3: Mist Stalker III
-
-AbilityName: Choose One
-Descrip: Choose a dagger style to specialize in}}Select from:}{-Double Daggers: When fighting with a dagger in each hand: +20% stacking chance to make off hand attacks when dual wielding}{-Single Dagger: When Single Weapon Fighting with a dagger: +20 Melee Power}
+AbilityName: Mist Stalker
+Descrip: You gain immunity to Energy Drain. You gain +3 Physical Resistance Rating and Magical Resistance Rating.
 Tier: 4
 Cost: 2
-Selector: Double Daggers, Single Dagger
+All: Tier 3: Mist Stalker
 
-AbilityName: Vistani Knife Training V
-Descrip: You gain +3 to hit and +3 damage with daggers and throwing knives
+AbilityName: Double Daggers
+Descrip: Choose One:}{-  Single Dagger: When fighting single weapon style with a dagger: +20 Melee Power.}{-  Double Daggers: When fighting with a dagger in each hand: +20% stacking chance to make off-hand attacks when dual wielding weapons.
+Tier: 4
+Cost: 2
+Flags: SelectorOnly
+Selector: Single Dagger, Double Daggers
+
+AbilityName: Vistani Knife Training
+Descrip: You gain +3 to hit and damage with daggers and throwing knives.
 Tier: 5
 Cost: 2
-All: Tier 4: Vistani Knife Training IV
+All: Tier 4: Vistani Knife Training
 
 AbilityName: Whirling Blades
-Descrip: Requires throwing knife. Missile Attack: +5[W] damage. Your throwing knife gains 100 doubleshot for 15 seconds}}Cooldown: 60 seconds
+Descrip: Requires throwing knife. Missile Attack: +5(W) damage. Your throwing knife gains 100 doubleshot for 15 seconds. Cooldown one minute. (Shares cooldown with 10K Stars.)
 Tier: 5
 Cost: 2
 
-AbilityName: Mist Stalker V
-Descrip: Activate to gain +20% Dodge and Maximum Dodge, +30 PRR, and +30 MRR for 20 seconds}}Cooldown: 60 seconds
+AbilityName: Mist Stalker
+Descrip: Activate to gain +20% Dodge and Maximum Dodge, +30 PRR, and +30 MRR for 20 seconds. Cooldown: 60 seconds.
 Tier: 5
 Cost: 2
-All: Tier 4: Mist Stalker IV
+All: Tier 4: Mist Stalker
 
 AbilityName: Blessed Blades
-Descrip: Required dagger. Melee attack. +5[W] damage, plus one stack of Blood of Vengeance. Your equipped daggers gain a stacking +10 Enhancement bonus for 10 seconds. They also gain Silver, Good, and Ghost Touch}}(Taking this ability also gives you Blessed Knives, the ranged version that requires a throwing dagger)
+Descrip: You gain both of the following:}{- Blessed Blades: Requires dagger. Melee attack. +5(W) damage, plus one stack of Blood of Vengeance. Your equipped daggers gain a +10 Enhancement bonus for 10 seconds. They also gain Silver, Good, and Ghost Touch. 10 second cooldown.}{- Blessed Knives: Requires throwing knife. Missile attack. +5(W) damage, plus one stack of Blood of Vengeance. Your throwing knife gains a +10 Enhancement bonus for 10 seconds. It also gains Silver, Good, and Ghost touch. 10 second cooldown.
 Tier: 5
 Cost: 2
 
 AbilityName: Vendetta
-Descrip: Activate to gain a unique +1 Critical Threat Range and +1 Critical damage multiplier to your equipped daggers or throwing knife for 15 seconds}}Cooldown: 60 seconds
+Descrip: Activate to gain a unique +1 Critical Threat Range and +1 to Critical damage multiplier to your equipped daggers or throwing knife for 15 seconds. 60 second cooldown.
 Tier: 5
 Cost: 2
 

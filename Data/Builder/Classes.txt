@@ -1,3 +1,33 @@
+ClassName: Alchemist
+Initial: A, Al, Alch, Alc
+Color: Blue
+Alignment: Lawful Neutral, Lawful Good, Chaotic Neutral, Chaotic Good, True Neutral, Neutral Good
+BAB: 0.75
+SkillPoints: 2
+Skills: Balance, Bluff, Concentration, Diplomacy, Haggle, Heal, Search, Spellcraft, Spot, Use Magic Device
+GrantedFeats1: Simple Weapons
+GrantedFeats1: Magical Training
+GrantedFeats2: Insightful Reflexes
+GrantedFeats4: Alchemy on the Run
+GrantedFeats6: Multitude of Missiles
+BonusFeat: 4, 8, 12, 16, 20
+Trees: Apothecary, Bombardier, Vile Chemist
+HealingSpell: 1
+MaxSpellLevel: 6
+SpellSlots0: 1, 2, 3, 4, 5, 6, 7, 8, 9, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 0
+SpellSlots1: 2, 3, 3, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5
+SpellSlots2: 0, 0, 1, 2, 2, 2, 3, 3, 3, 3, 4, 4, 4, 5, 5, 5, 5, 5, 5, 5
+SpellSlots3: 0, 0, 0, 0, 0, 1, 2, 2, 3, 3, 3, 3, 4, 4, 4, 5, 5, 5, 5, 5
+SpellSlots4: 0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 3, 3, 3, 4, 4, 5, 5, 5, 5, 5
+SpellSlots5: 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 3, 3, 4, 5, 5, 5, 5
+SpellSlots6: 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 3, 4, 5, 5, 5
+SpellList1: Action Boost Bottle: Attack, Action Boost Bottle: Defense, Admixture: Cure Light Wounds, Admixture: Cure Disease, Admixture: Cure Poison, Admixture: Inflict Light Wounds, Elemental Skin, Empty Bottle, Feathers Extract, Fine Dust, Flash Powder, Gills Extract, Lesser Alchemical Evolution, Lesser Restorative Vial, Rapid Condensation, Sleep Powder, Stiffen Skin, Venom Vial, Venom Vial Smash, Vial of Acid, Vial of Flame, Vial of Frost, Vial of Sparks, Vial Smash: Acid, Vial Smash: Flame, Vial Smash: Frost, Vial Smash: Sparks
+SpellList2: Action Boost Bottle: Spell Power, Admixture: Cure Moderate Wounds, Admixture: Inflict Moderate Wounds, Admixture: Remove Curse, Admixture: Remove Paralysis, Alluring Elixir, Augment Armor, Cold Spike, Corrode Weapons, Glue Solution, Greater Venom Vial, Lesser Heartseeker Poison Imbue, Lesser Ice Chill Poison Imbue, Lesser Soulshatter Poison Imbue, Lesser Voidmind Poison Imbue, Liquid Courage, Melt Armor, Restorative Vial, Salt Crystals, Voltaic Backlash
+SpellList3: Action Boost Bottle: Doubleshot/Doublestrike, Admixture: Cure Serious Wounds, Admixture: Inflict Serious Wounds, Alchemical Evolution, Bitter Frost Burst, Caustic Solvent, Choking Smog Elemental Weapons, Flash Freeze, Greater Liquid Courage, Greater Restorative Vial, Heartstopper Poison, Iron Shavings, Invisibility Potion, Melt Lock, Molotov Cocktail, Quicksilver Potion, Voltaic Induction
+Spelllist4: Action Boost Bottle: Melee/Ranged Power, Action Boost Bottle: Sprint Boost, Admixture: Cure Critical Wounds, Admixture: Inflict Critical Wounds, Caustic Overload, Cindersmoke, Corrosive Dust, Flesh to Gold, Heartseeker Poison Imbue, Hypnotic Combination, Ice Chill Poison Imbue, Soulshatter Poison Imbue, Smoke Bomb, Stoneskin Potion, Vein Freeze, Voidmind Poison Imbue, Voltaic Burst
+SpellList5: Action Boost Bottle: Attack Speed, Greater Alchemical Evolution, Greater Elemental Weapons, Greater Stoneskin, Flashbang, Flesh to Gold Mass, Multivial of Acid, Multivial of Bitterchill, Multivial of Flame, Multivial of Sparks, Poison Breath, Turn to Frog
+SpellList6: Admixture: Harm, Admixture: Heal, Dust of Confusion, Elemental Reaction, Gold Breath, Goldskin Potion, Heartseeker Poison Imbue, Ice Chill Poison Imbue, Soulshatter Poison Imbue, Voidmind Poison Imbue
+
 ClassName: Artificer
 Initial: A, Ar, Arti, Art
 Color: Blue
