@@ -584,6 +584,146 @@ Descrip: Your Lantern Archon attacks will add a stack of Archon's Fury. (Archon'
 Tier: 5
 All: Tier 0: Summon Archon
 
+TreeName: Apothecary
+Type: Class
+Initial: Apo
+Color: Blue
+Stats: Constitution, Intelligence
+
+AbilityName: Determination
+Descrip: +1 to your Will Saving Throws
+Tier: 0
+
+AbilityName: Alchemical Shield
+Descrip: While in Cloth armor or Composite Body, your equipped armor or docent grants:}{-+4 Alchemical bonus to Armor Class}{-Immunity to Magic Missles}}While your Reaction is Verdanite gain:}{-+5 Positive Spell Power}{-+5 Negative Spell Power}
+Tier: 0
+
+AbilityName: Curative Admixture (Cure Serious Wounds)
+Descrip: Spell-Like Ability}Passive: +1 Spell Penetration}}While your Reaction is Verdanite gain:}{-+5 Positive Spell Power}{-+5 Negative Spell Power}
+Tier: 0
+
+AbilityName: Spill the Bad Stuff
+Descrip: Spell-Like Ability}While your Reaction is Verdanite gain:}{-+2% Positive Spell Critical Damage}{-+2% Negative Spell Critical Damage}{-+5% Magical Efficiency}
+Tier: 0
+
+AbilityName: Curative Admixture (Heal)
+Descrip: Spell-Like Ability}While your Reaction is Verdanite gain:}{-+1 Transmutation DC}
+Tier: 0
+
+AbilityName: Genius Never Dies
+Descrip: +4 Intelligence}+20 Concentration}+1000 Unconsciousness Range}Diehard Feat}+1 Spell Penetration}}While your Reaction is Verdanite gain"}{-+2 Transmutation DC}
+Tier: 0
+
+AbilityName: Curative Admixture
+Descrip: Spell-Like Ability}}Select from:}{-Curative Admixture: Cure Light Wounds}{-Curative Admixture: Inflict Light Wounds}}Activation Cost: 4/3/2}Cooldown: 12/8/4 seconds
+Tier: 1
+Ranks: 3
+Selector: Cure Light Wounds, Inflict Light Wounds
+
+AbilityName: Apothecary Skills
+Descrip: +1/+2/+3 Concentration, Haggle, Heal, and +1 Will Saves at rank 3
+Tier: 1
+Ranks: 3
+
+AbilityName: Spell Critical Chance (Positive and Negative I)
+Descrip: +2% Critical Hit Chance with Positive and Negative Spells
+Tier: 1
+Cost: 2
+
+AbilityName: Energy of the Scholar
+Descrip: +30/+60/+90 Spell Points
+Tier: 1
+
+AbilityName: Soothing Poultices
+Descrip: While your Reaction is Verdanite, when you cast spells on yourself or allies you grant Temporary Hitpoints equal to (1/3)/(2/3)/(3/3) of your Intelligence}}Duration: 180 seconds
+Tier: 1
+
+AbilityName: Hale & Hearty
+Descrip: +3/+6/+10 Positive and Negative Healing Amplification
+Tier: 2
+Ranks: 3
+
+AbilityName: Spell Critical Chance (Positive and Negative II)
+Descrip: +2% Critical Hit Chance with Positive and Negative Spells
+Tier: 2
+Cost: 2
+All: Tier 1: Spell Critical Chance (Positive and Negative I)
+
+AbilityName: Stone of the Scholar
+Descrip: Alchemist's Stone Toggle: While toggled and wielding an Orb:}{-+10 Healing Amplification}{-+20 Positive Spell Power}
+Tier: 2
+Cost: 2
+
+AbilityName: Life Salve
+Descrip: Target player, hireling or pet takes 100% base healing from Positive/Negative spells for the next 3 minutes (or until the target dies)}{-Does not effect NPC Allies or Allies that already take 100% base Positive/Negative healing}{-Overrides the innate base healing from Positive/Negative spells}{-Both Salves share a cooldown with each other and Converter}}Life Salve: Positive spells}Death Salve: Negative spells}}Activation Cost: 4 Spell Points}Cooldown: 180 seconds
+Tier: 2
+
+AbilityName: Panacea Pultice
+Descrip: Spell-Like Ability: Panacea}}Activation Cost: 6/3/1}Cooldown: 12/8/6 seconds
+Tier: 3
+Ranks: 3
+
+AbilityName: Safety Goggles
+Descrip: +1/+2/+3 Armor Class, +2/+4/+6 Fire/Cold/Acid/Electric Resistance, and Immune to Blindness at rank 3
+Tier: 3
+Ranks: 3
+
+AbilityName: Spell Critical Chance (Positive and Negative III)
+Descrip: +2% Critical Hit Chance with Positive and Negative Spells
+Tier: 3
+Cost: 2
+All: Tier 2: Spell Critical Chance (Positive and Negative II)
+
+AbilityName: Vital Ambition
+Descrip: When your Reaction is Verdanite you gain:}{-+1 Will Save}{-Additional +1 Will Save for every 5 Alchemist Levels}
+Tier: 3
+Cost: 2
+
+AbilityName: Insulated Boots
+Descrip: +2/+4/+6 Magical Resistance Rating, and Immunity to Slippery Surfaces at rank 3
+Tier: 4
+Ranks: 3
+All: Tier 3: Safety Goggles
+
+AbilityName: Spell Critical Chance (Positive and Negative IV)
+Descrip: +2% Critical Hit Chance with Positive and Negative Spells
+Tier: 4
+Cost: 2
+All: Tier 3: Spell Critical Chance (Positive and Negative III)
+
+AbilityName: Run for your Life!
+Descrip: +1% Movement Speed per Alchemist Level
+Tier: 4
+Cost: 2
+
+AbilityName: Curative Admixture
+Descrip: Spell-Like Ability}}Select from:}{-Curative Admixture: Cure Critical Wounds}{-Curative Admixture: Inflict Critical Wounds}}Activation Cost: 5}Cooldown: 12 seconds
+Tier: 5
+Selector: Cure Critical Wounds, Inflict Critical Wounds
+
+AbilityName: Gloves of the Master Apothecary
+Descrip: +5 Use Magic Device}+10 Universal Spell Power}15% chance to retain a copy of any of the following healing potions that you drink:}{-Positive Potion}{-Negative Potion}{-Repair Healing Potion}
+Tier: 5
+Cost: 2
+All: Tier 4: Insulated Boots
+
+AbilityName: Master Apothecary
+Descrip: You have no Max Caster Level with:}{-Curative Admixtures}{-Any other Gildleaf Alchemist Spells}+2 Transmutation DCs}+1 Spell Penetration
+Tier: 5
+Cost: 2
+All: Tier 4: Spell Critical Chance (Positive and Negative IV)
+
+AbilityName: Dissolve
+Descrip: Instantly kill any touch range enemy that:}{-Fails Fortitude DC: 20 + Heal Bonus}{-Is one of: Fascinated, Sleeping, Dancing, Dazing, Tripped, Mesmerized, Paralyzed, Petrified, Stunned}
+Tier: 5
+Cost: 2
+
+AbilityName: Sleep or Death
+Descrip: Select from:}{-Deadly Neurotoxin}{-Nightshade}}Deadly Neurotoxin: Offensive Gildleaf and Ceruleite Spells will:}{-Reduce your targets Armor Class and Magical Resistance Rating by 1 per stack which stacks up to 5 times}}Nightshade: Spell-Like Ability}{-Activation Cost: 10 Spell Points}{-Cooldown: 30 seconds}
+Tier: 5
+Cost: 2
+Selector: Deadly Neurotoxin, Nightshade
+
 TreeName: Arcane Archer
 Abbreviation: AA
 Type: Class
@@ -1717,6 +1857,12 @@ Tier: 4
 AbilityName: Power of the Forge
 Descrip: Action Boost: For 20 seconds you gain:}{- +20 Melee and Ranged Power}{- +30 Action Boost bonus to Universal Spell Power}{- +4 Action Boost bonus to all Saving Throws}{- +10 Action Boost bonus to Armor Class and Physical Resistance Rating
 Tier: 4
+
+TreeName: Bombardier
+Type: Class
+Initial: Bom
+Color: Blue
+Stats: Intelligence
 
 TreeName: Deep Gnome
 Type: Race
@@ -9535,6 +9681,12 @@ AbilityName: Armored Strength
 Descrip: +10 Melee Power
 Tier: 5
 Cost: 2
+
+TreeName: Vile Chemist
+Type: Class
+Initial: VC
+Color: Blue
+Stats: Dexterity, Intelligence
 
 TreeName: Vistani Knife Fighter
 Abbreviation: Vistani

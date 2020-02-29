@@ -15,6 +15,18 @@ Descrip: Improve your monk stances and elemental strikes. Automatically granted 
 Class: Monk 1
 Level: 6
 
+FeatName: Alchemical Spellcasting
+Group: Heroic, Spellcasting
+Descrip: Alchemists have a unique way of combining their spells as they cast them. As an Alchemist, your spells are each associated with a different Primer: Crimsonite, Gildleaf, or Ceruleite. Casting a spell from a single Primer and then casting a spell from a different Primer will activate a Reaction depending on the Primer of the spells cast. Reactions come in three variants: Pyrite, Verdanite, or Orchidium. You can only be in one Reaction at a time, activating a second Reaction will end the first.}{-Casting a Crimsonite spell and then a Gildleaf spell, or a Gildleaf spell and then a Crimsonite spell, will activate a Pyrite Reaction.}{-Casting a Gildleaf spell and then a Ceruleite spell, or a Ceruleite spell and then a Gildleaf spell, will activate a Verdanite Reaction.}{-Casting a Crimsonite spell and then a Ceruleite spell, or a Ceruleite spell and then a Crimsonite spell, will activate a Orchidium Reaction.}}Each Reaction does something unique that lasts for as long as you maintain that Reaction:}{-Pyrite Reaction: +2 Fire, Cold, Electric, Acid and Poison Spellpower per Alchemist Level}{-Verdanite Reaction: +2 Positive and Negative Spellpower per Alchemist Level}{-Orchidium Reaction: +2 Physical Resistance Rating per Alchemist Level}}Each Reaction does something unique for 12 seconds upon switching into that Reaction:}{-Pyrite Reaction: Fire, Cold, Electric, Acid and Poison Spellpower equal to (10 + 6x your Alchemist level) and a -50% Enhancement Bonus to Spell Point Cost}{-Verdanite Reaction: Positive and Negative Spellpower equal to (10 + 6x your Alchemist level) and Transmutation and Conjuration DCs equal to (1 + 1 for every 5 Alchemist Levels)}{-Orchidium Reaction: Physical Resistance Rating and Elemental Resistance equal to (10 + triple your Alchemist level)
+
+FeatName: Alchemist Knowledge (Potions)
+Group: Heroic, Spellcasting
+Descrip: You have an instinctive understanding of magic items due to your study of them. You gain a +2 bonus to Use Magic Device checks when using potions, and the Caster level of Potions you drink is increased by 1. This Caster Level bonus increases by one at levels 5, 8, 11, and 14, and is capped by your Intelligence bonus.
+
+FeatName: Alchemy on the Run
+Group: Heroic
+Descrip: You can now drink potions while moving without being interrupted.
+
 FeatName: Alertness
 Group: Heroic, Misc
 Descrip: +2 bonus to Listen and Spot.
@@ -25,6 +37,10 @@ Group: Epic, Spellcasting
 WikiName: Epic Feats#Epic Spellcasting active feats
 Descrip: Passive: +110 Maximum Spell Points}Active: Gain +6 to all spell DCs and +6 Spell Penetration for 30 seconds. 3 minute cooldown.
 Level: 21
+
+FeatName: Arcane Lore
+Group: Heroic
+Descrip: Passive - Represents your knowledge of the arcane.
 
 FeatName: Arcane Pulse
 Group: Destiny, Spellcasting
@@ -1373,6 +1389,10 @@ CanCastSpell: 1
 ClassBonus: Artificer, Wizard
 RaceBonus: Human, Purple Dragon Knight
 
+FeatName: Memorize Recipes
+Group: Heroic, Spellcasting
+Descrip: You are able to inscribe copy alchemical formulae from Recipes into your spellbook. This action will destroy the Recipe.}}To do this, you will need a Recipe for a Alchemist spell you do not yet know, and Spell Inscription materials for the Spell Level of the Spell you are trying to inscribe. (Spell Inscription Materials may be purchased for Gold in the Harbor, the Marketplace, or Feather's Fall Apothecary in House Jorasco, amongst other places).}}When you have materials, you can Inscribe the scroll by dragging this feat to a shortcut bar, and clicking on the scroll in your Inventory, then clicking on this feat on your shortcut bar.
+
 FeatName: Mental Toughness
 Group: Heroic, Spellcasting
 Descrip: +10 maximum spell points at first level and +5 per additional level. (+105 at level 20.) +1% spell critical chance.
@@ -1407,6 +1427,12 @@ Stat: Dexterity 13
 All: Dodge
 RaceBonus: Human, Purple Dragon Knight
 ClassBonus: Fighter, Monk
+
+FeatName: Multitude of Missiles
+Group: Heroic, Range
+Descrip: For the next 20 seconds, while wielding a Simple Throw Weapon add 100 to your Doubleshot and 2x your Base Attack Bonus to Ranged Power. Shares a cooldown with Manyshot.
+BAB: 6
+All: Point Blank Shot
 
 FeatName: Natural Fighting
 Group: Heroic, Melee
@@ -1581,6 +1607,10 @@ Group: Heroic, Range
 Descrip: +1[W] damage with ranged weapons. Also +1 to-hit within 45 feet.
 RaceBonus: Human, Purple Dragon Knight
 ClassBonus: Artificer, Fighter
+
+FeatName: Poisonblood
+Group: Heroic, Defense
+Descrip: You are immune to Natural Poisons.
 
 FeatName: Power Attack
 Group: Heroic, Melee
