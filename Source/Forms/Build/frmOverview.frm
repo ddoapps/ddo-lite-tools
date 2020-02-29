@@ -4,10 +4,10 @@ Begin VB.Form frmOverview
    BackColor       =   &H80000005&
    BorderStyle     =   3  'Fixed Dialog
    Caption         =   "Overview"
-   ClientHeight    =   7764
-   ClientLeft      =   36
-   ClientTop       =   408
-   ClientWidth     =   12216
+   ClientHeight    =   7770
+   ClientLeft      =   30
+   ClientTop       =   405
+   ClientWidth     =   12225
    DrawStyle       =   5  'Transparent
    BeginProperty Font 
       Name            =   "Verdana"
@@ -23,8 +23,8 @@ Begin VB.Form frmOverview
    LinkTopic       =   "Form1"
    MaxButton       =   0   'False
    MinButton       =   0   'False
-   ScaleHeight     =   7764
-   ScaleWidth      =   12216
+   ScaleHeight     =   7770
+   ScaleWidth      =   12225
    Begin VB.PictureBox picGrid 
       Appearance      =   0  'Flat
       AutoRedraw      =   -1  'True
@@ -33,9 +33,9 @@ Begin VB.Form frmOverview
       ForeColor       =   &H80000008&
       Height          =   6252
       Left            =   6660
-      ScaleHeight     =   6252
-      ScaleWidth      =   4752
-      TabIndex        =   46
+      ScaleHeight     =   6255
+      ScaleWidth      =   4755
+      TabIndex        =   48
       TabStop         =   0   'False
       Top             =   660
       Width           =   4752
@@ -48,9 +48,9 @@ Begin VB.Form frmOverview
          Height          =   672
          Index           =   2
          Left            =   2580
-         ScaleHeight     =   672
-         ScaleWidth      =   672
-         TabIndex        =   49
+         ScaleHeight     =   675
+         ScaleWidth      =   675
+         TabIndex        =   51
          TabStop         =   0   'False
          Top             =   420
          Visible         =   0   'False
@@ -65,9 +65,9 @@ Begin VB.Form frmOverview
          Height          =   672
          Index           =   1
          Left            =   1620
-         ScaleHeight     =   672
-         ScaleWidth      =   672
-         TabIndex        =   48
+         ScaleHeight     =   675
+         ScaleWidth      =   675
+         TabIndex        =   50
          TabStop         =   0   'False
          Top             =   420
          Visible         =   0   'False
@@ -82,9 +82,9 @@ Begin VB.Form frmOverview
          Height          =   672
          Index           =   0
          Left            =   660
-         ScaleHeight     =   672
-         ScaleWidth      =   672
-         TabIndex        =   47
+         ScaleHeight     =   675
+         ScaleWidth      =   675
+         TabIndex        =   49
          TabStop         =   0   'False
          Top             =   420
          Visible         =   0   'False
@@ -98,8 +98,8 @@ Begin VB.Form frmOverview
       ForeColor       =   &H80000008&
       Height          =   3192
       Left            =   600
-      ScaleHeight     =   3192
-      ScaleWidth      =   5292
+      ScaleHeight     =   3195
+      ScaleWidth      =   5295
       TabIndex        =   17
       TabStop         =   0   'False
       Top             =   3840
@@ -114,10 +114,28 @@ Begin VB.Form frmOverview
          DragMode        =   1  'Automatic
          ForeColor       =   &H80000008&
          Height          =   624
+         Index           =   15
+         Left            =   4428
+         ScaleHeight     =   630
+         ScaleWidth      =   630
+         TabIndex        =   46
+         TabStop         =   0   'False
+         Top             =   2220
+         Width           =   624
+      End
+      Begin VB.PictureBox picClass 
+         Appearance      =   0  'Flat
+         AutoRedraw      =   -1  'True
+         BackColor       =   &H80000005&
+         BorderStyle     =   0  'None
+         DragIcon        =   "frmOverview.frx":1CD6
+         DragMode        =   1  'Automatic
+         ForeColor       =   &H80000008&
+         Height          =   624
          Index           =   14
          Left            =   3384
-         ScaleHeight     =   624
-         ScaleWidth      =   624
+         ScaleHeight     =   630
+         ScaleWidth      =   630
          TabIndex        =   44
          TabStop         =   0   'False
          Top             =   2220
@@ -128,14 +146,14 @@ Begin VB.Form frmOverview
          AutoRedraw      =   -1  'True
          BackColor       =   &H80000005&
          BorderStyle     =   0  'None
-         DragIcon        =   "frmOverview.frx":08D6
+         DragIcon        =   "frmOverview.frx":25A0
          DragMode        =   1  'Automatic
          ForeColor       =   &H80000008&
          Height          =   624
          Index           =   13
          Left            =   2328
-         ScaleHeight     =   624
-         ScaleWidth      =   624
+         ScaleHeight     =   630
+         ScaleWidth      =   630
          TabIndex        =   42
          TabStop         =   0   'False
          Top             =   2220
@@ -146,14 +164,14 @@ Begin VB.Form frmOverview
          AutoRedraw      =   -1  'True
          BackColor       =   &H80000005&
          BorderStyle     =   0  'None
-         DragIcon        =   "frmOverview.frx":11A0
+         DragIcon        =   "frmOverview.frx":2E6A
          DragMode        =   1  'Automatic
          ForeColor       =   &H80000008&
          Height          =   624
          Index           =   12
          Left            =   1284
-         ScaleHeight     =   624
-         ScaleWidth      =   624
+         ScaleHeight     =   630
+         ScaleWidth      =   630
          TabIndex        =   40
          TabStop         =   0   'False
          Top             =   2220
@@ -164,14 +182,14 @@ Begin VB.Form frmOverview
          AutoRedraw      =   -1  'True
          BackColor       =   &H80000005&
          BorderStyle     =   0  'None
-         DragIcon        =   "frmOverview.frx":1A6A
+         DragIcon        =   "frmOverview.frx":3734
          DragMode        =   1  'Automatic
          ForeColor       =   &H80000008&
          Height          =   624
          Index           =   11
          Left            =   228
-         ScaleHeight     =   624
-         ScaleWidth      =   624
+         ScaleHeight     =   630
+         ScaleWidth      =   630
          TabIndex        =   38
          TabStop         =   0   'False
          Top             =   2220
@@ -182,14 +200,14 @@ Begin VB.Form frmOverview
          AutoRedraw      =   -1  'True
          BackColor       =   &H80000005&
          BorderStyle     =   0  'None
-         DragIcon        =   "frmOverview.frx":2334
+         DragIcon        =   "frmOverview.frx":3FFE
          DragMode        =   1  'Automatic
          ForeColor       =   &H80000008&
          Height          =   624
          Index           =   10
          Left            =   4428
-         ScaleHeight     =   624
-         ScaleWidth      =   624
+         ScaleHeight     =   630
+         ScaleWidth      =   630
          TabIndex        =   36
          TabStop         =   0   'False
          Top             =   1140
@@ -200,14 +218,14 @@ Begin VB.Form frmOverview
          AutoRedraw      =   -1  'True
          BackColor       =   &H80000005&
          BorderStyle     =   0  'None
-         DragIcon        =   "frmOverview.frx":2BFE
+         DragIcon        =   "frmOverview.frx":48C8
          DragMode        =   1  'Automatic
          ForeColor       =   &H80000008&
          Height          =   624
          Index           =   9
          Left            =   3384
-         ScaleHeight     =   624
-         ScaleWidth      =   624
+         ScaleHeight     =   630
+         ScaleWidth      =   630
          TabIndex        =   34
          TabStop         =   0   'False
          Top             =   1140
@@ -218,14 +236,14 @@ Begin VB.Form frmOverview
          AutoRedraw      =   -1  'True
          BackColor       =   &H80000005&
          BorderStyle     =   0  'None
-         DragIcon        =   "frmOverview.frx":34C8
+         DragIcon        =   "frmOverview.frx":5192
          DragMode        =   1  'Automatic
          ForeColor       =   &H80000008&
          Height          =   624
          Index           =   8
          Left            =   2328
-         ScaleHeight     =   624
-         ScaleWidth      =   624
+         ScaleHeight     =   630
+         ScaleWidth      =   630
          TabIndex        =   32
          TabStop         =   0   'False
          Top             =   1140
@@ -236,14 +254,14 @@ Begin VB.Form frmOverview
          AutoRedraw      =   -1  'True
          BackColor       =   &H80000005&
          BorderStyle     =   0  'None
-         DragIcon        =   "frmOverview.frx":3D92
+         DragIcon        =   "frmOverview.frx":5A5C
          DragMode        =   1  'Automatic
          ForeColor       =   &H80000008&
          Height          =   624
          Index           =   7
          Left            =   1284
-         ScaleHeight     =   624
-         ScaleWidth      =   624
+         ScaleHeight     =   630
+         ScaleWidth      =   630
          TabIndex        =   30
          TabStop         =   0   'False
          Top             =   1140
@@ -254,14 +272,14 @@ Begin VB.Form frmOverview
          AutoRedraw      =   -1  'True
          BackColor       =   &H80000005&
          BorderStyle     =   0  'None
-         DragIcon        =   "frmOverview.frx":465C
+         DragIcon        =   "frmOverview.frx":6326
          DragMode        =   1  'Automatic
          ForeColor       =   &H80000008&
          Height          =   624
          Index           =   6
          Left            =   228
-         ScaleHeight     =   624
-         ScaleWidth      =   624
+         ScaleHeight     =   630
+         ScaleWidth      =   630
          TabIndex        =   28
          TabStop         =   0   'False
          Top             =   1140
@@ -272,14 +290,14 @@ Begin VB.Form frmOverview
          AutoRedraw      =   -1  'True
          BackColor       =   &H80000005&
          BorderStyle     =   0  'None
-         DragIcon        =   "frmOverview.frx":4F26
+         DragIcon        =   "frmOverview.frx":6BF0
          DragMode        =   1  'Automatic
          ForeColor       =   &H80000008&
          Height          =   624
          Index           =   5
          Left            =   4440
-         ScaleHeight     =   624
-         ScaleWidth      =   624
+         ScaleHeight     =   630
+         ScaleWidth      =   630
          TabIndex        =   26
          TabStop         =   0   'False
          Top             =   60
@@ -290,14 +308,14 @@ Begin VB.Form frmOverview
          AutoRedraw      =   -1  'True
          BackColor       =   &H80000005&
          BorderStyle     =   0  'None
-         DragIcon        =   "frmOverview.frx":57F0
+         DragIcon        =   "frmOverview.frx":74BA
          DragMode        =   1  'Automatic
          ForeColor       =   &H80000008&
          Height          =   624
          Index           =   4
          Left            =   3390
-         ScaleHeight     =   624
-         ScaleWidth      =   624
+         ScaleHeight     =   630
+         ScaleWidth      =   630
          TabIndex        =   24
          TabStop         =   0   'False
          Top             =   60
@@ -308,14 +326,14 @@ Begin VB.Form frmOverview
          AutoRedraw      =   -1  'True
          BackColor       =   &H80000005&
          BorderStyle     =   0  'None
-         DragIcon        =   "frmOverview.frx":60BA
+         DragIcon        =   "frmOverview.frx":7D84
          DragMode        =   1  'Automatic
          ForeColor       =   &H80000008&
          Height          =   624
          Index           =   3
          Left            =   2340
-         ScaleHeight     =   624
-         ScaleWidth      =   624
+         ScaleHeight     =   630
+         ScaleWidth      =   630
          TabIndex        =   22
          TabStop         =   0   'False
          Top             =   60
@@ -326,14 +344,14 @@ Begin VB.Form frmOverview
          AutoRedraw      =   -1  'True
          BackColor       =   &H80000005&
          BorderStyle     =   0  'None
-         DragIcon        =   "frmOverview.frx":6984
+         DragIcon        =   "frmOverview.frx":864E
          DragMode        =   1  'Automatic
          ForeColor       =   &H80000008&
          Height          =   624
          Index           =   2
          Left            =   1290
-         ScaleHeight     =   624
-         ScaleWidth      =   624
+         ScaleHeight     =   630
+         ScaleWidth      =   630
          TabIndex        =   20
          TabStop         =   0   'False
          Top             =   60
@@ -344,18 +362,32 @@ Begin VB.Form frmOverview
          AutoRedraw      =   -1  'True
          BackColor       =   &H80000005&
          BorderStyle     =   0  'None
-         DragIcon        =   "frmOverview.frx":724E
+         DragIcon        =   "frmOverview.frx":8F18
          DragMode        =   1  'Automatic
          ForeColor       =   &H80000008&
          Height          =   624
          Index           =   1
          Left            =   240
-         ScaleHeight     =   624
-         ScaleWidth      =   624
+         ScaleHeight     =   630
+         ScaleWidth      =   630
          TabIndex        =   18
          TabStop         =   0   'False
          Top             =   60
          Width           =   624
+      End
+      Begin VB.Label lblClass 
+         Alignment       =   2  'Center
+         Appearance      =   0  'Flat
+         AutoSize        =   -1  'True
+         BackColor       =   &H80000005&
+         Caption         =   "Alchemist"
+         ForeColor       =   &H80000008&
+         Height          =   210
+         Index           =   16
+         Left            =   4300
+         TabIndex        =   47
+         Top             =   2880
+         Width           =   900
       End
       Begin VB.Label lblClass 
          Alignment       =   2  'Center
@@ -557,16 +589,15 @@ Begin VB.Form frmOverview
    Begin CharacterBuilderLite.userHeader usrFooter 
       Height          =   384
       Left            =   0
-      TabIndex        =   50
+      TabIndex        =   52
       TabStop         =   0   'False
       Top             =   7380
       Width           =   12216
-      _ExtentX        =   21548
-      _ExtentY        =   677
-      Spacing         =   264
-      UseTabs         =   0   'False
-      BorderColor     =   -2147483640
-      RightLinks      =   "Stats >"
+      _extentx        =   21537
+      _extenty        =   688
+      usetabs         =   0   'False
+      bordercolor     =   -2147483640
+      rightlinks      =   "Stats >"
    End
    Begin CharacterBuilderLite.userHeader usrHeader 
       Height          =   384
@@ -575,12 +606,11 @@ Begin VB.Form frmOverview
       TabStop         =   0   'False
       Top             =   0
       Width           =   12216
-      _ExtentX        =   21548
-      _ExtentY        =   677
-      Spacing         =   264
-      BorderColor     =   -2147483640
-      LeftLinks       =   "Overview;Notes"
-      RightLinks      =   "Help"
+      _extentx        =   21537
+      _extenty        =   688
+      bordercolor     =   -2147483640
+      leftlinks       =   "Overview;Notes"
+      rightlinks      =   "Help"
    End
    Begin VB.TextBox txtRace 
       Appearance      =   0  'Flat
@@ -644,18 +674,18 @@ Begin VB.Form frmOverview
       TabIndex        =   8
       Top             =   2160
       Width           =   972
-      _ExtentX        =   1715
-      _ExtentY        =   529
-      Appearance3D    =   -1  'True
-      Max             =   30
-      Value           =   30
-      ForeColor       =   -2147483640
-      BackColor       =   -2147483643
-      BorderColor     =   -2147483631
-      BorderInterior  =   -2147483631
-      Position        =   0
-      Enabled         =   -1  'True
-      DisabledColor   =   -2147483631
+      _extentx        =   1720
+      _extenty        =   529
+      appearance3d    =   -1  'True
+      max             =   30
+      value           =   30
+      forecolor       =   -2147483640
+      backcolor       =   -2147483643
+      bordercolor     =   -2147483631
+      borderinterior  =   -2147483631
+      position        =   0
+      enabled         =   -1  'True
+      disabledcolor   =   -2147483631
    End
    Begin VB.ComboBox cboAlignment 
       Height          =   312
@@ -668,22 +698,50 @@ Begin VB.Form frmOverview
    Begin CharacterBuilderLite.userRaceCombo usrRace 
       Height          =   192
       Left            =   2160
-      TabIndex        =   52
+      TabIndex        =   54
       TabStop         =   0   'False
       Top             =   1584
       Visible         =   0   'False
       Width           =   2952
-      _ExtentX        =   5207
-      _ExtentY        =   339
+      _extentx        =   5207
+      _extenty        =   339
    End
    Begin VB.ComboBox cboRace 
       Height          =   312
       Left            =   2160
       Style           =   2  'Dropdown List
-      TabIndex        =   51
+      TabIndex        =   53
       TabStop         =   0   'False
       Top             =   1260
       Width           =   2412
+   End
+   Begin VB.Label lblClass 
+      Alignment       =   2  'Center
+      Appearance      =   0  'Flat
+      AutoSize        =   -1  'True
+      BackColor       =   &H80000005&
+      Caption         =   "Warlock"
+      ForeColor       =   &H80000008&
+      Height          =   216
+      Index           =   15
+      Left            =   0
+      TabIndex        =   57
+      Top             =   0
+      Width           =   720
+   End
+   Begin VB.Label lblClass 
+      Alignment       =   2  'Center
+      Appearance      =   0  'Flat
+      AutoSize        =   -1  'True
+      BackColor       =   &H80000005&
+      Caption         =   "Warlock"
+      ForeColor       =   &H80000008&
+      Height          =   216
+      Index           =   0
+      Left            =   0
+      TabIndex        =   56
+      Top             =   0
+      Width           =   720
    End
    Begin VB.Label lnkSubRace 
       Appearance      =   0  'Flat
@@ -693,7 +751,7 @@ Begin VB.Form frmOverview
       ForeColor       =   &H80000008&
       Height          =   216
       Left            =   4740
-      TabIndex        =   53
+      TabIndex        =   55
       Top             =   1308
       Visible         =   0   'False
       Width           =   852

@@ -73,6 +73,7 @@ Public Enum ClassEnum
     ceArtificer
     ceDruid
     ceWarlock
+    ceAlchemist
     ceClasses
     ceEmpty
 End Enum
@@ -355,6 +356,7 @@ End Function
 
 Public Function GetClassID(ByVal pstrClass As String) As ClassEnum
     Select Case LCase$(pstrClass)
+        Case "alchemist": GetClassID = ceAlchemist
         Case "artificer": GetClassID = ceArtificer
         Case "barbarian": GetClassID = ceBarbarian
         Case "bard": GetClassID = ceBard
@@ -374,6 +376,7 @@ End Function
 
 Public Function GetClassName(ByVal penClass As ClassEnum, Optional pblnAbbreviation As Boolean) As String
     Select Case penClass
+        Case ceAlchemist: GetClassName = "Alchemist"
         Case ceArtificer: GetClassName = "Artificer"
         Case ceBarbarian: GetClassName = "Barbarian"
         Case ceBard: GetClassName = "Bard"
@@ -393,6 +396,7 @@ End Function
 
 Public Function GetClassResourceID(ByVal penClass As ClassEnum) As String
     Select Case penClass
+        Case ceAlchemist: GetClassResourceID = "CLSALCHEMIST"
         Case ceArtificer: GetClassResourceID = "CLSARTIFICER"
         Case ceBarbarian: GetClassResourceID = "CLSBARBARIAN"
         Case ceBard: GetClassResourceID = "CLSBARD"
