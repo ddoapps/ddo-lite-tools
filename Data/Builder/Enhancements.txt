@@ -1325,7 +1325,7 @@ Descrip: You gain +4 Intelligence. The Enhancement bonus of your armor and your 
 Tier: 0
 
 AbilityName: Weapon Training
-Descrip: Select weapon type. Gain bonuses to Attack and Damage Rolls with the selected weapon types.}{-  Crossbow Training: +1 to attack rolls with all crossbows. +1 to damage with non-repeating crossbows.}{-  Hammer and Morningstar Training: +1 to attack and damage rolls with Light Hammers, Warhammers, and Morningstars.}{-  Hand and a Half Training: +1 to attack and damage rolls with Bastard Swords and Dwarven Waraxes. Your Glancing Blows with these weapons also have a +2% chance of producing magical weapon effects such as Flaming.
+Descrip: Select weapon type. Gain bonuses to Attack and Damage Rolls with the selected weapon types.}{-  Crossbow Training: +1 to attack rolls with all crossbows. +1 to damage with non-repeating crossbows.}{-  Hammer and Morningstar Training: +1 to attack and damage rolls with Light Hammers, Warhammers, and Morningstars.}{-  Hand and a Half Training: +1 to attack and damage rolls with Bastard Swords and Dwarven Waraxes. +5% Strikethrough chance.
 Tier: 1
 Cost: 2
 Flags: SelectorOnly
@@ -1352,7 +1352,7 @@ Tier: 1
 Ranks: 3
 
 AbilityName: Weapon Training
-Descrip: Select one. Gain bonuses to Attack and Damage Rolls with the selected weapon types.}{-  Crossbow Training: +1 to attack rolls with all crossbows. +1 to damage rolls with all repeating crossbows, +2 to damage rolls with non-repeating crossbows.}{-  Hammer and Morningstar Training: +1 to attack and damage rolls with Light Hammers, Warhammers, and Morningstars.}{-  Hand and a Half Training: +1 to attack and damage rolls with Bastard Swords and Dwarven Waraxes. Your Glancing Blows with these weapons also have a +4% chance of producing magical weapon effects such as Flaming.
+Descrip: Select one. Gain bonuses to Attack and Damage Rolls with the selected weapon types.}{-  Crossbow Training: +1 to attack rolls with all crossbows. +1 to damage rolls with all repeating crossbows, +2 to damage rolls with non-repeating crossbows.}{-  Hammer and Morningstar Training: +1 to attack and damage rolls with Light Hammers, Warhammers, and Morningstars.}{-  Hand and a Half Training: +1 to attack and damage rolls with Bastard Swords and Dwarven Waraxes. +5% Strikethrough chance.
 Tier: 2
 Cost: 2
 All: Tier 1: Weapon Training
@@ -1386,7 +1386,7 @@ Ranks: 3
 Selector: Power, Attack
 
 AbilityName: Weapon Training
-Descrip: Select one. Gain bonuses to Attack and Damage Rolls with the selected weapon types.}{-  Crossbow Training: +1 to attack rolls with crossbows. +1 to damage with non-repeating crossbows.}{-  Hammer and Morningstar Training: +1 to attack and damage rolls with Light Hammers, Warhammers, and Morningstars.}{-  Hand and a Half Training: +1 to attack and damage rolls with Bastard Swords and Dwarven Waraxes. Your Glancing Blows with these weapons also have a +6% chance of producing magical weapon effects such as Flaming.
+Descrip: Select one. Gain bonuses to Attack and Damage Rolls with the selected weapon types.}{-  Crossbow Training: +1 to attack rolls with crossbows. +1 to damage with non-repeating crossbows.}{-  Hammer and Morningstar Training: +1 to attack and damage rolls with Light Hammers, Warhammers, and Morningstars.}{-  Hand and a Half Training: +1 to attack and damage rolls with Bastard Swords and Dwarven Waraxes. +5% Strikethrough chance.
 Tier: 3
 Cost: 2
 All: Tier 2: Weapon Training
@@ -1405,7 +1405,7 @@ Ranks: 3
 All: Tier 2: Caustic Strike
 
 AbilityName: Weapon Training
-Descrip: Select one. Gain bonuses to Attack and Damage Rolls with the selected weapon types.}{-  Crossbow Training: +1 to attack rolls with all crossbows. +1 to damage rolls with all repeating crossbows, +2 to damage rolls with non-repeating crossbows.}{-  Hammer and Morningstar Training: +1 to attack and damage rolls with Light Hammers, Warhammers, and Morningstars.}{-  Hand and a Half Training: +1 to attack and damage rolls with Bastard Swords and Dwarven Waraxes. Your Glancing Blows with these weapons also have a +8% chance of producing magical weapon effects such as Flaming.
+Descrip: Select one. Gain bonuses to Attack and Damage Rolls with the selected weapon types.}{-  Crossbow Training: +1 to attack rolls with all crossbows. +1 to damage rolls with all repeating crossbows, +2 to damage rolls with non-repeating crossbows.}{-  Hammer and Morningstar Training: +1 to attack and damage rolls with Light Hammers, Warhammers, and Morningstars.}{-  Hand and a Half Training: +1 to attack and damage rolls with Bastard Swords and Dwarven Waraxes. +5% Strikethrough chance.
 Tier: 4
 Cost: 2
 All: Tier 3: Weapon Training
@@ -1663,7 +1663,7 @@ Tier: 2
 Ranks: 3
 
 AbilityName: Great Weapon Aptitude
-Descrip: Glancing blows produced by your two-handed weapon attacks have a 2%/4%/6% increased chance of producing magical effects such as flaming.
+Descrip: +5/10/20% Strikethrough chance.
 Tier: 2
 Ranks: 3
 All: Feat: Two Handed Fighting
@@ -4055,7 +4055,7 @@ Tier: 1
 Ranks: 3
 
 AbilityName: Angry Arms
-Descrip: +1%/+2%/+3% chance of triggering weapon effects on glancing blows and +3%/+4%/+5% glancing blow damage.
+Descrip: +5/10/20% Strikethrough chance.
 Tier: 2
 Ranks: 3
 All: Feat: Two Handed Fighting
@@ -4082,7 +4082,7 @@ Tier: 2
 Ranks: 3
 
 AbilityName: Mad Munitions
-Descrip: +1%/+2%/+3% chance of triggering weapon effects on glancing blows and +3%/+4%/+5% glancing blow damage
+Descrip: +5/10/20% Strikethrough chance.
 Tier: 3
 Ranks: 3
 All: Feat: Greater Two Handed Fighting, Tier 2: Angry Arms
@@ -4116,7 +4116,7 @@ Ranks: 3
 All: Tier 3: Supreme Cleave
 
 AbilityName: Focus Wide
-Descrip: When you score a vorpal hit, you increase your chance of triggering weapon effects with glancing blows by +10% and gain +10% glancing blow damage for 12 seconds.
+Descrip: When you score a vorpal hit, you gain +50% Strikethrough chance for 12 seconds.
 Tier: 5
 Cost: 2
 All: Tier 3: Mad Munitions
@@ -4603,7 +4603,7 @@ Cost: 2
 All: Tier 2: Lesser Dragonmark of Finding
 
 AbilityName: Great Weapon Aptitude
-Descrip: Glancing blows produced by your two-handed weapon attacks have a [2/4/6]% increased chance of producing magical weapon effects such as flaming.
+Descrip: +5/10/20% Strikethrough chance.
 Tier: 3
 Ranks: 3
 All: Feat: Two Handed Fighting
@@ -5178,7 +5178,7 @@ All: Tier 1: Action Surge
 Parent: Tier 1: Action Surge
 
 AbilityName: Fighting Style
-Descrip: Humans are adept at many different fighting styles.}Choose one:}{-  Ambidexterity: You gain +1 to hit when dual-wielding or fighting unarmed. Rank 2: Also gains +1% Dodge. Rank 3: Also gains +1 damage.}{- Requires Two Weapon Fighting. 1 AP per rank.}{-  Great Weapon Aptitude: Glancing blows produced by your two-handed weapon attacks have a +2%/+4%/+6% increased chance of producing magical weapon effects such as flaming.}{- Requires Two Handed Fighting. 1 AP per rank}{-  Shield Mastery: +5%/10%/15% Shield Armor Class and +1/2/3 Tower Shield Maximum Dexterity Bonus.}{- 2 AP per rank}{-  Sniper: You gain  +1d6/+1d6/+2d6 Ranged Sneak Attack. Your Point Blank Shot and Ranged Sneak Attack range is increased by 0/2/2 meters.}{- Requires Point Blank Shot. 2 AP per rank}{-  Traditionalist Caster: +3/+6/+10 Universal Spell Power when wielding an Orb or Staff.}{- Requires Magical Training. 1 AP per rank
+Descrip: Humans are adept at many different fighting styles.}Choose one:}{-  Ambidexterity: You gain +1 to hit when dual-wielding or fighting unarmed. Rank 2: Also gains +1% Dodge. Rank 3: Also gains +1 damage.}{- Requires Two Weapon Fighting. 1 AP per rank.}{-  Great Weapon Aptitude: +5/10/20% Strikethrough chance.}{- Requires Two Handed Fighting. 1 AP per rank}{-  Shield Mastery: +5%/10%/15% Shield Armor Class and +1/2/3 Tower Shield Maximum Dexterity Bonus.}{- 2 AP per rank}{-  Sniper: You gain  +1d6/+1d6/+2d6 Ranged Sneak Attack. Your Point Blank Shot and Ranged Sneak Attack range is increased by 0/2/2 meters.}{- Requires Point Blank Shot. 2 AP per rank}{-  Traditionalist Caster: +3/+6/+10 Universal Spell Power when wielding an Orb or Staff.}{- Requires Magical Training. 1 AP per rank
 Tier: 2
 Ranks: 3
 Flags: SelectorOnly
@@ -5657,7 +5657,7 @@ Color: Red
 Stats: Strength, Charisma
 
 AbilityName: Slayer of Evil
-Descrip: You gain +1 to hit evil and undead creatures. Your attacks deal 1d4 additional Light damage. You resist evil influences particularly well, gaining a +2 bonus to saves against spells and effects produced by evil creatures. All Light damage from core abilities scale with 100% Melee Power.}{  Note: The light damage procs on both weapons when two weapon fighting and all glancing blows.
+Descrip: You gain +1 to hit evil and undead creatures. Your attacks deal 1d4 additional Light damage. You resist evil influences particularly well, gaining a +2 bonus to saves against spells and effects produced by evil creatures. All Light damage from core abilities scale with 200% Melee Power.}{  Note: The light damage procs on both weapons when two weapon fighting.
 Tier: 0
 
 AbilityName: Courage of Heaven
@@ -5665,11 +5665,11 @@ Descrip: Your Aura of Courage grants an additional +2 Sacred bonus to saves agai
 Tier: 0
 
 AbilityName: Slayer of Evil II
-Descrip: You now gain +2 to hit evil and undead creatures. Your attacks now deal 2d6 additional Light damage. All your attacks are considered to be Ghost Touch. You resist evil influences particularly well, gaining a +3 bonus to saves against spells and effects produced by evil creatures.
+Descrip: You now gain +2 to hit evil and undead creatures. Your attacks now deal 2d6 additional Light damage. All your attacks are considered to be Ghost Touch. You resist evil influences particularly well, gaining a +3 bonus to saves against spells and effects produced by evil creatures. Gain +3 Remove Disease Charges and your Remove Disease now applies Greater Restoration to your target.
 Tier: 0
 
 AbilityName: Improved Courage of Heaven
-Descrip: Increases the Aura bonuses granted by Courage of Heaven by an additional +2. You now gain +2 to hit for all attacks. Your attacks now deal 3d6 additional Light damage.
+Descrip: Increases the Aura bonuses granted by Courage of Heaven by an additional +2. You now gain +2 to hit for all attacks. Your attacks now deal 3d6 additional Light damage. Gain Sealed Life: Immunity to Energy Drain.
 Tier: 0
 
 AbilityName: Slayer of Evil III
@@ -5677,131 +5677,138 @@ Descrip: You now gain +4 to hit evil and undead creatures. Your attacks now deal
 Tier: 0
 
 AbilityName: Champion of Good
-Descrip: You gain +4 Charisma and 10 Melee Power. The bonuses granted by Courage of Heaven are increased by an additional +2. Your attacks now deal 7d6 additional Light damage. Any weapon you wield is considered Good aligned for purposes of bypassing damage reduction.
+Descrip: You gain +4 Charisma and 10 Melee Power. The bonuses granted by Courage of Heaven are increased by an additional +2. Your attacks now deal 7d6 additional Light damage. Any weapon you wield is considered Good aligned for purposes of bypassing damage reduction. Your Aura of Courage now grants allies a +3% Sacred Bonus to melee and ranged damage. Blessed Purpose now stacks up to 25 times.
 Tier: 0
 
-AbilityName: Extra Turning
-Descrip: You gain +1/2/3 use of Turn Undead per rest.
+AbilityName: Holy Combatant
+Descrip: +1 to hit and damage with favored weapons.
 Tier: 1
 Ranks: 3
+Cost: 2
 
-AbilityName: Divine Light
-Descrip: Your Turn Undead ability now also deals 6d6/12d6/18d6 light damage to nearby undead. Scales with 200% Melee Power.
-Tier: 1
-Ranks: 3
-
-AbilityName: Extra Remove Disease
-Descrip: You gain +2/4/6 Remove Disease uses per rest.
+AbilityName: Shieldbreaker
+Descrip: +1/2/3 to Sunder DC's (and Holy Retribution)
 Tier: 1
 Ranks: 3
 
 AbilityName: Extra Smite
-Descrip: You gain 2/4 additional use of Smite Evil per rest.
-Tier: 1
-Ranks: 2
-
-AbilityName: Attack Boost
-Descrip: Activate to gain a +4/6/+8 Action Boost to hit for 20 seconds
+Descrip: You gain 2/4/6 additional use of Smite Evil per rest.
 Tier: 1
 Ranks: 3
-Cost: 2
 
-AbilityName: Improved Turning
-Descrip: You count as 1/2/3 level higher when turning undead and add 2/4/6 to the number of hit dice turned.
+AbilityName: Knight's Authority
+Descrip: +1/2/3 Intimidate, Diplomacy, and Concentration. Tier 3 grants +1 Fortitude Save.
+Tier: 1
+Ranks: 3
+
+AbilityName: Improved Second Strikes
+Descrip: +5/10/20% bonus to Strikethrough.
+Tier: 1
+Ranks: 3
+
+AbilityName: Adept Combatant
+Descrip: +1 to hit and damage with all weapons. Longswords, Battle Axes, Heavy Maces, Morningstars, and War Hammers are now considered as Favored Weapons regardless of your religion.
 Tier: 2
-Ranks: 3
-All: Tier 1: Extra Turning
+Cost: 2
 
 AbilityName: Divine Might
-Descrip: Channel Divinity: You gain an Insight bonus to Strength equal to your Charisma modifier for 30/60/120 seconds.  (Activation Cost: 1 use of Turn Undead. Cooldown: 20 seconds)
+Descrip: Battle Trance: You now gain an insight bonus to hit, damage, and tactical dc's equal to half your Charisma modifier for 30/60/120 seconds for 21/18/15 sp. Cooldown: 20 seconds. Anti-requisite: cannot be trained if you have any other Battle Trance abilities (Know the Angles, Falconry Deadly Instinct, etc.).
 Tier: 2
 Ranks: 3
-Cost: 2
+Cost: 1
 None: Beacon of Hope Tier 2: Might's Reward, Falconry Tier 4: Deadly Instinct, Harper Agent Tier 2: Know the Angles, War Soul Tier 1: Divine Might, Warpriest Tier 1: Divine Might
 
-AbilityName: Rally
-Descrip: Channel Divinity: Remove fear from nearby allies. You and the affected allies gain a +2/+4/+6 Morale Bonus to Will Saves vs. Fear effects and a +1/+2/+3 Morale Bonus to Attack and Damage for 60 seconds. (Coodown: 3 miniutes)
+AbilityName: Critical Mastery
+Descrip: +1/2/3 to Critical Damage and Confirmation
 Tier: 2
 Ranks: 3
 Cost: 2
 
 AbilityName: Exalted Cleave
-Descrip: Make a sweeping weapon attack against all nearby enemies for +1/+2/+3[W] damage. Shares its cooldown with the Cleave feat.}{  Note: Only does 1/2/3[1d6] with handwraps. DDO Forums
+Descrip: Make a sweeping melee or ranged attack against all nearby enemies for +3[W] damage. Shares its cooldown with the Cleave feat.}{  Note: Only does 3[1d6] with handwraps. DDO Forums
+Tier: 2
+Cost: 2
+Flags: SelectorOnly
+Selector: Exalted Cleave, Exalted Shot
+
+AbilityName: Action Boost
+Descrip: Choose between Action Boost: Attack and Action Boost: Power }{- Power: Activate to gain a +10/20/30 Action Boost bonus to Melee and Ranged Power for 20 seconds.}{- Attack: Activate to gain a +4/6/8 Action Boost bonus to your attack rolls for 20 seconds.
 Tier: 2
 Ranks: 3
+Flags: SelectorOnly
+Selector: Action Boost: Attack, Action Boost: Power
 
-AbilityName: Melee Power Boost
-Descrip: Activate to gain a +10/+20/+30 Action Boost bonus to Melee and Ranged Power for 20 Seconds. (Cooldown: 30 Seconds)
-Tier: 2
-Ranks: 3
-
-AbilityName: Improved Restoration
-Descrip: Your Paladin Remove Disease ability now also appiles a Lesser Restoration/Restoration/Greater Restoration effect to your target.
-Tier: 3
-Ranks: 3
-
-AbilityName: Divine Sacrifice
-Descrip: Giving up some of your life force to win the battle, you empower your next blow against your foe. This attack deals an additional (5/7/9)d6 Light damage and increases the critical multiplier of your weapon by 1 against evil opponents, but costs you 5 hp and 1 sp, whether or not the attack is successful. Light damage scales with 100% Melee Power.(Cooldown: 3 seconds)
-Tier: 3
-Ranks: 3
-
-AbilityName: Vigor of Life
-Descrip: +20 Positive Healing Amplification, -20 Negative Healing Amplification.
+AbilityName: Holy Combatant
+Descrip: +2 to hit and damage with Favored Weapons. Greatswords are considered as favored Weapons regardless of your religion.
 Tier: 3
 Cost: 2
 
-AbilityName: Exalted Smite
-Descrip: Active: An improved smite that adds +1/+1/+2 to your weapon's critical damage multiplier and 0/+1/+2 to your weapon's critical threat range.
+AbilityName: Divine Sacrifice
+Descrip: Multiselector: +2[W]. Active this ability to perform a melee or ranged attack that deals an additional +5/7/9d6 Light damage and increases the critical multiplier of your weapon by 1 against evil opponents, but costs you 5 hp and 1 sp, whether or not the attack is successful.}{On damage: Gain +15 Temporary SP and +10 Melee and Ranged Power for 10 seconds if you strike an Undead or Evil Outsider with this attack. Light damage scales with 100% Melee Power. (Cooldown: 3 seconds)
 Tier: 3
 Ranks: 3
+Flags: SelectorOnly
+Selector: Sacrificial Strike, Sacrificial Shot
+
+AbilityName: Lead the Charge
+Descrip: +2/3/5[W] and sprint forward toward your target and deliver a single-target blow. 6 second cooldown. This works with any melee weapon, and not just a shield.
+Tier: 3
+Ranks: 3
+
+AbilityName: Exalted Smite
+Descrip: Multiselector: improved melee or ranged smite. Active: An improved smite that adds +1/+1/+2 to your weapon's critical damage multiplier and 0/+1/+2 to your weapon's critical threat range. Also, your Smite Evil and Exalted Smite abilities increase your Melee Power or Ranged Power by 5 for 10 seconds.
+Tier: 3
+Ranks: 3
+Cost: 2
+Flags: SelectorOnly
+Selector: Exalted Strike, Exalted Shot
+
+AbilityName: Knight's Training
+Descrip: +1 to hit and damage with all weapons and an additional +1 to hit and damage with Favored Weapons. Taking this enhancement grants the Knight's Training feat.
+Tier: 4
 Cost: 2
 
 AbilityName: Censure Demons
 Descrip: You gain On Vorpal: Stun Chaotic Evil outsiders for 3 seconds.
 Tier: 4
 
-AbilityName: Passion
-Descrip: Your Divine Sacrifice ability gains: On Damage: Gain 5/10/15 temporary spell points if you strike an undead or evil outsider with this attack.
-Tier: 4
-Ranks: 3
-All: Tier 3: Divine Sacrifice
-
 AbilityName: Vigor of Life
 Descrip: +20 Positive Healing Amplification, -20 Negative Healing Amplification.
 Tier: 4
 Cost: 2
-All: Tier 3: Vigor of Life
 
-AbilityName: Empowered Smite
-Descrip: Active: Your Smite Evil and Exalted Smite abilities increases Melee Power by 5 for 10 seconds.
+AbilityName: Improved Turning
+Descrip: You gain an additional +1/2/3 turns per rest. You also count 1/2/3 levels higher for the purpose of turning and add +2/4/6 to the hit dice turned. Finally, your turn undead now deals +6d6/12d6/18d6 light damage to nearby undead. Scales with 200% Melee Power.
 Tier: 4
-Cost: 2
+Ranks: 3
+
+AbilityName: Ascendency
+Descrip: +2 to hit and damage with all weapons. An additional +2 to hit and damage with Favored Weapons. You gain 15% Fortification Bypass. Whenever you attack an undead or evil outsider with a Favored Weapon, you gain a stack of Blessed Purpose: +3 Sacred Bonus to Melee and Ranged Power that lasts for 6 seconds. You can acquire up to 15 stacks by continuing to attack Undead or Evil Outsiders. Switching to a non-Favored Weapon will reset your stacks.
+Tier: 5
 
 AbilityName: Censure Outsiders
-Descrip: Your Censure Demons ability now applies to all Chaotic or Evil outsiders. You also gain 5 Melee Power.
+Descrip: Your Censure Demons ability now applies to all Chaotic or Evil outsiders. All other Evil creatures are instead Dazed for six seconds. You also gain 10 Melee Power and Ranged Power.
 Tier: 5
 All: Tier 4: Censure Demons
 
-AbilityName: Holy Retribution
-Descrip: Melee Channel Divinity: Executes 3 powerful holy strikes against all targets around you (same AoE as Cleave)  that deals +1/+3/+5[W] damage. On Damage: Evil creatures with less than 1,000 HP have a 50%/75%/100% chance to be forced to make a WIll save (DC 10 + Paladin Level + Charisma Mod) or be destroyed. On a successful save, the affected creatures take 100 holy damage from this attack as well as -6 to all ability scores for ten seconds. (Cooldown: 6 seconds) This ability also recharges one Smite Evil.
-Tier: 5
-Ranks: 3
-
 AbilityName: Vigor of Life
-Descrip: +20 Positive Healing Amplification, -20 Negative Healing Amplification.
+Descrip: +30 Positive Healing Amplification, -30 Negative Healing Amplification.
 Tier: 5
 Cost: 2
 All: Tier 4: Vigor of Life
 
 AbilityName: Avenging Cleave
-Descrip: "Make a sweeping weapon attack against all nearby enemies for +1/+3/+5[W] damage. Damaged enemies gains one stack of Vulnerability.}Shares its cooldown with the Great Cleave feat.}Vulnerability: You take 1% more damage for 3 seconds. This effect stacks up to 20 times, and loses one stack on expiration."
-Tier: 5
-Ranks: 3
-
-AbilityName: Sealed Life
-Descrip: You are immune to Energy Drain.
+Descrip: Multiselector: Make a Melee or Ranged sweeping weapon attack against all nearby enemies for +5[W] damage. Damaged enemies gains one stack of Vulnerability.}{Shares its cooldown with the Great Cleave feat.}{Vulnerability: You take 1% more damage for 3 seconds. This effect stacks up to 20 times, and loses one stack on expiration.
 Tier: 5
 Cost: 2
+Flags: SelectorOnly
+Selector: Avenging Cleave, Avenging Shot
+
+AbilityName: Holy Retribution
+Descrip: Multiselector: Melee/Ranged Channel Divinity: Executes a powerful holy cleave against nearby targets that deals +5[W] damage, 100 extra holy damage that scales with 200% Melee or Ranged Power, -6 to all ability scores for ten seconds, and recharges one Smite Evil charge to you.}{On Damage: Evil creatures may be forced to make a Will save (DC 10 + Paladin Level + Charisma Mod + Sunder Bonuses) or be destroyed.}{- Evil creatures under 1000 HP must always make this save or die.}{- Evil creatures between 1000 and 5000 HP have a 50% chance to be forced to make this save or die.}{- Evil creatures with more than 5000 HP have a 33% chance to be forced to make this save or die.
+Tier: 5
+Flags: SelectorOnly
+Selector: Retributive Strike, Retributive Shot
 
 TreeName: Mechanic
 Type: Class
@@ -6923,7 +6930,7 @@ All: Tier 1: Action Surge
 Parent: Tier 1: Action Surge
 
 AbilityName: Fighting Style
-Descrip: Humans are adept at many different fighting styles.}{-  Ambidexterity: You gain +1 to hit when dual-wielding or fighting unarmed. Tier 2: Also gains +1% Dodge. Tier 3: Also gains +1 damage.}{- Requires Two Weapon Fighting. 2 AP per tier.}{-  Great Weapon Aptitude: Glancing blows produced by your two-handed weapon attacks have a +2%/+4%/+6% increased chance of producing magical weapon effects such as flaming.}{- Requires Two Handed Fighting. 2 AP per tier}{-  Shield Mastery: +5%/10%/15% Shield Armor Class and +1/2/3 Tower Shield Maximum Dexterity Bonus.}{- 2 AP per tier}{-  Sniper: You gain  +1d6/+1d6/+2d6 Ranged Sneak Attack. Your Point Blank Shot and Ranged Sneak Attack range is increased by 0/2/2 meters.}{- Requires Point Blank Shot. 1 AP per tier}{-  Traditionalist Caster: +3/+6/+10 Universal Spell Power when wielding an Orb or Staff.}{- Requires Magical Training. 1 AP per tier.
+Descrip: Humans are adept at many different fighting styles.}{-  Ambidexterity: You gain +1 to hit when dual-wielding or fighting unarmed. Tier 2: Also gains +1% Dodge. Tier 3: Also gains +1 damage.}{- Requires Two Weapon Fighting. 2 AP per tier.}{-  Great Weapon Aptitude: +5/10/20% Strikethrough chance.}{- Requires Two Handed Fighting. 2 AP per tier}{-  Shield Mastery: +5%/10%/15% Shield Armor Class and +1/2/3 Tower Shield Maximum Dexterity Bonus.}{- 2 AP per tier}{-  Sniper: You gain  +1d6/+1d6/+2d6 Ranged Sneak Attack. Your Point Blank Shot and Ranged Sneak Attack range is increased by 0/2/2 meters.}{- Requires Point Blank Shot. 1 AP per tier}{-  Traditionalist Caster: +3/+6/+10 Universal Spell Power when wielding an Orb or Staff.}{- Requires Magical Training. 1 AP per tier.
 Tier: 2
 Ranks: 3
 Flags: SelectorOnly
@@ -7586,6 +7593,11 @@ All: Tier 4: Greater Sacred Defense
 Flags: SelectorOnly
 Parent: Tier 3: Greater Sacred Defense
 Siblings: Tier 4: Greater Sacred Defense
+
+AbilityName: Sacred Shield
+Descrip: +10% Exceptional bonus to Armor Class, you are considered Shielded versus magic missiles, and have +12 Spell Resistance.
+Tier: 5
+Cost: 2
 
 TreeName: Season's Herald
 Abbreviation: Herald
@@ -9079,8 +9091,8 @@ Tier: 3
 Cost: 2
 All: Tier 2: Acrobat Staff Training
 
-AbilityName: Improved Glancing Blows
-Descrip: Glancing blows produced by your two-handed weapon attacks get an additional 4%/8%/12% chance of producing secondary weapon effects.
+AbilityName: Improved Second Strikes
+Descrip: +5/10/20% Strikethrough chance.
 Tier: 3
 Ranks: 3
 
@@ -9917,7 +9929,7 @@ Tier: 2
 Ranks: 3
 
 AbilityName: Iced Edges
-Descrip: +(1d3/1d4/1d6) cold damage with attacks. Cooldown: 1 second.}{  Note: The cold damage procs on both weapons when two weapon fighting and all glancing blows, and seems to not have any cooldown.
+Descrip: +(1d3/1d4/1d6) cold damage with attacks. Cooldown: 1 second.}{  Note: The cold damage procs on both weapons when two weapon fighting, and seems to not have any cooldown.
 Tier: 2
 Ranks: 3
 
@@ -10061,7 +10073,7 @@ Tier: 2
 Ranks: 3
 
 AbilityName: Great Weapon Aptitude
-Descrip: Glancing blows produced by your two-handed weapon attacks have a [2/4/6]% increased chance of producing magical effects such as flaming.
+Descrip: +5/10/20% Strikethrough chance.
 Tier: 2
 Ranks: 3
 All: Feat: Two Handed Fighting
