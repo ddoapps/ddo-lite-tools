@@ -2709,7 +2709,7 @@ Descrip: Passive:}{- Immunity to Petrification}{- +10 Acid Spell Power}{- +1 Cas
 Tier: 0
 
 AbilityName: Elemental Apotheosis
-Descrip: 
+Descrip:
 Tier: 0
 
 AbilityName: Acid Spray
@@ -4024,7 +4024,7 @@ AbilityName: Death Frenzy
 Descrip: Activation Cost: 20 Hit Points. Cooldown: 30 seconds.}Expend 20 hit points to enter a Death Frenzy for one minute:}{- +4 strength.}{- +1 critical damage multiplier on rolls of 19-20.}{- Your melee weapons gain 'Greater Vicious'.(+4d6 damage to your attacks. This damage scales with 100% Melee Power)}Passive: +10 Melee Power
 Tier: 0
 
-AbilityName: Storm's Eye	
+AbilityName: Storm's Eye
 Descrip: Activation Cost: 100 Hit Points. Cooldown: 2.5 minutes.}Activate: You gain 25 stacks of Storm's Eye.}Storm's Eye: +1 melee damage. One stack fades away every three seconds.}Passive:}{- +4 Constitution}{- +10 Melee Power}{- When raging your melee attacks have a 5% chance to deal 400 bludgeoning damage. This damage scales with 100% Melee Power.
 Tier: 0
 
@@ -10318,7 +10318,7 @@ Descrip: Passive:}{- Immunity to Paralysis}{- +10 Cold Spell Power}{- +1 Caster 
 Tier: 0
 
 AbilityName: Elemental Apotheosis
-Descrip: 
+Descrip:
 Tier: 0
 
 AbilityName: Cold Ray
