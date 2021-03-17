@@ -3822,6 +3822,168 @@ Descrip: Choose between a melee or ranged attack that causes your bird to strike
 Tier: 5
 Selector: Shot, Strike
 
+TreeName: Feydark Illusionist
+Abbreviation: Illusionist
+Type: Global
+Initial: Ill
+Color: Purple
+
+AbilityName: Summon Avian Companion
+Descrip: Summons your chosen familiar to your side. Familiars will follow you and can assist in your magical endeavors. +2 Spellcraft while toggled on.
+Tier: 0
+Selector: Fox, Sprite, Pseudodragon, White Cat, White Treesym
+
+AbilityName: Ability I
+Descrip: Choose an ability to improve by +1
+Tier: 0
+Cost: 2
+Selector: Intelligence, Wisdom, Charisma
+
+AbilityName: Greater Color Spray
+Descrip: You may cast the spell Greater Color Spray as a Spell-Like Ability. }Cost: 10sp }Cooldown: 8 seconds DC = 17 + Highest of Int/Wis/Cha mod + Illusion bonuses
+Tier: 0
+
+AbilityName: Ability II
+Descrip: Choose an ability to improve by +1
+Tier: 0
+Cost: 2
+Selector: Intelligence, Wisdom, Charisma
+
+AbilityName: Familiar's Reach:
+Descrip: +1 Illusion DCs. }Your familiar carries spells further than you would normally be able to cast them. }Your spells benefit from the Enlarge Metamagic at no additional cost.
+Tier: 0
+
+AbilityName: Master Illusionist
+Descrip: Active: Shroud you and your party members, regardless of location, in illusory magic that disguises their location. They gain 95% Concealment for 15 seconds. Cooldown: 3 minutes Passive: +2 Intelligence, Wisdom and Charisma. +2 Illusion DCs. }Note: That the 95% Concealment will be shown as Blurry during combat, despite Blurry normally being used to represent 20% Concealment only.
+Tier: 0
+
+AbilityName: Fetydark Explorer
+Descrip: +[1/2/3] Spellcraft, Move Silently and Concentration. }Rank 3: +1 Use Magic Device
+Tier: 1
+Ranks: 3
+
+AbilityName: Familiar's Flourish I
+Descrip: While your Familiar is by your side, you may use Charisma as your weapon's to-hit modifier. }Note: This does not function with shields.
+Tier: 1
+Cost: 2
+
+AbilityName: Twist Reality
+Descrip: Offensive Illusion spells reduce enemies' Will saves by 1 for 10 seconds. This stacks 3 times.
+Tier: 1
+Cost: 2
+
+AbilityName: Study the Arcane
+Descrip: +[30/60/100] Maximum Spellpoints
+Tier: 1
+Ranks: 3
+
+AbilityName: Illusory Weaponry:
+Descrip: You have studied Illusion to the point where you can craft more permanent manifestations of Shadow. This grants both the ability to conjure physical Shadowblades to wield as weapons as well as the ability to enchant your current weapons to be more powerful. Shadowblades are Shortswords made of force and may use your Charisma modifier for their attack and damage. As you level up, they will become more powerful. If you unequip your Shadowblades, they will dissipate into nothingness and must be summoned again. Enchanting your weapons to become Shadowblades will change their material type to Force and grant them additional bonuses. This is considered an Item Enchantment. Note: Enchanting your weapons (including the Shadowblades) in this way will not add the "magic" enchantment for the purposes of breaking DR (this also means that it will not prevent Shadowblades and Flameblades, etc. from bypassing DR). Also, similar to Flame Blades, Shadowblades are ki weapons (you stay centered). This enhancement has three components: }{-Conjure Shadowblade; {-Conjure Dual Shadowblades; {-and Imbue with Shadow. }This latter effect changes the Material type of weapons, shields & orbs to Force (preventing damage from oozes & rust monsters, although any special material properties of the original weapon remain and even a non-magical weapon doesn't gain any bypass it doesn't already inherently possess) and grants a +1 Enhancement bonus to them. }Bug: Summoned shadowblade cannot be moved from TR cache to inventory (prevents TRing!). }Workaround: It can be moved to character bank.
+Tier: 1
+Cost: 2
+
+AbilityName: Reality Bulwark
+Descrip: +[1/2/3] to all Saving Throws }Rank 3: You are immune to Fear
+Tier: 2
+Ranks: 3
+
+AbilityName: Familiar's Flourish II
+Descrip: While your Familiar is by your side, you may use Charisma as your weapon's damage modifier. }Note: This does not function with shields.
+Tier: 2
+Cost: 2
+
+AbilityName: Bend Light
+Descrip: Your studies of the Illusion school have manifested to protect you, making you slightly harder to see. }You gain the benefits of the Blur spell. }When you cast the Blur spell on yourself or an ally, it now also briefly grants Invisibility and a +3 bonus to Armor Class. The AC bonus will linger as long as the Invisibility does.
+Tier: 2
+Cost: 2
+
+AbilityName: You've Got My Back
+Descrip: Your familiar draws ambient and offensive magics to it, protecting you from Magic Missiles as if you had the benefits of the Shield spell. }In addition the Shield spell now provides +10 Physical Resistance Rating, and the Nightshield spell now provides +10 Magical Resistance Rating. }Note: the increased PRR from the Shield spell does stack with the Improved Shield Enhancement from the wizard Eldritch Knight tree.
+Tier: 2
+Cost: 2
+
+AbilityName: Shadowblade
+Descrip:  Conjure an illusory blade of shadow that flies forward at a single target. The enemy struck takes 1d6+2 Force damage per caster level, with a Will save vs (DC17 + Illusion bonuses + Highest of Int/Wis/Cha) for half damage. }Cost: 10/8/6 sp }Cooldown: 8/6/6 seconds
+Tier: 2
+Ranks: 3
+
+AbilityName: Spell Penetration
+Descrip: +[1/2/3] Spell Penetration
+Tier: 3
+Ranks: 3
+
+AbilityName: Distract
+Descrip: Your familiar appears at a targeted location, acting as a distraction and attacting attention of monsters who may be searching for you in the area. }This will only successfully distract monsters who are not actively attacking. }This ability may be used without breaking Stealth or Invisibility. Cooldown 30 seconds.
+Tier: 3
+Cost: 2
+
+AbilityName: Magical Attunement I
+Descrip: {- +2% Force Spell Critical Chance }{- +1% Universal Spell Critical Chance.
+Tier: 3
+Cost: 2
+
+AbilityName: Refraction
+Descrip: When hit or missed in combat, there is a small chance you will reactively turn invisible for a short duration. }In addition, while under the effects of any source of Invisibility, you gain +15% Missile Deflection
+Tier: 3
+Cost: 2
+
+AbilityName: Ability I
+Descrip: Choose an ability to improve by +1
+Tier: 3
+Cost: 2
+Selector: Intelligence, Wisdom, Charisma
+
+AbilityName: Be My Eyes
+Descrip: Your familiar grants you the benefits of the True Seeing spell, and will automatically find Spell Wards for you.
+Tier: 4
+Cost: 2
+
+AbilityName: Fan of Shadowblades
+Descrip: Fan a series of Shadowblades outwards into a wide cone. }The enemies struct take 1d6+2 Force damage per caster level, with a Will save vs (DC17 + Illusion bonuses + Highest of Int/Wis/Cha) for half damage. }Cost: 18/15/12 sp }Cooldown: 14/12/10 seconds
+Tier: 4
+Ranks: 3
+
+AbilityName: Magical Attunement II
+Descrip: +2% Force Spell Critical Chance, +1% Universal Spell Critical Chance.
+Tier: 4
+Cost: 2
+
+AbilityName: Improved Shadowblades
+Descrip: All of your Shadwblade spells, attacks with weapons that have been imbued with Shadow, and attacks with conjured Shadowblades apply [1/2/3] stacks of Shattermantle when they damage an enemy.
+Tier: 4
+Ranks: 3
+
+AbilityName: Ability II
+Descrip: Choose an ability to improve by +1
+Tier: 4
+Cost: 2
+Selector: Intelligence, Wisdom, Charisma
+
+AbilityName: Illusory Augmentation
+Descrip: +1 Illusion DCs. The feats Augment Summoning and Improved Augment Summoning now each grant +5 Force Spell Power and an additional +1 Illusion DCs.
+Tier: 5
+Cost: 2
+
+AbilityName: Permanent Displacement
+Descrip: You are Displaced, as if you had cast the spell Displacement
+Tier: 5
+Cost: 2
+
+AbilityName: Magical Attunement III
+Descrip: +2% Force Spell Critical Chance, +2% Universal Spell Critical Chance.
+Tier: 5
+Cost: 2
+
+AbilityName: Ring of Shadowblades
+Descrip: Conjure a ring of interlocking illusory Shadowblades that damage enemies passing through them. }Enemies take 1d6+2 Force damage per caster level, with a Will save vs (DC17 + Illusory bonuses + Highest of Int/Wis/Cha) for half damage. }Cost: 50/40/25 sp }Cooldown: 40/35/30 seconds
+Tier: 5
+Ranks: 3
+
+AbilityName: Force in Tandem
+Descrip: Your familiar grants you }{- +10 Force spellpower }{- 10 Universal spellpower}{- 5% Force absorption. These bonuses are temporarily double if you cross the barrier of a ring of Shadowblades.
+Tier: 5
+Cost: 2
+
 TreeName: Fire Savant
 Abbreviation: Fire
 Type: Class
